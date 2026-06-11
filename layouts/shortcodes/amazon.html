@@ -7,6 +7,6 @@
 {{- end -}}
 {{- $href := printf "%s%stag=%s" $rawURL $joiner $tag -}}
 <div class="amazon-box">
-  <p class="amazon-disclosure">Affiliate link: As an Amazon Associate, we earn from qualifying purchases at no extra cost to you.</p>
+  <p class="amazon-disclosure">(paid link) As an Amazon Associate I earn from qualifying purchases.</p>
   <a class="amazon-cta" href="{{ $href | safeURL }}" target="_blank" rel="nofollow noopener">{{ $text }}</a>
 </div>

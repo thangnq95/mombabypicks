@@ -1,0 +1,35 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <p class="home-eyebrow">Parent-friendly baby gear guides</p>
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <div class="entry-content md-content">
+        {{ $opts := dict "display" "block" }}
+        {{ .Content | $.Page.RenderString $opts }}
+    </div>
+    <div class="home-quick-links" aria-label="Popular guide categories">
+        <a href="/tags/breast-pump/">Breast Pumps</a>
+        <a href="/tags/bottle-warmer/">Bottle Warmers</a>
+        <a href="/tags/newborn/">Newborn Essentials</a>
+        <a href="/how-we-review/">How We Review</a>
+    </div>
+    <div class="home-trust-grid">
+        <div>
+            <strong>Practical picks</strong>
+            <span>Focused on daily feeding, sleep, and newborn care.</span>
+        </div>
+        <div>
+            <strong>Clear tradeoffs</strong>
+            <span>We explain who each product is best for and when to skip it.</span>
+        </div>
+        <div>
+            <strong>Affiliate disclosure</strong>
+            <span>As an Amazon Associate I earn from qualifying purchases.</span>
+        </div>
+    </div>
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+    </footer>
+</article>
+{{- end -}}

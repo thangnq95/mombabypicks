@@ -15,9 +15,11 @@ and thousands of real customer reviews.
 
 ## Affiliate Disclosure
 
-Mom Baby Picks is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.
+As an Amazon Associate I earn from qualifying purchases.
 
-This means if you click a link and make a purchase, we may earn a small commission — at no extra cost to you. We only recommend products we genuinely believe are worth your money.
+Mom Baby Picks participates in the Amazon Services LLC Associates Program. This means some links on this site are paid affiliate links. If you click a link and make a purchase, we may earn a small commission at no extra cost to you.
+
+Affiliate links do not control our editorial recommendations. We only recommend products we believe are useful for new parents.
 
 ## Our Goal
 

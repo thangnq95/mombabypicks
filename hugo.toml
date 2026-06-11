@@ -13,7 +13,7 @@ paginate = 10
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
-  footer.text = "As an Amazon Associate, we earn from qualifying purchases."
+  footer.text = "As an Amazon Associate I earn from qualifying purchases. · [Disclosure](/affiliate-disclosure/) · [Contact](/contact/) · [Privacy](/privacy-policy/)"
   mainSections = ["posts"]
 
 [params.homeInfoParams]
@@ -46,9 +46,17 @@ paginate = 10
     url = "/about/"
     weight = 5
   [[menu.main]]
+    name = "How We Review"
+    url = "/how-we-review/"
+    weight = 35
+  [[menu.main]]
     name = "Contact"
     url = "/contact/"
     weight = 40
+  [[menu.main]]
+    name = "Disclosure"
+    url = "/affiliate-disclosure/"
+    weight = 45
   [[menu.main]]
     name = "Privacy Policy"
     url = "/privacy-policy/"
