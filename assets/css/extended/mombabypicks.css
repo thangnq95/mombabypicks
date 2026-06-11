@@ -33,10 +33,25 @@ body {
   background: rgba(255, 250, 247, 0.92);
   border-bottom: 1px solid rgba(239, 215, 207, 0.8);
   backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 40;
 }
 
 .header-nav {
+  align-items: center;
   min-height: 72px;
+}
+
+.mobile-menu-state,
+.mobile-menu-toggle,
+.menu-overlay,
+.menu-drawer-header,
+.menu-cta-item,
+.menu-section-label,
+.menu-note,
+.menu-index {
+  display: none;
 }
 
 .logo a {
@@ -51,16 +66,17 @@ body {
   font-weight: 650;
 }
 
-.menu a span {
+.menu > li > a > span {
   border-radius: 999px;
   padding: 0.4rem 0.72rem;
 }
 
-.menu a:hover span,
+.menu > li > a:hover > span,
 .menu .active {
   background: #ffe7df;
   color: #9f4f48;
   box-shadow: none;
+  text-decoration: none;
 }
 
 .main {
@@ -295,47 +311,265 @@ body {
   }
 
   .header-nav {
+    position: relative;
+    flex-wrap: nowrap;
+    align-items: center;
     min-height: 64px;
-    padding: 0 14px 12px;
+    padding: 0 14px;
     line-height: 1.2;
-    row-gap: 0.6rem;
   }
 
   .logo {
-    width: 100%;
-    padding-top: 16px;
+    width: auto;
+    flex: 1 1 auto;
+    min-width: 0;
   }
 
   .logo a {
     font-size: 1.08rem;
   }
 
+  .mobile-menu-state {
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .mobile-menu-toggle {
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 46px;
+    height: 46px;
+    border: 1px solid #f0d8ce;
+    border-radius: 999px;
+    background: #fff6f1;
+    box-shadow: 0 10px 22px rgba(116, 74, 64, 0.1);
+  }
+
+  .mobile-menu-toggle span {
+    display: block;
+    width: 18px;
+    height: 2px;
+    margin-inline: auto;
+    border-radius: 999px;
+    background: #884b44;
+  }
+
+  .menu-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 41;
+    display: block;
+    background: rgba(51, 38, 32, 0.36);
+    backdrop-filter: blur(3px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.18s ease;
+  }
+
   .menu {
-    width: 100%;
-    gap: 0.45rem;
-    padding-bottom: 2px;
-    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 42;
+    width: min(88vw, 390px);
+    height: 100vh;
+    height: 100dvh;
+    padding: 28px 24px;
+    flex-direction: column;
+    gap: 0.72rem;
+    overflow-y: auto;
     white-space: normal;
-    overflow-x: visible;
+    border-right: 1px solid #efd7cf;
+    border-radius: 0 32px 32px 0;
+    background: #fffdfb;
+    box-shadow: 22px 0 48px rgba(51, 38, 32, 0.2);
+    transform: translateX(-105%);
+    transition: transform 0.22s ease;
+    -webkit-overflow-scrolling: touch;
   }
 
   .menu li {
-    display: flex;
+    display: block;
   }
 
-  .menu li:nth-child(n+6) {
-    display: none;
+  .mobile-menu-state:checked ~ .menu {
+    transform: translateX(0);
+  }
+
+  .mobile-menu-state:checked ~ .menu-overlay {
+    left: min(88vw, 390px);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .menu-drawer-header {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    margin: -2px -24px 0.35rem;
+    padding: 0 24px 1.35rem;
+    border-bottom: 1px solid #efd7cf;
+    color: #5c3731;
+  }
+
+  .menu-drawer-header strong,
+  .menu-drawer-header span {
+    display: block;
+  }
+
+  .menu-drawer-header strong {
+    color: #5b3f38;
+    font-size: 1.28rem;
+    font-weight: 850;
+  }
+
+  .menu-drawer-header span {
+    margin-top: 0.34rem;
+    color: #b86a61;
+    font-size: 0.82rem;
+    font-weight: 850;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+  }
+
+  .menu-drawer-header label {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 50%;
+    background: #fff3ef;
+    color: #5c3731;
+    font-size: 0;
+    font-weight: 800;
+  }
+
+  .menu-drawer-header label::before,
+  .menu-drawer-header label::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 2px;
+    border-radius: 999px;
+    background: currentColor;
+  }
+
+  .menu-drawer-header label::before {
+    transform: rotate(45deg);
+  }
+
+  .menu-drawer-header label::after {
+    transform: rotate(-45deg);
+  }
+
+  .menu-cta-item {
+    display: block;
+  }
+
+  .menu .menu-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 76px;
+    margin: 0.6rem 0 1rem;
+    border-radius: 999px;
+    background: #2f3748;
+    color: #ffffff;
+    font-size: 1.08rem;
+    font-weight: 850;
+    text-align: center;
+    box-shadow: 0 16px 30px rgba(47, 55, 72, 0.18);
+  }
+
+  .menu .menu-cta:hover {
+    color: #ffffff;
+  }
+
+  .menu-section-label {
+    display: block;
+    margin: 0.32rem 0 -0.12rem;
+    color: #b86a61;
+    font-size: 0.78rem;
+    font-weight: 850;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
   }
 
   .menu a {
-    font-size: 0.86rem;
+    display: block;
+    color: #5c4038;
+    font-size: 1rem;
+    font-weight: 800;
   }
 
-  .menu a span {
-    display: inline-flex;
+  .menu > li > a > span {
+    display: flex;
     align-items: center;
-    min-height: 36px;
-    padding: 0.42rem 0.64rem;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    min-height: 64px;
+    padding: 0.92rem 1.05rem;
+    border-radius: 24px;
+    background: #fff6f1;
+  }
+
+  .menu .active,
+  .menu > li > a:hover > span {
+    background: #ffe7df;
+    color: #884b44;
+  }
+
+  .menu a .menu-text,
+  .menu a .menu-index {
+    display: inline-flex;
+    width: auto;
+    min-height: 0;
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .menu-index {
+    color: #cf7469;
+    font-size: 0.9rem;
+    font-weight: 850;
+  }
+
+  .menu-note {
+    display: block;
+    margin-top: 0.12rem;
+    padding: 1.05rem;
+    border: 1px dashed #edcfc5;
+    border-radius: 24px;
+    background: #fffdfb;
+  }
+
+  .menu-note strong,
+  .menu-note span {
+    display: block;
+  }
+
+  .menu-note strong {
+    color: #5c4038;
+    font-size: 0.96rem;
+  }
+
+  .menu-note span {
+    margin-top: 0.35rem;
+    color: #8a6f65;
+    font-size: 0.86rem;
+    line-height: 1.45;
   }
 
   .first-entry {
