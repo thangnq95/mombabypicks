@@ -17,11 +17,19 @@ New parents are bombarded with lists of "must-have" baby products — most of wh
 - ✅ Nursing pads (reusable or disposable)
 - ✅ Milk storage bags (Lansinoh or Medela)
 
+{{< amazon url="https://www.amazon.com/dp/B09TQXSLYP" text="Check Price on Amazon →" >}}
+
+{{< amazon url="https://www.amazon.com/dp/B00CS4BCIY" text="Check Price on Amazon →" >}}
+
+{{< amazon url="https://www.amazon.com/dp/B00B3MJSQO" text="Check Price on Amazon →" >}}
+
 **If formula feeding:**
 - ✅ Bottles (start with 4oz size)
 - ✅ Bottle warmer
 - ✅ Formula dispenser
 - ✅ Bottle brush
+
+→ See our full guide: [Best Bottle Warmers for Newborns](/posts/best-bottle-warmers/)
 
 **Either way:**
 - ✅ Burp cloths (get at least 10)
@@ -36,6 +44,8 @@ New parents are bombarded with lists of "must-have" baby products — most of wh
 - ✅ Swaddle blankets x4 (Aden + Anais are popular)
 - ✅ White noise machine (Hatch Rest is a favorite)
 - ✅ Baby monitor
+
+{{< amazon url="https://www.amazon.com/dp/B07DCLWKWB" text="Check Price on Amazon →" >}}
 
 **Skip:** Crib bumpers, loose blankets, pillows — these are unsafe for newborns.
 

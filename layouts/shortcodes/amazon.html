@@ -1,0 +1,9 @@
+{{- $rawURL := .Get "url" -}}
+{{- $text := .Get "text" | default "Check Price on Amazon →" -}}
+{{- $tag := .Site.Params.amazonTag -}}
+{{- $joiner := "?" -}}
+{{- if in $rawURL "?" -}}
+  {{- $joiner = "&" -}}
+{{- end -}}
+{{- $href := printf "%s%stag=%s" $rawURL $joiner $tag -}}
+<a class="amazon-cta" href="{{ $href | safeURL }}" target="_blank" rel="nofollow noopener" style="display:inline-block;margin:1rem 0;padding:0.75rem 1rem;border-radius:6px;background:#ff9900;color:#111;font-weight:700;text-decoration:none;">{{ $text }}</a>

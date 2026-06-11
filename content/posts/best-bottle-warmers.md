@@ -12,6 +12,8 @@ A good bottle warmer heats milk quickly and evenly — without creating hot spot
 
 The Philips Avent heats a bottle in as little as 3 minutes and fits most bottle sizes. It has a defrost setting and an auto-shutoff feature for safety.
 
+{{< amazon url="https://www.amazon.com/dp/B004URZWM4" text="Check Price on Amazon →" >}}
+
 **Key specs:**
 - Heats in 3 minutes
 - Fits Avent and most standard bottles
@@ -20,13 +22,13 @@ The Philips Avent heats a bottle in as little as 3 minutes and fits most bottle 
 
 **Best for:** Parents who want fast, reliable warming with a trusted brand.
 
-[View on Amazon →](#)
-
 ---
 
 ## 2. Tommee Tippee Easi-Warm — Best for Night Feeds
 
 The Tommee Tippee heats a bottle in just 4 minutes and works with breast milk, formula, and food jars. Its simple one-button design is perfect for bleary-eyed 3am feeds.
+
+{{< amazon url="https://www.amazon.com/dp/B07ZFGX68F" text="Check Price on Amazon →" >}}
 
 **Key specs:**
 - 4-minute heat time
@@ -35,8 +37,6 @@ The Tommee Tippee heats a bottle in just 4 minutes and works with breast milk, f
 - Easy one-button operation
 
 **Best for:** Middle-of-the-night feeds when you need simplicity.
-
-[View on Amazon →](#)
 
 ---
 
@@ -52,13 +52,13 @@ The Baby Brezza dispenses perfectly warm water instantly — no waiting. It's th
 
 **Best for:** Formula-feeding parents who want zero wait time.
 
-[View on Amazon →](#)
-
 ---
 
 ## 4. Dr. Brown's Deluxe Bottle Warmer — Best Budget
 
 Dr. Brown's is a trusted name in baby feeding, and their bottle warmer delivers consistent results at an affordable price.
+
+{{< amazon url="https://www.amazon.com/dp/B0002TMA2Y" text="Check Price on Amazon →" >}}
 
 **Key specs:**
 - Steam warming (gentle on nutrients)
@@ -68,13 +68,13 @@ Dr. Brown's is a trusted name in baby feeding, and their bottle warmer delivers 
 
 **Best for:** Budget-conscious parents who want reliable performance.
 
-[View on Amazon →](#)
-
 ---
 
 ## 5. Kiinde Kozii — Best for Breast Milk
 
 The Kiinde Kozii uses gentle warm water bath technology — the same method recommended by lactation consultants to preserve breast milk nutrients.
+
+{{< amazon url="https://www.amazon.com/dp/B00HXPNB8O" text="Check Price on Amazon →" >}}
 
 **Key specs:**
 - Warm water bath (no steam)
@@ -83,8 +83,6 @@ The Kiinde Kozii uses gentle warm water bath technology — the same method reco
 - Auto-shutoff
 
 **Best for:** Exclusively pumping moms who want to protect breast milk quality.
-
-[View on Amazon →](#)
 
 ---
 

@@ -8,6 +8,8 @@ description: "Honest Momcozy M5 review for 2025. We cover suction strength, comf
 
 The Momcozy M5 is the #1 best-selling wearable breast pump on Amazon. But is it actually worth it? Here's an honest breakdown.
 
+{{< amazon url="https://www.amazon.com/dp/B09TQXSLYP" text="Check Price on Amazon →" >}}
+
 ## What Is the Momcozy M5?
 
 The M5 is a hands-free, wearable breast pump that fits inside your nursing bra. No tubes, no cords — you pump while doing other things.
@@ -72,8 +74,6 @@ If you're exclusively pumping and trying to build a supply, a hospital-grade pum
 The Momcozy M5 earns its #1 bestseller status. For a working mom or a mom who needs flexibility, the hands-free convenience is a genuine game-changer. Just make sure to measure your flange size before ordering.
 
 **Rating: 4.2 / 5**
-
-[Check Current Price on Amazon →](#)
 
 ---
 

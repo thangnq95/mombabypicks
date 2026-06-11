@@ -14,7 +14,11 @@ Even if you plan to breastfeed exclusively, a pump lets you build a freezer stas
 
 **Top picks:** Momcozy M5 (wearable), Spectra S1 (electric)
 
-[See our full breast pump guide →](/posts/best-breast-pumps/)
+{{< amazon url="https://www.amazon.com/dp/B09TQXSLYP" text="Check Price on Amazon →" >}}
+
+{{< amazon url="https://www.amazon.com/dp/B00PTLXHQC" text="Check Price on Amazon →" >}}
+
+→ See our full guide: [5 Best Breast Pumps of 2025](/posts/best-breast-pumps/)
 
 ---
 
@@ -24,7 +28,7 @@ A nursing pillow brings baby to breast height so you're not hunching over for ev
 
 **Top pick:** Boppy Original Nursing Pillow — the most popular option for good reason.
 
-[View on Amazon →](#)
+{{< amazon url="https://www.amazon.com/dp/B00CS4BCIY" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -34,7 +38,7 @@ Sore nipples are common in the first few weeks. A good lanolin cream helps heal 
 
 **Top pick:** Lansinoh HPA Lanolin — used by lactation consultants worldwide, safe for baby.
 
-[View on Amazon →](#)
+{{< amazon url="https://www.amazon.com/dp/B00B3MJSQO" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -46,8 +50,6 @@ Leaking between feeds is normal, especially in the early weeks. Nursing pads pre
 - **Disposable:** Lansinoh Stay Dry (convenient)
 - **Reusable:** Bamboobies (eco-friendly, softer)
 
-[View on Amazon →](#)
-
 ---
 
 ## 5. Milk Storage Bags
@@ -56,7 +58,7 @@ If you're pumping, you need a safe way to store breast milk. Look for bags that 
 
 **Top pick:** Lansinoh Breastmilk Storage Bags — stand upright, easy to label, and widely trusted.
 
-[View on Amazon →](#)
+{{< amazon url="https://www.amazon.com/dp/B000YJ4OES" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -66,8 +68,6 @@ This simple silicone pump attaches to the opposite breast while you nurse to cat
 
 **Top pick:** Haakaa Gen 2 — 4oz capacity, with a suction base so it doesn't tip over.
 
-[View on Amazon →](#)
-
 ---
 
 ## 7. Nursing Bras
@@ -75,8 +75,6 @@ This simple silicone pump attaches to the opposite breast while you nurse to cat
 Regular bras make breastfeeding awkward. A good nursing bra has clips that open with one hand for quick, discreet access.
 
 **Top pick:** Kindred Bravely Simply Sublime — bestseller on Amazon with thousands of 5-star reviews.
-
-[View on Amazon →](#)
 
 ---
 
@@ -86,8 +84,6 @@ You need more than you think. Babies spit up after almost every feed.
 
 **Recommendation:** Get at least 10-12. Muslin ones are soft and wash well.
 
-[View on Amazon →](#)
-
 ---
 
 ## 9. Nursing Cover (Optional)
@@ -96,8 +92,6 @@ If you plan to nurse in public, a lightweight nursing cover gives privacy withou
 
 **Top pick:** Bebe au Lait Nursing Cover — breathable muslin, adjustable neckline so you can see baby.
 
-[View on Amazon →](#)
-
 ---
 
 ## 10. Water Bottle
@@ -105,8 +99,6 @@ If you plan to nurse in public, a lightweight nursing cover gives privacy withou
 Breastfeeding makes you incredibly thirsty. Keep a large water bottle nearby at all times — seriously.
 
 **Top pick:** Stanley Quencher 40oz — the one every breastfeeding mom seems to own.
-
-[View on Amazon →](#)
 
 ---
 
