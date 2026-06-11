@@ -4,11 +4,14 @@ date: 2025-01-01
 draft: false
 ---
 
-## Welcome to Mom Baby Picks
+## Who We Are
 
-Mom Baby Picks is dedicated to helping new moms find the best baby gear — without spending hours on research.
+Mom Baby Picks is run by a team of parents and product researchers
+dedicated to helping new moms cut through the noise and find gear
+that actually works.
 
-We review and compare the most popular baby products including breast pumps, bottle warmers, nursing pillows, and newborn essentials. Every recommendation is based on real product research, verified specs, and genuine customer feedback.
+Our recommendations are based on hands-on research, verified specs,
+and thousands of real customer reviews.
 
 ## Affiliate Disclosure
 
