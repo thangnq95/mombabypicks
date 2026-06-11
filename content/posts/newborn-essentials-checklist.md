@@ -4,7 +4,6 @@ date: 2025-01-25
 draft: false
 tags: ["newborn", "checklist", "baby-gear"]
 description: "A practical newborn essentials checklist for the first 3 months. Skip the fluff — here's what you actually need for your baby."
-summary: "A simple newborn essentials checklist for the first three months, focused on feeding, sleep, diapering, bathing, and travel basics."
 ---
 
 New parents are bombarded with lists of "must-have" baby products — most of which you'll never use. This checklist focuses on what you **actually** need for the first 3 months.
@@ -13,24 +12,19 @@ New parents are bombarded with lists of "must-have" baby products — most of wh
 
 **If breastfeeding:**
 - ✅ Breast pump (wearable or electric)
+  {{< amazon url="https://www.amazon.com/dp/B09TQXSLYP" text="Check Price on Amazon →" >}}
 - ✅ Nursing pillow (Boppy or Momcozy)
+  {{< amazon url="https://www.amazon.com/dp/B00CS4BCIY" text="Check Price on Amazon →" >}}
 - ✅ Nipple cream (Lansinoh is a top pick)
+  {{< amazon url="https://www.amazon.com/dp/B00B3MJSQO" text="Check Price on Amazon →" >}}
 - ✅ Nursing pads (reusable or disposable)
 - ✅ Milk storage bags (Lansinoh or Medela)
-
-{{< amazon url="https://www.amazon.com/dp/B09TQXSLYP" text="Check Price on Amazon →" >}}
-
-{{< amazon url="https://www.amazon.com/dp/B00CS4BCIY" text="Check Price on Amazon →" >}}
-
-{{< amazon url="https://www.amazon.com/dp/B00B3MJSQO" text="Check Price on Amazon →" >}}
 
 **If formula feeding:**
 - ✅ Bottles (start with 4oz size)
 - ✅ Bottle warmer
 - ✅ Formula dispenser
 - ✅ Bottle brush
-
-→ See our full guide: [Best Bottle Warmers for Newborns](/posts/best-bottle-warmers/)
 
 **Either way:**
 - ✅ Burp cloths (get at least 10)
@@ -41,12 +35,11 @@ New parents are bombarded with lists of "must-have" baby products — most of wh
 ## Sleep Essentials
 
 - ✅ Safe sleep space (bassinet or crib with firm flat mattress)
+  {{< amazon url="https://www.amazon.com/dp/B07DCLWKWB" text="Check Price on Amazon →" >}}
 - ✅ Fitted sheets x3
 - ✅ Swaddle blankets x4 (Aden + Anais are popular)
 - ✅ White noise machine (Hatch Rest is a favorite)
 - ✅ Baby monitor
-
-{{< amazon url="https://www.amazon.com/dp/B07DCLWKWB" text="Check Price on Amazon →" >}}
 
 **Skip:** Crib bumpers, loose blankets, pillows — these are unsafe for newborns.
 

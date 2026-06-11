@@ -4,7 +4,6 @@ date: 2025-02-05
 draft: false
 tags: ["breastfeeding", "newborn", "checklist"]
 description: "The 10 breastfeeding essentials that make nursing easier and more comfortable. From nipple cream to nursing pillows — here's what actually helps."
-summary: "A parent-friendly checklist of breastfeeding essentials that can make nursing, pumping, storage, and comfort easier in the early weeks."
 ---
 
 Breastfeeding comes with a learning curve. The right products won't make it effortless, but they will make it significantly more comfortable. Here are the 10 essentials worth having from day one.
@@ -16,10 +15,9 @@ Even if you plan to breastfeed exclusively, a pump lets you build a freezer stas
 **Top picks:** Momcozy M5 (wearable), Spectra S1 (electric)
 
 {{< amazon url="https://www.amazon.com/dp/B09TQXSLYP" text="Check Price on Amazon →" >}}
-
 {{< amazon url="https://www.amazon.com/dp/B00PTLXHQC" text="Check Price on Amazon →" >}}
 
-→ See our full guide: [5 Best Breast Pumps of 2025](/posts/best-breast-pumps/)
+[See our full breast pump guide →](/posts/best-breast-pumps/)
 
 ---
 
@@ -51,6 +49,8 @@ Leaking between feeds is normal, especially in the early weeks. Nursing pads pre
 - **Disposable:** Lansinoh Stay Dry (convenient)
 - **Reusable:** Bamboobies (eco-friendly, softer)
 
+Choose based on whether you prefer convenience or reusable materials.
+
 ---
 
 ## 5. Milk Storage Bags
@@ -69,6 +69,8 @@ This simple silicone pump attaches to the opposite breast while you nurse to cat
 
 **Top pick:** Haakaa Gen 2 — 4oz capacity, with a suction base so it doesn't tip over.
 
+A silicone pump is a simple add-on if you want to collect letdown without setting up a full electric pump.
+
 ---
 
 ## 7. Nursing Bras
@@ -76,6 +78,8 @@ This simple silicone pump attaches to the opposite breast while you nurse to cat
 Regular bras make breastfeeding awkward. A good nursing bra has clips that open with one hand for quick, discreet access.
 
 **Top pick:** Kindred Bravely Simply Sublime — bestseller on Amazon with thousands of 5-star reviews.
+
+Fit and clip design matter more than brand here, so prioritize comfort and support.
 
 ---
 
@@ -85,6 +89,8 @@ You need more than you think. Babies spit up after almost every feed.
 
 **Recommendation:** Get at least 10-12. Muslin ones are soft and wash well.
 
+Burp cloths are a low-cost item worth buying in bulk from a material you like.
+
 ---
 
 ## 9. Nursing Cover (Optional)
@@ -93,6 +99,8 @@ If you plan to nurse in public, a lightweight nursing cover gives privacy withou
 
 **Top pick:** Bebe au Lait Nursing Cover — breathable muslin, adjustable neckline so you can see baby.
 
+This is optional and depends on your comfort level with public nursing.
+
 ---
 
 ## 10. Water Bottle
@@ -100,6 +108,8 @@ If you plan to nurse in public, a lightweight nursing cover gives privacy withou
 Breastfeeding makes you incredibly thirsty. Keep a large water bottle nearby at all times — seriously.
 
 **Top pick:** Stanley Quencher 40oz — the one every breastfeeding mom seems to own.
+
+A large insulated bottle is useful even if you choose a different brand.
 
 ---
 

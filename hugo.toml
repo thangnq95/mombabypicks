@@ -8,13 +8,9 @@ paginate = 10
   description = "Honest baby gear picks and reviews for new moms"
   author = "Mom Baby Picks"
   amazonTag = "PLACEHOLDER-20"
-  defaultTheme = "light"
-  disableThemeToggle = true
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
-  footer.text = "As an Amazon Associate I earn from qualifying purchases. · [Disclosure](/affiliate-disclosure/) · [Contact](/contact/) · [Privacy](/privacy-policy/)"
-  mainSections = ["posts"]
 
 [params.homeInfoParams]
   Title = "Best Baby Gear for New Moms"
@@ -45,19 +41,3 @@ paginate = 10
     name = "About"
     url = "/about/"
     weight = 5
-  [[menu.main]]
-    name = "How We Review"
-    url = "/how-we-review/"
-    weight = 35
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 40
-  [[menu.main]]
-    name = "Disclosure"
-    url = "/affiliate-disclosure/"
-    weight = 45
-  [[menu.main]]
-    name = "Privacy Policy"
-    url = "/privacy-policy/"
-    weight = 50

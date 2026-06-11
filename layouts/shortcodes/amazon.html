@@ -1,12 +1,6 @@
-{{- $rawURL := .Get "url" -}}
+{{- $url := .Get "url" -}}
 {{- $text := .Get "text" | default "Check Price on Amazon →" -}}
-{{- $tag := .Site.Params.amazonTag -}}
-{{- $joiner := "?" -}}
-{{- if in $rawURL "?" -}}
-  {{- $joiner = "&" -}}
-{{- end -}}
-{{- $href := printf "%s%stag=%s" $rawURL $joiner $tag -}}
-<div class="amazon-box">
-  <p class="amazon-disclosure">(paid link) As an Amazon Associate I earn from qualifying purchases.</p>
-  <a class="amazon-cta" href="{{ $href | safeURL }}" target="_blank" rel="nofollow noopener">{{ $text }}</a>
-</div>
+{{- $tag := site.Params.amazonTag -}}
+{{- $separator := cond (in $url "?") "&" "?" -}}
+{{- $finalUrl := cond (and $tag (not (in $url "tag="))) (printf "%s%stag=%s" $url $separator $tag) $url -}}
+<a class="amazon-cta" href="{{ $finalUrl }}" target="_blank" rel="nofollow sponsored noopener">{{ $text }}</a>
