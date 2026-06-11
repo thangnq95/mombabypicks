@@ -1,0 +1,42 @@
+baseURL = "https://mombabypicks.com/"
+languageCode = "en-us"
+title = "Mom Baby Picks"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  description = "Honest baby gear picks and reviews for new moms"
+  author = "Mom Baby Picks"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+
+[params.homeInfoParams]
+  Title = "Best Baby Gear for New Moms"
+  Content = "Honest reviews and top picks for breast pumps, bottle warmers, and newborn essentials."
+
+[[params.socialIcons]]
+  name = "pinterest"
+  url = "https://pinterest.com/mombabypicks"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Breast Pumps"
+    url = "/tags/breast-pump/"
+    weight = 2
+  [[menu.main]]
+    name = "Bottle Warmers"
+    url = "/tags/bottle-warmer/"
+    weight = 3
+  [[menu.main]]
+    name = "Newborn Essentials"
+    url = "/tags/newborn/"
+    weight = 4
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 5
