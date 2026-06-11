@@ -4,6 +4,7 @@ date: 2025-02-05
 draft: false
 tags: ["breastfeeding", "newborn", "checklist"]
 description: "The 10 breastfeeding essentials that make nursing easier and more comfortable. From nipple cream to nursing pillows — here's what actually helps."
+summary: "A parent-friendly checklist of breastfeeding essentials that can make nursing, pumping, storage, and comfort easier in the early weeks."
 ---
 
 Breastfeeding comes with a learning curve. The right products won't make it effortless, but they will make it significantly more comfortable. Here are the 10 essentials worth having from day one.

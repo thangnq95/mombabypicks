@@ -6,4 +6,7 @@
   {{- $joiner = "&" -}}
 {{- end -}}
 {{- $href := printf "%s%stag=%s" $rawURL $joiner $tag -}}
-<a class="amazon-cta" href="{{ $href | safeURL }}" target="_blank" rel="nofollow noopener" style="display:inline-block;margin:1rem 0;padding:0.75rem 1rem;border-radius:6px;background:#ff9900;color:#111;font-weight:700;text-decoration:none;">{{ $text }}</a>
+<div class="amazon-box">
+  <p class="amazon-disclosure">Affiliate link: As an Amazon Associate, we earn from qualifying purchases at no extra cost to you.</p>
+  <a class="amazon-cta" href="{{ $href | safeURL }}" target="_blank" rel="nofollow noopener">{{ $text }}</a>
+</div>

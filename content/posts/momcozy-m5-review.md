@@ -4,6 +4,7 @@ date: 2025-02-01
 draft: false
 tags: ["breast-pump", "breastfeeding", "momcozy", "review"]
 description: "Honest Momcozy M5 review for 2025. We cover suction strength, comfort, battery life, and whether it's worth the price."
+summary: "An honest Momcozy M5 review covering comfort, suction strength, battery life, portability, and who this wearable pump is best for."
 ---
 
 The Momcozy M5 is the #1 best-selling wearable breast pump on Amazon. But is it actually worth it? Here's an honest breakdown.

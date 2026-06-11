@@ -4,6 +4,7 @@ date: 2025-01-25
 draft: false
 tags: ["newborn", "checklist", "baby-gear"]
 description: "A practical newborn essentials checklist for the first 3 months. Skip the fluff — here's what you actually need for your baby."
+summary: "A simple newborn essentials checklist for the first three months, focused on feeding, sleep, diapering, bathing, and travel basics."
 ---
 
 New parents are bombarded with lists of "must-have" baby products — most of which you'll never use. This checklist focuses on what you **actually** need for the first 3 months.
