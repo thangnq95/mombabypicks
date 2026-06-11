@@ -12,11 +12,11 @@ New parents are bombarded with lists of "must-have" baby products — most of wh
 
 **If breastfeeding:**
 - ✅ Breast pump (wearable or electric)
-  {{< amazon url="https://www.amazon.com/s?k=wearable+electric+breast+pump" text="Check Price on Amazon →" >}}
+  {{< amazon url="https://www.amazon.com/Momcozy-Hands-Free-Wearable-Double-Sealed-Baby-Like/dp/B0DNR1Z4L9" text="Check Price on Amazon →" >}}
 - ✅ Nursing pillow (Boppy or Momcozy)
-  {{< amazon url="https://www.amazon.com/s?k=Boppy+Momcozy+nursing+pillow" text="Check Price on Amazon →" >}}
+  {{< amazon url="https://www.amazon.com/Boppy-Nursing-Supportive-Breastfeeding-Original/dp/B0DJRQRGSK" text="Check Price on Amazon →" >}}
 - ✅ Nipple cream (Lansinoh is a top pick)
-  {{< amazon url="https://www.amazon.com/s?k=Lansinoh+nipple+cream" text="Check Price on Amazon →" >}}
+  {{< amazon url="https://www.amazon.com/Lansinoh-Lanolin-Breastfeeding-Soothing-Essentials/dp/B005MI648C" text="Check Price on Amazon →" >}}
 - ✅ Nursing pads (reusable or disposable)
 - ✅ Milk storage bags (Lansinoh or Medela)
 
@@ -35,7 +35,7 @@ New parents are bombarded with lists of "must-have" baby products — most of wh
 ## Sleep Essentials
 
 - ✅ Safe sleep space (bassinet or crib with firm flat mattress)
-  {{< amazon url="https://www.amazon.com/s?k=newborn+bassinet+safe+sleep+space" text="Check Price on Amazon →" >}}
+  {{< amazon url="https://www.amazon.com/HALO-Bassinet-BassiNest-Co-Sleeper-Adjustable/dp/B09WF3CNGS" text="Check Price on Amazon →" >}}
 - ✅ Fitted sheets x3
 - ✅ Swaddle blankets x4 (Aden + Anais are popular)
 - ✅ White noise machine (Hatch Rest is a favorite)

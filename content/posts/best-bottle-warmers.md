@@ -20,7 +20,7 @@ The Philips Avent heats a bottle in as little as 3 minutes and fits most bottle 
 
 **Best for:** Parents who want fast, reliable warming with a trusted brand.
 
-{{< amazon url="https://www.amazon.com/s?k=Philips+Avent+Fast+Baby+Bottle+Warmer" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/Philips-Temperature-Control-Automatic-Shut-Off/dp/B0876T9DQZ" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -36,7 +36,7 @@ Dr. Brown's Deluxe Bottle Warmer heats bottles and baby food jars evenly and is 
 
 **Best for:** Middle-of-the-night feeds when you need simplicity.
 
-{{< amazon url="https://www.amazon.com/s?k=Dr.+Brown%27s+Deluxe+Bottle+Warmer" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/Dr-Browns-Deluxe-Bottle-Warmer/dp/B08HFVF7SN" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -52,7 +52,7 @@ The Kiinde Kozii uses a gentle warm-water bath instead of steam, which helps pre
 
 **Best for:** Parents who want gentle warming for breast milk.
 
-{{< amazon url="https://www.amazon.com/s?k=Kiinde+Kozii+bottle+warmer" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/Kiinde-KK-R200-NA-Kozii-SafeHeat-Pro/dp/B087QRPMFK" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -68,7 +68,7 @@ The Tommee Tippee Easi-Warm is a simple warmer that gets the job done without co
 
 **Best for:** Budget-conscious parents who want reliable performance.
 
-{{< amazon url="https://www.amazon.com/s?k=Tommee+Tippee+Easi-Warm+bottle+warmer" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/Modern-Design-Tommee-Tippee-Easi-Warm/dp/B07Q8NQ29G" text="Check Price on Amazon →" >}}
 
 ---
 
