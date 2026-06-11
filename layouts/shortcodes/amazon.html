@@ -1,6 +1,10 @@
 {{- $url := .Get "url" -}}
 {{- $text := .Get "text" | default "Check Price on Amazon →" -}}
 {{- $tag := site.Params.amazonTag -}}
+{{- $hasRealTag := and $tag (ne $tag "PLACEHOLDER-20") -}}
 {{- $separator := cond (in $url "?") "&" "?" -}}
-{{- $finalUrl := cond (and $tag (not (in $url "tag="))) (printf "%s%stag=%s" $url $separator $tag) $url -}}
-<a class="amazon-cta" href="{{ $finalUrl }}" target="_blank" rel="nofollow sponsored noopener">{{ $text }}</a>
+{{- $finalUrl := cond (and $hasRealTag (not (in $url "tag="))) (printf "%s%stag=%s" $url $separator $tag) $url -}}
+<div class="amazon-box">
+  <p class="amazon-disclosure">(paid link) As an Amazon Associate I earn from qualifying purchases.</p>
+  <a class="amazon-cta" href="{{ $finalUrl }}" target="_blank" rel="nofollow sponsored noopener">{{ $text }}</a>
+</div>

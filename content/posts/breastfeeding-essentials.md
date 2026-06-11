@@ -14,8 +14,8 @@ Even if you plan to breastfeed exclusively, a pump lets you build a freezer stas
 
 **Top picks:** Momcozy M5 (wearable), Spectra S1 (electric)
 
-{{< amazon url="https://www.amazon.com/dp/B09TQXSLYP" text="Check Price on Amazon →" >}}
-{{< amazon url="https://www.amazon.com/dp/B00PTLXHQC" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/s?k=Momcozy+M5+wearable+breast+pump" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/s?k=Spectra+S1+Plus+breast+pump" text="Check Price on Amazon →" >}}
 
 [See our full breast pump guide →](/posts/best-breast-pumps/)
 
@@ -27,7 +27,7 @@ A nursing pillow brings baby to breast height so you're not hunching over for ev
 
 **Top pick:** Boppy Original Nursing Pillow — the most popular option for good reason.
 
-{{< amazon url="https://www.amazon.com/dp/B00CS4BCIY" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/s?k=Boppy+Original+Nursing+Pillow" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -37,7 +37,7 @@ Sore nipples are common in the first few weeks. A good lanolin cream helps heal 
 
 **Top pick:** Lansinoh HPA Lanolin — used by lactation consultants worldwide, safe for baby.
 
-{{< amazon url="https://www.amazon.com/dp/B00B3MJSQO" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/s?k=Lansinoh+HPA+Lanolin+nipple+cream" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -59,7 +59,7 @@ If you're pumping, you need a safe way to store breast milk. Look for bags that 
 
 **Top pick:** Lansinoh Breastmilk Storage Bags — stand upright, easy to label, and widely trusted.
 
-{{< amazon url="https://www.amazon.com/dp/B000YJ4OES" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/s?k=Lansinoh+breastmilk+storage+bags" text="Check Price on Amazon →" >}}
 
 ---
 

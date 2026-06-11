@@ -73,7 +73,7 @@ The Momcozy M5 earns its #1 bestseller status. For a working mom or a mom who ne
 
 **Rating: 4.2 / 5**
 
-{{< amazon url="https://www.amazon.com/dp/B09TQXSLYP" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/s?k=Momcozy+M5+wearable+breast+pump" text="Check Price on Amazon →" >}}
 
 ---
 
