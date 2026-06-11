@@ -52,7 +52,7 @@ The Spectra S1 is a closed-system electric pump trusted by lactation consultants
 
 If you want a hands-free wearable pump without the Momcozy price tag, NCVI is a solid alternative. It offers similar features at a lower price point.
 
-{{< amazon url="https://www.amazon.com/s?k=wearable+breast+pump" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B0C7JXFK3P" text="Check Price on Amazon →" >}}
 
 **Key specs:**
 - 4 flange sizes included
