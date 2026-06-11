@@ -20,7 +20,7 @@ Choosing a breast pump is one of the most important decisions a new mom makes. W
 
 The Momcozy M5 is the most popular wearable breast pump on Amazon right now, and for good reason. It's completely hands-free, whisper-quiet, and fits discreetly inside your nursing bra.
 
-{{< amazon url="https://www.amazon.com/dp/B09TQXSLYP" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B09NQXS98R" text="View on Amazon →" >}}
 
 **Key specs:**
 - 5 modes, 9 adjustable suction levels
@@ -36,7 +36,7 @@ The Momcozy M5 is the most popular wearable breast pump on Amazon right now, and
 
 The Spectra S1 is a closed-system electric pump trusted by lactation consultants worldwide. It has a built-in rechargeable battery and strong, consistent suction.
 
-{{< amazon url="https://www.amazon.com/dp/B00PTLXHQC" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B00MH3LRTU" text="View on Amazon →" >}}
 
 **Key specs:**
 - Closed system (hygienic)
@@ -52,7 +52,7 @@ The Spectra S1 is a closed-system electric pump trusted by lactation consultants
 
 If you want a hands-free wearable pump without the Momcozy price tag, NCVI is a solid alternative. It offers similar features at a lower price point.
 
-{{< amazon url="https://www.amazon.com/dp/B0C7JXFK3P" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B09Q6GVHP9" text="View on Amazon →" >}}
 
 **Key specs:**
 - 4 flange sizes included
@@ -68,7 +68,7 @@ If you want a hands-free wearable pump without the Momcozy price tag, NCVI is a 
 
 The Elvie is the most discreet wearable pump available. It connects to an app so you can track output and control settings from your phone.
 
-{{< amazon url="https://www.amazon.com/dp/B09B1N77KS" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B07HDKQNL7" text="View on Amazon →" >}}
 
 **Key specs:**
 - App-controlled
@@ -84,7 +84,7 @@ The Elvie is the most discreet wearable pump available. It connects to an app so
 
 Medela is one of the most trusted breast pump brands in the world. The Pump In Style with MaxFlow technology delivers efficient, comfortable expression.
 
-{{< amazon url="https://www.amazon.com/dp/B07THHQMHM" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B08MWKXNMV" text="View on Amazon →" >}}
 
 **Key specs:**
 - MaxFlow technology
