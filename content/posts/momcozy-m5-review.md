@@ -1,9 +1,9 @@
 ---
-title: "Momcozy M5 Review: Is It Worth It in 2025?"
-date: 2025-02-01
+title: "Momcozy M5 Review: Is It Worth It in 2026?"
+date: 2026-06-12
 draft: false
 tags: ["breast-pump", "breastfeeding", "momcozy", "review"]
-description: "Honest Momcozy M5 review for 2025. We cover suction strength, comfort, battery life, and whether it's worth the price."
+description: "Honest Momcozy M5 review for 2026. We cover suction strength, comfort, battery life, and whether it's worth the price."
 cover:
   image: "/images/posts/momcozy-m5-review.webp"
   alt: "Unbranded wearable breast pump cups on a nursery table"

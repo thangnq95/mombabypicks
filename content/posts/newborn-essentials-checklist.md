@@ -1,6 +1,6 @@
 ---
 title: "Newborn Essentials Checklist: What You Actually Need (0-3 Months)"
-date: 2025-01-25
+date: 2026-06-12
 draft: false
 tags: ["newborn", "checklist", "baby-gear"]
 description: "A practical newborn essentials checklist for the first 3 months. Skip the fluff — here's what you actually need for your baby."

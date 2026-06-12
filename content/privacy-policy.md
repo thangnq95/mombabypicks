@@ -1,12 +1,12 @@
 ---
 title: "Privacy Policy"
-date: 2025-01-01
+date: 2026-06-12
 draft: false
 ---
 
 ## Privacy Policy
 
-*Last updated: January 1, 2025*
+*Last updated: June 12, 2026*
 
 Mom Baby Picks ("we", "us", or "our") operates mombabypicks.com.
 

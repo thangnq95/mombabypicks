@@ -1,6 +1,6 @@
 ---
-title: "5 Best Breast Pumps of 2025 (Hands-Free & Electric)"
-date: 2025-01-15
+title: "5 Best Breast Pumps of 2026 (Hands-Free & Electric)"
+date: 2026-06-12
 draft: false
 tags: ["breast-pump", "newborn", "breastfeeding"]
 description: "Looking for the best breast pump? We compared the top 5 models for suction, comfort, and portability to help you choose the right one."

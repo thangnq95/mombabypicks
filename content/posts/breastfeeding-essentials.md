@@ -1,6 +1,6 @@
 ---
 title: "10 Breastfeeding Essentials Every New Mom Needs"
-date: 2025-02-05
+date: 2026-06-12
 draft: false
 tags: ["breastfeeding", "newborn", "checklist"]
 description: "The 10 breastfeeding essentials that make nursing easier and more comfortable. From nipple cream to nursing pillows — here's what actually helps."

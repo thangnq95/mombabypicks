@@ -1,6 +1,6 @@
 ---
 title: "About Mom Baby Picks"
-date: 2025-01-01
+date: 2026-06-12
 draft: false
 ---
 
