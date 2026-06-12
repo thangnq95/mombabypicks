@@ -12,6 +12,12 @@ paginate = 10
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
 
+[params.assets]
+  favicon = "favicon-9477610.ico"
+  favicon16x16 = "favicon-16x16-9477610.png"
+  favicon32x32 = "favicon-32x32-9477610.png"
+  apple_touch_icon = "apple-touch-icon-9477610.png"
+
 [params.homeInfoParams]
   Title = "Best Baby Gear for New Moms"
   Content = "Honest reviews and top picks for breast pumps, bottle warmers, and newborn essentials."
