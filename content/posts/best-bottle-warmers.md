@@ -4,6 +4,9 @@ date: 2025-01-20
 draft: false
 tags: ["bottle-warmer", "newborn", "feeding"]
 description: "The best bottle warmers for newborns in 2025. We compare speed, safety, and compatibility to help you find the right one for your baby."
+cover:
+  image: "/images/posts/best-bottle-warmers.webp"
+  alt: "Unbranded baby bottle warmer on a kitchen counter"
 ---
 
 A good bottle warmer heats milk quickly and evenly — without creating hot spots that can burn your baby's mouth. Here are the 5 best options for newborns in 2025.
