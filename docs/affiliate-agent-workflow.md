@@ -66,3 +66,21 @@
 6. Commit and push the content bundle.
 7. Log the outcome and choose the next article topic from performance feedback.
 
+## Pinterest Live Standard
+
+Use this exact path when creating live pins in the browser:
+
+1. Publish the article to Hugo first and verify the live URL.
+2. Ensure the post cover image is a Pinterest-safe portrait asset, or add a portrait pin image at the top of the article so Pinterest can scrape it.
+3. Open Pinterest `pin-builder/?tab=save_from_url`.
+4. Enter the MomBabyPicks article URL, not an Amazon URL.
+5. Wait for Pinterest to finish loading preview images from the page.
+6. Select the portrait-style image first. If only one image appears, treat that as the live fallback creative.
+7. Click `Add 1 Pin` or `Add N Pins` only after the correct image is selected.
+8. Fill title, description, board, and destination URL if Pinterest leaves any field editable.
+9. Publish immediately.
+
+Operational note:
+- If Pinterest only exposes the landscape cover, update the article cover to a portrait Pinterest creative and republish before retrying.
+- If the browser UI refuses to advance, do not keep re-trying random clicks. Refresh the page and restart from step 3 with the same live article URL.
+- For repeatability, use one portrait cover asset per post and keep the article URL stable so future pins can be recreated without manual copying.
