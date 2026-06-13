@@ -75,3 +75,14 @@ If you want something lighter and more affordable, the Momcozy S9 Pro gives you 
 
 Wearable pumps can make daily life easier, but they are not always the best only pump for every mom. Many families end up using a wearable option for busy hours and a traditional electric pump at home. That combination often gives the best balance of freedom, comfort, and milk output.
 
+---
+
+## Pinterest Preview
+
+Want to save this guide for later? These pin-friendly preview images are sized for Pinterest and make it easy to share the article on your boards.
+
+![Finally, a Pump You Can Wear](https://raw.githubusercontent.com/thangnq95/mombabypicks/main/static/images/pins/best-hands-free-wearable-breast-pumps-pin-1.png)
+
+![Tired of Being Tied Down?](https://raw.githubusercontent.com/thangnq95/mombabypicks/main/static/images/pins/best-hands-free-wearable-breast-pumps-pin-2.png)
+
+![Wearable Pumps for Busy Moms](https://raw.githubusercontent.com/thangnq95/mombabypicks/main/static/images/pins/best-hands-free-wearable-breast-pumps-pin-3.png)
