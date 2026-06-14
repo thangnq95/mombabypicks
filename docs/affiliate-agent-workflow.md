@@ -15,6 +15,7 @@
 - Include front matter, internal links, and affiliate disclosure placement.
 - Do not claim a file was saved unless the file is actually created in the working directory.
 - Do not summarize only; the raw Markdown is the deliverable.
+- Include at least one visual block recommendation for every article, such as a gallery, comparison image, or Pinterest-safe hero.
 
 ### Affiliate_Hugo_Publisher
 
@@ -22,12 +23,21 @@
 - Confirm front matter, formatting, link integrity, disclosure, and image path.
 - Act as a QA gate before anything is published.
 - Return a deploy package only after validation passes.
+- Reject drafts that are text-only when the topic benefits from product imagery or comparison visuals.
 
 ### Affiliate_Pinterest_Growth
 
 - Build the Pinterest publishing pack.
 - Only run after the article URL exists in the Hugo site.
 - Create pin metadata and creative briefs, not direct Amazon destination links.
+- Prefer article URLs that already contain a visual gallery or comparison image.
+
+## Recommended Squad Split
+
+- Claude: topic selection, product candidate research, and draft generation.
+- Hermes: issue orchestration, status transitions, and handoff checks.
+- Codex: Hugo validation, asset creation, build verification, and browser-based publishing.
+- Multica: ticket tracking, audit trail, and squad coordination only.
 
 ## Correct Workflow
 
@@ -35,11 +45,12 @@
 2. Content Producer writes raw Markdown only.
 3. Hugo Publisher validates the Markdown and fixes issues.
 4. Hugo Publisher places the final post in `content/posts/`.
-5. Publish a featured image into `static/images/posts/`.
+5. Add at least one visual guide image and a Pinterest-safe featured image into `static/images/posts/`.
 6. Run `hugo --gc --minify` and fix build errors.
 7. If build passes, hand off a deploy package.
 8. Pinterest Growth creates 3 pins that point to the article URL.
-9. Commit, push, and record the live URL for the sprint log.
+9. Publish live pins only after the article URL and visual assets exist.
+10. Commit, push, and record the live URL for the sprint log.
 
 ## Known Issues Found
 
@@ -47,6 +58,7 @@
 - The producer output used product claims that should be reviewed carefully for evidence and compliance.
 - The publisher step was skipped, so the repo never got the article file.
 - Pinterest planning should not begin until the Hugo URL exists.
+- Text-only posts underperform on Pinterest and should be upgraded with a visual guide image or gallery before launch.
 
 ## Exact Instruction Changes Recommended
 
@@ -55,16 +67,20 @@
 - Change `Affiliate_Hugo_Publisher` to reject drafts missing `draft: false`, valid cover image, or valid affiliate tag usage.
 - Change `Affiliate_Hugo_Publisher` to check `hugo --gc --minify` before declaring completion.
 - Change `Affiliate_Pinterest_Growth` to wait on the published article URL before generating pin assets.
+- Change `Affiliate_Content_Producer` to include a visual block recommendation and at least one image placement per article.
+- Change `Affiliate_Pinterest_Growth` to prefer posts that expose multiple scrapeable images, not only a single cover.
+- Change Multica squad ownership so Claude and Hermes do planning and orchestration while Codex handles local build and publish work.
 
 ## How to Run Sprint #002
 
 1. Pick the next keyword and confirm product candidates.
 2. Generate one raw Markdown post with compliant affiliate links.
-3. Validate in the publisher gate.
-4. Publish to Hugo and confirm the build.
-5. Create a matching Pinterest pack after the URL is live.
-6. Commit and push the content bundle.
-7. Log the outcome and choose the next article topic from performance feedback.
+3. Add at least one visual guide or comparison image to the post.
+4. Validate in the publisher gate.
+5. Publish to Hugo and confirm the build.
+6. Create a matching Pinterest pack after the URL is live.
+7. Commit and push the content bundle.
+8. Log the outcome and choose the next article topic from performance feedback.
 
 ## Pinterest Live Standard
 
