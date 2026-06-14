@@ -5,7 +5,7 @@ draft: false
 description: "The top wearable breast pumps of 2026 compared by suction strength, battery life, noise level, and price."
 tags: ["breast-pumps", "wearable breast pumps", "hands-free pumping", "breastfeeding", "new mom essentials"]
 cover:
-  image: "https://raw.githubusercontent.com/thangnq95/mombabypicks/main/static/images/pins/best-hands-free-wearable-breast-pumps-pin-1.png"
+  image: "https://raw.githubusercontent.com/thangnq95/mombabypicks/main/static/images/pins/best-hands-free-wearable-breast-pumps-pin-2.png"
   alt: "Portrait Pinterest-style cover image for a wearable breast pump guide"
 ---
 
