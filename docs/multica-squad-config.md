@@ -1,5 +1,7 @@
 # Multica Squad Config for MomBabyPicks
 
+For copy-paste ready prompts, use [multica-agent-prompt-pack.md](./multica-agent-prompt-pack.md).
+
 ## Goal
 
 Split affiliate work so no single agent does everything:
