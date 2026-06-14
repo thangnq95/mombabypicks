@@ -41,6 +41,8 @@
 - When possible, keep Codex on QA and execution tasks rather than first-draft content generation.
 - Run `Affiliate_Strategist` in `claude.ai` chat as a content runtime, then hand the output to Hermes for Multica ticket creation.
 - The Multica ticket should always be opened before any drafting starts.
+- Hermes now exists as a real Multica agent backed by the local Hermes runtime.
+- The working squad is `MomBabyPicks Affiliate Squad`; use it as the routing target instead of hand-copying prompts.
 
 ## Correct Workflow
 
@@ -55,6 +57,13 @@
 9. Pinterest Growth creates 3 pins that point to the article URL.
 10. Publish live pins only after the article URL and visual assets exist.
 11. Commit, push, and record the live URL for the sprint log in Multica.
+
+## Automation Surface
+
+- Use `scripts/multica-squad.mjs bootstrap` to align Hermes and the affiliate squad from the local Multica profile.
+- Use `scripts/multica-squad.mjs dispatch <issue-id-or-identifier>` to move a ticket into squad execution and create a live task run.
+- The helper reads `multica_token` from the local Multica Electron profile, so no manual token copy is needed.
+- The helper uses Multica's REST API directly, which keeps the squad tied to ticket state instead of the desktop UI.
 
 ## Codex Usage Limits
 

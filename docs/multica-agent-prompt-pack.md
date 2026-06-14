@@ -32,7 +32,7 @@ The goal is to reduce Codex usage and push the first pass of work to Claude, wit
 > Do not invent ASINs.
 > Do not claim a file was saved unless the file truly exists.
 > This is a content-only runtime. Do not operate Multica UI or run terminal commands.
-> Return output in a ticket-ready content package that Hermes can paste into Multica.
+> Return output in a ticket-ready content package that Hermes can attach to the Multica ticket.
 
 ## Codex Prompt
 
@@ -53,7 +53,7 @@ The goal is to reduce Codex usage and push the first pass of work to Claude, wit
 > Do not invent ASINs unless verified.
 > Do not output direct Amazon links.
 > Run inside claude.ai chat and return a content package, not a Multica ticket action.
-> Hermes will create the Multica ticket and paste your output there.
+> Hermes will create the Multica ticket and attach your output there.
 
 ## Affiliate_Content_Producer Prompt
 
@@ -104,7 +104,7 @@ Acceptance:
 
 1. Hermes opens the Multica sprint ticket and posts the brief.
 2. Claude returns topic, product candidates, and raw article.
-3. Hermes updates the ticket with Claude output and assigns Codex.
+3. Hermes attaches Claude output to the ticket and assigns Codex.
 4. Codex validates the draft and adds or checks visual assets.
 5. Codex runs Hugo and fixes any build errors.
 6. Hermes marks the ticket `Live` and hands the live URL to Pinterest Growth.

@@ -17,7 +17,7 @@ Split affiliate work so no single agent does everything:
 
 - `Affiliate_Strategist` should run in `claude.ai` chat, not in the Multica UI.
 - `Affiliate_Strategist` output is a content package, not a ticket update.
-- Hermes creates the Multica ticket first, then copies strategist output into it.
+- Hermes creates the Multica ticket first, then attaches strategist output as a ticket comment or task payload.
 - Codex should stay on repo, build, asset, and browser execution.
 - Multica should be treated as the coordination layer, not the work surface for drafting.
 - No sprint should begin outside a Multica ticket.
@@ -110,7 +110,7 @@ Use this prompt:
 1. Hermes opens the Multica sprint ticket.
 2. Claude creates topic, outline, product candidates, and image plan.
 3. Claude writes raw Markdown with visual placement notes.
-4. Hermes forwards the draft to Codex only after the raw article is ready.
+4. Hermes attaches the draft package to the ticket and routes it to Codex.
 5. Codex validates, adds or checks images, runs Hugo, and fixes build errors.
 6. Hermes updates the ticket to `Live` and routes the live URL to Pinterest Growth.
 7. Codex or Pinterest Growth publishes pins from the live article when browser action is required.
