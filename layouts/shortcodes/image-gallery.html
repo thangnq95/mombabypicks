@@ -15,7 +15,7 @@
       {{- $image := $.Get $imageKey -}}
       {{- if $image }}
       <figure class="affiliate-image-gallery__item">
-        <img src="{{ $image }}" alt="{{ $.Get $altKey }}" loading="lazy">
+        <img src="{{ $image | absURL }}" alt="{{ $.Get $altKey }}" data-pin-media="{{ $image | absURL }}" data-pin-url="{{ $.Page.Permalink }}" loading="lazy">
         {{- with ($.Get $captionKey) }}
         <figcaption>{{ . }}</figcaption>
         {{- end }}
