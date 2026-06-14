@@ -10,6 +10,7 @@ The goal is to reduce Codex usage and push the first pass of work to Claude, wit
 - Amazon store ID: `mombabypick00-20`
 - Pinterest rule: use article URLs, not direct Amazon links
 - Compliance rule: every Amazon-linked post must include the Associate disclosure
+- Strategist runtime: `claude.ai` chat, not the Multica UI
 
 ## Hermes Master Prompt
 
@@ -28,6 +29,7 @@ The goal is to reduce Codex usage and push the first pass of work to Claude, wit
 > Include at least one visual block recommendation, such as a comparison image or gallery.
 > Do not invent ASINs.
 > Do not claim a file was saved unless the file truly exists.
+> This is a content-only runtime. Do not operate Multica UI or run terminal commands.
 
 ## Codex Prompt
 
@@ -46,6 +48,7 @@ The goal is to reduce Codex usage and push the first pass of work to Claude, wit
 > Include a recommendation for one visual angle that would help the post convert better on Pinterest.
 > Do not invent ASINs unless verified.
 > Do not output direct Amazon links.
+> Run inside claude.ai chat and return a content package, not a Multica ticket action.
 
 ## Affiliate_Content_Producer Prompt
 

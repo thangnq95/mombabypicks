@@ -39,6 +39,7 @@
 - Codex: Hugo validation, asset creation, build verification, and browser-based publishing.
 - Multica: ticket tracking, audit trail, and squad coordination only.
 - When possible, keep Codex on QA and execution tasks rather than first-draft content generation.
+- Run `Affiliate_Strategist` in `claude.ai` chat as a content runtime, then hand the output to Hermes for Multica ticket creation.
 
 ## Correct Workflow
 

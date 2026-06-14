@@ -11,6 +11,14 @@ Split affiliate work so no single agent does everything:
 - Codex handles validation, build, assets, and browser publishing.
 - Multica stores the ticket trail and status.
 
+## Runtime Contract
+
+- `Affiliate_Strategist` should run in `claude.ai` chat, not in the Multica UI.
+- `Affiliate_Strategist` output is a content package, not a ticket update.
+- Hermes or the user should copy the strategist output into Multica when creating the sprint issue.
+- Codex should stay on repo, build, asset, and browser execution.
+- Multica should be treated as the coordination layer, not the work surface for drafting.
+
 ## Resource Policy
 
 - Use Claude for the first draft of ideas, outlines, and article copy whenever possible.
@@ -41,6 +49,7 @@ Use this prompt:
 > Do not invent ASINs.
 > Do not output final Amazon links.
 > Include a visual recommendation for the article.
+> Run this in claude.ai chat and return a content package only.
 
 ### Affiliate_Content_Producer
 
@@ -80,6 +89,7 @@ Use this prompt:
 > Create and track tickets.
 > Ensure each agent only receives the next valid handoff.
 > Do not mark a task complete until the required artifact exists in the repo or live URL is verified.
+> Copy strategist output into Multica when opening the sprint issue.
 > Keep Codex out of early ideation tasks unless a local file, build, or browser publish is required.
 
 ### Codex
