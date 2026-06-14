@@ -66,6 +66,7 @@
 - The publisher step was skipped, so the repo never got the article file.
 - Pinterest planning should not begin until the Hugo URL exists.
 - Text-only posts underperform on Pinterest and should be upgraded with a visual guide image or gallery before launch.
+- Pinterest `save_from_url` may cache the article Open Graph image and ignore additional gallery images, so it is not reliable for publishing multiple creatives from the same article URL.
 
 ## Exact Instruction Changes Recommended
 
@@ -94,16 +95,20 @@
 Use this exact path when creating live pins in the browser:
 
 1. Publish the article to Hugo first and verify the live URL.
-2. Ensure the post cover image is a Pinterest-safe portrait asset, or add a portrait pin image at the top of the article so Pinterest can scrape it.
-3. Open Pinterest `pin-builder/?tab=save_from_url`.
-4. Enter the MomBabyPicks article URL, not an Amazon URL.
-5. Wait for Pinterest to finish loading preview images from the page.
-6. Select the portrait-style image first. If only one image appears, treat that as the live fallback creative.
-7. Click `Add 1 Pin` or `Add N Pins` only after the correct image is selected.
-8. Fill title, description, board, and destination URL if Pinterest leaves any field editable.
-9. Publish immediately.
+2. Ensure each pin creative exists as a public asset under `static/images/pins/`.
+3. Prefer Pinterest's create-button URL so media and destination can be controlled separately:
+
+```text
+https://www.pinterest.com/pin/create/button/?url=<encoded_article_url>&media=<encoded_public_pin_image_url>&description=<encoded_description>
+```
+
+4. Confirm the preview image matches the intended creative.
+5. Save to the branded board, currently `Baby Gear & New Mom Essentials`.
+6. Open the published pin and verify the `Visit site` link points to the MomBabyPicks article URL, not the image file and not Amazon.
+7. Record the published pin URL in the Pinterest pack.
 
 Operational note:
-- If Pinterest only exposes the landscape cover, update the article cover to a portrait Pinterest creative and republish before retrying.
-- If the browser UI refuses to advance, do not keep re-trying random clicks. Refresh the page and restart from step 3 with the same live article URL.
-- For repeatability, use one portrait cover asset per post and keep the article URL stable so future pins can be recreated without manual copying.
+- Use `pin-builder/?tab=save_from_url` only as a fallback. If it returns only one cached Open Graph image, switch to the create-button URL instead of repeatedly resubmitting the same article URL.
+- Do not publish direct image URLs as pin destinations. If Pinterest locks the destination to the image URL, cancel and use the create-button URL.
+- Use UTM parameters per pin, for example `utm_source=pinterest&utm_medium=organic&utm_campaign=pin2`.
+- For repeatability, create three portrait pin assets per post and keep the article URL stable.

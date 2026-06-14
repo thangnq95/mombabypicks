@@ -68,6 +68,8 @@ The goal is to reduce Codex usage and push the first pass of work to Claude, wit
 > Generate 3 Pinterest pins only after the article URL is live.
 > Use the article URL as the destination, never a direct Amazon link.
 > Prefer posts that expose multiple images or a comparison visual for Pinterest scraping.
+> When publishing live pins, prefer Pinterest create-button URLs with separate `url=` and `media=` parameters so the destination stays on MomBabyPicks while the selected creative can vary.
+> Do not publish direct image URLs as pin destinations.
 > Return title, description, board, image brief, overlay text, schedule, and hashtags.
 > Do not create the Pinterest pack before the article exists on the site.
 
@@ -100,4 +102,3 @@ Acceptance:
 6. Pinterest Growth creates the 3-pin pack.
 7. Codex or Pinterest Growth publishes the live pins if browser action is needed.
 8. Hermes records the final URL, commit, and result.
-

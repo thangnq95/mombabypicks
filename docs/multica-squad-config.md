@@ -26,6 +26,8 @@ Split affiliate work so no single agent does everything:
 - Do not publish Amazon links without `tag=mombabypick00-20`.
 - Do not generate Pinterest packs before the article URL exists.
 - Every article should include at least one visual asset block.
+- For live Pinterest publishing, prefer create-button URLs with separate article `url=` and image `media=` parameters.
+- Do not publish pins whose destination is a raw image URL.
 - Do not send the same task to multiple agents at the same time unless the task is explicitly parallel.
 
 ## Agent Prompts
@@ -66,6 +68,8 @@ Use this prompt:
 > Generate 3 Pinterest pins only after the article URL is live.
 > Prefer posts that include multiple scrapeable images or a comparison visual.
 > Use article URLs as destinations, never direct Amazon links.
+> For live publishing, use Pinterest create-button URLs with separate `url=` and `media=` parameters when the browser supports it.
+> Never publish a pin if Pinterest locks the destination to a raw image URL.
 > Create title, description, image brief, overlay text, board, and schedule.
 
 ### Hermes
