@@ -9,6 +9,14 @@ Split affiliate work so no single agent does everything:
 - Codex handles validation, build, assets, and browser publishing.
 - Multica stores the ticket trail and status.
 
+## Resource Policy
+
+- Use Claude for the first draft of ideas, outlines, and article copy whenever possible.
+- Use Hermes for routing, state changes, and final handoff checks.
+- Use Codex only for tasks that require local repo access, Hugo builds, asset creation, or browser-side publishing that cannot be delegated.
+- Do not ask Codex to rewrite content that Claude can produce cleanly unless QA or compliance needs it.
+- Prefer artifact-based handoffs over conversation-based handoffs so each agent gets one clean task.
+
 ## Shared Rules
 
 - Do not invent ASINs.
@@ -16,6 +24,7 @@ Split affiliate work so no single agent does everything:
 - Do not publish Amazon links without `tag=mombabypick00-20`.
 - Do not generate Pinterest packs before the article URL exists.
 - Every article should include at least one visual asset block.
+- Do not send the same task to multiple agents at the same time unless the task is explicitly parallel.
 
 ## Agent Prompts
 
@@ -65,6 +74,7 @@ Use this prompt:
 > Create and track tickets.
 > Ensure each agent only receives the next valid handoff.
 > Do not mark a task complete until the required artifact exists in the repo or live URL is verified.
+> Keep Codex out of early ideation tasks unless a local file, build, or browser publish is required.
 
 ### Codex
 
@@ -73,14 +83,15 @@ Use this prompt:
 > Validate the repo, create or fix assets, run Hugo builds, and perform browser publishing when needed.
 > Share work with Claude and Hermes instead of doing every step manually.
 > Prefer local files and committed assets over temporary workspace output.
+> Do not own the whole sprint; only take the parts that require repo or browser execution.
 
 ## Suggested Sprint Flow
 
-1. Hermes opens sprint ticket.
-2. Claude creates topic, outline, and product candidates.
+1. Hermes opens sprint ticket and assigns Claude first.
+2. Claude creates topic, outline, product candidates, and image plan.
 3. Claude writes raw Markdown with visual placement notes.
-4. Codex validates, adds images, runs Hugo, and fixes build errors.
-5. Hermes routes the live URL to Pinterest Growth.
-6. Codex or Pinterest Growth publishes pins from the live article.
-7. Hermes records the final URL, commit, and results.
-
+4. Hermes forwards the draft to Codex only after the raw article is ready.
+5. Codex validates, adds or checks images, runs Hugo, and fixes build errors.
+6. Hermes routes the live URL to Pinterest Growth.
+7. Codex or Pinterest Growth publishes pins from the live article when browser action is required.
+8. Hermes records the final URL, commit, and results.

@@ -38,6 +38,7 @@
 - Hermes: issue orchestration, status transitions, and handoff checks.
 - Codex: Hugo validation, asset creation, build verification, and browser-based publishing.
 - Multica: ticket tracking, audit trail, and squad coordination only.
+- When possible, keep Codex on QA and execution tasks rather than first-draft content generation.
 
 ## Correct Workflow
 
@@ -51,6 +52,12 @@
 8. Pinterest Growth creates 3 pins that point to the article URL.
 9. Publish live pins only after the article URL and visual assets exist.
 10. Commit, push, and record the live URL for the sprint log.
+
+## Codex Usage Limits
+
+- Use Codex for repo operations, build checks, image generation, and browser publish verification.
+- Do not route brainstorming, outline selection, or draft writing to Codex unless Claude is unavailable.
+- Prefer Claude for first-pass article content so Codex quota stays available for execution and QA.
 
 ## Known Issues Found
 
