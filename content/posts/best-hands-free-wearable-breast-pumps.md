@@ -13,17 +13,42 @@ Life with a newborn is beautiful, exhausting, and full of feedings. If you are a
 
 Based on published specs, retailer listings, and parent feedback, here are five hands-free wearable breast pumps worth comparing in 2026. If you want a broader starting point, check out our guide to the [best breast pumps](/posts/best-breast-pumps/) and our article on [how to choose a breast pump](/posts/how-to-choose-breast-pump/).
 
+{{< pick-cards
+title="Quick Picks At A Glance"
+intro="This fast scan section helps readers decide where to start before reading the full product breakdown."
+card1label="Best Value"
+card1title="Momcozy S12 Pro"
+card1text="A strong starter pick for moms who want solid suction and a friendlier price."
+card2label="Quietest Feel"
+card2title="Elvie Pump"
+card2text="The best fit for meetings, shared spaces, and moms who want a more discreet pump."
+card3label="Premium Pick"
+card3title="Willow 3.0"
+card3text="A polished wearable option for moms who care most about freedom and leak resistance."
+card4label="Trusted Everyday Option"
+card4title="Medela + Momcozy S9 Pro"
+card4text="Good choices for moms who want either brand familiarity or a slimmer lower-cost wearable."
+>}}
+
 ## Quick Visual Guide
 
-The images below give readers a faster way to scan the shortlist before they dig into the detailed comparison. The first card is a simple summary graphic, and the three pin previews help the page feel more visual on mobile and Pinterest.
+The visual guide below gives readers a faster way to scan the shortlist before they dig into the detailed comparison.
 
 ![Visual guide for the best hands-free wearable breast pumps in 2026](/images/posts/best-hands-free-wearable-breast-pumps-visual-guide.webp)
 
-![Pinterest preview for the wearable breast pump roundup](/images/pins/best-hands-free-wearable-breast-pumps-pin-1.png)
-
-![Pinterest preview for a second wearable breast pump pin concept](/images/pins/best-hands-free-wearable-breast-pumps-pin-2.png)
-
-![Pinterest preview for a third wearable breast pump pin concept](/images/pins/best-hands-free-wearable-breast-pumps-pin-3.png)
+{{< image-gallery
+title="Pinterest Preview Gallery"
+intro="These portrait visuals also help the article feel more visual on mobile and give Pinterest better image choices when the page is scraped."
+image1="/images/pins/best-hands-free-wearable-breast-pumps-pin-1.png"
+alt1="Pinterest preview for the wearable breast pump roundup"
+caption1="General roundup concept for moms comparing the most popular wearable pumps."
+image2="/images/pins/best-hands-free-wearable-breast-pumps-pin-2.png"
+alt2="Pinterest preview for a second wearable breast pump pin concept"
+caption2="A softer, list-style visual that fits nursery and motherhood search intent."
+image3="/images/pins/best-hands-free-wearable-breast-pumps-pin-3.png"
+alt3="Pinterest preview for a third wearable breast pump pin concept"
+caption3="A direct comparison style visual that supports click-through from Pinterest."
+>}}
 
 ### Momcozy S12 Pro Wearable Breast Pump
 

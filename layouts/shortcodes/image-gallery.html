@@ -1,0 +1,26 @@
+{{- $title := .Get "title" -}}
+{{- $intro := .Get "intro" -}}
+<section class="affiliate-image-gallery">
+  {{- with $title }}
+  <h2>{{ . }}</h2>
+  {{- end }}
+  {{- with $intro }}
+  <p class="affiliate-image-gallery__intro">{{ . }}</p>
+  {{- end }}
+  <div class="affiliate-image-gallery__grid">
+    {{- range seq 1 4 }}
+      {{- $imageKey := printf "image%d" . -}}
+      {{- $altKey := printf "alt%d" . -}}
+      {{- $captionKey := printf "caption%d" . -}}
+      {{- $image := $.Get $imageKey -}}
+      {{- if $image }}
+      <figure class="affiliate-image-gallery__item">
+        <img src="{{ $image }}" alt="{{ $.Get $altKey }}" loading="lazy">
+        {{- with ($.Get $captionKey) }}
+        <figcaption>{{ . }}</figcaption>
+        {{- end }}
+      </figure>
+      {{- end }}
+    {{- end }}
+  </div>
+</section>

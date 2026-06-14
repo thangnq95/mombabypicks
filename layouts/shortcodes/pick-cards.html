@@ -1,0 +1,29 @@
+{{- $title := .Get "title" -}}
+{{- $intro := .Get "intro" -}}
+<section class="affiliate-pick-cards">
+  {{- with $title }}
+  <h2>{{ . }}</h2>
+  {{- end }}
+  {{- with $intro }}
+  <p class="affiliate-pick-cards__intro">{{ . }}</p>
+  {{- end }}
+  <div class="affiliate-pick-cards__grid">
+    {{- range seq 1 4 }}
+      {{- $titleKey := printf "card%dtitle" . -}}
+      {{- $labelKey := printf "card%dlabel" . -}}
+      {{- $textKey := printf "card%dtext" . -}}
+      {{- $cardTitle := $.Get $titleKey -}}
+      {{- if $cardTitle }}
+      <article class="affiliate-pick-card">
+        {{- with ($.Get $labelKey) }}
+        <p class="affiliate-pick-card__label">{{ . }}</p>
+        {{- end }}
+        <h3>{{ $cardTitle }}</h3>
+        {{- with ($.Get $textKey) }}
+        <p>{{ . }}</p>
+        {{- end }}
+      </article>
+      {{- end }}
+    {{- end }}
+  </div>
+</section>
