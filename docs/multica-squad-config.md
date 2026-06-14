@@ -1,5 +1,6 @@
 # Multica Squad Config for MomBabyPicks
 
+For the ticket-driven automation flow, use [multica-automation-runbook.md](./multica-automation-runbook.md).
 For copy-paste ready prompts, use [multica-agent-prompt-pack.md](./multica-agent-prompt-pack.md).
 
 ## Goal
@@ -10,14 +11,16 @@ Split affiliate work so no single agent does everything:
 - Hermes handles orchestration and handoffs.
 - Codex handles validation, build, assets, and browser publishing.
 - Multica stores the ticket trail and status.
+- The sprint ticket is the source of truth and automation trigger.
 
 ## Runtime Contract
 
 - `Affiliate_Strategist` should run in `claude.ai` chat, not in the Multica UI.
 - `Affiliate_Strategist` output is a content package, not a ticket update.
-- Hermes or the user should copy the strategist output into Multica when creating the sprint issue.
+- Hermes creates the Multica ticket first, then copies strategist output into it.
 - Codex should stay on repo, build, asset, and browser execution.
 - Multica should be treated as the coordination layer, not the work surface for drafting.
+- No sprint should begin outside a Multica ticket.
 
 ## Resource Policy
 
@@ -86,9 +89,10 @@ Use this prompt:
 Use this prompt:
 
 > Orchestrate the squad.
-> Create and track tickets.
+> Create and track tickets in Multica.
 > Ensure each agent only receives the next valid handoff.
 > Do not mark a task complete until the required artifact exists in the repo or live URL is verified.
+> Use the Multica ticket as the source of truth for state.
 > Copy strategist output into Multica when opening the sprint issue.
 > Keep Codex out of early ideation tasks unless a local file, build, or browser publish is required.
 
@@ -103,11 +107,11 @@ Use this prompt:
 
 ## Suggested Sprint Flow
 
-1. Hermes opens sprint ticket and assigns Claude first.
+1. Hermes opens the Multica sprint ticket.
 2. Claude creates topic, outline, product candidates, and image plan.
 3. Claude writes raw Markdown with visual placement notes.
 4. Hermes forwards the draft to Codex only after the raw article is ready.
 5. Codex validates, adds or checks images, runs Hugo, and fixes build errors.
-6. Hermes routes the live URL to Pinterest Growth.
+6. Hermes updates the ticket to `Live` and routes the live URL to Pinterest Growth.
 7. Codex or Pinterest Growth publishes pins from the live article when browser action is required.
-8. Hermes records the final URL, commit, and results.
+8. Hermes records the final URL, commit, and results in Multica.

@@ -40,19 +40,21 @@
 - Multica: ticket tracking, audit trail, and squad coordination only.
 - When possible, keep Codex on QA and execution tasks rather than first-draft content generation.
 - Run `Affiliate_Strategist` in `claude.ai` chat as a content runtime, then hand the output to Hermes for Multica ticket creation.
+- The Multica ticket should always be opened before any drafting starts.
 
 ## Correct Workflow
 
-1. Strategist selects the topic and product candidates.
-2. Content Producer writes raw Markdown only.
-3. Hugo Publisher validates the Markdown and fixes issues.
-4. Hugo Publisher places the final post in `content/posts/`.
-5. Add at least one visual guide image and a Pinterest-safe featured image into `static/images/posts/`.
-6. Run `hugo --gc --minify` and fix build errors.
-7. If build passes, hand off a deploy package.
-8. Pinterest Growth creates 3 pins that point to the article URL.
-9. Publish live pins only after the article URL and visual assets exist.
-10. Commit, push, and record the live URL for the sprint log.
+1. Hermes opens the Multica sprint ticket.
+2. Strategist selects the topic and product candidates.
+3. Content Producer writes raw Markdown only.
+4. Hugo Publisher validates the Markdown and fixes issues.
+5. Hugo Publisher places the final post in `content/posts/`.
+6. Add at least one visual guide image and a Pinterest-safe featured image into `static/images/posts/`.
+7. Run `hugo --gc --minify` and fix build errors.
+8. If build passes, update the Multica ticket to `Live`.
+9. Pinterest Growth creates 3 pins that point to the article URL.
+10. Publish live pins only after the article URL and visual assets exist.
+11. Commit, push, and record the live URL for the sprint log in Multica.
 
 ## Codex Usage Limits
 
