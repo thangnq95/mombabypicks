@@ -92,7 +92,7 @@ log "✅ Content brief saved: $BRIEF_FILE"
 $CLAUDECMD -p "
 You are Affiliate_Content_Producer for MomBabyPicks.com.
 
-Write a ~1000-word buyer's guide / comparison article targeting the keyword: \"$KEYWORD\"
+Write a 1500-2000 word buyer's guide / comparison article targeting the keyword: \"$KEYWORD\"
 
 IMPORTANT:
 - OUTPUT the COMPLETE ARTICLE with frontmatter as raw markdown.
@@ -103,14 +103,15 @@ IMPORTANT:
 CONTENT RULES:
 - Recommend 5 products, each with pros/cons and 'Who it's for'
 - Include a markdown comparison table
-- FAQ: 4-5 questions
+- FAQ: 5-6 questions
 - Amazon links: use Hugo shortcode {{< amazon url=\"https://www.amazon.com/dp/XXXXXXXXXX\" text=\"Check Price on Amazon →\" >}} (do NOT add ?tag= — shortcode handles it)
 - Include at least 3 internal links to different /posts/ pages (use relative paths)
-- Add a brief 'How We Selected' paragraph after the intro explaining criteria
-- Avoid unverifiable medical or scientific claims
+- Add a 'How We Selected' paragraph after intro explaining criteria
+- Add a 'Material Safety & Certifications' section covering BPA-free, phthalate-free, food-grade silicone, glass vs plastic
+- NEVER make unsubstantiated claims like 'most recommended by pediatricians' or 'award-winning' — stick to verifiable product features
 - Use practical parent-experience tone (not clinical)
 - Affiliate disclosure at end
-- Frontmatter: title, date, description (≤155 chars), tags, cover image
+- Frontmatter: title, date, description (≤155 chars), tags, cover image, author: MomBabyPicks Team
 - Output the article directly as raw markdown starting with ---. Do NOT wrap in code fences.
 
 SEO STRUCTURE:
@@ -126,28 +127,19 @@ cover:
 ---
 
 ## Introduction
+## How We Selected These Bottles
 ## Comparison Table
 ## [Product 1 Name]
 ## [Product 2 Name]
 ## [Product 3 Name]
 ## [Product 4 Name]
 ## [Product 5 Name]
+## Material Safety & Certifications
 ## FAQ
-## Which Bottle Should You Choose?
-" 2>/dev/null > "$ARTICLE_FILE.tmp" || (echo "ERROR:claude_failed" > "$ARTICLE_FILE.tmp")
+## Which Bottle Should You Choose?" 2>/dev/null > "$ARTICLE_FILE.tmp" || (echo "ERROR:claude_failed" > "$ARTICLE_FILE.tmp")
 
-# Strip code fences from raw output (direct file processing — no shell var)
-python3 -c "
-import re
-with open('$ARTICLE_FILE.tmp') as f:
-    text = f.read()
-text = text.lstrip()
-text = re.sub(r'^```\w*\n?', '', text)
-text = re.sub(r'\n```\s*$', '', text)
-text = text.strip() + '\n'
-with open('$ARTICLE_FILE', 'w') as f:
-    f.write(text)
-"
+# Strip code fences from raw output (direct file processing)
+python3 scripts/strip-fences.py < "$ARTICLE_FILE.tmp" > "$ARTICLE_FILE" 2>/dev/null || cp "$ARTICLE_FILE.tmp" "$ARTICLE_FILE"
 rm -f "$ARTICLE_FILE.tmp"
 
 # Check if article has real content (frontmatter marker)
@@ -251,8 +243,10 @@ except json.JSONDecodeError:
 
 log "Review score: $SCORE — Decision: $DECISION"
 
+log "Review threshold: score >= 80 AND decision == PASS"
+
 # ==== Step 5: Gate — review score check ====
-if [ "$DECISION" != "PASS" ]; then
+if [ "$DECISION" != "PASS" ] || [ "$SCORE" -lt 80 ]; then
   log "❌ Article failed review (score=$SCORE, decision=$DECISION)"
   cp "$ARTICLE_FILE" "content/agents/revisions/${TOPIC_ID}-${SLUG}.md"
   python3 -c "
