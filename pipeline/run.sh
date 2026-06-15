@@ -359,7 +359,7 @@ with open('$ARTICLE_FILE') as f:
     text = f.read()
 for i in range(1, 10):
     placeholder = f'[ASIN_{i}]'
-    dummy = f'B0DEFAULT00{i}'
+    dummy = f'B0DFLT000{i}'
     if placeholder in text:
         text = text.replace(placeholder, dummy)
         log_message = f'  Replaced {placeholder} → {dummy}'
@@ -410,21 +410,15 @@ with open('pipeline/topic-queue.json', 'w') as f:
 "
 fi
 
-# ==== Step 6: Hugo build ====
-log "🏗️ Step 6: Hugo build..."
-cd "$REPO_DIR"
-if hugo 2>&1 | tee -a "$LOG_FILE"; then
-  log "✅ Hugo build succeeded"
-else
-  log "❌ Hugo build failed"
-  exit 1
-fi
-
-# ==== Step 7: Git commit & push ====
-log "📦 Step 7: Committing & pushing..."
+# ==== Step 6: Git commit & push (source only — GH Actions builds) ====
+log "📦 Step 6: Committing source & pushing..."
 git add content/posts/
-git commit -m "feat: add $SLUG" 2>&1 | tee -a "$LOG_FILE"
+git add static/images/posts/ 2>/dev/null || true
+git add pipeline/topic-queue.json
+git add pipeline/sprint-log.json
+git commit -m "feat: add $SLUG (score: $SCORE/100)"
 git push origin main 2>&1 | tee -a "$LOG_FILE"
+log "✅ Pushed — GitHub Actions will build & deploy"
 
 # ==== Step 8: Update queue ====
 python3 -c "

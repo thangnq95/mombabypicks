@@ -4,10 +4,12 @@ date: 2026-06-15
 draft: false
 description: "The 5 best baby bottles for newborns in 2026 — tested for latch, anti-colic venting, and safe materials. Find the right fit for your feeding style."
 tags: [baby bottles, newborns, feeding, anti-colic, breastfeeding, bottle feeding]
+author: MomBabyPicks Team
+images:
+  - /images/pins/best-baby-bottles-for-newborns-2026-pin-1.png
 cover:
   image: /images/posts/best-baby-bottles-for-newborns-2026.webp
   alt: "Selection of the best baby bottles for newborns arranged on a white surface"
-author: MomBabyPicks Team
 ---
 
 ## Introduction

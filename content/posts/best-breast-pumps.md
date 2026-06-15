@@ -108,3 +108,6 @@ Medela is one of the most trusted breast pump brands in the world. The Pump In S
 **Choose wearable** if you need to multitask while pumping.
 **Choose electric** if maximizing milk output is your priority.
 **Check insurance** — many US insurance plans cover a breast pump 100%. Check with your provider before buying.
+
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
+

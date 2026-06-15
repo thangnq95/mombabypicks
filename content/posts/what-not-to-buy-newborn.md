@@ -5,6 +5,8 @@ draft: false
 tags: ["newborn", "checklist", "baby-gear"]
 description: "A practical list of newborn products many parents can skip, at least during the first few months."
 summary: "Newborn shopping gets expensive quickly. These are the baby items many families can delay, borrow, or skip."
+images:
+  - /images/pins/what-not-to-buy-newborn-pin-1.png
 ---
 
 Baby registries can make everything feel essential. In reality, newborns need less than most lists suggest.
@@ -72,3 +74,6 @@ It is okay to wait. Buy the essentials first, then add convenience items based o
 Prioritize a safe sleep space, car seat, diapers, wipes, basic clothing, feeding supplies, burp cloths, and postpartum comfort items for the parent.
 
 The best newborn setup is not the most expensive one. It is the one that keeps baby safe and makes daily care easier.
+
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
+

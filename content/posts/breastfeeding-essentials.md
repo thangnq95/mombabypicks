@@ -130,3 +130,6 @@ A large insulated bottle is useful even if you choose a different brand.
 | Burp cloths | Spit-up coverage | Must-have |
 | Nursing cover | Public nursing | Optional |
 | Water bottle | Hydration | Must-have |
+
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
+
