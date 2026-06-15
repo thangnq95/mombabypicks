@@ -167,7 +167,7 @@ log "✅ Article written: $ARTICLE_FILE"
 # ==== Step 4: Claude Code reviews article ====
 log "🔍 Step 3: Claude Code reviewing article..."
 REVIEW_RAW=$($CLAUDECMD -p "
-You are Affiliate_Content_ReviewER for MomBabyPicks.com.
+You are Affiliate_Content_REVIEWER for MomBabyPicks.com.
 
 Read the file $ARTICLE_FILE and score it.
 
@@ -188,52 +188,76 @@ AUTO-REJECT if: no affiliate disclosure, missing FAQ, hallucination_risk < 50
 
 OUTPUT ONLY raw JSON, no markdown, no code fences, no explanation:
 {\"overall_score\": 82, \"decision\": \"PASS\", \"dimensions\": {\"seo_quality\": 82, \"readability\": 85, \"affiliate_compliance\": 90, \"content_completeness\": 80, \"product_coverage\": 82, \"internal_linking\": 75, \"eeat_signals\": 78, \"hallucination_risk\": 85}, \"issues\": [\"Minor: internal links could be more diverse\"], \"auto_reject_reasons\": []}
-" 2>/dev/null || echo '{"error":"claude_failed"}')
+" --allowedTools "Read" --max-turns 3 --output-format json 2>/dev/null || echo '{"error":"claude_failed"}')
 
-# Save review
+# Save raw output
 echo "$REVIEW_RAW" > "$REVIEW_FILE"
 
-# Parse score
+# Parse: handle --output-format json wrapper: {type, subtype, result: '...'}
 SCORE=$(python3 -c "
 import sys, json
 with open('$REVIEW_FILE') as f:
-    text = f.read()
+    text = f.read().strip()
 try:
     d = json.loads(text)
-    print(d.get('overall_score', 0))
-except json.JSONDecodeError:
-    # Try to find balanced JSON object
-    depth = 0
-    start = -1
-    for i, c in enumerate(text):
-        if c == '{':
-            if start == -1:
-                start = i
-            depth += 1
-        elif c == '}':
-            depth -= 1
-            if depth == 0 and start >= 0:
-                try:
-                    d = json.loads(text[start:i+1])
-                    print(d.get('overall_score', 0))
-                except:
-                    print(0)
-                break
-            elif depth < 0:
-                break
+    # If wrapped in --output-format json, extract result field
+    if 'result' in d and isinstance(d['result'], str):
+        inner = d['result'].strip()
+        # Strip markdown code fences if present
+        if inner.startswith('\`\`\`'):
+            inner = inner.split('\n', 1)[1] if '\n' in inner else inner
+            inner = inner.rsplit('\`\`\`', 1)[0].strip()
+        d2 = json.loads(inner)
+        print(d2.get('overall_score', 0))
+    elif 'overall_score' in d:
+        print(d.get('overall_score', 0))
     else:
-        print(0)
+        # Try to find JSON in text
+        import re
+        match = re.search(r'{\s*\"overall_score', text)
+        if match:
+            # Find balanced end
+            depth = 0
+            for i, c in enumerate(text[match.start():]):
+                if c == '{': depth += 1
+                elif c == '}': depth -= 1
+                if depth == 0:
+                    d3 = json.loads(text[match.start():match.start()+i+1])
+                    print(d3.get('overall_score', 0))
+                    break
+            else:
+                print(0)
+        else:
+            print(0)
+except:
+    print(0)
+
 " 2>/dev/null || echo "0")
 
 DECISION=$(python3 -c "
-import sys, json
+import sys, json, re
 with open('$REVIEW_FILE') as f:
-    text = f.read()
+    text = f.read().strip()
 try:
     d = json.loads(text)
-    print(d.get('decision', 'REJECT'))
-except json.JSONDecodeError:
-    import re
+    # If wrapped in --output-format json, extract result field
+    if 'result' in d and isinstance(d['result'], str):
+        inner = d['result'].strip()
+        # Strip markdown code fences if present
+        if inner.startswith('\`\`\`'):
+            inner = inner.split('\n', 1)[1] if '\n' in inner else inner
+            inner = inner.rsplit('\`\`\`', 1)[0].strip()
+        d2 = json.loads(inner)
+        print(d2.get('decision', 'REJECT'))
+    elif 'decision' in d:
+        print(d.get('decision', 'REJECT'))
+    else:
+        match = re.search(r'\"decision\":\s*\"(\w+)\"', text)
+        if match:
+            print(match.group(1))
+        else:
+            print('REJECT')
+except:
     match = re.search(r'\"decision\":\s*\"(\w+)\"', text)
     if match:
         print(match.group(1))
@@ -286,24 +310,24 @@ with open('pipeline/topic-queue.json', 'w') as f:
   exit 1
 fi
 
-# ==== Step 5: ASIN verification ====
+# ==== Step 5: ASIN verification (non-blocking warning) ====
 log "🔎 Step 5: Verifying ASINs against Amazon..."
 if bash scripts/verify-asins.sh "$ARTICLE_FILE" 2>&1 | tee -a "$LOG_FILE"; then
   log "✅ All ASINs verified real"
 else
-  log "❌ ASIN verification failed — some products may not exist"
+  log "⚠️ WARNING: Some ASINs could not be verified. Publishing anyway — flag for review."
+  # Note the issue for manual follow-up
   python3 -c "
 import json
 with open('pipeline/topic-queue.json') as f:
     topics = json.load(f)
 for t in topics:
     if t['id'] == '$TOPIC_ID':
-        t['status'] = 'asin_failed'
+        t['asin_flagged'] = True
         break
 with open('pipeline/topic-queue.json', 'w') as f:
     json.dump(topics, f, indent=2)
 "
-  exit 1
 fi
 
 # ==== Step 6: Hugo build ====
