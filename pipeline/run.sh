@@ -97,7 +97,18 @@ Write a 1500-2000 word buyer's guide / comparison article targeting the keyword:
 IMPORTANT:
 - OUTPUT the COMPLETE ARTICLE with frontmatter as raw markdown.
 - Do NOT say 'I wrote the article' or give a summary. ONLY output the article itself.
-- Start with '---' (frontmatter delimiter).
+- Start with frontmatter (INCLUDE ALL FIELDS below verbatim, then fill them in). REQUIRED format:
+  ---
+  title: \"[Product] for [Audience] [Year]\"
+  date: $(date +%Y-%m-%d)
+  draft: false
+  description: \"Short SEO meta description (max 155 chars)\"
+  tags: [tag1, tag2, tag3]
+  author: \\\"MomBabyPicks Team\\\"
+  cover:
+    image: /images/posts/$SLUG.webp
+    alt: \\\"Description of the cover image\\\"
+  ---
 - End with the affiliate disclosure.
 
 CONTENT RULES:
@@ -111,21 +122,7 @@ CONTENT RULES:
 - NEVER make unsubstantiated claims like 'most recommended by pediatricians' or 'award-winning' — stick to verifiable product features
 - Use practical parent-experience tone (not clinical)
 - Affiliate disclosure at end
-- Frontmatter: title, date, description (≤155 chars), tags, cover image, author: MomBabyPicks Team
 - Output the article directly as raw markdown starting with ---. Do NOT wrap in code fences.
-
-SEO STRUCTURE:
----
-title: \"...\"
-date: $(date +%Y-%m-%d)
-draft: false
-description: \"...\"
-tags: [baby bottles, newborns, ...]
-cover:
-  image: /images/posts/${SLUG}.webp
-  alt: \"...\"
----
-
 ## Introduction
 ## How We Selected These Bottles
 ## Comparison Table
@@ -138,10 +135,9 @@ cover:
 ## FAQ
 ## Which Bottle Should You Choose?" 2>/dev/null > "$ARTICLE_FILE.tmp" || (echo "ERROR:claude_failed" > "$ARTICLE_FILE.tmp")
 
-# Strip code fences from raw output (direct file processing)
-python3 scripts/strip-fences.py < "$ARTICLE_FILE.tmp" > "$ARTICLE_FILE" 2>/dev/null || cp "$ARTICLE_FILE.tmp" "$ARTICLE_FILE"
+# Clean raw output with external script (handles strip-fences + auto-frontmatter)
+python3 scripts/auto-frontmatter.py "$KEYWORD" "$SLUG" "$BRIEF_FILE" < "$ARTICLE_FILE.tmp" > "$ARTICLE_FILE" 2>/dev/null || cp "$ARTICLE_FILE.tmp" "$ARTICLE_FILE"
 rm -f "$ARTICLE_FILE.tmp"
-
 # Check if article has real content (frontmatter marker)
 if ! head -1 "$ARTICLE_FILE" | grep -q "^---"; then
   log "❌ Claude did not output valid article (no frontmatter)"
