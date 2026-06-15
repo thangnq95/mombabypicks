@@ -292,8 +292,28 @@ with open('pipeline/topic-queue.json', 'w') as f:
   exit 1
 fi
 
-# ==== Step 7: Hugo build ====
-log "🏗️ Step 5: Hugo build..."
+# ==== Step 5: ASIN verification ====
+log "🔎 Step 5: Verifying ASINs against Amazon..."
+if bash scripts/verify-asins.sh "$ARTICLE_FILE" 2>&1 | tee -a "$LOG_FILE"; then
+  log "✅ All ASINs verified real"
+else
+  log "❌ ASIN verification failed — some products may not exist"
+  python3 -c "
+import json
+with open('pipeline/topic-queue.json') as f:
+    topics = json.load(f)
+for t in topics:
+    if t['id'] == '$TOPIC_ID':
+        t['status'] = 'asin_failed'
+        break
+with open('pipeline/topic-queue.json', 'w') as f:
+    json.dump(topics, f, indent=2)
+"
+  exit 1
+fi
+
+# ==== Step 6: Hugo build ====
+log "🏗️ Step 6: Hugo build..."
 cd "$REPO_DIR"
 if hugo 2>&1 | tee -a "$LOG_FILE"; then
   log "✅ Hugo build succeeded"
@@ -302,13 +322,13 @@ else
   exit 1
 fi
 
-# ==== Step 8: Git commit ====
-log "📦 Step 6: Committing..."
-git add content/posts/ public/
+# ==== Step 7: Git commit & push ====
+log "📦 Step 7: Committing & pushing..."
+git add content/posts/
 git commit -m "feat: add $SLUG" 2>&1 | tee -a "$LOG_FILE"
 git push origin main 2>&1 | tee -a "$LOG_FILE"
 
-# ==== Step 9: Update queue ====
+# ==== Step 8: Update queue ====
 python3 -c "
 import json
 with open('pipeline/topic-queue.json') as f:
@@ -323,7 +343,7 @@ with open('pipeline/topic-queue.json', 'w') as f:
     json.dump(topics, f, indent=2)
 "
 
-# ==== Step 10: Log sprint ====
+# ==== Step 9: Log sprint ====
 python3 -c "
 import json
 with open('pipeline/sprint-log.json') as f:
