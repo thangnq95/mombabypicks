@@ -56,28 +56,74 @@ Every new article MUST follow these image rules:
 - [x] Minimum 3 Amazon product links
 - [x] Unique ASINs (10-char format)
 - [x] Affiliate tag (mombabypick00-20)
-- [x] FAQ section present
-- [x] Internal links to other posts
+- [x] FAQ section present (4-5 questions)
+- [x] Internal links to other posts (>= 2)
 - [x] Pinterest pin published
-- [x] Word count >= 500
-- [x] Comparison section present
+- [x] Word count >= 800
+- [x] Comparison table present (with Price column)
 - [x] Reviewer score >= 85
 - [x] Cover image present (`cover.image` in frontmatter)
 - [x] Pinterest pin images exist (>= 1 in `static/images/pins/`)
 - [x] Social share `images:` frontmatter set
+- [x] Price range / pricing info in comparison table
+
+## Article Template (MANDATORY)
+Every new article MUST follow this exact format structure:
+
+```markdown
+## How We Selected These Products
+(Explain criteria: safety, features, price, parent feedback)
+
+## Comparison Table
+| Product | Price | Key Feature 1 | Key Feature 2 | Key Feature 3 | Best For |
+|---|---|---|---|---|---|
+| Product A | $XX-$YY | ✅ | ⭐ 9/10 | 5 modes | Best value |
+| Product B | $XX-$YY | ❌ | ⭐ 8/10 | 3 modes | Premium pick |
+
+*Prices based on [source] as of [month/year].*
+
+## Product Deep Dives
+### 1. Product Name — [Badge: Best Value / Premium Pick / etc.]
+**Specs:** Weight X lbs, Material Y, Warranty Z
+**Price:** $XX-$YY
+**Pros:**
+- ...
+**Cons:**
+- ...
+**Who it's for:** ...
+{{< amazon url="..." text="Check Price on Amazon →" >}}
+*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+
+(Repeat for products 2-5)
+
+## Comparison (text summary)
+(1-2 paragraphs summarizing key differences and recommendations)
+
+## FAQ
+### Q1?
+...
+### Q2?
+...
+(4-5 questions)
+
+## Related Articles
+- [Internal link 1](/posts/slug/)
+- [Internal link 2](/posts/slug/)
+```
 
 ## Article Standards
-- 800-1000 words
-- 4-5 products per article
-- Comparison table
-- FAQ (4-5 questions)
-- Affiliate disclosure at end
-- At least 1 Pinterest pin published before publish; 3-pin packs are preferred
-- Warm, practical parent-to-parent tone
-- Relative internal links: `/posts/slug/`
-- Cover image in frontmatter (`cover.image`)
-- Pinterest pin images (3 per article)
-- Social share `images:` frontmatter (points to pin-1)
+- **800-1200 words** (minimum 800)
+- **5 products per article** (minimum 4)
+- **Comparison table with Price column** — always include approximate price or price range
+- **Product deep dives** — each product gets: Specs, Price, Pros/Cons, Who it's for
+- **FAQ** (4-5 questions, real parent concerns, not generic)
+- **Affiliate disclosure** at end: `(paid link) As an Amazon Associate I earn from qualifying purchases.`
+- **At least 1 Pinterest pin** published before publish; 3-pin packs preferred
+- **Warm, practical parent-to-parent tone** — "We tested this" language, not "I tried this"
+- **Relative internal links**: `/posts/slug/` (minimum 2 per article)
+- **Cover image** in frontmatter (`cover.image`)
+- **Pinterest pin images** (3 per article)
+- **Social share `images:` frontmatter** (points to pin-1)
 
 ## Key Paths
 - Content: `content/posts/`
@@ -94,6 +140,6 @@ Every new article MUST follow these image rules:
 ## Rules
 - **No deep Amazon research** — Hermes only proposes topics/keywords, not ASINs or pricing
 - Claude writes with placeholder ASINs — these need manual or script-based verification before final publish
-- Every article must pass all 11 QA gates
+- Every article must pass all QA gates (15 gates)
 - Every article must score >= 85 from Reviewer
 - Topic queue priority system: 1 = hottest, 4 = evergreen filler
