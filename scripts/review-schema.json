@@ -1,0 +1,63 @@
+{
+  "type": "object",
+  "properties": {
+    "overall_score": {
+      "type": "integer",
+      "description": "Overall quality score 0-100"
+    },
+    "decision": {
+      "type": "string",
+      "enum": ["PASS", "REVISE", "REJECT"],
+      "description": "PASS >= 85, REVISE 70-84, REJECT < 70"
+    },
+    "dimensions": {
+      "type": "object",
+      "properties": {
+        "seo_quality": {
+          "type": "integer",
+          "description": "SEO structure, keyword usage, headings"
+        },
+        "readability": {
+          "type": "integer",
+          "description": "Sentence length, paragraph structure, clarity"
+        },
+        "affiliate_compliance": {
+          "type": "integer",
+          "description": "Affiliate disclosure present, Amazon links formatted correctly"
+        },
+        "content_completeness": {
+          "type": "integer",
+          "description": "Covers topic fully, sufficient word count (800+)"
+        },
+        "product_coverage": {
+          "type": "integer",
+          "description": "At least 3 products, with pros/cons for each"
+        },
+        "internal_linking": {
+          "type": "integer",
+          "description": "Links to existing posts on mombabypicks.com"
+        },
+        "eeat_signals": {
+          "type": "integer",
+          "description": "Experience, Expertise, Authoritativeness, Trustworthiness"
+        },
+        "hallucination_risk": {
+          "type": "integer",
+          "description": "LOWER = safer. Below 60 triggers auto-REJECT."
+        }
+      },
+      "required": ["seo_quality", "readability", "affiliate_compliance", "content_completeness", "product_coverage", "internal_linking", "eeat_signals", "hallucination_risk"]
+    },
+    "issues": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Specific issues found, empty if none"
+    },
+    "auto_reject_reasons": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Reasons that would trigger auto-reject regardless of score"
+    }
+  },
+  "required": ["overall_score", "decision", "dimensions", "issues"]
+}
