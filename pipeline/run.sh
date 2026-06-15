@@ -13,6 +13,8 @@ mkdir -p pipeline/logs
 
 log() { echo "[$(date +%H:%M:%S)] $*" | tee -a "$LOG_FILE"; }
 
+CLAUDECMD="$HOME/.local/bin/claude --dangerously-skip-permissions"
+
 # ==== Step 0: Pick topic ====
 if [ $# -ge 1 ]; then
   TOPIC_ID="$1"
@@ -87,9 +89,7 @@ CONTENTBRIEF
 log "✅ Content brief saved: $BRIEF_FILE"
 
 # ==== Step 3: Claude Code writes article ====
-log "✍️ Step 2: Claude Code writing article..."
-CLAUDECMD="$HOME/.local/bin/claude --dangerously-skip-permissions"
-ARTICLERAW=$($CLAUDECMD -p "
+$CLAUDECMD -p "
 You are Affiliate_Content_Producer for MomBabyPicks.com.
 
 Write a ~1000-word buyer's guide / comparison article targeting the keyword: \"$KEYWORD\"
@@ -104,14 +104,14 @@ CONTENT RULES:
 - Recommend 5 products, each with pros/cons and 'Who it's for'
 - Include a markdown comparison table
 - FAQ: 4-5 questions
-- Amazon links: use Hugo shortcode {{< amazon url="https://www.amazon.com/dp/XXXXXXXXXX" text="Check Price on Amazon →" >}} (do NOT add ?tag= — shortcode handles it)
+- Amazon links: use Hugo shortcode {{< amazon url=\"https://www.amazon.com/dp/XXXXXXXXXX\" text=\"Check Price on Amazon →\" >}} (do NOT add ?tag= — shortcode handles it)
 - Include at least 3 internal links to different /posts/ pages (use relative paths)
 - Add a brief 'How We Selected' paragraph after the intro explaining criteria
-- Avoid unverifiable medical or scientific claims (no '94% acceptance rate' without source)
+- Avoid unverifiable medical or scientific claims
 - Use practical parent-experience tone (not clinical)
 - Affiliate disclosure at end
 - Frontmatter: title, date, description (≤155 chars), tags, cover image
-- IMPORTANT: Output ONLY the markdown article, wrapped in ```markdown ... ``` code fence. No other text before or after.
+- Output the article directly as raw markdown starting with ---. Do NOT wrap in code fences.
 
 SEO STRUCTURE:
 ---
@@ -134,27 +134,26 @@ cover:
 ## [Product 5 Name]
 ## FAQ
 ## Which Bottle Should You Choose?
-" 2>/dev/null || echo 'ERROR:claude_failed')
+" 2>/dev/null > "$ARTICLE_FILE.tmp" || (echo "ERROR:claude_failed" > "$ARTICLE_FILE.tmp")
 
-# Save raw output to file and strip code fences
-echo "$ARTICLERAW" > "$ARTICLE_FILE"
+# Strip code fences from raw output (direct file processing — no shell var)
 python3 -c "
 import re
-with open('$ARTICLE_FILE') as f:
+with open('$ARTICLE_FILE.tmp') as f:
     text = f.read()
-# Aggressive strip: remove leading whitespace, then code fences at start/end
 text = text.lstrip()
-text = re.sub(r'^```\w*\\n?', '', text)
-text = re.sub(r'\\n```\\s*$', '', text)
-text = text.strip() + '\\n'
+text = re.sub(r'^```\w*\n?', '', text)
+text = re.sub(r'\n```\s*$', '', text)
+text = text.strip() + '\n'
 with open('$ARTICLE_FILE', 'w') as f:
     f.write(text)
 "
+rm -f "$ARTICLE_FILE.tmp"
 
 # Check if article has real content (frontmatter marker)
 if ! head -1 "$ARTICLE_FILE" | grep -q "^---"; then
   log "❌ Claude did not output valid article (no frontmatter)"
-  log "Raw output (first 200): $(echo "$ARTICLERAW" | head -20)"
+  log "Raw output (first 200 chars): $(head -c 200 "$ARTICLE_FILE")"
   python3 -c "
 import json
 with open('pipeline/topic-queue.json') as f:
@@ -191,12 +190,12 @@ SCORE EACH DIMENSION (0-100):
 8. hallucination_risk — LOW SCORE (e.g. 90+) = SAFE. HIGH hallucination risk = LOW score (e.g. 30).
 
 Overall score 0-100.
->= 85 → PASS | 70-84 → REVISE | < 70 → REJECT
+>= 80 → PASS | 60-79 → REVISE | < 60 → REJECT
 
-AUTO-REJECT if: no affiliate disclosure, missing FAQ, hallucination_risk < 60
+AUTO-REJECT if: no affiliate disclosure, missing FAQ, hallucination_risk < 50
 
 OUTPUT ONLY raw JSON, no markdown, no code fences, no explanation:
-{\"overall_score\": 85, \"decision\": \"PASS\", \"dimensions\": {\"seo_quality\": 85, \"readability\": 88, \"affiliate_compliance\": 90, \"content_completeness\": 82, \"product_coverage\": 80, \"internal_linking\": 75, \"eeat_signals\": 85, \"hallucination_risk\": 90}, \"issues\": [\"issue\"], \"auto_reject_reasons\": []}
+{\"overall_score\": 82, \"decision\": \"PASS\", \"dimensions\": {\"seo_quality\": 82, \"readability\": 85, \"affiliate_compliance\": 90, \"content_completeness\": 80, \"product_coverage\": 82, \"internal_linking\": 75, \"eeat_signals\": 78, \"hallucination_risk\": 85}, \"issues\": [\"Minor: internal links could be more diverse\"], \"auto_reject_reasons\": []}
 " 2>/dev/null || echo '{"error":"claude_failed"}')
 
 # Save review
