@@ -22,6 +22,7 @@
 - Validate the article against Hugo and PaperMod rules.
 - Confirm front matter, formatting, link integrity, disclosure, and image path.
 - Act as a QA gate before anything is published.
+- Own `In Review` as an AI-only validation state.
 - Return a deploy package only after validation passes.
 - Reject drafts that are text-only when the topic benefits from product imagery or comparison visuals.
 
@@ -53,7 +54,7 @@
 5. Hugo Publisher places the final post in `content/posts/`.
 6. Add at least one visual guide image and a Pinterest-safe featured image into `static/images/posts/`.
 7. Run `hugo --gc --minify` and fix build errors.
-8. If build passes, update the Multica ticket to `Live`.
+8. If AI QA and build both pass, Hermes updates the Multica ticket to `Live` automatically.
 9. Pinterest Growth creates 3 pins that point to the article URL.
 10. Publish live pins only after the article URL and visual assets exist.
 11. Commit, push, and record the live URL for the sprint log in Multica.
@@ -86,6 +87,7 @@
 - Change `Affiliate_Content_Producer` to output raw Markdown plus a clear `UNSAVED` or `SAVED` status based on actual filesystem write.
 - Change `Affiliate_Hugo_Publisher` to reject drafts missing `draft: false`, valid cover image, or valid affiliate tag usage.
 - Change `Affiliate_Hugo_Publisher` to check `hugo --gc --minify` before declaring completion.
+- Change `Affiliate_Hugo_Publisher` to emit a machine-readable PASS or FAIL checklist so Hermes can auto-transition ticket state.
 - Change `Affiliate_Pinterest_Growth` to wait on the published article URL before generating pin assets.
 - Change `Affiliate_Content_Producer` to include a visual block recommendation and at least one image placement per article.
 - Change `Affiliate_Pinterest_Growth` to prefer posts that expose multiple scrapeable images, not only a single cover.
@@ -124,3 +126,9 @@ Operational note:
 - Do not publish direct image URLs as pin destinations. If Pinterest locks the destination to the image URL, cancel and use the create-button URL.
 - Use UTM parameters per pin, for example `utm_source=pinterest&utm_medium=organic&utm_campaign=pin2`.
 - For repeatability, create three portrait pin assets per post and keep the article URL stable.
+
+## Review Policy
+
+- Human review is optional, not required, for normal sprint throughput.
+- `In Review` should be renamed or interpreted as `AI QA Review`.
+- The only valid reasons to stop for manual input are failed validation, policy uncertainty, login or permission prompts, or a platform-side error that the agents cannot safely repair.

@@ -21,6 +21,8 @@ The goal is to reduce Codex usage and push the first pass of work to Claude, wit
 > Only hand work to Codex when the task requires repo access, Hugo build verification, asset creation, or browser publishing.
 > Do not mark a ticket complete until the required artifact exists and is verified.
 > Treat the Multica ticket as the single source of truth.
+> Do not pause for human review in the normal path.
+> If the AI QA checklist passes, move the ticket forward automatically.
 
 ## Claude Prompt
 
@@ -69,6 +71,8 @@ The goal is to reduce Codex usage and push the first pass of work to Claude, wit
 > Confirm front matter, PaperMod formatting, disclosure, Amazon tag usage, image paths, and Hugo build compatibility.
 > Reject drafts that are text-only when the article would benefit from visuals.
 > Fix the markdown only if a concrete validation issue exists.
+> Treat `In Review` as AI review owned by this agent.
+> Return a machine-readable PASS or FAIL checklist summary so Hermes can transition the ticket without user input.
 > Return DEPLOY PACKAGE only after `hugo --gc --minify` passes.
 
 ## Affiliate_Pinterest_Growth Prompt
@@ -107,7 +111,7 @@ Acceptance:
 3. Hermes attaches Claude output to the ticket and assigns Codex.
 4. Codex validates the draft and adds or checks visual assets.
 5. Codex runs Hugo and fixes any build errors.
-6. Hermes marks the ticket `Live` and hands the live URL to Pinterest Growth.
+6. If AI QA passes, Hermes marks the ticket `Live` automatically and hands the live URL to Pinterest Growth.
 7. Pinterest Growth creates the 3-pin pack.
 8. Codex or Pinterest Growth publishes the live pins if browser action is needed.
 9. Hermes records the final URL, commit, and result in Multica.

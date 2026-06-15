@@ -15,7 +15,7 @@ This runbook makes Multica the source of truth for the MomBabyPicks affiliate pi
 1. `Open`
 2. `Strategizing`
 3. `Draft Ready`
-4. `QA Review`
+4. `AI QA Review`
 5. `Publish Ready`
 6. `Live`
 7. `Pinterest Ready`
@@ -39,6 +39,8 @@ This runbook makes Multica the source of truth for the MomBabyPicks affiliate pi
 - Claude replies with strategy, product candidates, and a draft package.
 - Hermes updates the ticket to `Draft Ready` and assigns `Affiliate_Hugo_Publisher`.
 - Codex validates the draft, writes or fixes repo files, and runs Hugo.
+- `Affiliate_Hugo_Publisher` owns the review gate. Human review is not required for normal sprint flow.
+- If every validation check passes, Hermes automatically moves the ticket from `AI QA Review` to `Live`.
 - Hermes updates the ticket to `Live` only after the article URL exists.
 - Hermes then assigns `Affiliate_Pinterest_Growth` or asks Codex to publish live pins when browser action is needed.
 - The ticket can only move to `Complete` after live article, live pins, and commit hash are all recorded.
@@ -70,7 +72,8 @@ NEXT: Affiliate_Pinterest_Growth
 ## Failure Rules
 
 - If a required file does not exist, the ticket stays open.
-- If Hugo build fails, the ticket stays in `QA Review`.
+- If Hugo build fails, the ticket stays in `AI QA Review`.
 - If the article URL is not live, do not create the Pinterest pack.
 - If a pin destination becomes a raw image URL, cancel and retry with the create-button flow.
 - If an agent claims completion without an artifact, treat the claim as unverified.
+- If validation passes, no human approval step should block the ticket.

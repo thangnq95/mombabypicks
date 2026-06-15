@@ -40,6 +40,8 @@ Split affiliate work so no single agent does everything:
 - For live Pinterest publishing, prefer create-button URLs with separate article `url=` and image `media=` parameters.
 - Do not publish pins whose destination is a raw image URL.
 - Do not send the same task to multiple agents at the same time unless the task is explicitly parallel.
+- `In Review` should mean AI review by `Affiliate_Hugo_Publisher`, not waiting for the user.
+- Only escalate to a human when a validation rule fails and the system cannot repair it safely.
 
 ## Agent Prompts
 
@@ -71,6 +73,8 @@ Use this prompt:
 > Validate the draft as a QA gate.
 > Confirm front matter, PaperMod formatting, disclosure, Amazon tag usage, image paths, and Hugo build.
 > Reject drafts that are text-only when the topic benefits from visuals.
+> Treat `In Review` as an autonomous AI gate, not a request for user approval.
+> If validation passes, return `DEPLOY PACKAGE` and a machine-readable checklist result so Hermes can move the ticket forward automatically.
 > Only return DEPLOY PACKAGE after `hugo --gc --minify` passes.
 
 ### Affiliate_Pinterest_Growth
@@ -95,6 +99,8 @@ Use this prompt:
 > Use the Multica ticket as the source of truth for state.
 > Copy strategist output into Multica when opening the sprint issue.
 > Keep Codex out of early ideation tasks unless a local file, build, or browser publish is required.
+> Never wait for human review during normal sprint execution.
+> When `Affiliate_Hugo_Publisher` returns a passing checklist, automatically move the ticket from `In Review` to the next state.
 
 ### Codex
 
