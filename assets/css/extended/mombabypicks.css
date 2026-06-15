@@ -1,5 +1,5 @@
 :root,
-:root[data-theme="dark"] {
+:root[data-theme="light"] {
   --theme: #fff8f4;
   --entry: #ffffff;
   --primary: #2f201c;
@@ -15,6 +15,22 @@
   color-scheme: light;
 }
 
+:root[data-theme="dark"] {
+  --theme: #1f1916;
+  --entry: #2a221d;
+  --primary: #f6ebe5;
+  --secondary: #ccb6ab;
+  --tertiary: #4f4039;
+  --content: #eadfd9;
+  --code-bg: #2d241f;
+  --code-block-bg: #18110e;
+  --border: #4b3d36;
+  --radius: 18px;
+  --main-width: 860px;
+  --nav-width: 1180px;
+  color-scheme: dark;
+}
+
 body {
   background:
     radial-gradient(circle at top left, rgba(255, 214, 201, 0.5), transparent 34rem),
@@ -22,6 +38,19 @@ body {
     linear-gradient(180deg, #fff8f4 0%, #fffaf7 48%, #ffffff 100%);
   color: var(--content);
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+:root[data-theme="dark"] body {
+  background:
+    radial-gradient(circle at top left, rgba(116, 83, 68, 0.2), transparent 34rem),
+    radial-gradient(circle at top right, rgba(77, 60, 52, 0.24), transparent 30rem),
+    linear-gradient(180deg, #1f1916 0%, #221b18 54%, #17120f 100%);
+}
+
+:root[data-theme="dark"] .list {
+  background:
+    radial-gradient(circle at top right, rgba(91, 72, 61, 0.22), transparent 24rem),
+    linear-gradient(180deg, #1f1916 0%, #221b18 42%, #17120f 100%);
 }
 
 .list {
@@ -37,6 +66,11 @@ body {
   background: rgba(255, 248, 244, 0.9);
   border-bottom: 1px solid rgba(239, 216, 207, 0.85);
   backdrop-filter: blur(18px);
+}
+
+:root[data-theme="dark"] .header {
+  background: rgba(31, 25, 22, 0.92);
+  border-bottom-color: rgba(75, 61, 54, 0.95);
 }
 
 .header-nav {
@@ -272,6 +306,13 @@ body {
   box-shadow: 0 8px 18px rgba(116, 74, 64, 0.07);
 }
 
+:root[data-theme="dark"] .home-quick-links a {
+  background: rgba(42, 34, 29, 0.92);
+  border-color: #4b3d36;
+  color: #f3dfd4;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+
 .home-trust-card {
   display: flex;
   flex-direction: column;
@@ -280,6 +321,11 @@ body {
   border: 1px solid rgba(240, 216, 206, 0.9);
   border-radius: 24px;
   background: rgba(255, 255, 255, 0.7);
+}
+
+:root[data-theme="dark"] .home-trust-card {
+  border-color: rgba(75, 61, 54, 0.96);
+  background: rgba(42, 34, 29, 0.88);
 }
 
 .home-trust-label {
@@ -303,6 +349,11 @@ body {
   border: 1px solid #efd7cf;
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.88);
+}
+
+:root[data-theme="dark"] .home-trust-grid div {
+  border-color: #4b3d36;
+  background: rgba(37, 30, 26, 0.96);
 }
 
 .home-trust-grid strong,
@@ -333,6 +384,12 @@ body {
   box-shadow: 0 14px 36px rgba(116, 74, 64, 0.08);
 }
 
+:root[data-theme="dark"] .post-entry {
+  border-color: #4b3d36;
+  background: rgba(42, 34, 29, 0.94);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.2);
+}
+
 .post-entry:hover,
 .post-entry:focus-within {
   border-color: #e8b9a7;
@@ -356,6 +413,12 @@ body {
   border-radius: 22px;
   background: rgba(255, 255, 255, 0.9);
   box-shadow: 0 18px 46px rgba(116, 74, 64, 0.08);
+}
+
+:root[data-theme="dark"] .post-single {
+  border-color: #4b3d36;
+  background: rgba(42, 34, 29, 0.94);
+  box-shadow: 0 18px 46px rgba(0, 0, 0, 0.2);
 }
 
 .post-header,
@@ -390,6 +453,11 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
+:root[data-theme="dark"] .post-content table {
+  border-color: #4b3d36;
+  background: #241d19;
+}
+
 .post-content th {
   background: #ffe7df;
   color: #5c3731;
@@ -402,6 +470,10 @@ body {
 
 .amazon-box {
   margin: 1rem 0 1.35rem;
+}
+
+:root[data-theme="dark"] .amazon-box {
+  color: var(--content);
 }
 
 .amazon-disclosure {
@@ -436,8 +508,17 @@ body {
   color: #8d4b43;
 }
 
+:root[data-theme="dark"] .post-tags a {
+  background: #2d241f;
+  color: #f2ddd2;
+}
+
 .footer {
   color: #816a61;
+}
+
+:root[data-theme="dark"] .footer {
+  color: #c1aba0;
 }
 
 .footer a {
@@ -608,36 +689,86 @@ body {
     box-shadow: 0 14px 24px rgba(241, 108, 88, 0.24);
   }
 
-  .nav-drawer-backdrop {
-    position: fixed;
-    inset: 0;
-    z-index: 35;
-    background: rgba(47, 32, 28, 0.26);
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.24s ease;
+  :root[data-theme="dark"] .header {
+    background: rgba(31, 25, 22, 0.96);
+    border-bottom-color: rgba(75, 61, 54, 0.95);
   }
 
-  .nav-toggle:checked ~ .nav-drawer-backdrop {
+  .mobile-menu-state:checked ~ .menu-overlay {
     display: block;
     opacity: 1;
     pointer-events: auto;
   }
 
-  .nav-toggle:checked ~ .menu {
+  .mobile-menu-state:checked ~ .menu {
     transform: translateX(0);
   }
 
-  .nav-toggle:checked + .logo .nav-toggle-label span:nth-child(1) {
+  .mobile-menu-state:checked + .mobile-menu-toggle span:nth-child(1) {
     transform: translateY(6px) rotate(45deg);
   }
 
-  .nav-toggle:checked + .logo .nav-toggle-label span:nth-child(2) {
+  .mobile-menu-state:checked + .mobile-menu-toggle span:nth-child(2) {
     opacity: 0;
   }
 
-  .nav-toggle:checked + .logo .nav-toggle-label span:nth-child(3) {
+  .mobile-menu-state:checked + .mobile-menu-toggle span:nth-child(3) {
     transform: translateY(-6px) rotate(-45deg);
+  }
+
+  :root[data-theme="dark"] .mobile-menu-toggle {
+    background: #2a221d;
+    border-color: #4b3d36;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25);
+  }
+
+  :root[data-theme="dark"] .mobile-menu-toggle span {
+    background: #f2ddd2;
+  }
+
+  :root[data-theme="dark"] .logo a {
+    color: #f3dfd4;
+  }
+
+  :root[data-theme="dark"] .site-branding-text strong {
+    color: #f6ebe5;
+  }
+
+  :root[data-theme="dark"] .site-branding-text small {
+    color: #d2b8ab;
+  }
+
+  :root[data-theme="dark"] .menu-mobile-title {
+    color: #f0c4b4;
+  }
+
+  :root[data-theme="dark"] .menu-mobile-cta a span {
+    background: linear-gradient(135deg, #ef826f 0%, #f0a06f 100%);
+    color: #1f1916;
+  }
+
+  :root[data-theme="dark"] .menu-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  :root[data-theme="dark"] .menu {
+    background: rgba(42, 34, 29, 0.98);
+    box-shadow: 18px 0 48px rgba(0, 0, 0, 0.28);
+  }
+
+  :root[data-theme="dark"] .menu > li > a > span {
+    color: #f2ddd2;
+  }
+
+  :root[data-theme="dark"] .menu > li > a:hover > span,
+  :root[data-theme="dark"] .menu .active {
+    background: rgba(115, 80, 68, 0.32);
+    color: #fff3ec;
+  }
+
+  :root[data-theme="dark"] .amazon-box {
+    background: rgba(42, 34, 29, 0.94);
+    border-color: #4b3d36;
   }
 
   .first-entry {
