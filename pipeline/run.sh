@@ -87,68 +87,58 @@ CONTENTBRIEF
 log "✅ Content brief saved: $BRIEF_FILE"
 
 # ==== Step 3: Claude Code writes article ====
-CLAUDECMD="$HOME/.local/bin/claude"
 log "✍️ Step 2: Claude Code writing article..."
-CLAUDEOUT=$($CLAUDECMD -p "
-You are Affiliate_Content_Producer for MomBabyPicks.com — an Amazon affiliate site helping parents find the best baby products.
+CLAUDECMD="$HOME/.local/bin/claude"
+ARTICLERAW=$($CLAUDECMD -p "
+You are Affiliate_Content_Producer for MomBabyPicks.com.
 
-Write a 1000-word buyer's guide / comparison article targeting the keyword: \"$KEYWORD\"
+Write a ~1000-word buyer's guide / comparison article targeting the keyword: \"$KEYWORD\"
 
-IMPORTANT RULES:
-1. Write for real parents — practical, warm tone, not salesy
-2. Recommend 4-5 products in each category. Use GENERIC amazon links with format: https://www.amazon.com/dp/XXXXXXXXXX?tag=mombabypick00-20
-3. Each product needs: a paragraph about who it's best for, pros/cons, the downside
-4. Include a comparison table (using markdown table)
-5. Include FAQ section with 4-5 questions
-6. Link to at least 1 existing post on this site using relative /posts/ URLs
-7. End with affiliate disclosure: \"As an Amazon Associate I earn from qualifying purchases.\"
-8. Frontmatter with title, date: $(date +%Y-%m-%d), description (max 155 chars), tags, cover image
+IMPORTANT:
+- OUTPUT the COMPLETE ARTICLE with frontmatter as raw markdown. 
+- Do NOT say 'I wrote the article' or give a summary. ONLY output the article itself.
+- Start with '---' (frontmatter delimiter).
+- End with the affiliate disclosure.
+
+CONTENT RULES:
+- Recommend 5 products, each with pros/cons and 'Who it's for'
+- Include a markdown comparison table
+- FAQ: 4-5 questions
+- Amazon links: https://www.amazon.com/dp/XXXXXXXXXX?tag=mombabypick00-20
+- Internal links to /posts/ (use relative paths)
+- Affiliate disclosure at end
+- Frontmatter: title, date, description (≤155 chars), tags, cover image
 
 SEO STRUCTURE:
-- H2: Introduction (what the parent is looking for)
-- H2: [Category] Comparison Table
-- H2: Product 1
-- H2: Product 2  
-- H2: Product 3
-- H2: Product 4
-- H2: FAQ
-- H2: Which One Should You Choose?
-
-OUTPUT FORMAT: 
-\`\`\`
 ---
 title: \"...\"
 date: $(date +%Y-%m-%d)
 draft: false
-description: \"155-char meta description\"
-tags: [tag1, tag2, tag3]
+description: \"...\"
+tags: [baby bottles, newborns, ...]
 cover:
   image: /images/posts/${SLUG}.webp
   alt: \"...\"
 ---
 
-[article content...]
-\`\`\`
-" --allowedTools "Read,Write" --max-turns 10 --output-format json 2>/dev/null || echo '{"error":"claude failed"}')
+## Introduction
+## Comparison Table
+## [Product 1 Name]
+## [Product 2 Name]
+## [Product 3 Name]
+## [Product 4 Name]
+## [Product 5 Name]
+## FAQ
+## Which Bottle Should You Choose?
+" 2>/dev/null || echo 'ERROR:claude_failed')
 
-# Extract article content from Claude output
-ARTICLE_BODY=$(echo "$CLAUDEOUT" | python3 -c "
-import sys, json
-try:
-    data = json.load(sys.stdin)
-    if 'result' in data:
-        print(data['result'])
-    elif 'error' in data:
-        print('ERROR: ' + data['error'])
-    else:
-        print(json.dumps(data, indent=2)[:500])
-except:
-    print(sys.stdin.read()[:500])
-" 2>/dev/null || echo "ERROR: Could not parse Claude output")
+# Save raw output to file and check
+echo "$ARTICLERAW" > "$ARTICLE_FILE"
 
-# Check if Claude succeeded
-if echo "$ARTICLE_BODY" | grep -q "^ERROR"; then
-  log "❌ Claude failed: $ARTICLE_BODY"
+# Check if article has real content (frontmatter marker)
+if ! head -1 "$ARTICLE_FILE" | grep -q "^---"; then
+  log "❌ Claude did not output valid article (no frontmatter)"
+  log "Raw output (first 200): $(echo "$ARTICLERAW" | head -20)"
   python3 -c "
 import json
 with open('pipeline/topic-queue.json') as f:
@@ -165,98 +155,62 @@ with open('pipeline/topic-queue.json', 'w') as f:
   exit 1
 fi
 
-# Save draft
-echo "$ARTICLE_BODY" > "$ARTICLE_FILE"
 log "✅ Article written: $ARTICLE_FILE"
 
 # ==== Step 4: Claude Code reviews article ====
 log "🔍 Step 3: Claude Code reviewing article..."
-REVIEW_OUT=$($CLAUDECMD -p "
-You are Affiliate_Content_ReviewER for MomBabyPicks.com. Review this article and score it.
+REVIEW_RAW=$($CLAUDECMD -p "
+You are Affiliate_Content_ReviewER for MomBabyPicks.com.
 
-ARTICLE FILE: $ARTICLE_FILE
+Read the article at $ARTICLE_FILE and score it.
 
 SCORE EACH DIMENSION (0-100):
-1. seo_quality — keyword in H1, H2s, meta, naturally used
-2. readability — clear sentences, scannable, good paragraph breaks  
-3. affiliate_compliance — disclosure present, Amazon links formatted correctly with tag
-4. content_completeness — covers topic well, sufficient depth, 800+ words
-5. product_coverage — 4+ products with pros/cons and who-it's-for
-6. internal_linking — links to at least 1 other /posts/ page
-7. eeat_signals — shows practical experience, trustworthy tone
-8. hallucination_risk — LOW SCORE = safer. If you suspect fabricated claims, score LOW.
+1. seo_quality
+2. readability
+3. affiliate_compliance
+4. content_completeness
+5. product_coverage
+6. internal_linking
+7. eeat_signals
+8. hallucination_risk — LOW SCORE (e.g. 90+) = SAFE. HIGH hallucination risk = LOW score (e.g. 30).
 
-Overall score 0-100. Decision:
-- >= 85 → PASS
-- 70-84 → REVISE  
-- < 70 → REJECT
+Overall score 0-100.
+>= 85 → PASS | 70-84 → REVISE | < 70 → REJECT
 
-AUTO-REJECT if:
-- No affiliate disclosure
-- Missing FAQ section
-- hallucination_risk < 60
+AUTO-REJECT if: no affiliate disclosure, missing FAQ, hallucination_risk < 60
 
-OUTPUT ONLY valid JSON with this exact schema:
-\`\`\`json
-{
-  \"overall_score\": 85,
-  \"decision\": \"PASS\",
-  \"dimensions\": {
-    \"seo_quality\": 85,
-    \"readability\": 88,
-    \"affiliate_compliance\": 90,
-    \"content_completeness\": 82,
-    \"product_coverage\": 80,
-    \"internal_linking\": 75,
-    \"eeat_signals\": 85,
-    \"hallucination_risk\": 90
-  },
-  \"issues\": [
-    \"Internal links could be stronger\"
-  ],
-  \"auto_reject_reasons\": []
-}
-\`\`\`
-" --allowedTools "Read" --max-turns 3 --output-format json 2>/dev/null || echo '{"error":"review claude failed"}')
+OUTPUT ONLY raw JSON, no markdown, no code fences, no explanation:
+{\"overall_score\": 85, \"decision\": \"PASS\", \"dimensions\": {\"seo_quality\": 85, \"readability\": 88, \"affiliate_compliance\": 90, \"content_completeness\": 82, \"product_coverage\": 80, \"internal_linking\": 75, \"eeat_signals\": 85, \"hallucination_risk\": 90}, \"issues\": [\"issue\"], \"auto_reject_reasons\": []}
+" 2>/dev/null || echo '{"error":"claude_failed"}')
 
-# Parse review result 
-echo "$REVIEW_OUT" > "$REVIEW_FILE"
-SCORE=$(echo "$REVIEW_OUT" | python3 -c "
-import sys, json
-try:
-    data = json.load(sys.stdin)
-    if 'result' in data:
-        result = data['result']
-        # Try to extract JSON from the result text
-        import re
-        match = re.search(r'\{.*\"overall_score\".*\}', result, re.DOTALL)
-        if match:
-            parsed = json.loads(match.group())
-            print(parsed.get('overall_score', 0))
-        else:
-            print(0)
-    else:
+# Save review
+echo "$REVIEW_RAW" > "$REVIEW_FILE"
+
+# Parse score
+SCORE=$(echo "$REVIEW_RAW" | python3 -c "
+import sys, json, re
+text = sys.stdin.read()
+# Try to find JSON object
+match = re.search(r'\{\"overall_score\".*?\}', text, re.DOTALL)
+if match:
+    try:
+        d = json.loads(match.group())
+        print(d.get('overall_score', 0))
+    except:
         print(0)
-except:
+else:
     print(0)
 " 2>/dev/null || echo "0")
 
-DECISION=$(echo "$REVIEW_OUT" | python3 -c "
-import sys, json
-try:
-    data = json.load(sys.stdin)
-    if 'result' in data:
-        import re
-        match = re.search(r'\"decision\":\s*\"(\w+)\"', data['result'])
-        if match:
-            print(match.group(1))
-        else:
-            print('REJECT')
-    else:
-        print('REJECT')
-except:
+DECISION=$(echo "$REVIEW_RAW" | python3 -c "
+import sys, json, re
+text = sys.stdin.read()
+match = re.search(r'\"decision\":\s*\"(\w+)\"', text)
+if match:
+    print(match.group(1))
+else:
     print('REJECT')
-" 2>/dev/null || echo "REJECT")
+")
 
 log "Review score: $SCORE — Decision: $DECISION"
 

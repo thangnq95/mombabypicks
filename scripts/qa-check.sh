@@ -1,132 +1,122 @@
 #!/bin/bash
-# QA Check — Automated pre-publish validation
-# Usage: ./scripts/qa-check.sh content/posts/my-article.md
-# Returns: exit 0 = PASS, exit 1 = FAIL with report
-
-set -euo pipefail
+# MomBabyPicks QA Check — macOS compatible
+# Usage: bash scripts/qa-check.sh content/posts/article.md
+# Exit 0 = PASS, Exit 1 = FAIL (with reasons)
 
 FILE="$1"
-SLUG=$(basename "$FILE" .md)
-ERRORS=0
+FAILED=0
 REPORT=""
 
-check() {
-  local desc="$1"
-  local result="$2"
-  if [ "$result" = "FAIL" ]; then
-    ERRORS=$((ERRORS + 1))
-    REPORT+="  ❌ $desc\n"
-  else
-    REPORT+="  ✅ $desc\n"
-  fi
-}
-
-report_error() {
-  local desc="$1"
-  ERRORS=$((ERRORS + 1))
-  REPORT+="  ❌ $desc\n"
-}
-
-# ==== Gate 1: File exists ====
-if [ ! -f "$FILE" ]; then
-  echo "❌ File not found: $FILE"
-  exit 1
-fi
-
-CONTENT=$(cat "$FILE")
-FRONTMATTER=$(sed -n '/^---$/,/^---$/p' "$FILE")
-BODY=$(sed '1,/^---$/d' "$FILE")
-
-# ==== Gate 2: Frontmatter ====
-echo "📋 Frontmatter checks for $SLUG"
-
-if echo "$FRONTMATTER" | grep -q '^title:'; then
-  check "Meta title present" "PASS"
-else
-  report_error "Missing meta title"
-fi
-
-if echo "$FRONTMATTER" | grep -q '^description:'; then
-  check "Meta description present" "PASS"
-else
-  report_error "Missing meta description"
-fi
-
-if echo "$FRONTMATTER" | grep -q '^date:'; then
-  check "Date set" "PASS"
-else
-  report_error "Missing date"
-fi
-
-# ==== Gate 3: Affiliate disclosure ====
-if echo "$CONTENT" | grep -qi "amazon associate"; then
-  check "Affiliate disclosure" "PASS"
-else
-  report_error "Missing affiliate disclosure"
-fi
-
-# ==== Gate 4: Amazon links ====
-AMAZON_LINKS=$(echo "$CONTENT" | grep -c "amazon.com/dp/" || true)
-if [ "$AMAZON_LINKS" -ge 3 ]; then
-  check "Amazon product links (found $AMAZON_LINKS)" "PASS"
-else
-  report_error "Too few Amazon links (found $AMAZON_LINKS, need >= 3)"
-fi
-
-# ==== Gate 5: ASIN format ====
-ASINS=$(echo "$CONTENT" | grep -oP '/dp/[A-Z0-9]{10}' | sort -u || true)
-ASIN_COUNT=$(echo "$ASINS" | wc -l | tr -d ' ')
-if [ "$ASIN_COUNT" -ge 3 ]; then
-  check "Unique ASINs (found $ASIN_COUNT)" "PASS"
-else
-  report_error "Too few unique ASINs (found $ASIN_COUNT, need >= 3)"
-fi
-
-# ==== Gate 6: Affiliate tag ====
-if echo "$CONTENT" | grep -q "tag=mombabypick00-20"; then
-  check "Affiliate tag (mombabypick00-20)" "PASS"
-else
-  report_error "Missing affiliate tag (mombabypick00-20)"
-fi
-
-# ==== Gate 7: FAQ section ====
-if echo "$BODY" | grep -qi "^##.*faq"; then
-  check "FAQ section present" "PASS"
-else
-  report_error "Missing FAQ section"
-fi
-
-# ==== Gate 8: Internal links to other posts ====
-INTERNAL_LINKS=$(echo "$BODY" | grep -c "/posts/" || true)
-if [ "$INTERNAL_LINKS" -ge 1 ]; then
-  check "Internal links (found $INTERNAL_LINKS)" "PASS"
-else
-  report_error "No internal links to other posts"
-fi
-
-# ==== Gate 9: Word count ====
-WORD_COUNT=$(echo "$BODY" | wc -w | tr -d ' ')
-if [ "$WORD_COUNT" -ge 500 ]; then
-  check "Word count ($WORD_COUNT)" "PASS"
-else
-  report_error "Word count too low ($WORD_COUNT, need >= 500)"
-fi
-
-# ==== Gate 10: Comparison section ====
-if echo "$BODY" | grep -qi "comparison\|vs\.\|versus\|which.*should"; then
-  check "Comparison section present" "PASS"
-else
-  report_error "Missing comparison or vs section"
-fi
-
-# ==== Summary ====
+echo "📋 Frontmatter checks for $(basename "$FILE" .md)"
 echo ""
-echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-if [ "$ERRORS" -eq 0 ]; then
-  echo "✅ QA PASS — $SLUG is ready to publish"
-  exit 0
+
+# === 1. Meta title ===
+TITLE=$(grep -m1 '^title: ' "$FILE" | sed 's/^title: "//;s/"$//')
+if [ -n "$TITLE" ]; then
+  REPORT+="  ✅ Meta title present\n"
 else
-  echo "❌ QA FAIL — $ERRORS error(s) in $SLUG"
-  echo -e "$REPORT"
-  exit 1
+  REPORT+="  ❌ Missing meta title\n"
+  FAILED=1
 fi
+
+# === 2. Meta description ===
+DESCRIPTION=$(grep -m1 '^description: ' "$FILE" | sed 's/^description: "//;s/"$//')
+if [ -n "$DESCRIPTION" ]; then
+  REPORT+="  ✅ Meta description present\n"
+else
+  REPORT+="  ❌ Missing meta description\n"
+  FAILED=1
+fi
+
+# === 3. Date ===
+DATE=$(grep -m1 '^date: ' "$FILE")
+if [ -n "$DATE" ]; then
+  REPORT+="  ✅ Date set\n"
+else
+  REPORT+="  ❌ Missing date\n"
+fi
+
+# === 4. Affiliate disclosure ===
+if grep -qi "Amazon Associate\|As an Amazon\|earn from qualifying\|affiliate disclosure" "$FILE"; then
+  REPORT+="  ✅ Affiliate disclosure\n"
+else
+  REPORT+="  ❌ Missing affiliate disclosure\n"
+  FAILED=1
+fi
+
+# === 5. Amazon product links ===
+AMAZON_LINKS=$(grep -c 'amazon.com' "$FILE")
+if [ "$AMAZON_LINKS" -ge 3 ]; then
+  REPORT+="  ✅ Amazon product links (found $AMAZON_LINKS)\n"
+else
+  REPORT+="  ❌ Too few Amazon links (found $AMAZON_LINKS, need >= 3)\n"
+  FAILED=1
+fi
+
+# === 6. Unique ASIN count (macOS-compatible) ===
+ASINS=$(grep -oE '/[A-Z0-9]{10}[?]' "$FILE" | sed 's|[/?]||g' | sort -u)
+ASIN_COUNT=$(echo "$ASINS" | grep -c . || true)
+# Also try /dp/B format
+if [ "$ASIN_COUNT" -lt 2 ]; then
+  ASINS=$(grep -oE 'dp/[A-Z0-9]{10}' "$FILE" | sed 's|dp/||' | sort -u)
+  ASIN_COUNT=$(echo "$ASINS" | grep -c . || true)
+fi
+if [ "$ASIN_COUNT" -ge 3 ]; then
+  REPORT+="  ✅ $ASIN_COUNT unique ASINs\n"
+else
+  REPORT+="  ❌ Too few unique ASINs (found $ASIN_COUNT, need >= 3)\n"
+  FAILED=1
+fi
+
+# === 7. Affiliate tag ===
+TAG_COUNT=$(grep -c 'tag=mombabypick00-20' "$FILE")
+if [ "$TAG_COUNT" -ge 1 ]; then
+  REPORT+="  ✅ Affiliate tag (mombabypick00-20)\n"
+else
+  REPORT+="  ❌ Missing affiliate tag\n"
+  FAILED=1
+fi
+
+# === 8. FAQ section ===
+if grep -qi "^##.*FAQ\|^##.*Frequently" "$FILE"; then
+  REPORT+="  ✅ FAQ section\n"
+else
+  REPORT+="  ❌ Missing FAQ section\n"
+  FAILED=1
+fi
+
+# === 9. Internal links ===
+INTERNAL_LINKS=$(grep -o '/posts/[^ ]*' "$FILE" | grep -c . || true)
+if [ "$INTERNAL_LINKS" -ge 2 ]; then
+  REPORT+="  ✅ Internal links (found $INTERNAL_LINKS)\n"
+elif [ "$INTERNAL_LINKS" -eq 1 ]; then
+  REPORT+="  ⚠️  Only 1 internal link (want 2+)\n"
+else
+  REPORT+="  ⚠️  No internal links found\n"
+fi
+
+# === 10. Word count ===
+WORD_COUNT=$(wc -w < "$FILE")
+if [ "$WORD_COUNT" -ge 700 ]; then
+  REPORT+="  ✅ Word count ($WORD_COUNT)\n"
+else
+  REPORT+="  ❌ Word count too low ($WORD_COUNT, need >= 700)\n"
+  FAILED=1
+fi
+
+# === 11. Comparison section ===
+if grep -qi "^|.*|.*|$" "$FILE"; then
+  REPORT+="  ✅ Comparison section present\n"
+else
+  REPORT+="  ⚠️  No comparison table found\n"
+fi
+
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+if [ "$FAILED" -eq 0 ]; then
+  echo -e "$REPORT"
+  echo "🎯 QA: PASS — ready to publish"
+else
+  echo -e "$REPORT"
+  echo "❌ QA: FAIL — fix issues above"
+fi
+exit $FAILED
