@@ -134,7 +134,7 @@ def make_pin(slug, headline, subtitle, out_path):
         sub_y += 40
 
     # "Read the guide →" button
-    btn_text = "Read the guide →"
+    btn_text = "Read the guide  >"
     btn_bb = draw.textbbox((0, 0), btn_text, font=f_btn)
     btn_w = btn_bb[2] - btn_bb[0] + 48
     btn_h = 48
