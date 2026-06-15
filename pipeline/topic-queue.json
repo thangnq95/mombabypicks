@@ -221,5 +221,50 @@
     "priority": 4,
     "status": "ready",
     "notes": "Pressure vs hardware mount, extra-wide, auto-close"
+  },
+  {
+    "id": "O001",
+    "keyword": "bottle refusal in breastfed babies",
+    "slug": "bottle-refusal-breastfed-babies",
+    "status": "published",
+    "published_date": "2026-06-15",
+    "review_score": 83,
+    "note": "orphan post \u2014 source created 2026-06-15"
+  },
+  {
+    "id": "O002",
+    "keyword": "eco-friendly baby gear guide",
+    "slug": "eco-friendly-baby-gear-guide",
+    "status": "published",
+    "published_date": "2026-06-15",
+    "review_score": 82,
+    "note": "orphan post \u2014 source created 2026-06-15"
+  },
+  {
+    "id": "O003",
+    "keyword": "newborn feeding essentials",
+    "slug": "newborn-feeding-essentials",
+    "status": "published",
+    "published_date": "2026-06-15",
+    "review_score": 84,
+    "note": "orphan post \u2014 source created 2026-06-15"
+  },
+  {
+    "id": "O004",
+    "keyword": "pace bottle feeding guide",
+    "slug": "pace-bottle-feeding-guide",
+    "status": "published",
+    "published_date": "2026-06-15",
+    "review_score": 85,
+    "note": "orphan post \u2014 source created 2026-06-15"
+  },
+  {
+    "id": "O005",
+    "keyword": "silicone baby feeding products",
+    "slug": "silicone-baby-feeding-products",
+    "status": "published",
+    "published_date": "2026-06-15",
+    "review_score": 83,
+    "note": "orphan post \u2014 source created 2026-06-15"
   }
 ]
