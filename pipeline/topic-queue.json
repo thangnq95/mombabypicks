@@ -1,123 +1,22 @@
 [
-  {
-    "id": "S003",
-    "keyword": "best baby bottles for newborns 2026",
-    "priority": 1,
-    "status": "needs_revision",
-    "review_score": 22
-  },
-  {
-    "id": "S004",
-    "keyword": "best diapers for newborns 2026",
-    "priority": 1,
-    "status": "ready"
-  },
-  {
-    "id": "S005",
-    "keyword": "best baby sleep sacks for 2026",
-    "priority": 2,
-    "status": "ready"
-  },
-  {
-    "id": "S006",
-    "keyword": "best baby bouncers for 2026",
-    "priority": 2,
-    "status": "ready"
-  },
-  {
-    "id": "S007",
-    "keyword": "best baby carriers for 2026",
-    "priority": 2,
-    "status": "ready"
-  },
-  {
-    "id": "S008",
-    "keyword": "best high chairs for babies 2026",
-    "priority": 2,
-    "status": "ready"
-  },
-  {
-    "id": "S009",
-    "keyword": "best infant car seats 2026",
-    "priority": 2,
-    "status": "ready"
-  },
-  {
-    "id": "S010",
-    "keyword": "best baby bath tubs 2026",
-    "priority": 2,
-    "status": "ready"
-  },
-  {
-    "id": "S011",
-    "keyword": "best baby play mats 2026",
-    "priority": 3,
-    "status": "ready"
-  },
-  {
-    "id": "S012",
-    "keyword": "best baby swings 2026",
-    "priority": 3,
-    "status": "ready"
-  },
-  {
-    "id": "S013",
-    "keyword": "best baby walkers 2026",
-    "priority": 3,
-    "status": "ready"
-  },
-  {
-    "id": "S014",
-    "keyword": "best baby humidifiers 2026",
-    "priority": 3,
-    "status": "ready"
-  },
-  {
-    "id": "S015",
-    "keyword": "best baby bottle sterilizers 2026",
-    "priority": 3,
-    "status": "ready"
-  },
-  {
-    "id": "S016",
-    "keyword": "best baby food makers 2026",
-    "priority": 3,
-    "status": "ready"
-  },
-  {
-    "id": "S017",
-    "keyword": "best diaper bags 2026",
-    "priority": 4,
-    "status": "ready"
-  },
-  {
-    "id": "S018",
-    "keyword": "best baby lotions for newborns 2026",
-    "priority": 4,
-    "status": "ready"
-  },
-  {
-    "id": "S019",
-    "keyword": "best baby towels hooded 2026",
-    "priority": 4,
-    "status": "ready"
-  },
-  {
-    "id": "S020",
-    "keyword": "best baby nail trimmers 2026",
-    "priority": 4,
-    "status": "ready"
-  },
-  {
-    "id": "S021",
-    "keyword": "best baby thermometers 2026",
-    "priority": 4,
-    "status": "ready"
-  },
-  {
-    "id": "S022",
-    "keyword": "best baby grooming kits 2026",
-    "priority": 4,
-    "status": "ready"
-  }
+  {"id": "S003", "keyword": "best baby bottles for newborns 2026", "priority": 1, "status": "published", "notes": "Published 2026-06-15 via pipeline v2. Review score: 88/100"},
+  {"id": "S004", "keyword": "best diapers for newborns 2026", "priority": 1, "status": "ready", "notes": "Pampers vs Huggies vs Honest vs Millie Moon"},
+  {"id": "S005", "keyword": "best baby sleep sacks for 2026", "priority": 2, "status": "ready", "notes": "TOG ratings explained, winter vs summer, sizes"},
+  {"id": "S006", "keyword": "best baby bouncers for 2026", "priority": 2, "status": "ready", "notes": "Soothing vibrations, newborn to toddler"},
+  {"id": "S007", "keyword": "best baby carriers for 2026", "priority": 2, "status": "ready", "notes": "Ergonomic, wrap vs structured, budget options"},
+  {"id": "S008", "keyword": "best high chairs for babies 2026", "priority": 2, "status": "ready", "notes": "Compact vs full-size, easy clean, convertible"},
+  {"id": "S009", "keyword": "best infant car seats 2026", "priority": 2, "status": "ready", "notes": "Travel systems, safety ratings, budget picks"},
+  {"id": "S010", "keyword": "best baby bath tubs 2026", "priority": 2, "status": "ready", "notes": "Newborn sling, 4-stage, inflatable"},
+  {"id": "S011", "keyword": "best baby play mats 2026", "priority": 3, "status": "ready", "notes": "Foam vs fabric, water-resistant, size comparison"},
+  {"id": "S012", "keyword": "best baby swings 2026", "priority": 3, "status": "ready", "notes": "Multi-directional, portable, plug-in vs battery"},
+  {"id": "S013", "keyword": "best baby walkers 2026", "priority": 3, "status": "ready", "notes": "Activity centers vs walkers, safety features"},
+  {"id": "S014", "keyword": "best baby humidifiers 2026", "priority": 3, "status": "ready", "notes": "Cool mist vs warm mist, ultrasonic, easy clean"},
+  {"id": "S015", "keyword": "best baby bottle sterilizers 2026", "priority": 3, "status": "ready", "notes": "Electric vs microwave vs cold water, capacity"},
+  {"id": "S016", "keyword": "best baby food makers 2026", "priority": 3, "status": "ready", "notes": "Steam and blend, all-in-one vs separate"},
+  {"id": "S017", "keyword": "best diaper bags 2026", "priority": 4, "status": "ready", "notes": "Backpack vs tote, insulated pockets, dad-friendly"},
+  {"id": "S018", "keyword": "best baby lotions for newborns 2026", "priority": 4, "status": "ready", "notes": "Sensitive skin, fragrance-free, eczema-friendly"},
+  {"id": "S019", "keyword": "best baby towels hooded 2026", "priority": 4, "status": "ready", "notes": "Hooded towels, organic cotton, bamboo"},
+  {"id": "S020", "keyword": "best baby nail trimmers 2026", "priority": 4, "status": "ready", "notes": "Electric vs manual, safety features"},
+  {"id": "S021", "keyword": "best baby thermometers 2026", "priority": 4, "status": "ready", "notes": "Forehead vs rectal vs ear, accuracy"},
+  {"id": "S022", "keyword": "best baby grooming kits 2026", "priority": 4, "status": "ready", "notes": "Complete sets, travel-friendly, quality"}
 ]
