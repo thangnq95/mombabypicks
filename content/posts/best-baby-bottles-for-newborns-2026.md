@@ -50,7 +50,7 @@ Dr. Brown's has been the go-to anti-colic bottle for over two decades, and the 2
 
 **Who it's for:** Gassy newborns or babies with colic who need active air management. Also great if you've already used Dr. Brown's narrow-neck and want the upgrade.
 
-{{< amazon url="https://www.amazon.com/dp/B00BKXFKAC" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B01845QH7M" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -70,7 +70,7 @@ The Natural Response nipple is designed so milk only flows when a baby actively 
 
 **Who it's for:** Breastfeeding parents who want to introduce an occasional bottle without disrupting latch. If you're navigating combination feeding, also check out our guide to [the best breast pumps for new moms](/posts/best-breast-pumps-for-new-moms/).
 
-{{< amazon url="https://www.amazon.com/dp/B09N6GLVCC" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B098Z6HYGV" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -91,7 +91,7 @@ Comotomo is the bottle that looks like… well, a breast. The soft, squishy sili
 
 **Who it's for:** Babies who have been exclusively breastfed and are resistant to traditional bottles. Parents who prioritize a softer, more natural feel.
 
-{{< amazon url="https://www.amazon.com/dp/B00C9CGEQ2" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B0G6N65XVL" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -112,7 +112,7 @@ MAM's standout feature is its self-sterilizing base — fill it with a small amo
 
 **Who it's for:** Parents who want solid anti-colic performance without buying a separate sterilizer. Also a good pick if you're thinking about [organizing your newborn feeding routine](/posts/newborn-feeding-schedule-guide/).
 
-{{< amazon url="https://www.amazon.com/dp/B07MJ5GQWJ" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B004RFI8OO" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -133,7 +133,7 @@ Tommee Tippee remains one of the best-value newborn bottles on the market. The b
 
 **Who it's for:** Budget-conscious parents, those buying in bulk, or anyone who wants a reliable everyday bottle without a learning curve. If you're also navigating formula choices, our [baby formula comparison guide](/posts/best-baby-formula-for-newborns/) pairs well with this pick.
 
-{{< amazon url="https://www.amazon.com/dp/B01LZWZXE8" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B00K5KVC52" text="Check Price on Amazon →" >}}
 
 ---
 
