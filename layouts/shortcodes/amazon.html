@@ -5,6 +5,6 @@
 {{- $separator := cond (in $url "?") "&" "?" -}}
 {{- $finalUrl := cond (and $hasRealTag (not (in $url "tag="))) (printf "%s%stag=%s" $url $separator $tag) $url -}}
 <div class="amazon-box">
-  <p class="amazon-disclosure">(paid link) As an Amazon Associate I earn from qualifying purchases.</p>
   <a class="amazon-cta" href="{{ $finalUrl }}" target="_blank" rel="nofollow sponsored noopener">{{ $text }}</a>
+  <p class="amazon-disclosure">(paid link) As an Amazon Associate I earn from qualifying purchases.</p>
 </div>

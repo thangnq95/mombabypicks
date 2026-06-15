@@ -489,9 +489,9 @@ body {
 }
 
 .amazon-disclosure {
-  margin: 0 0 0.45rem;
+  margin: 0.45rem 0 0;
   color: #7a6258;
-  font-size: 0.82rem;
+  font-size: 0.78rem;
 }
 
 .amazon-cta {
