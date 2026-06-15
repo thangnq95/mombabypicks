@@ -22,6 +22,8 @@ We cut through it below. Whether you're stocking up before birth or troubleshoot
 
 If you're also sorting out feeding gear, our guide to the [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/) covers the same level of detail for that decision.
 
+{{< trust-badge >}}
+
 {{< pick-cards
 title="Quick Picks At A Glance"
 intro="Newborn diaper choice matters more than most people expect — here's where to start based on your priorities."
@@ -79,6 +81,10 @@ Pampers Swaddlers have a large parent following, and the reasons are practical: 
 
 The diaper contains fragrance and is bleached with a conventional chlorine-free but not totally chlorine-free process. For most babies this isn't a problem, but if your newborn has shown skin sensitivity to fragrances, it's worth keeping in mind.
 
+**Specs:** PP absorbent core with SAP · wetness indicator · umbilical cord notch · contains fragrance · NB fits up to 10 lbs
+
+**Price:** ~$0.28/diaper
+
 {{< amazon url="https://www.amazon.com/dp/B00JX4IJIY" text="Check Price on Amazon →" >}}
 
 **Pros:**
@@ -99,6 +105,10 @@ The diaper contains fragrance and is bleached with a conventional chlorine-free 
 Huggies Little Snugglers compete directly with Swaddlers and do a few things differently. The pocketed waistband is Huggies' standout feature — it creates a physical barrier at the back waistband that catches blowouts before they escape. For breastfed newborns whose stools can be extremely liquid, this is a meaningful design difference.
 
 The fit tends to run slightly narrower in the thigh than Swaddlers, which some parents find better on lean babies and others find too snug. Like Swaddlers, Little Snugglers contain fragrance and use a conventional bleaching process.
+
+**Specs:** GentleAbsorb liner · pocketed back waistband · umbilical cord notch · contains fragrance · NB fits up to 10 lbs
+
+**Price:** ~$0.29/diaper
 
 {{< amazon url="https://www.amazon.com/dp/B00RHQXKJ6" text="Check Price on Amazon →" >}}
 
@@ -123,6 +133,10 @@ Absorbency is solid for light-to-moderate wetness. Some parents find the inner l
 
 For more context on building a low-irritant newborn setup, see our [newborn essentials checklist](/posts/newborn-essentials-checklist/).
 
+**Specs:** Totally Chlorine Free (TCF) · fragrance-free · lotion-free · latex-free · umbilical cord notch · NB fits 6–10 lbs
+
+**Price:** ~$0.28/diaper
+
 {{< amazon url="https://www.amazon.com/dp/B01LXEEYXO" text="Check Price on Amazon →" >}}
 
 **Pros:**
@@ -145,6 +159,10 @@ The Honest Company diapers use an outer cover made with plant-based materials an
 One practical differentiator is the elastic leg cuffs — they're soft and flexible without leaving deep red marks, which is something parents of babies with sensitive skin notice quickly. The umbilical cord cutout is present on the newborn size. Print designs rotate seasonally, which is a minor thing but parents who care about aesthetics tend to appreciate it.
 
 Cost is slightly higher than Seventh Generation, and the newborn size skews toward smaller babies — if your baby arrives above 9 lbs, go straight to size 1.
+
+**Specs:** Plant-based outer cover · Processed Chlorine Free (PCF) · fragrance-free · lotion-free · soft elastic leg cuffs · umbilical cord notch · NB fits up to 10 lbs
+
+**Price:** ~$0.44/diaper
 
 {{< amazon url="https://www.amazon.com/dp/B00J9TKFBO" text="Check Price on Amazon →" >}}
 
@@ -172,6 +190,10 @@ The practical performance is good — bamboo viscose has natural absorbent prope
 Dyper operates primarily through subscription, though individual boxes are available on Amazon. The subscription model works well if you commit to one brand early; it's less convenient if you want to try and compare.
 
 For a broader look at sustainable baby product choices, our [guide to eco-friendly baby gear](/posts/eco-friendly-baby-gear-guide/) covers how to think through these decisions.
+
+**Specs:** Bamboo viscose inner and outer layers · Elemental Chlorine Free (ECF) · fragrance-free · phthalate-free · paraben-free · NB fits 5–9 lbs
+
+**Price:** ~$0.44/diaper
 
 {{< amazon url="https://www.amazon.com/dp/B08GK3TVMS" text="Check Price on Amazon →" >}}
 

@@ -20,6 +20,8 @@ Whether you're exclusively bottle-feeding, combination-feeding, or building a fr
 
 If you're still figuring out your overall feeding setup, our guides on [choosing the right newborn feeding accessories](/posts/newborn-feeding-essentials/) and [how to pace-feed a bottle-fed baby](/posts/pace-bottle-feeding-guide/) are good starting points.
 
+{{< trust-badge >}}
+
 {{< pick-cards
 title="Quick Picks At A Glance"
 intro="Not every bottle works for every baby. Here's where to start based on your feeding style."
@@ -57,6 +59,10 @@ We evaluated bottles against five criteria: **nipple shape and flow rate** (slow
 
 Dr. Brown's has been a staple in the bottle aisle for years, and the Options+ Wide-Neck is their most versatile design to date. It features an internal vent system — a narrow tube that runs through the center of the bottle — that channels air away from the milk and out through the base, keeping the nipple fully primed with liquid during feeding.
 
+**Specs:** PP plastic · internal vent system · 5 pieces · wide neck · slow-flow newborn nipple included
+
+**Price:** ~$25
+
 **What parents notice:** Babies who previously spit up frequently or pulled off the nipple mid-feed often do better with this design. The vent system does add a few extra parts to wash, but the wide neck makes the bottle body easy to scrub. The "Options+" part means you can remove the vent once reflux or gas issues settle down, simplifying cleanup in the later months.
 
 **Pros:**
@@ -81,6 +87,10 @@ Dr. Brown's has been a staple in the bottle aisle for years, and the Options+ Wi
 The Avent Natural Response uses what Philips calls a "Natural Response nipple" — a design where milk only flows when the baby is actively sucking, not from gravity or compression alone. This mimics the work involved in breastfeeding more closely than a standard nipple, which can help babies who are switching back and forth between breast and bottle.
 
 The bottle body is wide and squat, which makes it easier to hold for tired parents, and the AirFlex vent sits in the nipple itself rather than adding extra parts to the bottle. Four pieces total: bottle, nipple, ring, and cap.
+
+**Specs:** PP plastic · AirFlex vent in nipple · 4 pieces · active-flow-only nipple design · compatible with Avent breast pump
+
+**Price:** ~$22
 
 **What parents notice:** Babies who bottle-refuse or who fuss when switching between breast and bottle often adapt more easily to this nipple shape. The 4-ounce size is ideal for newborns who are feeding frequently in small amounts.
 
@@ -107,6 +117,10 @@ Comotomo is one of the few bottles made almost entirely from food-grade silicone
 
 Dual anti-colic vents are built into the nipple base, and with only three parts (body, nipple, and lid), it's one of the easiest bottles to clean — the body can be turned inside-out for washing.
 
+**Specs:** Food-grade silicone body and nipple · dual anti-colic vents · 3 pieces · squeezable body · BPA-free
+
+**Price:** ~$28
+
 **What parents notice:** The squeezable body lets parents control milk flow slightly during feeding, which can be useful for pace-feeding. Some parents find the wide base awkward to hold one-handed, but the softness makes it easy for baby to hold as they get older.
 
 **Pros:**
@@ -132,6 +146,10 @@ Tommee Tippee has kept the Closer to Nature bottle deliberately simple. The nipp
 
 This is a bottle that doesn't try to solve every problem — it just works reliably for most newborns. The nipple is symmetrical, so there's no correct orientation to worry about. The bottle itself has a comfortable grip shape, and the starter kits come with two sizes, which is useful for the first few weeks when feed volumes are still small.
 
+**Specs:** PP plastic · Easi-Vent base · 3 pieces · symmetrical slow-flow nipple · fully dishwasher-safe (top rack)
+
+**Price:** ~$26
+
 **What parents notice:** A lot of parents reach for this one when they want something straightforward without a learning curve. The nipple softness means it collapses less than stiffer designs, and the slow-flow rate included in newborn packs is genuinely slow.
 
 **Pros:**
@@ -156,6 +174,10 @@ This is a bottle that doesn't try to solve every problem — it just works relia
 The Nanobébé Flexy takes the silicone bottle concept and strips it back further — just two pieces (bottle body and nipple), no rings, no caps. The bottle has a flattened, oval shape designed to fit into a pocket or diaper bag without the bulk of a round bottle.
 
 Unlike the Comotomo, the Nanobébé Flexy doesn't have a dedicated anti-colic vent, so it's best for babies who aren't particularly gassy. What it offers instead is simplicity and portability. The silicone body is warm-safe and can go from fridge to warm water bath without any concerns about material degradation.
+
+**Specs:** Food-grade silicone · 2 pieces · flat oval shape · no anti-colic vent · warm-safe
+
+**Price:** ~$18
 
 **What parents notice:** This is the bottle parents reach for when they're out of the house. The two-piece design means less to lose and less to wash, and the flat shape fits in jacket pockets. Some parents keep a couple of Nanobébés in the diaper bag and their primary anti-colic bottle at home.
 

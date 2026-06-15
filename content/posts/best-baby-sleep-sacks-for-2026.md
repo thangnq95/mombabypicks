@@ -14,6 +14,8 @@ cover:
 
 Sleep sacks replace loose blankets for safer sleep from birth through toddlerhood. The right one depends on your room temperature, your baby's sleep style, and how much you want to spend.
 
+{{< trust-badge >}}
+
 {{< pick-cards
 title="Quick Picks At A Glance"
 intro="Here's where to start before reading the full breakdown and selection criteria below."
@@ -64,6 +66,10 @@ The HALO SleepSack has been a staple in newborn nurseries for years, and the 202
 
 It comes in three TOG weights — 0.5 for warm summer nights, 1.5 for mild temps, and 3.5 for cold rooms — which makes it genuinely useful across seasons rather than just one.
 
+**Specs:** Micro-fleece or cotton · TOG 0.5/1.5/3.5 · inverted bottom zipper · IHDI hip-healthy certified · newborn through toddler sizes
+
+**Price:** ~$25
+
 **Pros:**
 - Inverted zipper makes diaper changes faster
 - IHDI hip-healthy certification
@@ -86,6 +92,10 @@ The Nested Bean Zen Sack takes a different approach. It has a small, gently weig
 
 The shell is 100% cotton, the fill is polyester, and the weighted section is clearly labeled so you can verify it's within safe weight guidelines. It's available in the Classic (0–9 months) and Pebble (6–18 months) sizes.
 
+**Specs:** 100% cotton shell · polyester fill · 0.4 lb chest panel · TOG 0.5 · two-way zipper · sizes 0–9 mo (Classic) and 6–18 mo (Pebble)
+
+**Price:** ~$35
+
 **Pros:**
 - Gently weighted chest panel may help soothe light sleepers
 - Soft 100% cotton outer layer
@@ -107,6 +117,10 @@ The shell is 100% cotton, the fill is polyester, and the weighted section is cle
 Kyte Baby has built a loyal following among parents who prioritize fabric feel, and the Sleep Bag is the reason. It's made from bamboo rayon — a fabric that's notably silky-soft and has natural moisture-wicking properties, which can help regulate body temperature better than straight cotton or fleece in moderate climates. If your baby tends to run warm or sweats during sleep, bamboo rayon is worth the price premium.
 
 The bag comes in three TOG ratings (0.5, 1.0, and 2.5), and the 1.0 is probably the most versatile for year-round use in climate-controlled homes. All Kyte fabrics are OEKO-TEX Standard 100 certified, meaning they've been tested for harmful substances including formaldehyde, heavy metals, and pesticide residues.
+
+**Specs:** Bamboo rayon · OEKO-TEX Standard 100 certified · TOG 0.5/1.0/2.5 · two-way zipper · multiple size ranges
+
+**Price:** ~$40
 
 **Pros:**
 - Bamboo rayon is exceptionally soft and breathable
@@ -133,6 +147,10 @@ The "4 Season" claim is real in practice for most U.S. homes: parents report usi
 
 For more on building a safe sleep environment, see our guide on [safe sleep practices for newborns](/posts/safe-sleep-tips-newborns/).
 
+**Specs:** Superfine merino wool · OEKO-TEX certified · ZQ-certified wool · ~1.5 TOG equivalent · sizes 2 mo–2 yr (one bag) · machine washable
+
+**Price:** ~$65
+
 **Pros:**
 - Genuine temperature regulation across seasons
 - One bag covers a long age range (2m–2yr)
@@ -155,6 +173,10 @@ For more on building a safe sleep environment, see our guide on [safe sleep prac
 The Burt's Bees Beekeeper is the budget-friendly pick on this list, and it over-delivers for the price. It's made from GOTS-certified organic cotton — that's the Global Organic Textile Standard, which covers both the organic fiber content and the manufacturing process, including dye safety. For parents who want organic without paying premium prices, this is the sweet spot.
 
 The design is simple: one-way zipper, roomy sack, no frills. It comes in a 1.0 TOG, which works for room temperatures around 68–72°F. The prints and colorways are charming, and the fabric is soft enough that many parents buy multiples so they always have a clean one on hand. If you're looking for [affordable organic baby essentials](/posts/organic-baby-essentials-on-a-budget/), this one belongs on the list.
+
+**Specs:** GOTS-certified organic cotton · TOG 1.0 · one-way zipper · newborn through toddler sizes · machine washable
+
+**Price:** ~$25
 
 **Pros:**
 - GOTS-certified organic cotton

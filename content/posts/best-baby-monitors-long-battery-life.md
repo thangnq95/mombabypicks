@@ -17,6 +17,8 @@ The good news is that modern baby monitors have come a long way from the days of
 
 All three are dedicated (non-WiFi) monitors, which means no app setup, no bedtime firmware updates, and no relying on your home internet staying up. Just a private connection that works when you need it most.
 
+{{< trust-badge >}}
+
 {{< pick-cards
 title="Quick Picks At A Glance"
 intro="If you want the short version first, this section helps you match the right monitor to your budget and sleep routine."
@@ -53,9 +55,34 @@ caption3="A privacy-first angle that matches non-WiFi baby monitor search intent
 
 If you're also finishing out your nursery setup, our [best bottle warmers guide](/posts/best-bottle-warmers/) is a helpful next read.
 
+## Comparison Table
+
+| Monitor | Type | Screen | Battery | Range | Price | Best For |
+|---|---|---|---|---|---|---|
+| Infant Optics DXR-8 Pro | Non-WiFi video | 5" color | ~12 hr | 1,000 ft | ~$165 | Best overall, interchangeable lenses |
+| Eufy SpaceView Pro (E210) | Non-WiFi video | 5" 720p | ~12 hr | 1,000 ft | ~$120 | Best value, sharpest display |
+| HelloBaby HB6550 | Non-WiFi video | 5" color | ~26–30 hr | 960 ft | ~$45 | Longest battery, budget pick |
+| VTech DM221 Audio Monitor | Audio only | None | ~18 hr | 1,000 ft | ~$25 | Simplest option, audio-only |
+| Motorola MBP36XL | Non-WiFi video | 5" color | ~6 hr | 590 ft | ~$80 | Large screen on a mid budget |
+
 ### Infant Optics DXR-8 Pro
 
 The Infant Optics DXR-8 Pro is one of the most widely recommended non-WiFi baby monitors, and battery life is a big reason why. Its swappable 4,500 mAh battery delivers up to **12 hours of continuous use** — enough to cover a full night plus the morning nap. The 5-inch display is crisp and bright, and the interchangeable lens system lets you swap between a zoom lens for close-ups and a wide-angle for full-room views. No WiFi, no apps, no cloud subscriptions — just a private FHSS signal that stays in your home.
+
+**Specs:** 5" color LCD, FHSS non-WiFi, 4,500 mAh swappable battery, ~12 hr battery life, 1,000 ft range, interchangeable lenses, two-way audio, night vision
+
+**Price:** ~$165
+
+**Pros:**
+- Swappable battery means no downtime — just swap and keep going
+- Interchangeable lens system (zoom + wide-angle) is genuinely unique
+- Rock-solid private FHSS signal with no WiFi dependency
+
+**Cons:**
+- Priciest option in this roundup
+- Replacement battery packs cost ~$30 extra
+
+**Who it's for:** Parents who want the most feature-rich, long-lasting monitor and don't mind paying a premium for interchangeable lenses and a swappable battery.
 
 **Best for:** Parents who want the absolute best-in-class monitor with the flexibility to adapt as their child grows from nursery to toddler bed. The interchangeable lenses genuinely set it apart from everything else.
 
@@ -69,6 +96,21 @@ The Infant Optics DXR-8 Pro is one of the most widely recommended non-WiFi baby 
 
 The Eufy SpaceView Pro proves you don't need to spend $200 to get excellent battery life. It matches the Infant Optics with **12 hours of continuous viewing** on a single charge, but comes in at a significantly lower price. The 5-inch 720p display is exceptionally sharp — probably the clearest in this price bracket — and the wide-angle lens captures the entire crib without any blind spots. Setup is genuinely plug-and-play: pair the camera with the parent unit out of the box, no WiFi network required. The sleek, compact design also makes it easy to carry from room to room throughout the day.
 
+**Specs:** 5" 720p LCD, non-WiFi, ~12 hr battery, 1,000 ft range, wide-angle lens, two-way audio, infrared night vision, temperature sensor
+
+**Price:** ~$120
+
+**Pros:**
+- Sharpest display in the mid-range price bracket
+- Matches premium battery life at a lower cost
+- True plug-and-play — no WiFi or app required
+
+**Cons:**
+- Ships with one camera; second room requires a separate add-on kit
+- Parent unit is not as compact as audio-only alternatives
+
+**Who it's for:** Parents who want the best combination of display quality and battery life without crossing into premium-monitor pricing.
+
 **Best for:** Parents who want premium battery life and display quality at a mid-range price. It's the sweet spot of value without feeling cheap.
 
 **The downside is:** The parent unit only supports one camera out of the box. If you have twins or want to monitor a second child's room, you'll need to buy an additional camera kit separately.
@@ -79,11 +121,64 @@ The Eufy SpaceView Pro proves you don't need to spend $200 to get excellent batt
 
 The HelloBaby HB6550 is the budget champion of this group, especially in the battery department. We're talking **26 to 30 hours of battery life** on a single charge — meaning you can go two full days without even thinking about the charger. The 5-inch display is clear with solid night vision that works in complete darkness, and the remote pan/tilt/zoom function gives you full control from the parent unit. For around $60–65, it packs in a lot for the price and is often one of the first models parents compare when they want long battery life on a tighter budget.
 
+**Specs:** 5" color LCD, non-WiFi, ~26–30 hr battery, 960 ft range, remote pan/tilt/zoom, night vision, two-way audio, temperature display
+
+**Price:** ~$45
+
+**Pros:**
+- Best-in-class battery life — up to 30 hours on a single charge
+- Remote pan/tilt/zoom at a budget price point
+- Solid night vision performance in complete darkness
+
+**Cons:**
+- Build quality feels lighter and less premium than competitors
+- Audio range is shorter; keep parent unit within ~960 ft
+
+**Who it's for:** Budget-conscious parents who make battery longevity their top priority and don't need premium build quality.
+
 **Best for:** Budget-conscious parents who refuse to compromise on battery life, or anyone who's tired of charging their monitor every single night. If battery longevity is your #1 priority, this is the monitor to beat.
 
 **The downside is:** The build quality reflects the price — the plastic casing feels lighter and less premium than the Eufy or Infant Optics, and the audio range is shorter, so you'll want to keep the parent unit relatively close to the nursery.
 
 [Check price on Amazon →](https://amazon.com/dp/B09GM8JZM9?tag=mombabypick00-20)
+
+### VTech DM221 Audio Monitor
+
+The VTech DM221 is the simplest and most affordable option in this roundup. It is a pure audio monitor — no screen, no camera, no app — but it covers the basics exceptionally well. The DECT 6.0 technology keeps the signal private and clear, and the long battery life means it rarely needs charging. For parents who don't need video and just want to hear their baby clearly without any fuss, it's hard to beat at this price.
+
+**Specs:** Audio only, DECT 6.0, ~18 hr battery, 1,000 ft range, sound indicator lights, belt clip, two-way talk
+
+**Price:** ~$25
+
+**Pros:**
+- Extremely affordable and easy to use
+- DECT 6.0 delivers a private, interference-free signal
+- Excellent battery life for an always-on audio monitor
+
+**Cons:**
+- No video — you can hear but not see your baby
+- Limited features compared to video monitors
+
+**Who it's for:** Parents who want the simplest possible monitor, or those who already have a separate camera and just need reliable audio.
+
+### Motorola MBP36XL
+
+The Motorola MBP36XL is a solid mid-range non-WiFi video monitor with a large 5-inch screen. It won't match the Eufy or Infant Optics on battery life, but it offers a familiar brand name, a bright display, and reliable non-WiFi performance. If you want a recognized brand at a mid-range price, the MBP36XL is worth considering.
+
+**Specs:** 5" color LCD, non-WiFi FHSS, ~6 hr battery, 590 ft range, remote pan/tilt/zoom, infrared night vision, two-way audio, temperature sensor
+
+**Price:** ~$80
+
+**Pros:**
+- Large 5" screen is easy to see across a room
+- Trusted Motorola brand with solid support
+- Remote pan/tilt/zoom included
+
+**Cons:**
+- Battery life (~6 hr) is the shortest of any video monitor here
+- Range is limited to ~590 ft — shorter than the competition
+
+**Who it's for:** Parents who want a recognizable brand name and a large screen, and can live with shorter battery life.
 
 ---
 

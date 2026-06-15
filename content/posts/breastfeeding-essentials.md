@@ -13,13 +13,32 @@ cover:
 
 Breastfeeding comes with a learning curve. The right products won't make it effortless, but they will make it significantly more comfortable. Here are the 10 essentials worth having from day one.
 
+{{< trust-badge >}}
+
 ## 1. Breast Pump
 
 Even if you plan to breastfeed exclusively, a pump lets you build a freezer stash, relieve engorgement, and share feeding duties with your partner.
 
 **Top picks:** Momcozy M5 (wearable), Spectra S1 (electric)
 
+**Momcozy M5** — **Price:** ~$70
+**Pros:**
+- Fully wearable and hands-free
+- Whisper-quiet
+
+**Cons:**
+- Lower max suction than hospital-grade pumps
+
 {{< amazon url="https://www.amazon.com/Momcozy-Hands-Free-Wearable-Double-Sealed-Baby-Like/dp/B0DNR1Z4L9" text="Check Price on Amazon →" >}}
+
+**Spectra S1** — **Price:** ~$160
+**Pros:**
+- Closed system with strong, consistent suction
+- Trusted by lactation consultants
+
+**Cons:**
+- Not hands-free without a pumping bra
+
 {{< amazon url="https://www.amazon.com/Spectra-Baby-USA-Rechargeable-Electric/dp/B00DBKFFJM" text="Check Price on Amazon →" >}}
 
 [See our full breast pump guide →](/posts/best-breast-pumps/)
@@ -32,6 +51,17 @@ A nursing pillow brings baby to breast height so you're not hunching over for ev
 
 **Top pick:** Boppy Original Nursing Pillow — the most popular option for good reason.
 
+**Price:** ~$35
+
+**Pros:**
+- Keeps baby at the right height to reduce back and arm strain
+- Versatile — also used for tummy time and sitting support later
+
+**Cons:**
+- Cover sold separately on some versions
+
+**Who it's for:** Any nursing or bottle-feeding parent who wants to reduce strain during long feeding sessions.
+
 {{< amazon url="https://www.amazon.com/Boppy-Nursing-Supportive-Breastfeeding-Original/dp/B0DJRQRGSK" text="Check Price on Amazon →" >}}
 
 ---
@@ -41,6 +71,17 @@ A nursing pillow brings baby to breast height so you're not hunching over for ev
 Sore nipples are common in the first few weeks. A good lanolin cream helps heal and protect.
 
 **Top pick:** Lansinoh HPA Lanolin — used by lactation consultants worldwide, safe for baby.
+
+**Price:** ~$10
+
+**Pros:**
+- Safe for baby — no need to wipe off before nursing
+- Soothes and protects cracked or sore nipples
+
+**Cons:**
+- Lanolin is not suitable for those with wool allergies
+
+**Who it's for:** Any nursing mom experiencing soreness in the first weeks of breastfeeding.
 
 {{< amazon url="https://www.amazon.com/Lansinoh-Lanolin-Breastfeeding-Soothing-Essentials/dp/B005MI648C" text="Check Price on Amazon →" >}}
 
@@ -54,6 +95,8 @@ Leaking between feeds is normal, especially in the early weeks. Nursing pads pre
 - **Disposable:** Lansinoh Stay Dry (convenient)
 - **Reusable:** Bamboobies (eco-friendly, softer)
 
+**Price:** ~$8–$15 for disposable packs; ~$15–$20 for reusable sets
+
 Choose based on whether you prefer convenience or reusable materials.
 
 ---
@@ -64,6 +107,17 @@ If you're pumping, you need a safe way to store breast milk. Look for bags that 
 
 **Top pick:** Lansinoh Breastmilk Storage Bags — stand upright, easy to label, and widely trusted.
 
+**Price:** ~$15
+
+**Pros:**
+- Pre-sterilized and double-sealed to prevent leaks
+- Stands upright in the freezer and has a write-on label area
+
+**Cons:**
+- Single-use only — creates plastic waste over time
+
+**Who it's for:** Any pumping parent who needs reliable, widely available milk storage bags.
+
 {{< amazon url="https://www.amazon.com/Lansinoh-Breastmilk-Essentials-Superior-Strength/dp/B006XISCNA" text="Check Price on Amazon →" >}}
 
 ---
@@ -73,6 +127,8 @@ If you're pumping, you need a safe way to store breast milk. Look for bags that 
 This simple silicone pump attaches to the opposite breast while you nurse to catch letdown. It's inexpensive and surprisingly effective for building a stash.
 
 **Top pick:** Haakaa Gen 2 — 4oz capacity, with a suction base so it doesn't tip over.
+
+**Price:** ~$14
 
 A silicone pump is a simple add-on if you want to collect letdown without setting up a full electric pump.
 
