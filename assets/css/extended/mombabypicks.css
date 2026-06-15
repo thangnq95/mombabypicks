@@ -101,7 +101,7 @@ body {
 .menu-drawer-header,
 .menu-cta-item,
 .menu-section-label,
-.menu-note,
+.menu-disclosure,
 .menu-index {
   display: none;
 }
@@ -638,10 +638,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    width: min(82vw, 320px);
+    width: min(calc(100vw - 44px), 340px);
     height: 100vh;
-    padding: 1.1rem 1rem 1.4rem;
+    padding: 0.95rem 0.95rem 1rem;
     overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-gutter: stable;
     background: rgba(255, 250, 247, 0.98);
     box-shadow: 18px 0 48px rgba(71, 54, 47, 0.18);
     transform: translateX(-105%);
@@ -655,31 +657,96 @@ body {
 
   .menu a {
     width: 100%;
+    min-width: 0;
   }
 
   .menu > li > a > span {
     display: flex;
     align-items: center;
+    gap: 0.78rem;
     width: 100%;
     min-height: 44px;
-    padding: 0.72rem 0.9rem;
-    border-radius: 14px;
+    padding: 0.72rem 0.95rem;
+    border-radius: 16px;
+    font-weight: 400;
   }
 
-  .menu-mobile-title {
-    display: block !important;
-    margin-bottom: 0.65rem;
-    padding: 0.4rem 0.5rem;
+  .menu-icon {
+    display: inline-flex;
+    flex: 0 0 auto;
+    width: 18px;
+    height: 18px;
+    color: #b56556;
+  }
+
+  .menu-icon svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .menu-text {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .menu-index {
+    flex: 0 0 auto;
+    color: #ad8e84;
+    font-size: 0.72rem;
+    font-weight: 700;
+  }
+
+  .menu-drawer-header {
+    display: flex !important;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.55rem;
+    padding: 0.35rem 0.2rem 0.75rem;
+    border-bottom: 1px solid rgba(239, 216, 207, 0.85);
+  }
+
+  .menu-drawer-title {
+    display: flex;
+    flex-direction: column;
+    gap: 0.18rem;
+    min-width: 0;
+  }
+
+  .menu-drawer-title strong {
+    color: #2f201c;
+    font-size: 1.02rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+
+  .menu-drawer-title span {
     color: #9f4f48;
-    font-size: 0.78rem;
+    font-size: 0.76rem;
     font-weight: 800;
     letter-spacing: 0.08em;
     text-transform: uppercase;
   }
 
+  .menu-close-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    flex: 0 0 auto;
+    border: 1px solid #ead3ca;
+    border-radius: 999px;
+    color: #7d655c;
+    background: rgba(255, 255, 255, 0.86);
+    box-shadow: 0 8px 18px rgba(116, 74, 64, 0.08);
+    cursor: pointer;
+  }
+
   .menu-mobile-cta {
     display: flex !important;
-    margin-top: 0.85rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.35rem;
   }
 
   .menu-mobile-cta a span {
@@ -742,6 +809,25 @@ body {
     color: #f0c4b4;
   }
 
+  :root[data-theme="dark"] .menu-drawer-header {
+    border-bottom-color: rgba(75, 61, 54, 0.95);
+  }
+
+  :root[data-theme="dark"] .menu-drawer-title strong {
+    color: #f6ebe5;
+  }
+
+  :root[data-theme="dark"] .menu-drawer-title span {
+    color: #d2b8ab;
+  }
+
+  :root[data-theme="dark"] .menu-close-button {
+    background: rgba(42, 34, 29, 0.92);
+    border-color: #4b3d36;
+    color: #f2ddd2;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.16);
+  }
+
   :root[data-theme="dark"] .menu-mobile-cta a span {
     background: linear-gradient(135deg, #ef826f 0%, #f0a06f 100%);
     color: #1f1916;
@@ -764,6 +850,38 @@ body {
   :root[data-theme="dark"] .menu .active {
     background: rgba(115, 80, 68, 0.32);
     color: #fff3ec;
+  }
+
+  .menu-disclosure {
+    display: block;
+    margin-top: 0.7rem;
+    padding: 0.85rem 0.95rem;
+    border: 1px solid #edd2c8;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.74);
+    color: #6f564d;
+    font-size: 0.84rem;
+    line-height: 1.45;
+  }
+
+  .menu-disclosure strong {
+    display: block;
+    margin-bottom: 0.22rem;
+    color: #8f4d46;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  :root[data-theme="dark"] .menu-disclosure {
+    border-color: #4b3d36;
+    background: rgba(42, 34, 29, 0.94);
+    color: #f2ddd2;
+  }
+
+  :root[data-theme="dark"] .menu-disclosure strong {
+    color: #f0c4b4;
   }
 
   :root[data-theme="dark"] .amazon-box {

@@ -93,11 +93,16 @@
         {{- $currentPage := . }}
         <ul id="menu" class="menu">
             <li class="menu-drawer-header">
-                <div>
+                <div class="menu-drawer-title">
                     <strong>{{ site.Title }}</strong>
                     <span>Menu</span>
                 </div>
-                <label for="mobile-menu-state" aria-label="Close navigation menu">Close</label>
+                <label class="menu-close-button" for="mobile-menu-state" aria-label="Close navigation menu">
+                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+                        <path d="M18 6L6 18"></path>
+                        <path d="M6 6L18 18"></path>
+                    </svg>
+                </label>
             </li>
             <li class="menu-cta-item">
                 <a class="menu-cta" href="{{ "/posts/" | absLangURL }}">Start with the guides</a>
@@ -111,6 +116,37 @@
                 <a href="{{ $menuItem.URL | absLangURL }}" title="{{ $menuItem.Title | default $menuItem.Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
                 {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
                     <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
+                        <span class="menu-icon" aria-hidden="true">
+                            {{- if eq $menuItem.Name "Home" -}}
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 11.5L12 4l9 7.5"></path>
+                                <path d="M5.5 10.5V20h13V10.5"></path>
+                                <path d="M9.5 20v-6h5v6"></path>
+                            </svg>
+                            {{- else if eq $menuItem.Name "Breast Pumps" -}}
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 21s-7-4.35-7-10a4.2 4.2 0 0 1 7-3.07A4.2 4.2 0 0 1 19 11c0 5.65-7 10-7 10Z"></path>
+                            </svg>
+                            {{- else if eq $menuItem.Name "Bottle Warmers" -}}
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M10 2v4"></path>
+                                <path d="M14 2v4"></path>
+                                <path d="M9 6h6"></path>
+                                <path d="M8.5 10h7"></path>
+                                <path d="M8 10v8a4 4 0 0 0 8 0v-8"></path>
+                            </svg>
+                            {{- else if eq $menuItem.Name "Newborn Essentials" -}}
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="m12 3 2.6 5.3 5.9.9-4.2 4.1 1 5.9-5.3-2.8-5.3 2.8 1-5.9-4.2-4.1 5.9-.9L12 3Z"></path>
+                            </svg>
+                            {{- else if eq $menuItem.Name "About" -}}
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="9"></circle>
+                                <path d="M12 10.8v5.2"></path>
+                                <path d="M12 7.2h.01"></path>
+                            </svg>
+                            {{- end -}}
+                        </span>
                         <span class="menu-text">
                             {{- $menuItem.Pre }}
                             {{- $menuItem.Name -}}
@@ -129,12 +165,11 @@
                 </a>
             </li>
             {{- end }}
-            <li class="menu-section-label">Also useful</li>
-            <li class="menu-note">
-                <strong>Affiliate disclosure</strong>
-                <span>As an Amazon Associate I earn from qualifying purchases.</span>
-            </li>
         </ul>
+        <div class="menu-disclosure">
+            <strong>Affiliate disclosure</strong>
+            <span>As an Amazon Associate I earn from qualifying purchases.</span>
+        </div>
         <label class="menu-overlay" for="mobile-menu-state" aria-label="Close navigation menu"></label>
     </nav>
 </header>
