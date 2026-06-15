@@ -94,3 +94,6 @@ Every family's routine is different, so here's the short version:
 - **Choose the HelloBaby HB6550** if battery life is your absolute top priority and you want the most affordable option. At under $65 with multi-day battery life, it's the clear value winner and more than capable for most families.
 
 Whichever you pick, you'll be buying one less thing to worry about at 2 AM — and that peace of mind is worth every penny.
+
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
+

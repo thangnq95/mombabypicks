@@ -4,7 +4,8 @@ date: 2026-06-08
 draft: false
 tags: ["breast-pump", "breastfeeding", "cleaning"]
 description: "A practical breast pump cleaning guide covering pump parts, drying, storage, and daily routines."
-summary: "A simple cleaning routine can make pumping less overwhelming and help keep pump parts ready for the next session."
+images:
+  - /images/pins/breast-pump-cleaning-guide-pin-1.png
 ---
 
 Cleaning pump parts is one of the least glamorous parts of pumping, but it matters. A simple routine can make the process faster and less stressful.
@@ -54,3 +55,6 @@ Many pumping parents keep two or three sets of parts. This costs more upfront bu
 You can also prepare a small pump bag with clean parts, storage bags, labels, and a spare shirt or nursing pads for workdays.
 
 Cleaning is not the fun part, but a predictable routine makes pumping feel much more manageable.
+
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
+

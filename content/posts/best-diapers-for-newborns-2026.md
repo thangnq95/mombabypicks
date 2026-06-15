@@ -4,10 +4,12 @@ date: 2026-06-15
 draft: false
 description: "The 5 best newborn diapers of 2026 compared for absorbency, softness, and gentle materials — with real parent notes on fit and leak protection."
 tags: [diapers, newborns, baby essentials, diaper guide, newborn care, sensitive skin]
+author: MomBabyPicks Team
+images:
+  - /images/pins/best-diapers-for-newborns-2026-pin-1.png
 cover:
   image: /images/posts/best-diapers-for-newborns-2026.webp
   alt: "Five newborn diapers laid out on a white changing mat"
-author: MomBabyPicks Team
 ---
 
 ## Introduction

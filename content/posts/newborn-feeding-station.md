@@ -4,7 +4,8 @@ date: 2026-06-09
 draft: false
 tags: ["newborn", "feeding", "breastfeeding", "checklist"]
 description: "How to organize a simple newborn feeding station for breastfeeding, pumping, or formula feeding."
-summary: "A feeding station helps tired parents keep bottles, burp cloths, water, snacks, and pump parts within reach."
+images:
+  - /images/pins/newborn-feeding-station-pin-1.png
 ---
 
 Newborn feeding happens around the clock. A simple feeding station can save time, reduce stress, and make night feeds feel less chaotic.
@@ -61,3 +62,6 @@ If you feed in bed, make sure you have a plan to stay awake and place baby back 
 A feeding station works best when it is reset daily. Restock burp cloths, remove trash, wash bottles or pump parts, and refill your water.
 
 The goal is not perfection. The goal is making the next feed easier.
+
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
+

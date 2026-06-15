@@ -5,6 +5,8 @@ draft: false
 description: "Best baby sleep sacks for 2026 — comprehensive guide for parents"
 tags: [baby gear, baby, sleep, sacks]
 author: "MomBabyPicks Team"
+images:
+  - /images/pins/best-baby-sleep-sacks-for-2026-pin-1.png
 cover:
   image: /images/posts/best-baby-sleep-sacks-for-2026.webp
   alt: "Best Baby Sleep Sacks for 2026"
