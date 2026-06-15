@@ -22,6 +22,23 @@ We cut through it below. Whether you're stocking up before birth or troubleshoot
 
 If you're also sorting out feeding gear, our guide to the [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/) covers the same level of detail for that decision.
 
+{{< pick-cards
+title="Quick Picks At A Glance"
+intro="Newborn diaper choice matters more than most people expect — here's where to start based on your priorities."
+card1label="Best Overall"
+card1title="Pampers Swaddlers"
+card1text="The most-used diaper in U.S. hospitals. Soft, highly absorbent, and includes the umbilical cord notch."
+card2label="Best Fit"
+card2title="Huggies Little Snugglers"
+card2text="Stretchy sides and a pocketed back waistband catch blowouts better than most competitors."
+card3label="Best Eco Pick"
+card3title="Seventh Generation Free & Clear"
+card3text="Fragrance-free, chlorine-free process, and no dyes. A reliable plant-based option at a reasonable price."
+card4label="Best Organic"
+card4title="The Honest Company"
+card4text="Certified plant-based materials, genuinely fun prints, and a subscription model that keeps you stocked."
+>}}
+
 ---
 
 ## How We Selected These Diapers

@@ -4,6 +4,8 @@ date: 2026-06-12
 draft: false
 tags: ["newborn", "checklist", "baby-gear"]
 description: "A practical newborn essentials checklist for the first 3 months. Skip the fluff — here's what you actually need for your baby."
+images:
+  - /images/pins/newborn-essentials-checklist-pin-1.png
 cover:
   image: "/images/posts/newborn-essentials-checklist.webp"
   alt: "Newborn essentials arranged in a bright nursery"

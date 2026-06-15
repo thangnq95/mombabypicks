@@ -5,6 +5,8 @@ draft: false
 description: "The 5 best baby carriers for 2026 — compared by carry positions, weight limits, ease of use, and comfort for baby and parent."
 tags: [baby carriers, babywearing, baby gear, newborn essentials, soft structured carrier]
 author: "MomBabyPicks Team"
+images:
+  - /images/pins/best-baby-carriers-for-2026-pin-1.png
 cover:
   image: /images/posts/best-baby-carriers-for-2026.webp
   alt: "Parent wearing baby in a soft structured carrier outdoors"
@@ -20,19 +22,36 @@ This guide covers five carriers worth your money in 2026 — from structured car
 
 If you're still building out your baby gear list, check our [newborn essentials checklist](/posts/newborn-essentials-checklist/) and the [best baby bouncers for 2026](/posts/best-baby-bouncers-for-2026/) for when you need hands-free time at home.
 
+{{< pick-cards
+title="Quick Picks At A Glance"
+intro="The best carrier depends on your body, your lifestyle, and your baby's age. Start here."
+card1label="Best All-Around"
+card1title="Ergobaby Omni 360"
+card1text="Four carry positions, ergonomic design, and newborn-ready with an included infant insert."
+card2label="Best Newborn Wrap"
+card2title="Solly Baby Wrap"
+card2text="Ultra-soft stretchy wrap for close newborn carries. Simple, lightweight, and parent-tested."
+card3label="Best for Long-Term Use"
+card3title="Lillebaby Complete"
+card3text="Six carry positions and fits the widest range of parent body types without needing an insert."
+card4label="Best Budget SSC"
+card4title="Infantino Flip 4-in-1"
+card4text="Structured carrier under $35 that's newborn-ready and covers four carry positions."
+>}}
+
 ## How We Selected These Carriers
 
 We evaluated carriers on: **ergonomic positioning** (M-position / frog-leg seat for hip development, per the International Hip Dysplasia Institute guidelines), **weight range** (newborn through toddler), **parent comfort** (shoulder and lumbar support for extended carry), **ease of getting on and off alone** (without a second person), **washability**, and **safety certifications** (Hip-Healthy certification from the IHDI where applicable). We did not include carriers with unresolved safety recalls.
 
 ## Comparison Table
 
-| Carrier | Type | Weight Range | Carry Positions | Best For | Newborn Ready? |
-|---|---|---|---|---|---|
-| Ergobaby Omni 360 | SSC | 7–45 lbs | 4 (front, back, hip, front-facing) | Versatility | Yes (with insert) |
-| Lillebaby Complete | SSC | 7–45 lbs | 6 positions | Long-term use | Yes |
-| Solly Baby Wrap | Stretchy wrap | 8–25 lbs | 1–2 | Newborn snuggles | Yes |
-| Tula Free-to-Grow | SSC | 7–45 lbs | 3 positions | Simplicity | Yes (no insert needed) |
-| Infantino Flip 4-in-1 | SSC | 8–32 lbs | 4 positions | Budget | Yes |
+| Carrier | Type | Weight Range | Carry Positions | Best For | Newborn Ready? | Price |
+|---|---|---|---|---|---|---|
+| Ergobaby Omni 360 | SSC | 7–45 lbs | 4 (front, back, hip, front-facing) | Versatility | Yes (with insert) | ~$195 |
+| Lillebaby Complete | SSC | 7–45 lbs | 6 positions | Long-term use | Yes | ~$140 |
+| Solly Baby Wrap | Stretchy wrap | 8–25 lbs | 1–2 | Newborn snuggles | Yes | ~$68 |
+| Tula Free-to-Grow | SSC | 7–45 lbs | 3 positions | Simplicity | Yes (no insert needed) | ~$145 |
+| Infantino Flip 4-in-1 | SSC | 8–32 lbs | 4 positions | Budget | Yes | ~$32 |
 
 ---
 

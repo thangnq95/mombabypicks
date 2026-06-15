@@ -20,19 +20,36 @@ Whether you're exclusively bottle-feeding, combination-feeding, or building a fr
 
 If you're still figuring out your overall feeding setup, our guides on [choosing the right newborn feeding accessories](/posts/newborn-feeding-essentials/) and [how to pace-feed a bottle-fed baby](/posts/pace-bottle-feeding-guide/) are good starting points.
 
+{{< pick-cards
+title="Quick Picks At A Glance"
+intro="Not every bottle works for every baby. Here's where to start based on your feeding style."
+card1label="Best for Gassy Babies"
+card1title="Dr. Brown's Options+ Wide-Neck"
+card1text="The most thorough anti-colic venting on the market. Worth the extra parts if your baby is gassy or colicky."
+card2label="Best for Combo Feeding"
+card2title="Philips Avent Natural Response"
+card2text="Breast-like nipple with AirFlex vent — widely recommended by lactation consultants for breast-and-bottle babies."
+card3label="Best for Breastfed Babies"
+card3title="Comotomo Natural Feel"
+card3text="Wide silicone base closely mimics the breast. One of the most effective picks for reducing bottle refusal."
+card4label="Best Simple Pick"
+card4title="Tommee Tippee Closer to Nature"
+card4text="Breast-like nipple shape, Easi-Vent system, and only 3 parts — the lowest-maintenance bottle on the list."
+>}}
+
 ## How We Selected These Bottles
 
 We evaluated bottles against five criteria: **nipple shape and flow rate** (slow-flow only for newborns), **venting or anti-colic design** (reduces ingested air), **ease of cleaning** (fewer parts = fewer headaches), **material safety** (BPA-free, phthalate-free, food-grade components), and **compatibility with breast pumps** if a parent is pumping. We also prioritized bottles with widely available replacement parts, since nipples wear out and you'll need to reorder.
 
 ## Comparison Table
 
-| Bottle | Material | Anti-Colic | Nipple Shape | Parts Count | Best For |
-|---|---|---|---|---|---|
-| Dr. Brown's Options+ Wide-Neck | PP Plastic | Yes (internal vent) | Traditional | 5 | Gassy/colicky babies |
-| Philips Avent Natural Response | PP Plastic | Yes (AirFlex) | Breast-like | 4 | Combo-feeders |
-| Comotomo Natural Feel | Food-grade silicone | Partial (dual vents) | Breast-like | 3 | Breastfed babies |
-| Tommee Tippee Closer to Nature | PP Plastic | Yes (Easi-Vent) | Breast-like | 3 | Simplicity seekers |
-| Nanobébé Flexy Silicone | Food-grade silicone | No | Breast-like | 2 | On-the-go feeding |
+| Bottle | Material | Anti-Colic | Nipple Shape | Parts Count | Best For | Price (set) |
+|---|---|---|---|---|---|---|
+| Dr. Brown's Options+ Wide-Neck | PP Plastic | Yes (internal vent) | Traditional | 5 | Gassy/colicky babies | ~$22 |
+| Philips Avent Natural Response | PP Plastic | Yes (AirFlex) | Breast-like | 4 | Combo-feeders | ~$25 |
+| Comotomo Natural Feel | Food-grade silicone | Partial (dual vents) | Breast-like | 3 | Breastfed babies | ~$28 |
+| Tommee Tippee Closer to Nature | PP Plastic | Yes (Easi-Vent) | Breast-like | 3 | Simplicity seekers | ~$18 |
+| Nanobébé Flexy Silicone | Food-grade silicone | No | Breast-like | 2 | On-the-go feeding | ~$26 |
 
 ---
 

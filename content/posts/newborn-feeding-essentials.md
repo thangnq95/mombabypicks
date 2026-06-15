@@ -5,6 +5,8 @@ draft: false
 description: "The essential feeding gear for newborns — bottles, burp cloths, nursing pillows, and more. What to buy, what to skip, and why."
 tags: [newborn feeding, baby feeding essentials, breastfeeding, bottle feeding, nursing]
 author: "MomBabyPicks Team"
+images:
+  - /images/pins/newborn-feeding-essentials-pin-1.png
 cover:
   image: /images/posts/newborn-feeding-essentials.webp
   alt: "Newborn feeding essentials laid out including bottles and nursing pillow"
@@ -78,15 +80,15 @@ The Haakaa catches letdown from the breast you're not feeding from while baby nu
 
 | Item | Essential? | Who Needs It | Approx. Cost |
 |---|---|---|---|
-| Nursing pillow | Yes (breastfeeding) | Breastfeeding parents | $$ |
-| Nursing bras (2–4) | Yes (breastfeeding) | Breastfeeding parents | $ per bra |
-| Breast pads | Yes (breastfeeding) | Breastfeeding parents | $ |
-| Nipple cream | Yes (breastfeeding) | Breastfeeding parents | $ |
-| Bottles (3–4 starter) | Yes (bottle feeding) | All bottle-feeding parents | $ |
-| Bottle brush | Yes (bottle feeding) | All bottle-feeding parents | $ |
-| Bottle warmer | Optional | Bottle-feeding parents | $$ |
-| Burp cloths (8–12) | Yes | Everyone | $ |
-| Haakaa/silicone pump | Optional but recommended | Breastfeeding parents | $ |
+| Nursing pillow | Yes (breastfeeding) | Breastfeeding parents | $30–50 |
+| Nursing bras (2–4) | Yes (breastfeeding) | Breastfeeding parents | $15–30 each |
+| Breast pads | Yes (breastfeeding) | Breastfeeding parents | $8–15 |
+| Nipple cream | Yes (breastfeeding) | Breastfeeding parents | $10–15 |
+| Bottles (3–4 starter) | Yes (bottle feeding) | All bottle-feeding parents | $18–30 |
+| Bottle brush | Yes (bottle feeding) | All bottle-feeding parents | $8–12 |
+| Bottle warmer | Optional | Bottle-feeding parents | $20–55 |
+| Burp cloths (8–12) | Yes | Everyone | $15–25 |
+| Haakaa/silicone pump | Optional but recommended | Breastfeeding parents | $12–20 |
 
 ## What You Don't Need Right Away
 

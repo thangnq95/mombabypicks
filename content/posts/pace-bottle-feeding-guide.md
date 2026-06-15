@@ -5,6 +5,8 @@ draft: false
 description: "What pace bottle feeding is, why it matters for breastfed babies, and how to do it correctly — step-by-step guide for parents and caregivers."
 tags: [pace bottle feeding, bottle feeding, breastfeeding, bottle refusal, newborn feeding]
 author: "MomBabyPicks Team"
+images:
+  - /images/pins/pace-bottle-feeding-guide-pin-1.png
 cover:
   image: /images/posts/pace-bottle-feeding-guide.webp
   alt: "Parent pace bottle feeding a breastfed baby in an upright position"

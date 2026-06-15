@@ -4,6 +4,8 @@ date: 2026-06-12
 draft: false
 tags: ["breast-pump", "breastfeeding", "momcozy", "review"]
 description: "Honest Momcozy M5 review for 2026. We cover suction strength, comfort, battery life, and whether it's worth the price."
+images:
+  - /images/pins/momcozy-m5-review-pin-1.png
 cover:
   image: "/images/posts/momcozy-m5-review.webp"
   alt: "Unbranded wearable breast pump cups on a nursery table"

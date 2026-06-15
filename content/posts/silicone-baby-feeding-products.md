@@ -5,6 +5,8 @@ draft: false
 description: "A guide to silicone baby feeding products — what food-grade silicone means, which products are worth buying, and how to check what you're actually getting."
 tags: [silicone baby products, food grade silicone, baby feeding, non-toxic baby gear, BPA-free baby]
 author: "MomBabyPicks Team"
+images:
+  - /images/pins/silicone-baby-feeding-products-pin-1.png
 cover:
   image: /images/posts/silicone-baby-feeding-products.webp
   alt: "Silicone baby feeding products including bibs, bottles, and spoons on white background"

@@ -5,6 +5,8 @@ draft: false
 description: "A practical guide to eco-friendly baby gear — which categories are worth going green, which certifications to trust, and the best sustainable options."
 tags: [eco-friendly baby gear, sustainable baby products, non-toxic baby, organic baby, green parenting]
 author: "MomBabyPicks Team"
+images:
+  - /images/pins/eco-friendly-baby-gear-guide-pin-1.png
 cover:
   image: /images/posts/eco-friendly-baby-gear-guide.webp
   alt: "Eco-friendly baby products arranged on natural wood surface"

@@ -5,6 +5,8 @@ draft: false
 description: "Why breastfed babies refuse bottles and how to fix it — practical strategies from parents who've been there, including which bottles work best."
 tags: [bottle refusal, breastfed baby, combination feeding, bottle feeding, breastfeeding]
 author: "MomBabyPicks Team"
+images:
+  - /images/pins/bottle-refusal-breastfed-babies-pin-1.png
 cover:
   image: /images/posts/bottle-refusal-breastfed-babies.webp
   alt: "Parent offering a bottle to a breastfed baby"
