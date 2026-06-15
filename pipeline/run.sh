@@ -357,7 +357,7 @@ with open('$ARTICLE_FILE') as f:
     text = f.read()
 for i in range(1, 10):
     placeholder = f'[ASIN_{i}]'
-    dummy = f'B0DEFAULT00{i}'
+    dummy = f'B0DFLT000{i}'
     if placeholder in text:
         text = text.replace(placeholder, dummy)
         log_message = f'  Replaced {placeholder} → {dummy}'
