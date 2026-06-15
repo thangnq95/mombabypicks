@@ -164,6 +164,64 @@ fi
 
 log "✅ Article written: $ARTICLE_FILE"
 
+# ==== Step 2.5: Generate cover image if missing ====
+log "🎨 Step 2.5: Checking cover image..."
+COVER_PATH=$(python3 -c "
+import re
+with open('$ARTICLE_FILE') as f:
+    content = f.read()
+fm = content.split('---')[1] if content.startswith('---') else ''
+match = re.search(r'image:\s*(.*?)(\s|$)', fm)
+if match:
+    path = match.group(1).strip().strip('\"').strip(\"'\").lstrip('/')
+    print('static/' + path)
+else:
+    print('')
+" 2>/dev/null)
+
+if [ -n "$COVER_PATH" ] && [ ! -f "$COVER_PATH" ]; then
+  log "📷 Cover image missing: $COVER_PATH — generating..."
+  mkdir -p "$(dirname "$COVER_PATH")"
+  python3 -c "
+import re
+from PIL import Image, ImageDraw, ImageFont
+import textwrap
+
+with open('$ARTICLE_FILE') as f:
+    content = f.read()
+title_match = re.search(r'title:\s*\"(.+?)\"', content)
+title = title_match.group(1) if title_match else 'MomBabyPicks'
+
+img = Image.new('RGB', (1200, 675), color=(245, 235, 220))
+draw = ImageDraw.Draw(img)
+draw.rectangle([(0, 600), (1200, 675)], fill=(230, 180, 140))
+
+try:
+    font_large = ImageFont.truetype('/System/Library/Fonts/Helvetica.ttc', 48)
+    font_small = ImageFont.truetype('/System/Library/Fonts/Helvetica.ttc', 24)
+except:
+    font_large = ImageFont.load_default()
+    font_small = ImageFont.load_default()
+
+lines = textwrap.wrap(title, width=25)
+y = 200
+for line in lines[:3]:
+    bbox = draw.textbbox((0, 0), line, font=font_large)
+    w = bbox[2] - bbox[0]
+    draw.text(((1200-w)//2, y), line, fill=(120, 80, 60), font=font_large)
+    y += 60
+
+draw.text((50, 620), 'MomBabyPicks.com', fill=(100, 60, 40), font=font_small)
+draw.text((900, 620), 'Honest Reviews', fill=(100, 60, 40), font=font_small)
+img.save('$COVER_PATH', 'WEBP', quality=85)
+import os
+print(f'Generated: {os.path.getsize(\"$COVER_PATH\")} bytes')
+" 2>&1 | tee -a "$LOG_FILE"
+  log "✅ Cover image generated: $COVER_PATH"
+else
+  log "✅ Cover image exists (or not specified)"
+fi
+
 # ==== Step 4: Claude Code reviews article ====
 log "🔍 Step 3: Claude Code reviewing article..."
 REVIEW_RAW=$($CLAUDECMD -p "
