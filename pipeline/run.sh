@@ -88,14 +88,14 @@ log "✅ Content brief saved: $BRIEF_FILE"
 
 # ==== Step 3: Claude Code writes article ====
 log "✍️ Step 2: Claude Code writing article..."
-CLAUDECMD="$HOME/.local/bin/claude"
+CLAUDECMD="$HOME/.local/bin/claude --dangerously-skip-permissions"
 ARTICLERAW=$($CLAUDECMD -p "
 You are Affiliate_Content_Producer for MomBabyPicks.com.
 
 Write a ~1000-word buyer's guide / comparison article targeting the keyword: \"$KEYWORD\"
 
 IMPORTANT:
-- OUTPUT the COMPLETE ARTICLE with frontmatter as raw markdown. 
+- OUTPUT the COMPLETE ARTICLE with frontmatter as raw markdown.
 - Do NOT say 'I wrote the article' or give a summary. ONLY output the article itself.
 - Start with '---' (frontmatter delimiter).
 - End with the affiliate disclosure.
@@ -104,10 +104,14 @@ CONTENT RULES:
 - Recommend 5 products, each with pros/cons and 'Who it's for'
 - Include a markdown comparison table
 - FAQ: 4-5 questions
-- Amazon links: https://www.amazon.com/dp/XXXXXXXXXX?tag=mombabypick00-20
-- Internal links to /posts/ (use relative paths)
+- Amazon links: use Hugo shortcode {{< amazon url="https://www.amazon.com/dp/XXXXXXXXXX" text="Check Price on Amazon →" >}} (do NOT add ?tag= — shortcode handles it)
+- Include at least 3 internal links to different /posts/ pages (use relative paths)
+- Add a brief 'How We Selected' paragraph after the intro explaining criteria
+- Avoid unverifiable medical or scientific claims (no '94% acceptance rate' without source)
+- Use practical parent-experience tone (not clinical)
 - Affiliate disclosure at end
 - Frontmatter: title, date, description (≤155 chars), tags, cover image
+- IMPORTANT: Output ONLY the markdown article, wrapped in ```markdown ... ``` code fence. No other text before or after.
 
 SEO STRUCTURE:
 ---
@@ -132,8 +136,20 @@ cover:
 ## Which Bottle Should You Choose?
 " 2>/dev/null || echo 'ERROR:claude_failed')
 
-# Save raw output to file and check
+# Save raw output to file and strip code fences
 echo "$ARTICLERAW" > "$ARTICLE_FILE"
+python3 -c "
+import re
+with open('$ARTICLE_FILE') as f:
+    text = f.read()
+# Aggressive strip: remove leading whitespace, then code fences at start/end
+text = text.lstrip()
+text = re.sub(r'^```\w*\\n?', '', text)
+text = re.sub(r'\\n```\\s*$', '', text)
+text = text.strip() + '\\n'
+with open('$ARTICLE_FILE', 'w') as f:
+    f.write(text)
+"
 
 # Check if article has real content (frontmatter marker)
 if ! head -1 "$ARTICLE_FILE" | grep -q "^---"; then
@@ -162,7 +178,7 @@ log "🔍 Step 3: Claude Code reviewing article..."
 REVIEW_RAW=$($CLAUDECMD -p "
 You are Affiliate_Content_ReviewER for MomBabyPicks.com.
 
-Read the article at $ARTICLE_FILE and score it.
+Read the file $ARTICLE_FILE and score it.
 
 SCORE EACH DIMENSION (0-100):
 1. seo_quality
@@ -187,29 +203,51 @@ OUTPUT ONLY raw JSON, no markdown, no code fences, no explanation:
 echo "$REVIEW_RAW" > "$REVIEW_FILE"
 
 # Parse score
-SCORE=$(echo "$REVIEW_RAW" | python3 -c "
-import sys, json, re
-text = sys.stdin.read()
-# Try to find JSON object
-match = re.search(r'\{\"overall_score\".*?\}', text, re.DOTALL)
-if match:
-    try:
-        d = json.loads(match.group())
-        print(d.get('overall_score', 0))
-    except:
+SCORE=$(python3 -c "
+import sys, json
+with open('$REVIEW_FILE') as f:
+    text = f.read()
+try:
+    d = json.loads(text)
+    print(d.get('overall_score', 0))
+except json.JSONDecodeError:
+    # Try to find balanced JSON object
+    depth = 0
+    start = -1
+    for i, c in enumerate(text):
+        if c == '{':
+            if start == -1:
+                start = i
+            depth += 1
+        elif c == '}':
+            depth -= 1
+            if depth == 0 and start >= 0:
+                try:
+                    d = json.loads(text[start:i+1])
+                    print(d.get('overall_score', 0))
+                except:
+                    print(0)
+                break
+            elif depth < 0:
+                break
+    else:
         print(0)
-else:
-    print(0)
 " 2>/dev/null || echo "0")
 
-DECISION=$(echo "$REVIEW_RAW" | python3 -c "
-import sys, json, re
-text = sys.stdin.read()
-match = re.search(r'\"decision\":\s*\"(\w+)\"', text)
-if match:
-    print(match.group(1))
-else:
-    print('REJECT')
+DECISION=$(python3 -c "
+import sys, json
+with open('$REVIEW_FILE') as f:
+    text = f.read()
+try:
+    d = json.loads(text)
+    print(d.get('decision', 'REJECT'))
+except json.JSONDecodeError:
+    import re
+    match = re.search(r'\"decision\":\s*\"(\w+)\"', text)
+    if match:
+        print(match.group(1))
+    else:
+        print('REJECT')
 ")
 
 log "Review score: $SCORE — Decision: $DECISION"
