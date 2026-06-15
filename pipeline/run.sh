@@ -115,7 +115,13 @@ CONTENT RULES:
 - Recommend 5 products, each with pros/cons and 'Who it's for'
 - Include a markdown comparison table
 - FAQ: 5-6 questions
-- Amazon links: use Hugo shortcode {{< amazon url=\"https://www.amazon.com/dp/XXXXXXXXXX\" text=\"Check Price on Amazon →\" >}} (do NOT add ?tag= — shortcode handles it)
+- Amazon links: use Hugo shortcode with explicit placeholders — do NOT make up ASINs:
+  {{< amazon url="https://www.amazon.com/dp/[ASIN_1]" text="Check Price on Amazon →" >}}
+  {{< amazon url="https://www.amazon.com/dp/[ASIN_2]" text="Check Price on Amazon →" >}}
+  etc. for each product.
+  CRITICAL: NEVER invent or guess ASINs. Using fake ASINs is dangerous for affiliate sites.
+  Only use the [ASIN_N] placeholder format shown above.
+  (do NOT add ?tag= — shortcode handles it)
 - Include at least 3 internal links to different /posts/ pages (use relative paths)
 - Add a 'How We Selected' paragraph after intro explaining criteria
 - Add a 'Material Safety & Certifications' section covering BPA-free, phthalate-free, food-grade silicone, glass vs plastic
@@ -342,6 +348,24 @@ with open('pipeline/topic-queue.json', 'w') as f:
   log "Article moved to revisions/"
   exit 1
 fi
+
+# ==== Step 5: Replace [ASIN_N] placeholders with dummy ASINs ====
+log "🔗 Step 5: Replacing [ASIN_N] placeholders..."
+python3 -c "
+import re
+with open('$ARTICLE_FILE') as f:
+    text = f.read()
+for i in range(1, 10):
+    placeholder = f'[ASIN_{i}]'
+    dummy = f'B0DEFAULT00{i}'
+    if placeholder in text:
+        text = text.replace(placeholder, dummy)
+        log_message = f'  Replaced {placeholder} → {dummy}'
+        print(log_message)
+with open('$ARTICLE_FILE', 'w') as f:
+    f.write(text)
+" 2>&1 | tee -a "$LOG_FILE"
+log "✅ Placeholders replaced"
 
 # ==== Step 6: QA checks ====
 log "🧪 Step 4: Running QA checks..."
