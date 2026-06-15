@@ -37,6 +37,10 @@
           "type": "integer",
           "description": "Links to existing posts on mombabypicks.com"
         },
+        "pinterest_readiness": {
+          "type": "integer",
+          "description": "Pinterest pack exists and at least one published pin is recorded"
+        },
         "eeat_signals": {
           "type": "integer",
           "description": "Experience, Expertise, Authoritativeness, Trustworthiness"
@@ -46,7 +50,7 @@
           "description": "LOWER = safer. Below 60 triggers auto-REJECT."
         }
       },
-      "required": ["seo_quality", "readability", "affiliate_compliance", "content_completeness", "product_coverage", "internal_linking", "eeat_signals", "hallucination_risk"]
+      "required": ["seo_quality", "readability", "affiliate_compliance", "content_completeness", "product_coverage", "internal_linking", "pinterest_readiness", "eeat_signals", "hallucination_risk"]
     },
     "issues": {
       "type": "array",

@@ -96,7 +96,46 @@ else
   REPORT+="  ⚠️  No internal links found\n"
 fi
 
-# === 10. Word count ===
+# === 10. Pinterest pin published ===
+SLUG=$(basename "$FILE" .md)
+PIN_PACK="data/pinterest/${SLUG}.json"
+if [ ! -f "$PIN_PACK" ]; then
+  REPORT+="  ❌ Missing Pinterest pack ($PIN_PACK)\n"
+  FAILED=1
+else
+  PIN_COUNT=$(python3 - "$PIN_PACK" <<'PY'
+import json
+import sys
+from pathlib import Path
+
+path = Path(sys.argv[1])
+try:
+    data = json.loads(path.read_text())
+except Exception:
+    print(0)
+    raise SystemExit
+
+count = 0
+if isinstance(data, list):
+    for item in data:
+        if not isinstance(item, dict):
+            continue
+        image_path = str(item.get("image_path", ""))
+        asset_path = Path("static") / image_path.lstrip("/")
+        if item.get("status") in {"published", "backfilled"} and item.get("published_pin_url") and image_path.startswith("/images/pins/") and asset_path.exists():
+            count += 1
+print(count)
+PY
+)
+  if [ "$PIN_COUNT" -ge 1 ]; then
+    REPORT+="  ✅ Pinterest pin recorded (found $PIN_COUNT)\n"
+  else
+    REPORT+="  ❌ Pinterest pack found but no recorded pin with an existing asset\n"
+    FAILED=1
+  fi
+fi
+
+# === 11. Word count ===
 WORD_COUNT=$(wc -w < "$FILE")
 if [ "$WORD_COUNT" -ge 700 ]; then
   REPORT+="  ✅ Word count ($WORD_COUNT)\n"
@@ -105,7 +144,7 @@ else
   FAILED=1
 fi
 
-# === 11. Comparison section ===
+# === 12. Comparison section ===
 if grep -qi "^|.*|.*|$" "$FILE"; then
   REPORT+="  ✅ Comparison section present\n"
 else

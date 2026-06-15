@@ -9,6 +9,7 @@ The goal is to reduce Codex usage and push the first pass of work to Claude, wit
 - Site: [https://mombabypicks.com](https://mombabypicks.com)
 - Amazon store ID: `mombabypick00-20`
 - Pinterest rule: use article URLs, not direct Amazon links
+- Pinterest minimum: every article must ship with at least 1 published pin; 3-pin packs are preferred
 - Compliance rule: every Amazon-linked post must include the Associate disclosure
 - Strategist runtime: `claude.ai` chat, not the Multica UI
 - Multica is the source of truth for sprint state
@@ -62,6 +63,7 @@ The goal is to reduce Codex usage and push the first pass of work to Claude, wit
 > Write the full raw Hugo Markdown article only.
 > Include front matter, title, date, description, tags, cover image, internal links, Amazon links with the correct tag, and affiliate disclosure.
 > Add at least one visual block recommendation or image placement in the content.
+> Include Pinterest-ready visual guidance so the article can be paired with at least 1 published pin.
 > Return the raw Markdown, not a summary.
 > If you did not write the file to disk, mark the status as UNSAVED.
 
@@ -78,6 +80,7 @@ The goal is to reduce Codex usage and push the first pass of work to Claude, wit
 ## Affiliate_Pinterest_Growth Prompt
 
 > Generate 3 Pinterest pins only after the article URL is live.
+> At minimum, create 1 published pin for every article; 3 pins is the preferred default.
 > Use the article URL as the destination, never a direct Amazon link.
 > Prefer posts that expose multiple images or a comparison visual for Pinterest scraping.
 > When publishing live pins, prefer Pinterest create-button URLs with separate `url=` and `media=` parameters so the destination stays on MomBabyPicks while the selected creative can vary.
@@ -101,7 +104,7 @@ Acceptance:
 - Hugo build passes
 - Visual asset exists
 - Live article URL exists
-- Pinterest pack exists
+- Pinterest pack exists with at least 1 published pin
 ```
 
 ## Example Sprint Flow

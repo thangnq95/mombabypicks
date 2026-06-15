@@ -36,6 +36,7 @@ Split affiliate work so no single agent does everything:
 - Do not claim a file was saved unless it really exists.
 - Do not publish Amazon links without `tag=mombabypick00-20`.
 - Do not generate Pinterest packs before the article URL exists.
+- Do not mark a sprint complete unless at least one Pinterest pin is published and recorded.
 - Every article should include at least one visual asset block.
 - For live Pinterest publishing, prefer create-button URLs with separate article `url=` and image `media=` parameters.
 - Do not publish pins whose destination is a raw image URL.
@@ -82,6 +83,7 @@ Use this prompt:
 Use this prompt:
 
 > Generate 3 Pinterest pins only after the article URL is live.
+> At minimum, publish and record 1 pin for every article; 3 pins remains the preferred default.
 > Prefer posts that include multiple scrapeable images or a comparison visual.
 > Use article URLs as destinations, never direct Amazon links.
 > For live publishing, use Pinterest create-button URLs with separate `url=` and `media=` parameters when the browser supports it.

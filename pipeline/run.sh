@@ -115,6 +115,7 @@ CONTENT RULES:
 - Recommend 5 products, each with pros/cons and 'Who it's for'
 - Include a markdown comparison table
 - FAQ: 5-6 questions
+- Include at least one Pinterest-ready pin asset or gallery reference so the post can ship with a published pin
 - Amazon links: use Hugo shortcode with explicit placeholders — do NOT make up ASINs:
   {{< amazon url="https://www.amazon.com/dp/[ASIN_1]" text="Check Price on Amazon →" >}}
   {{< amazon url="https://www.amazon.com/dp/[ASIN_2]" text="Check Price on Amazon →" >}}
@@ -238,16 +239,17 @@ SCORE EACH DIMENSION (0-100):
 4. content_completeness
 5. product_coverage
 6. internal_linking
-7. eeat_signals
-8. hallucination_risk — LOW SCORE (e.g. 90+) = SAFE. HIGH hallucination risk = LOW score (e.g. 30).
+7. pinterest_readiness
+8. eeat_signals
+9. hallucination_risk — LOW SCORE (e.g. 90+) = SAFE. HIGH hallucination risk = LOW score (e.g. 30).
 
 Overall score 0-100.
 >= 80 → PASS | 60-79 → REVISE | < 60 → REJECT
 
-AUTO-REJECT if: no affiliate disclosure, missing FAQ, hallucination_risk < 50
+AUTO-REJECT if: no affiliate disclosure, missing FAQ, missing Pinterest pin pack, hallucination_risk < 50
 
 OUTPUT ONLY raw JSON, no markdown, no code fences, no explanation:
-{\"overall_score\": 82, \"decision\": \"PASS\", \"dimensions\": {\"seo_quality\": 82, \"readability\": 85, \"affiliate_compliance\": 90, \"content_completeness\": 80, \"product_coverage\": 82, \"internal_linking\": 75, \"eeat_signals\": 78, \"hallucination_risk\": 85}, \"issues\": [\"Minor: internal links could be more diverse\"], \"auto_reject_reasons\": []}
+{\"overall_score\": 82, \"decision\": \"PASS\", \"dimensions\": {\"seo_quality\": 82, \"readability\": 85, \"affiliate_compliance\": 90, \"content_completeness\": 80, \"product_coverage\": 82, \"internal_linking\": 75, \"pinterest_readiness\": 90, \"eeat_signals\": 78, \"hallucination_risk\": 85}, \"issues\": [\"Minor: internal links could be more diverse\"], \"auto_reject_reasons\": []}
 " --allowedTools "Read" --max-turns 3 --output-format json 2>/dev/null || echo '{"error":"claude_failed"}')
 
 # Save raw output

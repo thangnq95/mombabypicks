@@ -16,6 +16,7 @@
 - Do not claim a file was saved unless the file is actually created in the working directory.
 - Do not summarize only; the raw Markdown is the deliverable.
 - Include at least one visual block recommendation for every article, such as a gallery, comparison image, or Pinterest-safe hero.
+- Include at least one Pinterest-ready pin asset or a matching pin plan so every post can be published to Pinterest.
 
 ### Affiliate_Hugo_Publisher
 
@@ -31,6 +32,7 @@
 - Build the Pinterest publishing pack.
 - Only run after the article URL exists in the Hugo site.
 - Create pin metadata and creative briefs, not direct Amazon destination links.
+- Record at least one published pin for every article; three pins remain the preferred default.
 - Prefer article URLs that already contain a visual gallery or comparison image.
 
 ## Recommended Squad Split
@@ -55,7 +57,7 @@
 6. Add at least one visual guide image and a Pinterest-safe featured image into `static/images/posts/`.
 7. Run `hugo --gc --minify` and fix build errors.
 8. If AI QA and build both pass, Hermes updates the Multica ticket to `Live` automatically.
-9. Pinterest Growth creates 3 pins that point to the article URL.
+9. Pinterest Growth creates at least 1 published pin that points to the article URL.
 10. Publish live pins only after the article URL and visual assets exist.
 11. Commit, push, and record the live URL for the sprint log in Multica.
 
@@ -126,6 +128,7 @@ Operational note:
 - Do not publish direct image URLs as pin destinations. If Pinterest locks the destination to the image URL, cancel and use the create-button URL.
 - Use UTM parameters per pin, for example `utm_source=pinterest&utm_medium=organic&utm_campaign=pin2`.
 - For repeatability, create three portrait pin assets per post and keep the article URL stable.
+- Never mark a post ready for publish until at least one pin is published and recorded.
 
 ## Review Policy
 

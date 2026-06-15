@@ -26,6 +26,7 @@
 - [x] Affiliate tag (mombabypick00-20)
 - [x] FAQ section present
 - [x] Internal links to other posts
+- [x] Pinterest pin published
 - [x] Word count >= 500
 - [x] Comparison section present
 - [x] Reviewer score >= 85
@@ -36,6 +37,7 @@
 - Comparison table
 - FAQ (4-5 questions)
 - Affiliate disclosure at end
+- At least 1 Pinterest pin published before publish; 3-pin packs are preferred
 - Warm, practical parent-to-parent tone
 - Relative internal links: `/posts/slug/`
 
@@ -52,6 +54,6 @@
 ## Rules
 - **No deep Amazon research** — Hermes only proposes topics/keywords, not ASINs or pricing
 - Claude writes with placeholder ASINs — these need manual or script-based verification before final publish
-- Every article must pass all 10 QA gates
+- Every article must pass all 11 QA gates
 - Every article must score >= 85 from Reviewer
 - Topic queue priority system: 1 = hottest, 4 = evergreen filler

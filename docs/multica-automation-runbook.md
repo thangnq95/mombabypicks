@@ -44,6 +44,7 @@ This runbook makes Multica the source of truth for the MomBabyPicks affiliate pi
 - Hermes updates the ticket to `Live` only after the article URL exists.
 - Hermes then assigns `Affiliate_Pinterest_Growth` or asks Codex to publish live pins when browser action is needed.
 - The ticket can only move to `Complete` after live article, live pins, and commit hash are all recorded.
+- At least one published pin must exist before the ticket can move to `Complete`.
 - The bootstrap/dispatch helper lives at `scripts/multica-squad.mjs` and talks to Multica through the local Electron profile token.
 - Use the helper to align Hermes, the squad, and the current sprint ticket without copying prompts by hand.
 
@@ -66,7 +67,7 @@ NEXT: Affiliate_Pinterest_Growth
 3. Codex saves files and verifies the build.
 4. Hermes moves the ticket to `Live`.
 5. Pinterest assets are created from the live article URL.
-6. Live pins are published.
+6. At least one live pin is published.
 7. Hermes closes the ticket with links to the live article, pins, and commit.
 
 ## Failure Rules
