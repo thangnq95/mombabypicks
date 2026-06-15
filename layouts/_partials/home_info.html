@@ -1,35 +1,48 @@
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
-    <header class="entry-header">
-        <p class="home-eyebrow">Parent-friendly baby gear guides</p>
-        <h1>{{ .Title | markdownify }}</h1>
-    </header>
-    <div class="entry-content md-content">
-        {{ $opts := dict "display" "block" }}
-        {{ .Content | $.Page.RenderString $opts }}
-    </div>
-    <div class="home-quick-links" aria-label="Popular guide categories">
-        <a href="/tags/breast-pump/">Breast Pumps</a>
-        <a href="/tags/bottle-warmer/">Bottle Warmers</a>
-        <a href="/tags/newborn/">Newborn Essentials</a>
-        <a href="/how-we-review/">How We Review</a>
-    </div>
-    <div class="home-trust-grid">
-        <div>
-            <strong>Practical picks</strong>
-            <span>Focused on daily feeding, sleep, and newborn care.</span>
+    <div class="home-hero-copy">
+        <p class="home-eyebrow">Mobile-first baby gear picks</p>
+        <header class="entry-header">
+            <h1>{{ .Title | markdownify }}</h1>
+        </header>
+        <div class="entry-content md-content">
+            {{ $opts := dict "display" "block" }}
+            {{ .Content | $.Page.RenderString $opts }}
         </div>
-        <div>
-            <strong>Clear tradeoffs</strong>
-            <span>We explain who each product is best for and when to skip it.</span>
+        <div class="home-hero-actions" aria-label="Primary homepage actions">
+            <a class="home-primary-btn" href="/posts/">Explore guides</a>
+            <a class="home-secondary-btn" href="/how-we-review/">How we review</a>
         </div>
-        <div>
-            <strong>Affiliate disclosure</strong>
-            <span>As an Amazon Associate I earn from qualifying purchases.</span>
+        <div class="home-quick-links" aria-label="Popular guide categories">
+            <a href="/tags/breast-pump/">Breast Pumps</a>
+            <a href="/tags/bottle-warmer/">Bottle Warmers</a>
+            <a href="/tags/newborn/">Newborn Essentials</a>
+            <a href="/about/">About us</a>
         </div>
     </div>
-    <footer class="entry-footer">
-        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
-    </footer>
+    <div class="home-trust-card">
+        <p class="home-trust-label">What you can expect</p>
+        <div class="home-trust-grid">
+            <div>
+                <strong>Practical picks</strong>
+                <span>Focused on daily feeding, sleep, and newborn care.</span>
+            </div>
+            <div>
+                <strong>Clear tradeoffs</strong>
+                <span>We explain who each product is best for and when to skip it.</span>
+            </div>
+            <div>
+                <strong>Mobile-friendly reading</strong>
+                <span>Short sections, fast CTAs, and easier scanning on phones.</span>
+            </div>
+            <div>
+                <strong>Affiliate disclosure</strong>
+                <span>As an Amazon Associate I earn from qualifying purchases.</span>
+            </div>
+        </div>
+        <footer class="entry-footer">
+            {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+        </footer>
+    </div>
 </article>
 {{- end -}}
