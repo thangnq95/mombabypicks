@@ -101,7 +101,6 @@ body {
 .menu-drawer-header,
 .menu-cta-item,
 .menu-section-label,
-.menu-disclosure,
 .menu-index {
   display: none;
 }
@@ -890,38 +889,6 @@ body {
   :root[data-theme="dark"] .menu .active {
     background: rgba(115, 80, 68, 0.32);
     color: #fff3ec;
-  }
-
-  .menu-disclosure {
-    display: block;
-    margin-top: 0.7rem;
-    padding: 0.85rem 0.95rem;
-    border: 1px solid #edd2c8;
-    border-radius: 18px;
-    background: rgba(255, 255, 255, 0.74);
-    color: #6f564d;
-    font-size: 0.84rem;
-    line-height: 1.45;
-  }
-
-  .menu-disclosure strong {
-    display: block;
-    margin-bottom: 0.22rem;
-    color: #8f4d46;
-    font-size: 0.8rem;
-    font-weight: 800;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-  }
-
-  :root[data-theme="dark"] .menu-disclosure {
-    border-color: #4b3d36;
-    background: rgba(42, 34, 29, 0.94);
-    color: #f2ddd2;
-  }
-
-  :root[data-theme="dark"] .menu-disclosure strong {
-    color: #f0c4b4;
   }
 
   :root[data-theme="dark"] .amazon-box {
