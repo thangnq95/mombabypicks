@@ -538,6 +538,13 @@ body {
   color: #9f4f48;
 }
 
+.footer-disclosure {
+  margin: 0.35rem 0 0;
+  color: var(--secondary);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
 @media (max-width: 900px) {
   .first-entry {
     grid-template-columns: 1fr;
