@@ -79,3 +79,11 @@ NEXT: Affiliate_Pinterest_Growth
 - If a pin destination contains tracking params, strip them back to the canonical article URL before recording the pack.
 - If an agent claims completion without an artifact, treat the claim as unverified.
 - If validation passes, no human approval step should block the ticket.
+
+## UI Safety Notes
+
+- Treat `assets/css/extended/mombabypicks.css`, `hugo.toml`, `layouts/_partials/home_info.html`, and `layouts/index.html` as protected unless the user explicitly asks to edit them.
+- If the UI looks broken, verify the actual failure mode first: check whether the CSS file still exists, confirm the file has content, and run `hugo` to see whether the build itself fails before changing templates.
+- Do not attribute a visual regression to a deploy/CDN issue unless that is verified. Confirm the exact changed files and the generated build output first.
+- For routine asset work, stay inside `content/posts/`, `static/images/`, and `data/pinterest/` unless the task explicitly expands the scope.
+- If a cleanup step removes any file, confirm that the file is not referenced before deleting it and mention the deletion in the handoff note.
