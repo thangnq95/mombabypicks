@@ -2,7 +2,7 @@
 title: "How to Set Up a Newborn Feeding Station"
 date: 2026-06-09
 draft: false
-tags: ["newborn", "feeding", "breastfeeding", "checklist"]
+tags: ["newborn", "feeding", "breastfeeding", "checklist", "baby bottles"]
 description: "How to organize a simple newborn feeding station for breastfeeding, pumping, or formula feeding."
 images:
   - /images/pins/newborn-feeding-station-pin-1.png

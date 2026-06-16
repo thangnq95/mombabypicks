@@ -2,7 +2,7 @@
 title: "Bottle Warmer Safety: What New Parents Should Know"
 date: 2026-06-10
 draft: false
-tags: ["bottle-warmer", "newborn", "feeding", "safety"]
+tags: ["bottle-warmer", "newborn", "feeding", "safety", "baby bottles"]
 description: "Bottle warmer safety tips for heating breast milk and formula without hot spots."
 images:
   - /images/pins/bottle-warmer-safety-guide-pin-1.png

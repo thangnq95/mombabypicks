@@ -34,18 +34,26 @@ paginate = 10
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Breast Pumps"
-    url = "/tags/breast-pump/"
+    name = "Feeding"
+    url = "/tags/baby-bottles/"
     weight = 2
   [[menu.main]]
-    name = "Bottle Warmers"
-    url = "/tags/bottle-warmer/"
+    name = "Breast Pumps"
+    url = "/tags/breast-pump/"
     weight = 3
   [[menu.main]]
-    name = "Newborn Essentials"
-    url = "/tags/newborn/"
+    name = "Diapers"
+    url = "/tags/diapers/"
     weight = 4
+  [[menu.main]]
+    name = "Sleep & Safety"
+    url = "/tags/sleep/"
+    weight = 5
+  [[menu.main]]
+    name = "Essentials"
+    url = "/tags/newborn/"
+    weight = 6
   [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 5
+    weight = 7
