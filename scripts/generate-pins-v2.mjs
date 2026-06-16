@@ -155,6 +155,11 @@ const articles = [
     headline: "What Not to Buy for a Newborn",
     subtitle: "Skip the stuff that gathers dust",
   },
+  {
+    slug: "best-infant-car-seats-2026",
+    headline: "Best Infant Car Seats 2026",
+    subtitle: "Safety ratings & installation guide",
+  },
 ];
 
 function escapeHtml(value) {
