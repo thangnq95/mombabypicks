@@ -137,7 +137,12 @@ The Tommee Tippee Easi-Warm is a simple warmer that gets the job done without co
 
 ## Important Safety Note
 
-Never use a microwave to warm breast milk or formula. Microwaves create uneven hot spots that can burn your baby's mouth even when the outside feels cool. Always use a dedicated bottle warmer or warm water bath.
+Always follow the manufacturer's instructions for your specific bottle warmer. Never microwave breast milk or formula, as it creates dangerous hot spots that can burn your baby's mouth. For more safety tips, read our [Bottle Warmer Safety Guide](/posts/bottle-warmer-safety-guide/).
+
+---
+
+*Our recommendations are based on product research and hands-on testing. Prices and availability are accurate as of the date of publication. As an Amazon Associate, we earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you.
 
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 

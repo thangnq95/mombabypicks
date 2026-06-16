@@ -13,6 +13,17 @@ cover:
 
 New parents are bombarded with lists of "must-have" baby products — most of which you'll never use. This checklist focuses on what you **actually** need for the first 3 months.
 
+The key is to buy in stages. Here's what to have ready before the baby arrives and what you can buy after you figure out your baby's preferences.
+
+## When to Buy What
+
+| Stage | Items | Why |
+|-------|-------|-----|
+| Before birth | Car seat, safe sleep space, diapers (1 box NB + 1 box size 1), feeding supplies, going-home outfit | You'll need these from day one |
+| First week | Swaddles, burp cloths, nipple cream (if nursing), bottles | Wait to see which brand works for baby |
+| First month | Breast pump, baby monitor, diaper bag, nail clippers | Gives you time to research |
+| Month 2-3 | White noise machine, baby carrier, bouncer | Let baby's preferences guide you |
+
 ## Feeding Essentials
 
 **If breastfeeding:**
@@ -86,6 +97,13 @@ New parents are bombarded with lists of "must-have" baby products — most of wh
 - ❌ Baby shoes (newborns don't walk)
 - ❌ Wipe warmer (nice-to-have, not essential)
 - ❌ Baby swing AND bouncer — start with one, see if baby likes it
+
+## Money-Saving Tips
+
+- **Buy diapers in size 1, not newborn.** Newborn size fits maybe 2-3 weeks. Size 1 works for most babies from 8 lbs onward.
+- **Skip the stroller travel system.** An infant car seat that clicks into a stroller base is convenient but expensive. A separate stroller and car seat is often cheaper and more versatile long-term.
+- **Borrow or buy used.** Baby equipment like bassinets, bouncers, and baby carriers are used for only a few months. Check Facebook Marketplace or Buy Nothing groups before buying new.
+- **Ask for gift cards.** Well-meaning relatives will buy cute outfits your baby will outgrow in a month. Suggest Amazon or Target gift cards so you can buy what you actually need after baby arrives.
 
 ---
 
