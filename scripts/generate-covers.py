@@ -143,12 +143,24 @@ ARTICLES = [
          query="",
          palette=1,
          ai_prompt="Flat lay of two round white wearable breast pump pods on a soft blush pink background with nursing accessories (breast pads, small milk bottle). No people, no hands."),
+    dict(slug="how-to-choose-breast-pump",
+         headline="How to Choose a Breast Pump",
+         subtitle="Wearable vs standard and what matters most",
+         query="",
+         palette=1,
+         ai_prompt="Landscape product photo of two breast pump styles side by side: one wearable pump and one standard electric pump with flanges and bottles, on a soft blush pink and cream background. No people, no hands."),
     dict(slug="breastfeeding-essentials",
          headline="Breastfeeding Essentials 2026",
          subtitle="What you actually need from day one",
          query="nursing accessories bottle pastel pink flat lay product",
          palette=1,
          ai_prompt="Flat lay of breastfeeding essentials: nursing pads, a breast pump flange, a milk storage bottle, nipple cream tube, on a soft pink background. No people, no hands."),
+    dict(slug="breast-pump-cleaning-guide",
+         headline="Breast Pump Cleaning Guide",
+         subtitle="Tools that make cleaning faster and safer",
+         query="",
+         palette=1,
+         ai_prompt="Landscape product photo of breast pump cleaning tools including a drying rack, bottle brush, pump parts, cleaning wipes, and sterilizing tools on a cream and blush background. No people, no hands."),
     dict(slug="newborn-essentials-checklist",
          headline="Newborn Essentials Checklist",
          subtitle="Skip the noise — here's what you need",
@@ -161,6 +173,12 @@ ARTICLES = [
          query="soft cloth fabric accessories bottles flat lay pastel",
          palette=0,
          ai_prompt="Flat lay of newborn feeding items: baby bottle, burp cloth, bottle brush, on a soft peach/cream background. Clean product photography. No people, no hands."),
+    dict(slug="newborn-feeding-station",
+         headline="Newborn Feeding Station",
+         subtitle="Keep the setup tidy and easy to use",
+         query="",
+         palette=0,
+         ai_prompt="Landscape product photo of a newborn feeding station setup with wipes dispenser, nursing pillow, bottle drying rack, and small baby feeding accessories on a warm cream background. No people, no hands."),
     dict(slug="bottle-refusal-breastfed-babies",
          headline="Bottle Refusal: What Works",
          subtitle="Why breastfed babies refuse & how to fix it",
@@ -191,15 +209,23 @@ ARTICLES = [
          query="",
          palette=1,
          ai_prompt="Flat lay of two Momcozy M5 wearable breast pump pods with nursing accessories: breast pads, a milk bottle, soft cloth — on a pink pastel background. No people, no hands."),
+    dict(slug="what-not-to-buy-newborn",
+         headline="What Not to Buy for a Newborn",
+         subtitle="Avoid overbuying the wrong extras",
+         query="",
+         palette=2,
+         ai_prompt="Landscape editorial product photo suggesting overbuying newborn gear: duplicate blankets, extra bottles, extra pacifiers, and small gadgets in a neat overfilled basket, with no faces or character toys."),
 ]
 
 
 if __name__ == "__main__":
     target = sys.argv[1] if len(sys.argv) > 1 else None
     print("Generating covers — local AI base images + abstract fallback\n")
+    matched = False
     for art in ARTICLES:
         if target and art["slug"] != target:
             continue
+        matched = True
         make_cover(
             slug=art["slug"],
             headline=art["headline"],
@@ -207,4 +233,7 @@ if __name__ == "__main__":
             query=art["query"],
             palette=art["palette"],
         )
+    if target and not matched:
+        print(f"Unknown slug: {target}")
+        sys.exit(1)
     print(f"\nDone! Check {COVERS_DIR}")

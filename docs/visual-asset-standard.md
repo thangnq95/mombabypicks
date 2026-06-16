@@ -11,7 +11,9 @@ If another document disagrees with this one, follow this file.
 - Cover style: visual only.
 - Never bake title text, subtitles, badges, or CTA text into the cover image.
 - Never use real people, hands, or faces.
-- Preferred source: local AI base image in `static/images/raw/{slug}.png` or `.jpg`.
+- Preferred source: a dedicated local base image in `static/images/raw/{slug}.png` or `.jpg`.
+- Do not reuse the same base scene across multiple articles.
+- If stock/Pexels results are too generic or drift off-topic, regenerate a dedicated AI base image instead of forcing a weak stock match.
 - Fallback: abstract pastel composition when no local base image exists.
 - Generate with `python3 scripts/generate-covers.py {slug}`.
 
