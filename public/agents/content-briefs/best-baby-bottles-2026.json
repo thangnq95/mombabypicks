@@ -1,0 +1,81 @@
+{
+  "topic": "Best Baby Bottles for Newborns 2026",
+  "target_keyword": "best baby bottles for newborns",
+  "secondary_keywords": [
+    "anti colic bottles newborn",
+    "best newborn bottle set",
+    "best baby bottles for breastfed babies",
+    "baby bottles for gassy newborns",
+    "newborn feeding bottles 2026"
+  ],
+  "search_intent": "commercial - parent wants to know which bottle is best for their newborn, comparing anti-colic features, nipple flow, material (plastic vs glass), and value sets",
+  "article_type": "comparison + buyer's guide",
+  "recommended_products": [
+    {
+      "name": "Dr. Brown's Natural Flow Anti-Colic Options+ Narrow Baby Bottle",
+      "asin": "B01845QGKK",
+      "price": "$12.99",
+      "rating": "4.6",
+      "best_for": "Overall Best Anti-Colic",
+      "key_features": ["Anti-colic vent system", "#1 pediatrician recommended", "BPA-free", "4oz perfect for newborns", "Glass version available"]
+    },
+    {
+      "name": "Philips Avent Natural Baby Bottle with Natural Response Nipple",
+      "asin": "B09649R98Q",
+      "price": "$19.99",
+      "rating": "4.7",
+      "best_for": "Best for Breastfed Babies",
+      "key_features": ["Natural Response nipple mimics breastfeeding", "Wide breast-shaped nipple", "Anti-colic valve", "4oz + 8oz options", "Grows with baby"]
+    },
+    {
+      "name": "MAM Easy Start Anti-Colic+ Wide Neck Baby Bottle",
+      "asin": "B0D79FDBX3",
+      "price": "$11.49",
+      "rating": "4.5",
+      "best_for": "Best Budget Pick",
+      "key_features": ["Vented base anti-colic system", "Skin-soft silicone nipple", "Low parts to clean", "Self-sterilizing in microwave", "90% less colic symptoms"]
+    },
+    {
+      "name": "Tommee Tippee Closer to Nature Baby Bottles",
+      "asin": "B004I42GQK",
+      "price": "$13.99",
+      "rating": "4.6",
+      "best_for": "Best for Combination Feeding",
+      "key_features": ["Breast-like nipple shape", "Anti-colic valve", "Flexes like mom", "9oz grows with baby", "Easy teardrop shape"]
+    },
+    {
+      "name": "Lansinoh Anti-Colic Baby Bottles with NaturalWave Nipple",
+      "asin": "B00H0DH2OM",
+      "price": "$13.29",
+      "rating": "4.5",
+      "best_for": "Best Value Set",
+      "key_features": ["Ultra-soft silicone nipple", "Clinically proven anti-colic", "Wide breast-shaped base", "Dishwasher and sterilizer safe", "Compatible with Lansinoh pumps"]
+    },
+    {
+      "name": "Evenflo Balance+ Wide Neck Baby Bottle",
+      "asin": "B073X7Q89R",
+      "price": "$9.99",
+      "rating": "4.4",
+      "best_for": "Most Affordable",
+      "key_features": ["Lowest price per bottle", "Vented nipple prevents gas", "Ergonomic shape", "Slow flow for newborns", "Lightweight plastic"]
+    }
+  ],
+  "competitor_gaps": [
+    "Most competitors miss niche use cases (gassy vs breastfed vs combo)",
+    "Price comparison tables are weak on current posts",
+    "Missing practical tips on how many bottles to buy for a newborn"
+  ],
+  "article_outline": [
+    "Intro: Why choosing the right bottle matters for newborn feeding",
+    "Comparison Table: Quick overview of all 6 bottles",
+    "Dr. Brown's Options+ - deep dive",
+    "Philips Avent Natural Response - deep dive",
+    "MAM Easy Start Anti-Colic+ - deep dive",
+    "Tommee Tippee Closer to Nature - deep dive",
+    "Lansinoh Anti-Colic - deep dive",
+    "Evenflo Balance+ - deep dive",
+    "How to Choose: Plastic vs Glass, Nipple Flow Stages, How Many You Need",
+    "FAQ: 5 common questions about newborn bottles",
+    "Conclusion: Final recommendation by use case"
+  ]
+}
