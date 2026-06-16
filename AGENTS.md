@@ -18,13 +18,30 @@ Every new article MUST follow these image rules:
 ### Cover Image
 - Every article MUST have `cover.image` in frontmatter
 - Path: `/images/posts/{slug}.webp`
-- Generated via `image_generate` tool with `aspect_ratio=landscape`
-- Style: Soft lifestyle photo matching the article topic, warm beige/cream tones
+- Size: **1200×630px** landscape
+- Generated via **`python3 scripts/generate-covers.py {slug}`**
+- Design: clean full-bleed visual asset with no baked-in text
+- **NEVER use photos of real people or faces** (no faces, bodies, hands)
+
+#### Image sources (priority order)
+1. **AI-generated image** (preferred) — save to `static/images/raw/{slug}.png` or `.jpg` before running script
+2. **Abstract fallback** — used when no local AI image exists
+
+#### Codex image generation workflow
+- Each article in `scripts/generate-covers.py` has an `ai_prompt` field
+- **Codex reads** `scripts/generate-covers.py` → finds `ai_prompt` for the target slug
+- **Codex generates** image matching that prompt (landscape, product photography, no people)
+- **Codex saves** result to `static/images/raw/{slug}.png` or `.jpg`
+- Then run: `python3 scripts/generate-covers.py {slug}` to composite into final cover
+
+#### Adding a new article
+- Add entry to `ARTICLES` list in `scripts/generate-covers.py` with: `slug`, `headline`, `subtitle`, `query`, `palette`, `ai_prompt`
+- Palette choices: 0=peach-coral, 1=rose-pink, 2=warm-amber, 3=sage-mint, 4=soft-lilac
 
 ### Pinterest Pins
-- Every article MUST have **at least 3 Pinterest pin images**
+- Every article MUST have **3 Pinterest pin images**
 - Path: `static/images/pins/{slug}-pin-{N}.png` (N = 1, 2, 3...)
-- Generated via `image_generate` tool with `aspect_ratio=portrait` (2:3 vertical)
+- Generated from the same base visual language as the cover image
 - Style:
   - Soft lifestyle photo background (warm, beige/cream, shallow DOF)
   - White overlay card at bottom 1/3 with rounded corners
@@ -33,7 +50,7 @@ Every new article MUST follow these image rules:
   - Subtitle in grey
   - Dark navy "Read the guide" button
   - `mombabypicks.com` URL at bottom
-- Each pin should use a DIFFERENT background image/variant
+- Each pin should use a slightly different crop/variant of the same base scene
 
 ### Social Share Images
 - Every article MUST have `images:` frontmatter array

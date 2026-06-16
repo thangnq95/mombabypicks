@@ -1,197 +1,84 @@
 #!/usr/bin/env python3
 """
-Generate 1200x630 cover images — two-tone split layout.
-Left 43%: warm cream panel with headline + branding.
-Right 57%: Pexels lifestyle photo.
+Generate 1200x630 cover images — clean web-cover format.
+The cover image is a visual-only asset with no baked-in text.
+Preferred source order:
+1. local AI-generated base image in static/images/raw/{slug}.*
+2. deterministic soft abstract fallback
 
 Usage:
-  python3 scripts/generate-covers.py                    # Picsum fallback
-  PEXELS_API_KEY=xxx python3 scripts/generate-covers.py # real photos
-  PEXELS_API_KEY=xxx python3 scripts/generate-covers.py best-baby-bouncers-for-2026
+  python3 scripts/generate-covers.py                              # all
+  python3 scripts/generate-covers.py best-baby-bouncers-for-2026
 """
 
 import os
-import io
 import sys
-import urllib.request
-import urllib.parse
-import json
-from PIL import Image, ImageDraw, ImageFont
+import random
+from PIL import Image, ImageDraw, ImageFilter, ImageOps
 
 COVERS_DIR = "/Users/thangnguyen/GIT/PP/mombabypicks/static/images/posts"
+RAW_DIR = "/Users/thangnguyen/GIT/PP/mombabypicks/static/images/raw"
 W, H = 1200, 630
-LEFT_W = 520          # text panel width
-RIGHT_W = W - LEFT_W  # 680
+PALETTES = [
+    [(255, 244, 238), (255, 231, 219), (235, 212, 198)],
+    [(255, 241, 244), (251, 226, 234), (240, 208, 220)],
+    [(250, 244, 233), (235, 228, 214), (217, 208, 190)],
+    [(244, 247, 242), (227, 236, 225), (203, 218, 206)],
+    [(241, 246, 251), (222, 233, 244), (198, 214, 230)],
+]
 
-FONT_PATH = "/System/Library/Fonts/Helvetica.ttc"
-PEXELS_KEY = os.environ.get("PEXELS_API_KEY", "")
-
-CREAM       = (255, 244, 238, 255)  # #fff4ee
-DARK        = (47,  32,  28,  255)  # #2f201c
-CORAL       = (158, 85,  77,  255)  # #9e554d
-CORAL_LIGHT = (240, 212, 202, 255)  # #f0d4ca
-MUTED       = (160, 128, 112, 255)  # #a08070
-WHITE       = (255, 255, 255, 255)
-
-
-def load_font(size):
-    try:
-        return ImageFont.truetype(FONT_PATH, size)
-    except Exception:
-        return ImageFont.load_default()
-
-
-def fetch_pexels(query):
-    url = (f"https://api.pexels.com/v1/search"
-           f"?query={urllib.parse.quote(query)}&per_page=5&orientation=landscape")
-    headers = {"Authorization": PEXELS_KEY, "User-Agent": "Mozilla/5.0"}
-    try:
-        with urllib.request.urlopen(
-            urllib.request.Request(url, headers=headers), timeout=10
-        ) as r:
-            data = json.loads(r.read())
-        photos = data.get("photos", [])
-        if photos:
-            img_url = photos[0]["src"].get("large2x") or photos[0]["src"]["large"]
-            with urllib.request.urlopen(
-                urllib.request.Request(img_url, headers=headers), timeout=15
-            ) as r:
-                return Image.open(io.BytesIO(r.read())).convert("RGBA")
-    except Exception as e:
-        print(f"    Pexels error: {e}")
+def load_raw_image(slug):
+    """Load local AI base image if present."""
+    for ext in ("jpg", "jpeg", "png", "webp"):
+        path = os.path.join(RAW_DIR, f"{slug}.{ext}")
+        if os.path.exists(path):
+            return Image.open(path).convert("RGBA")
     return None
 
 
-def fetch_picsum(seed):
-    url = f"https://picsum.photos/seed/{seed}/680/630"
-    try:
-        with urllib.request.urlopen(
-            urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"}),
-            timeout=10,
-        ) as r:
-            return Image.open(io.BytesIO(r.read())).convert("RGBA")
-    except Exception as e:
-        print(f"    Picsum error: {e}")
-    return None
+def make_abstract_bg(slug, palette_index):
+    """Deterministic soft abstract fallback."""
+    rng = random.Random(slug)
+    palette = PALETTES[palette_index % len(PALETTES)]
+    bg = Image.new("RGBA", (W, H), (*palette[0], 255))
+    base = ImageDraw.Draw(bg)
+    # soft gradient bands
+    for x in range(W):
+        t = x / max(1, W - 1)
+        left = palette[0]
+        right = palette[-1]
+        color = tuple(int(left[i] * (1 - t) + right[i] * t) for i in range(3))
+        base.line([(x, 0), (x, H)], fill=(*color, 255))
+    # blurred floating shapes
+    for cx_f, cy_f, scale_f, idx in [
+        (0.22, 0.18, 0.42, 1),
+        (0.78, 0.24, 0.34, 2),
+        (0.66, 0.76, 0.52, 1),
+    ]:
+        cx = int(cx_f * W) + rng.randint(-40, 40)
+        cy = int(cy_f * H) + rng.randint(-35, 35)
+        r = int(min(W, H) * scale_f)
+        color = palette[idx % len(palette)]
+        layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(layer).ellipse([cx - r, cy - r, cx + r, cy + r], fill=(*color, 130))
+        layer = layer.filter(ImageFilter.GaussianBlur(radius=r // 3))
+        bg = Image.alpha_composite(bg, layer)
+    return bg
 
 
-def get_photo(query, seed):
-    if PEXELS_KEY:
-        photo = fetch_pexels(query)
-        if photo:
-            return photo
-        print(f"    Pexels miss for '{query}', falling back to Picsum")
-    return fetch_picsum(seed)
+def get_base_image(slug, palette_index):
+    raw = load_raw_image(slug)
+    if raw:
+        return ImageOps.fit(raw, (W, H), method=Image.Resampling.LANCZOS, centering=(0.5, 0.5))
+    return make_abstract_bg(slug, palette_index)
 
 
-def wrap_text(draw, text, font, max_w):
-    words = text.split()
-    lines, cur = [], []
-    for word in words:
-        test = " ".join(cur + [word])
-        if draw.textbbox((0, 0), test, font=font)[2] <= max_w:
-            cur.append(word)
-        else:
-            if cur:
-                lines.append(" ".join(cur))
-            cur = [word]
-    if cur:
-        lines.append(" ".join(cur))
-    return lines
-
-
-def rounded_rect(draw, xy, r, fill):
-    x0, y0, x1, y1 = xy
-    draw.rectangle([x0 + r, y0, x1 - r, y1], fill=fill)
-    draw.rectangle([x0, y0 + r, x1, y1 - r], fill=fill)
-    for cx, cy in [(x0, y0), (x1 - 2*r, y0), (x0, y1 - 2*r), (x1 - 2*r, y1 - 2*r)]:
-        draw.ellipse([cx, cy, cx + 2*r, cy + 2*r], fill=fill)
-
-
-def make_cover(slug, headline, subtitle, query, seed):
+def make_cover(slug, headline, subtitle, query, palette):
     out_path = os.path.join(COVERS_DIR, f"{slug}.webp")
     print(f"  {slug}...")
 
-    img = Image.new("RGBA", (W, H), CREAM)
-    draw = ImageDraw.Draw(img)
-
-    # --- Right panel: photo ---
-    photo = get_photo(query, seed)
-    if photo:
-        pw, ph = photo.size
-        scale = max(RIGHT_W / pw, H / ph)
-        nw, nh = int(pw * scale), int(ph * scale)
-        photo = photo.resize((nw, nh), Image.LANCZOS)
-        lx = (nw - RIGHT_W) // 2
-        ty_crop = (nh - H) // 2
-        photo = photo.crop((lx, ty_crop, lx + RIGHT_W, ty_crop + H))
-        img.paste(photo, (LEFT_W, 0))
-
-    # Soft cream-to-transparent blend at the join edge
-    blend_w = 80
-    overlay = Image.new("RGBA", (blend_w, H), (0, 0, 0, 0))
-    for i in range(blend_w):
-        alpha = int(255 * (1 - i / blend_w) ** 1.6)
-        ImageDraw.Draw(overlay).line([(i, 0), (i, H)], fill=(255, 244, 238, alpha))
-    img.paste(overlay, (LEFT_W, 0), overlay)
-
-    draw = ImageDraw.Draw(img)
-
-    # Coral accent bar on far left
-    draw.rectangle([0, 0, 5, H], fill=CORAL)
-
-    # --- Brand badge ---
-    f_badge = load_font(17)
-    badge_text = "MOM BABY PICKS"
-    bb = draw.textbbox((0, 0), badge_text, font=f_badge)
-    bw = bb[2] - bb[0] + 28
-    bh = 34
-    bx, by = 40, 38
-    rounded_rect(draw, (bx, by, bx + bw, by + bh), 17, CORAL_LIGHT)
-    draw.text((bx + 14, by + 9), badge_text, font=f_badge, fill=CORAL)
-
-    # --- Headline: auto-size to fit in 3 lines ---
-    PAD = 40
-    MAX_TW = LEFT_W - PAD * 2  # 440px
-
-    f_title = load_font(72)
-    lines = wrap_text(draw, headline, f_title, MAX_TW)
-    if len(lines) > 3:
-        f_title = load_font(58)
-        lines = wrap_text(draw, headline, f_title, MAX_TW)
-    line_h = int(f_title.size * 1.18)
-
-    # Vertical center with subtitle and button in mind
-    text_block_h = len(lines) * line_h
-    ty = max(110, (H - text_block_h - 180) // 2)
-
-    for line in lines[:4]:
-        draw.text((PAD, ty), line, font=f_title, fill=DARK)
-        ty += line_h
-
-    # --- Subtitle ---
-    f_sub = load_font(24)
-    ty += 14
-    for line in wrap_text(draw, subtitle, f_sub, MAX_TW)[:2]:
-        draw.text((PAD, ty), line, font=f_sub, fill=CORAL)
-        ty += 34
-
-    # --- CTA button ---
-    f_btn = load_font(21)
-    btn_text = "Read the guide  >"
-    bb = draw.textbbox((0, 0), btn_text, font=f_btn)
-    btn_w = bb[2] - bb[0] + 44
-    btn_h = 46
-    btn_y = H - 104
-    rounded_rect(draw, (PAD, btn_y, PAD + btn_w, btn_y + btn_h), 23, CORAL)
-    draw.text((PAD + 22, btn_y + 12), btn_text, font=f_btn, fill=WHITE)
-
-    # --- URL ---
-    f_url = load_font(19)
-    draw.text((PAD, H - 36), "mombabypicks.com", font=f_url, fill=MUTED)
-
-    final = img.convert("RGB")
-    final.save(out_path, "WEBP", quality=90, optimize=True)
+    img = get_base_image(slug, palette)
+    img.convert("RGB").save(out_path, "WEBP", quality=92, optimize=True)
     print(f"    Saved: {os.path.basename(out_path)}")
 
 
@@ -199,101 +86,117 @@ ARTICLES = [
     dict(slug="best-bottle-warmers",
          headline="Best Bottle Warmers",
          subtitle="Fast, safe picks for newborns · 2026",
-         query="baby bottle warmer kitchen counter",
-         seed="cover-bottle-warmer"),
+         query="cozy kitchen counter warm pastel objects minimal flat lay",
+         palette=0,
+         ai_prompt="Flat lay product photo of a white electric bottle warmer on a warm cream background, with a small baby bottle beside it. Clean minimal product photography. No people, no hands."),
     dict(slug="best-baby-bouncers-for-2026",
          headline="Best Baby Bouncers for 2026",
          subtitle="5 picks from budget to app-controlled",
-         query="baby bouncer seat infant cozy",
-         seed="cover-bouncer"),
+         query="cozy nursery armchair rocking chair soft neutral decor",
+         palette=1,
+         ai_prompt="A cozy infant bouncer seat on a soft neutral/cream background. Clean product photography, no people. Warm pastel tones, minimal composition."),
     dict(slug="best-breast-pumps",
          headline="Best Breast Pumps of 2026",
          subtitle="Wearable & electric compared honestly",
-         query="breast pump nursing mom",
-         seed="cover-breast-pump"),
+         query="",
+         palette=1,
+         ai_prompt="Flat lay product photo of an electric breast pump device (white/cream) with accessories — flanges, bottles, tubing — on a soft pink pastel background. No people, no hands, no faces."),
     dict(slug="best-baby-sleep-sacks-for-2026",
          headline="Best Baby Sleep Sacks 2026",
          subtitle="TOG ratings, organic fabrics & safe sleep",
-         query="baby sleeping cozy nursery warm",
-         seed="cover-sleep-sack"),
+         query="soft knit blanket folded cozy cream textile fabric texture",
+         palette=4,
+         ai_prompt="Flat lay of a folded soft cotton sleep sack/wearable blanket in cream or white, on a warm pastel background. Clean product photography, no people."),
     dict(slug="best-baby-bottles-for-newborns-2026",
          headline="Best Baby Bottles for Newborns",
          subtitle="Anti-colic venting & breast-like nipples",
-         query="baby bottle feeding newborn",
-         seed="cover-bottles"),
+         query="formula powder milk bottle spoon measuring flat lay",
+         palette=0,
+         ai_prompt="Flat lay of 3-4 different baby feeding bottles arranged on a soft cream/peach background. Clean product photography style. No people, no hands."),
     dict(slug="best-baby-carriers-for-2026",
          headline="Best Baby Carriers 2026",
          subtitle="From wraps to structured carriers",
-         query="babywearing baby carrier parent",
-         seed="cover-carriers"),
+         query="soft woven fabric wrap textile cotton pastel product",
+         palette=3,
+         ai_prompt="Flat lay of a structured baby carrier (ergonomic, no baby inside) in neutral/cream color on a soft sage-green or cream background. Clean product shot. No people."),
     dict(slug="best-diapers-for-newborns-2026",
          headline="Best Newborn Diapers 2026",
          subtitle="Softness, fit & sensitive skin compared",
-         query="newborn baby diaper soft",
-         seed="cover-diapers"),
+         query="",
+         palette=0,
+         ai_prompt="Flat lay product photo of 3-4 white disposable newborn diapers neatly stacked on a soft cream/ivory background. Clean minimalist product photography. No people, no hands."),
     dict(slug="best-high-chairs-for-babies-2026",
          headline="Best High Chairs 2026",
          subtitle="From budget IKEA to grows-to-adult",
-         query="baby high chair mealtime kitchen",
-         seed="cover-high-chair"),
+         query="wooden chair seat furniture product white background minimal",
+         palette=2,
+         ai_prompt="Product photo of a modern wooden high chair for babies on a clean white or warm cream background. Minimal composition. No people, no child."),
     dict(slug="best-baby-monitors-long-battery-life",
          headline="Best Baby Monitors Long Battery",
          subtitle="No-WiFi picks that last through the night",
-         query="baby monitor nursery night",
-         seed="cover-monitor"),
+         query="wireless camera security device product flat lay white",
+         palette=4,
+         ai_prompt="Product photo of a baby monitor camera unit on a soft lavender or cream background. Clean minimal product photography. No people."),
     dict(slug="best-hands-free-wearable-breast-pumps",
          headline="Best Wearable Breast Pumps",
          subtitle="Hands-free pumping while you move",
-         query="wearable breast pump nursing mom",
-         seed="cover-wearable-pump"),
+         query="",
+         palette=1,
+         ai_prompt="Flat lay of two round white wearable breast pump pods on a soft blush pink background with nursing accessories (breast pads, small milk bottle). No people, no hands."),
     dict(slug="breastfeeding-essentials",
          headline="Breastfeeding Essentials 2026",
          subtitle="What you actually need from day one",
-         query="breastfeeding mom newborn nursing",
-         seed="cover-bf-essentials"),
+         query="nursing accessories bottle pastel pink flat lay product",
+         palette=1,
+         ai_prompt="Flat lay of breastfeeding essentials: nursing pads, a breast pump flange, a milk storage bottle, nipple cream tube, on a soft pink background. No people, no hands."),
     dict(slug="newborn-essentials-checklist",
          headline="Newborn Essentials Checklist",
          subtitle="Skip the noise — here's what you need",
-         query="newborn baby essentials nursery",
-         seed="cover-newborn"),
+         query="gift box pastel items flat lay product photography elegant",
+         palette=3,
+         ai_prompt="Flat lay of newborn essentials: small folded onesie, tiny socks, a soft toy, a small bottle — on a sage green or cream background. Minimal, elegant product photography. No people."),
     dict(slug="newborn-feeding-essentials",
          headline="Newborn Feeding Essentials",
          subtitle="Bottles, burp cloths & nursing gear",
-         query="newborn feeding baby bottles",
-         seed="cover-feeding"),
+         query="soft cloth fabric accessories bottles flat lay pastel",
+         palette=0,
+         ai_prompt="Flat lay of newborn feeding items: baby bottle, burp cloth, bottle brush, on a soft peach/cream background. Clean product photography. No people, no hands."),
     dict(slug="bottle-refusal-breastfed-babies",
          headline="Bottle Refusal: What Works",
          subtitle="Why breastfed babies refuse & how to fix it",
-         query="baby bottle feeding breastfed mother",
-         seed="cover-bottle-refusal"),
+         query="glass bottles collection still life minimal pastel",
+         palette=2,
+         ai_prompt="Flat lay of 2-3 different baby bottles (different nipple shapes) on a soft warm background. Clean minimal still-life photography. No people."),
     dict(slug="eco-friendly-baby-gear-guide",
          headline="Eco-Friendly Baby Gear",
          subtitle="Sustainable picks worth buying in 2026",
-         query="eco organic baby products natural",
-         seed="cover-eco"),
+         query="natural organic cotton linen eco flat lay neutral wood",
+         palette=3,
+         ai_prompt="Flat lay of eco-friendly baby items: organic cotton cloth, wooden toy, bamboo spoon, on a natural linen/wood background. Earthy, minimal. No people."),
     dict(slug="pace-bottle-feeding-guide",
          headline="Pace Bottle Feeding Guide",
          subtitle="The technique every breastfed baby needs",
-         query="baby bottle paced feeding technique",
-         seed="cover-pace"),
+         query="bottle jar glass minimal product flat lay still life",
+         palette=0,
+         ai_prompt="Close-up product photo of a slow-flow baby bottle lying on its side on a soft cream background. Minimal, clean. No people, no hands."),
     dict(slug="silicone-baby-feeding-products",
          headline="Best Silicone Baby Products",
          subtitle="Safe, non-toxic gear for feeding time",
-         query="silicone baby feeding bowl spoon",
-         seed="cover-silicone"),
+         query="colorful silicone spoons bowls plates flat lay product",
+         palette=2,
+         ai_prompt="Flat lay of colorful silicone baby feeding products: spoons, suction bowl, plate in soft pastel colors on a white background. Clean product photography. No people."),
     dict(slug="momcozy-m5-review",
          headline="Momcozy M5 Review 2026",
          subtitle="Is it really worth the hype?",
-         query="wearable breast pump review honest",
-         seed="cover-momcozy"),
+         query="",
+         palette=1,
+         ai_prompt="Flat lay of two Momcozy M5 wearable breast pump pods with nursing accessories: breast pads, a milk bottle, soft cloth — on a pink pastel background. No people, no hands."),
 ]
 
 
 if __name__ == "__main__":
     target = sys.argv[1] if len(sys.argv) > 1 else None
-    mode = "Pexels API" if PEXELS_KEY else "Picsum (demo photos)"
-    print(f"Generating covers — mode: {mode}\n")
-
+    print("Generating covers — local AI base images + abstract fallback\n")
     for art in ARTICLES:
         if target and art["slug"] != target:
             continue
@@ -302,7 +205,6 @@ if __name__ == "__main__":
             headline=art["headline"],
             subtitle=art["subtitle"],
             query=art["query"],
-            seed=art["seed"],
+            palette=art["palette"],
         )
-
     print(f"\nDone! Check {COVERS_DIR}")

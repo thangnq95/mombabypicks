@@ -3,21 +3,25 @@
 Generate Pinterest pins with photo backgrounds.
 
 Usage:
-  python3 scripts/generate-pins-v2.py                    # demo mode (random photos)
-  PEXELS_API_KEY=xxx python3 scripts/generate-pins-v2.py # real relevant photos
+  python3 scripts/generate-pins-v2.py
 """
 
 import os
-import io
-import urllib.request
-import urllib.parse
-import json
-from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
+import random
+from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageOps
 
 PINS_DIR = "/Users/thangnguyen/GIT/PP/mombabypicks/static/images/pins"
+POSTS_DIR = "/Users/thangnguyen/GIT/PP/mombabypicks/static/images/posts"
+RAW_DIR = "/Users/thangnguyen/GIT/PP/mombabypicks/static/images/raw"
 W, H = 800, 1200
 FONT_PATH = "/System/Library/Fonts/Helvetica.ttc"
-PEXELS_KEY = os.environ.get("PEXELS_API_KEY", "")
+PALETTES = [
+    [(255, 244, 238), (255, 231, 219), (235, 212, 198)],
+    [(255, 241, 244), (251, 226, 234), (240, 208, 220)],
+    [(250, 244, 233), (235, 228, 214), (217, 208, 190)],
+    [(244, 247, 242), (227, 236, 225), (203, 218, 206)],
+    [(241, 246, 251), (222, 233, 244), (198, 214, 230)],
+]
 
 def load_font(size, bold=False):
     try:
@@ -25,42 +29,50 @@ def load_font(size, bold=False):
     except:
         return ImageFont.load_default()
 
-def fetch_photo_pexels(query, w=800, h=600):
-    """Fetch a relevant photo from Pexels API."""
-    url = f"https://api.pexels.com/v1/search?query={urllib.parse.quote(query)}&per_page=3&orientation=portrait"
-    headers = {"User-Agent": "Mozilla/5.0"}
-    if PEXELS_KEY:
-        headers["Authorization"] = PEXELS_KEY
-    req = urllib.request.Request(url, headers=headers)
-    try:
-        with urllib.request.urlopen(req, timeout=10) as r:
-            data = json.loads(r.read())
-        if data.get("photos"):
-            img_url = data["photos"][0]["src"]["large"]
-            img_req = urllib.request.Request(img_url, headers=headers)
-            with urllib.request.urlopen(img_req, timeout=15) as r:
-                return Image.open(io.BytesIO(r.read())).convert("RGBA")
-    except Exception as e:
-        print(f"  Pexels error: {e}")
+def load_base_image(slug):
+    for path in (
+        os.path.join(POSTS_DIR, f"{slug}.webp"),
+        os.path.join(RAW_DIR, f"{slug}.jpg"),
+        os.path.join(RAW_DIR, f"{slug}.jpeg"),
+        os.path.join(RAW_DIR, f"{slug}.png"),
+        os.path.join(RAW_DIR, f"{slug}.webp"),
+    ):
+        if os.path.exists(path):
+            return Image.open(path).convert("RGBA")
     return None
 
-def fetch_photo_picsum(seed, w=800, h=600):
-    """Fallback: random lifestyle photo from Lorem Picsum."""
-    url = f"https://picsum.photos/seed/{seed}/{w}/{h}"
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    try:
-        with urllib.request.urlopen(req, timeout=10) as r:
-            return Image.open(io.BytesIO(r.read())).convert("RGBA")
-    except Exception as e:
-        print(f"  Picsum error: {e}")
-        return None
+def abstract_fallback(slug):
+    rng = random.Random(slug)
+    palette = PALETTES[rng.randrange(len(PALETTES))]
+    bg = Image.new("RGBA", (W, H), (*palette[0], 255))
+    draw = ImageDraw.Draw(bg)
+    for x in range(W):
+        t = x / max(1, W - 1)
+        color = tuple(int(palette[0][i] * (1 - t) + palette[-1][i] * t) for i in range(3))
+        draw.line([(x, 0), (x, H)], fill=(*color, 255))
+    for cx_f, cy_f, r_f, idx in [
+        (0.20, 0.18, 0.22, 1),
+        (0.78, 0.24, 0.18, 2),
+        (0.68, 0.76, 0.30, 1),
+    ]:
+        cx = int(cx_f * W) + rng.randint(-40, 40)
+        cy = int(cy_f * H) + rng.randint(-50, 50)
+        r = int(min(W, H) * r_f)
+        layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(layer).ellipse([cx-r, cy-r, cx+r, cy+r], fill=(*palette[idx % len(palette)], 130))
+        bg = Image.alpha_composite(bg, layer.filter(ImageFilter.GaussianBlur(radius=r // 3)))
+    return bg
 
-def get_photo(query, seed):
-    img = fetch_photo_pexels(query)
+def get_photo(slug, variant=1):
+    img = load_base_image(slug)
     if img:
-        return img
-    print(f"  Pexels miss for '{query}', using Picsum fallback")
-    return fetch_photo_picsum(seed)
+        centering = {
+            1: (0.62, 0.38),
+            2: (0.70, 0.34),
+            3: (0.55, 0.42),
+        }.get(variant, (0.62, 0.38))
+        return ImageOps.fit(img, (W, H), method=Image.Resampling.LANCZOS, centering=centering)
+    return abstract_fallback(slug)
 
 def wrap_text(draw, text, font, max_w):
     words = text.split()
@@ -84,11 +96,11 @@ def rounded_rect(draw, xy, r, fill, outline=None, outline_w=0):
     if outline and outline_w:
         draw.rounded_rectangle([x0, y0, x1, y1], radius=r, outline=outline, width=outline_w)
 
-def make_pin(slug, headline, subtitle, bullets, pexels_query, picsum_seed, out_path):
+def make_pin(slug, headline, subtitle, bullets, variant, out_path):
     print(f"  Building {os.path.basename(out_path)}...")
 
     # --- Photo background (top 52% of pin) ---
-    photo = get_photo(pexels_query, picsum_seed)
+    photo = get_photo(slug, variant)
     img = Image.new("RGBA", (W, H), (255, 250, 246, 255))
 
     PHOTO_H = int(H * 0.52)
@@ -180,153 +192,138 @@ ARTICLES = [
         headline="Best Bottle Warmers for Newborns",
         subtitle="Fast, safe picks for 2026 — no hot spots",
         bullets=["Heats in 3–5 minutes", "No microwave needed", "Auto-shutoff safety"],
-        query="baby bottle warmer kitchen",
-        seed="bottle-warmer-2026",
     ),
     dict(
         slug="best-baby-bouncers-for-2026",
         headline="Best Baby Bouncers 2026",
         subtitle="5 picks from budget to app-controlled",
         bullets=["Battery-free options", "Machine-washable covers", "Up to 29–30 lbs"],
-        query="baby bouncer seat newborn nursery",
-        seed="baby-bouncer-2026",
     ),
     dict(
         slug="best-breast-pumps",
         headline="Best Breast Pumps of 2026",
         subtitle="Wearable & electric compared honestly",
         bullets=["Hands-free wearable picks", "Hospital-grade suction", "Insurance-eligible"],
-        query="breast pump nursing mom",
-        seed="breast-pump-2026",
+    ),
+    dict(
+        slug="bottle-warmer-safety-guide",
+        headline="Bottle Warmer Safety",
+        subtitle="What new parents should know",
+        bullets=["Avoid hot spots", "Use safe water levels", "Check bottle temp"],
+    ),
+    dict(
+        slug="breast-pump-cleaning-guide",
+        headline="Breast Pump Cleaning Guide",
+        subtitle="A busy-mom routine that works",
+        bullets=["Sterilize key parts", "Dry fully before use", "Prevent mold build-up"],
     ),
     dict(
         slug="best-baby-sleep-sacks-for-2026",
         headline="Best Baby Sleep Sacks 2026",
         subtitle="TOG ratings, organic fabrics & safe sleep",
         bullets=["From birth to toddler", "Multiple TOG weights", "IHDI hip-healthy options"],
-        query="baby sleep sack nursery cozy",
-        seed="sleep-sack-2026",
     ),
     dict(
         slug="best-baby-bottles-for-newborns-2026",
         headline="Best Baby Bottles for Newborns",
         subtitle="Anti-colic venting & breast-like nipples",
         bullets=["Works for breastfed babies", "Fewer parts to wash", "BPA-free materials"],
-        query="baby bottle feeding newborn",
-        seed="baby-bottles-2026",
     ),
     dict(
         slug="best-baby-carriers-for-2026",
         headline="Best Baby Carriers 2026",
         subtitle="From wraps to structured — find your fit",
         bullets=["Newborn-ready options", "IHDI hip-healthy picks", "From $32 to $195"],
-        query="babywearing carrier newborn parent",
-        seed="baby-carrier-2026",
+    ),
+    dict(
+        slug="how-to-choose-breast-pump",
+        headline="How to Choose a Breast Pump",
+        subtitle="Wearable vs electric, explained",
+        bullets=["Suction matters", "Comfort is key", "Portability changes everything"],
     ),
     dict(
         slug="best-diapers-for-newborns-2026",
         headline="Best Newborn Diapers 2026",
         subtitle="Softness, fit & sensitive skin compared",
         bullets=["Umbilical cord notch", "Fragrance-free options", "Eco & organic picks"],
-        query="newborn diaper baby soft",
-        seed="diapers-2026",
     ),
     dict(
         slug="best-high-chairs-for-babies-2026",
         headline="Best High Chairs 2026",
         subtitle="From $25 IKEA to grows-to-adult chairs",
         bullets=["Easy to clean tray", "Folds slim for small spaces", "5-point harness safety"],
-        query="baby high chair feeding mealtime",
-        seed="high-chair-2026",
     ),
     dict(
         slug="best-baby-monitors-long-battery-life",
         headline="Best Baby Monitors — Long Battery",
         subtitle="No-WiFi picks that last through the night",
         bullets=["Private non-WiFi connection", "8–12 hour battery life", "No app required"],
-        query="baby monitor nursery night",
-        seed="baby-monitor-2026",
     ),
     dict(
         slug="best-hands-free-wearable-breast-pumps",
         headline="Best Wearable Breast Pumps",
         subtitle="Hands-free pumping while you work or move",
         bullets=["Fits inside nursing bra", "Whisper-quiet motors", "USB-C rechargeable"],
-        query="wearable breast pump nursing mom",
-        seed="wearable-pump-2026",
-    ),
-    dict(
-        slug="best-baby-sleep-sacks-for-2026",
-        headline="Baby Sleep Sack Guide",
-        subtitle="Choose the right TOG for your room temp",
-        bullets=["0.5 for summer nights", "1.5 for mild rooms", "3.5 for cold climates"],
-        query="baby sleeping cozy warm nursery",
-        seed="sleep-sack-2026-b",
-        pin_n=2,
     ),
     dict(
         slug="breastfeeding-essentials",
         headline="Breastfeeding Essentials 2026",
         subtitle="What you actually need from day one",
         bullets=["Nursing pillow", "Nipple cream that works", "Haakaa silicone pump"],
-        query="breastfeeding mom newborn nursing",
-        seed="breastfeeding-2026",
     ),
     dict(
         slug="newborn-essentials-checklist",
         headline="Newborn Essentials Checklist",
         subtitle="Skip the noise — here's what you need",
         bullets=["0–3 month gear only", "Nothing that collects dust", "Budget-friendly picks"],
-        query="newborn baby essentials nursery",
-        seed="newborn-checklist-2026",
+    ),
+    dict(
+        slug="newborn-feeding-station",
+        headline="How to Set Up a Newborn Feeding Station",
+        subtitle="Keep feeding supplies within reach",
+        bullets=["Night-feeding ready", "Easy to restock", "Small-space friendly"],
     ),
     dict(
         slug="newborn-feeding-essentials",
         headline="Newborn Feeding Essentials",
         subtitle="Bottles, burp cloths & nursing gear",
         bullets=["8–12 burp cloths minimum", "Slow-flow nipples only", "Haakaa = passive stash"],
-        query="newborn feeding bottles nursing",
-        seed="feeding-essentials-2026",
     ),
     dict(
         slug="bottle-refusal-breastfed-babies",
         headline="Bottle Refusal: What Works",
         subtitle="Why breastfed babies refuse & how to fix it",
         bullets=["Try when slightly hungry", "Different caregiver feeds", "Breast-like nipple shapes"],
-        query="baby bottle feeding mother breastfed",
-        seed="bottle-refusal-2026",
     ),
     dict(
         slug="eco-friendly-baby-gear-guide",
         headline="Eco-Friendly Baby Gear",
         subtitle="Sustainable picks worth buying in 2026",
         bullets=["OEKO-TEX certified fabrics", "Non-toxic silicone", "GOTS organic cotton"],
-        query="eco organic baby products natural",
-        seed="eco-baby-2026",
     ),
     dict(
         slug="pace-bottle-feeding-guide",
         headline="Pace Bottle Feeding Guide",
         subtitle="The technique every breastfed baby needs",
         bullets=["Upright position feeding", "Horizontal bottle angle", "Paced breaks every 30 sec"],
-        query="baby bottle feeding paced technique",
-        seed="pace-feeding-2026",
     ),
     dict(
         slug="silicone-baby-feeding-products",
         headline="Best Silicone Baby Products",
         subtitle="Safe, non-toxic gear for feeding time",
         bullets=["Food-grade silicone only", "No BPA, BPS, phthalates", "Easy to sterilize"],
-        query="silicone baby feeding spoon bib bowl",
-        seed="silicone-products-2026",
     ),
     dict(
         slug="momcozy-m5-review",
         headline="Momcozy M5 Review 2026",
         subtitle="Is it really worth the hype?",
         bullets=["Tested: suction & comfort", "Battery life results", "Vs Spectra S1 comparison"],
-        query="wearable breast pump review honest",
-        seed="momcozy-review-2026",
+    ),
+    dict(
+        slug="what-not-to-buy-newborn",
+        headline="What Not to Buy for a Newborn",
+        subtitle="Skip the stuff that gathers dust",
+        bullets=["Avoid duplicate gear", "Skip gimmicks", "Save budget for essentials"],
     ),
 ]
 
@@ -334,22 +331,18 @@ def pin_path(slug, n=1):
     return os.path.join(PINS_DIR, f"{slug}-pin-{n}.png")
 
 if __name__ == "__main__":
-    mode = "Pexels API" if PEXELS_KEY else "Picsum (demo photos)"
-    print(f"Generating pins — mode: {mode}\n")
-    if not PEXELS_KEY:
-        print("  TIP: Set PEXELS_API_KEY env var for relevant product photos\n")
+    print("Generating pins — local cover base images + abstract fallback\n")
 
     for art in ARTICLES:
-        n = art.get("pin_n", 1)
-        out = pin_path(art["slug"], n)
-        make_pin(
-            slug=art["slug"],
-            headline=art["headline"],
-            subtitle=art["subtitle"],
-            bullets=art.get("bullets", []),
-            pexels_query=art["query"],
-            picsum_seed=art["seed"],
-            out_path=out,
-        )
+        for n in (1, 2, 3):
+            out = pin_path(art["slug"], n)
+            make_pin(
+                slug=art["slug"],
+                headline=art["headline"],
+                subtitle=art["subtitle"],
+                bullets=art.get("bullets", []),
+                variant=n,
+                out_path=out,
+            )
 
     print(f"\nDone! Check {PINS_DIR}")
