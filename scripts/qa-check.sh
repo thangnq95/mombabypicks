@@ -151,6 +151,15 @@ else
   REPORT+="  ⚠️  No comparison table found\n"
 fi
 
+# === 13. Visual asset standard ===
+if python3 scripts/visual-asset-validate.py "$FILE" >/tmp/mombaby_visual_asset_check.txt 2>&1; then
+  REPORT+="  ✅ Visual asset standard\n"
+else
+  REPORT+="  ❌ Visual asset standard failed\n"
+  REPORT+="$(cat /tmp/mombaby_visual_asset_check.txt)\n"
+  FAILED=1
+fi
+
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 if [ "$FAILED" -eq 0 ]; then
   echo -e "$REPORT"

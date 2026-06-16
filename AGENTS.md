@@ -85,6 +85,7 @@ Every new article MUST follow these image rules:
 - [x] Cover image present (`cover.image` in frontmatter)
 - [x] Pinterest pin images exist (>= 1 in `static/images/pins/`)
 - [x] Social share `images:` frontmatter set
+- [x] Visual asset standard validator passed
 - [x] Price range / pricing info in comparison table
 
 ## Article Template (MANDATORY)
