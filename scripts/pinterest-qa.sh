@@ -4,6 +4,8 @@
 
 REPO="/Users/thangnguyen/GIT/PP/mombabypicks"
 NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+PASS_COUNT=0
+FAIL_COUNT=0
 
 echo "{"
 echo "  \"timestamp\": \"$NOW\","
@@ -16,14 +18,11 @@ for f in "$REPO"/content/posts/*.md; do
   PASS=true
   ISSUES=""
 
-  # Check if pin data exists
   if [ ! -f "$PIN_FILE" ]; then
     PASS=false
     ISSUES="$ISSUES no_pin_data"
   else
-    # Check if any pin has status "published"
     if grep -q '"status": "published"' "$PIN_FILE" 2>/dev/null; then
-      # Check if published_pin_url is real (not create/button)
       if grep -q 'pin/create/button' "$PIN_FILE" 2>/dev/null; then
         PASS=false
         ISSUES="$ISSUES fake_pin_url"
@@ -42,18 +41,18 @@ for f in "$REPO"/content/posts/*.md; do
 
   if [ "$PASS" = true ]; then
     echo "    {\"slug\": \"$SLUG\", \"status\": \"PASS\", \"issues\": \"\"}"
+    PASS_COUNT=$((PASS_COUNT + 1))
   else
     echo "    {\"slug\": \"$SLUG\", \"status\": \"FAIL\", \"issues\": \"$ISSUES\"}"
+    FAIL_COUNT=$((FAIL_COUNT + 1))
   fi
 done
 
 echo ""
 echo "  ],"
 echo "  \"summary\": {"
-PASS_COUNT=$(grep -c '"status": "PASS"' /dev/stdin 2>/dev/null || echo 0)
-FAIL_COUNT=$(grep -c '"status": "FAIL"' /dev/stdin 2>/dev/null || echo 0)
-echo "    \"total\": $(ls "$REPO"/content/posts/*.md | wc -l | tr -d ' '),"
-echo "    \"pass\": 0,"
-echo "    \"fail\": 0"
+echo "    \"total\": $(ls \"$REPO\"/content/posts/*.md | wc -l | tr -d ' '),"
+echo "    \"pass\": $PASS_COUNT,"
+echo "    \"fail\": $FAIL_COUNT"
 echo "  }"
 echo "}"

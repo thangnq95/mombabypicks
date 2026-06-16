@@ -2,6 +2,7 @@
 
 For the ticket-driven automation flow, use [multica-automation-runbook.md](./multica-automation-runbook.md).
 For copy-paste ready prompts, use [multica-agent-prompt-pack.md](./multica-agent-prompt-pack.md).
+For the canonical visual rule, use [visual-asset-standard.md](./visual-asset-standard.md).
 
 ## Goal
 
@@ -85,6 +86,7 @@ Use this prompt:
 > Generate 3 Pinterest pins only after the article URL is live.
 > At minimum, publish and record 1 pin for every article; 3 pins remains the preferred default.
 > Prefer posts that include multiple scrapeable images or a comparison visual.
+> Follow the canonical image rule: cover images are visual-only; Pinterest pins use text overlays.
 > Use article URLs as destinations, never direct Amazon links.
 > For live publishing, use Pinterest create-button URLs with separate `url=` and `media=` parameters when the browser supports it.
 > Never publish a pin if Pinterest locks the destination to a raw image URL.

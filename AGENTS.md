@@ -13,6 +13,8 @@
 4. **Hermes (Publisher)** — QA checks → Hugo build → commit → push
 
 ## Image & Pinterest Requirements (MANDATORY)
+The canonical rule set lives in [docs/visual-asset-standard.md](docs/visual-asset-standard.md). If any document conflicts, follow that file first.
+
 Every new article MUST follow these image rules:
 
 ### Cover Image
@@ -33,6 +35,7 @@ Every new article MUST follow these image rules:
 - **Codex generates** image matching that prompt (landscape, product photography, no people)
 - **Codex saves** result to `static/images/raw/{slug}.png` or `.jpg`
 - Then run: `python3 scripts/generate-covers.py {slug}` to composite into final cover
+- Cover images are visual-only. Do not add baked-in title text to cover art.
 
 #### Adding a new article
 - Add entry to `ARTICLES` list in `scripts/generate-covers.py` with: `slug`, `headline`, `subtitle`, `query`, `palette`, `ai_prompt`

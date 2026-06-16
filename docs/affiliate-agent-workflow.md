@@ -2,6 +2,8 @@
 
 ## Current Agent Roles
 
+Canonical image rule: see [visual-asset-standard.md](./visual-asset-standard.md). Cover images are visual-only; Pinterest pins use text overlays.
+
 ### Affiliate_Strategist
 
 - Choose the keyword, search intent, angle, and product candidates.

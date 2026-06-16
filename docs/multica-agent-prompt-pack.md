@@ -8,6 +8,7 @@ The goal is to reduce Codex usage and push the first pass of work to Claude, wit
 - Topic: affiliate content for baby products
 - Site: [https://mombabypicks.com](https://mombabypicks.com)
 - Amazon store ID: `mombabypick00-20`
+- Canonical visual rule: [visual-asset-standard.md](./visual-asset-standard.md)
 - Pinterest rule: use article URLs, not direct Amazon links
 - Pinterest minimum: every article must ship with at least 1 published pin; 3-pin packs are preferred
 - Compliance rule: every Amazon-linked post must include the Associate disclosure
@@ -83,6 +84,7 @@ The goal is to reduce Codex usage and push the first pass of work to Claude, wit
 > At minimum, create 1 published pin for every article; 3 pins is the preferred default.
 > Use the article URL as the destination, never a direct Amazon link.
 > Prefer posts that expose multiple images or a comparison visual for Pinterest scraping.
+> Follow the canonical visual rule: cover images are visual-only, Pinterest pins use text overlays.
 > When publishing live pins, prefer Pinterest create-button URLs with separate `url=` and `media=` parameters so the destination stays on MomBabyPicks while the selected creative can vary.
 > Do not publish direct image URLs as pin destinations.
 > Return title, description, board, image brief, overlay text, schedule, and hashtags.
