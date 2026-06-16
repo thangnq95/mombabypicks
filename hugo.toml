@@ -11,6 +11,8 @@ paginate = 10
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
+  defaultTheme = "light"
+  disableThemeToggle = true
 
 [params.assets]
   favicon = "favicon-9477610.ico"
