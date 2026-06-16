@@ -192,7 +192,12 @@ Codex chỉ được sửa: `content/posts/*.md`, `static/images/pins/*.png`, `d
 ```bash
 bash scripts/deploy.sh     # 1 lệnh duy nhất
 ```
-- Nếu fake ASINs → thay B0DFLT* bằng ASIN thật
-- 🚫 KHÔNG commit khi verify.sh báo lỗi
-- 🚫 KHÔNG sửa layouts/, assets/css/extended/, hugo.toml
-- ✅ Chỉ sửa: content/posts/, static/images/, data/pinterest/
+
+### 📋 Rules cho mọi AI:
+```
+1. TUYỆT ĐỐI KHÔNG bịa ASIN — phải search Amazon thật trước khi viết
+2. Pin PHẢI dùng generate-pins-v2.mjs (3 pins/article, branded overlay) — KHÔNG dùng AI riêng lẻ
+3. Sau mỗi bài viết + pin mới: chạy scripts/verify.sh để kiểm tra link Amazon
+4. KHÔNG sửa layouts/, assets/css/extended/, hugo.toml — chỉ sửa content/ static/ data/
+5. Deploy: bash scripts/deploy.sh
+```

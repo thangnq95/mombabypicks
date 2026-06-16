@@ -55,8 +55,23 @@ for f in "assets/css/extended/mombabypicks.css" "layouts/index.html" "layouts/_p
 done
 [ "$MISSING" -eq 0 ] && echo "✅" || ERRORS=$((ERRORS+MISSING))
 
-# 5. Amazon buttons render đúng?
-echo -n "[5/6] Amazon button count... "
+# 5. Amazon links tồn tại thật?
+echo -n "[5/7] Amazon link verification... "
+BAD=0
+for f in content/posts/*.md; do
+    asins=$(grep -oP 'dp/[A-Z0-9]{10}' "$f" 2>/dev/null || true)
+    for asin in $asins; do
+        code=$(curl -sL -o /dev/null -w '%{http_code}' "https://www.amazon.com/dp/$asin?tag=mombabypick00-20" 2>/dev/null || echo "000")
+        if [ "$code" != "200" ] && [ "$code" != "301" ] && [ "$code" != "302" ]; then
+            echo "❌ ASIN $asin in $f returned $code"
+            BAD=$((BAD+1))
+        fi
+    done
+done
+[ "$BAD" -eq 0 ] && echo "✅" || echo "❌ $BAD invalid ASINs found"
+
+# 6. Amazon buttons render đúng?
+echo -n "[6/7] Amazon button count... "
 MISMATCH=0
 for f in content/posts/*.md; do
     slug=$(basename "$f" .md)
@@ -69,7 +84,7 @@ done
 [ "$MISMATCH" -eq 0 ] && echo "✅" || echo "⚠️ $MISMATCH mismatch (may be expected if shortcodes have fake ASINs)"
 
 # 6. Git diff không có thay đổi nguy hiểm
-echo -n "[6/6] Dangerous changes... "
+echo -n "[7/7] Dangerous changes... "
 DANGER=$(git diff --name-only -- layouts/ assets/css/extended/ hugo.toml 2>/dev/null | wc -l)
 if [ "$DANGER" -eq 0 ]; then
     echo "✅ (no changes to layouts/CSS/config)"
