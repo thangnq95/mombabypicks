@@ -948,12 +948,12 @@ body {
   }
 
   .entry-header h2 {
-    font-size: 1.22rem;
+    font-size: 1.35rem;
   }
 
   .entry-content {
     -webkit-line-clamp: 3;
-    font-size: 0.92rem;
+    font-size: 0.94rem;
   }
 
   .page-header h1,
@@ -969,9 +969,9 @@ body {
   }
 
   .post-single {
-    border-inline: 0;
-    border-radius: 0;
-    box-shadow: none;
+    border-width: 1px;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(116, 74, 64, 0.06);
   }
 
   .post-content {
@@ -981,6 +981,22 @@ body {
 
   .post-content h2 {
     font-size: 1.48rem;
+  }
+
+  /* Scroll hint for comparison tables */
+  .post-content table {
+    position: relative;
+    mask-image: linear-gradient(to right, black 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, black 85%, transparent 100%);
+    margin-bottom: 0.5rem;
+  }
+
+  .post-content table + em,
+  .post-content table + p em {
+    display: block;
+    color: #a2877c;
+    font-size: 0.78rem;
+    text-align: center;
   }
 
   .amazon-box {
