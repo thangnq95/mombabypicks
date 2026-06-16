@@ -1,5 +1,6 @@
 baseURL = "https://mombabypicks.com/"
-languageCode = "en-us"
+defaultContentLanguage = "en"
+locale = "en-US"
 title = "Mom Baby Picks"
 theme = "PaperMod"
 paginate = 10
