@@ -45,6 +45,8 @@ Every new article MUST follow these image rules:
 - Every article MUST have **3 Pinterest pin images**
 - Path: `static/images/pins/{slug}-pin-{N}.png` (N = 1, 2, 3...)
 - Generated from the same base visual language as the cover image
+- Pin destination URLs must be the canonical article URL only, with no `utm_*` query params or other tracking strings
+- Pin copy, titles, and descriptions must stay in the site/article language for that post; do not mix English and Vietnamese in the same pack
 - Style:
   - Soft lifestyle photo background (warm, beige/cream, shallow DOF)
   - White overlay card at bottom 1/3 with rounded corners

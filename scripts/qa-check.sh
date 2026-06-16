@@ -122,7 +122,17 @@ if isinstance(data, list):
             continue
         image_path = str(item.get("image_path", ""))
         asset_path = Path("static") / image_path.lstrip("/")
-        if item.get("status") in {"published", "backfilled"} and item.get("published_pin_url") and image_path.startswith("/images/pins/") and asset_path.exists():
+        destination_url = str(item.get("destination_url", ""))
+        if (
+            item.get("status") in {"published", "backfilled"}
+            and item.get("published_pin_url")
+            and image_path.startswith("/images/pins/")
+            and asset_path.exists()
+            and destination_url
+            and "?" not in destination_url
+            and "utm_" not in destination_url.lower()
+            and destination_url.startswith("https://mombabypicks.com/posts/")
+        ):
             count += 1
 print(count)
 PY

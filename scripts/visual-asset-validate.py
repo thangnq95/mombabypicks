@@ -92,6 +92,12 @@ def validate_post(path: Path) -> list[str]:
                 image_path = str(item.get("image_path", ""))
                 if image_path and not (STATIC_DIR / image_path.lstrip("/")).exists():
                     errors.append(f"{path.name}: missing pin asset {image_path}")
+                destination_url = str(item.get("destination_url", ""))
+                if destination_url:
+                    if "?" in destination_url or "utm_" in destination_url.lower():
+                        errors.append(f"{path.name}: destination_url must be canonical and query-free ({destination_url})")
+                    elif not destination_url.startswith("https://mombabypicks.com/posts/"):
+                        errors.append(f"{path.name}: destination_url must point to a MomBabyPicks post ({destination_url})")
                 if item.get("status") in {"published", "backfilled"} and item.get("published_pin_url"):
                     published += 1
             if published < 1:

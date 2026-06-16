@@ -128,7 +128,7 @@ https://www.pinterest.com/pin/create/button/?url=<encoded_article_url>&media=<en
 Operational note:
 - Use `pin-builder/?tab=save_from_url` only as a fallback. If it returns only one cached Open Graph image, switch to the create-button URL instead of repeatedly resubmitting the same article URL.
 - Do not publish direct image URLs as pin destinations. If Pinterest locks the destination to the image URL, cancel and use the create-button URL.
-- Use UTM parameters per pin, for example `utm_source=pinterest&utm_medium=organic&utm_campaign=pin2`.
+- Keep the destination URL canonical. Do not append UTM parameters to the pin destination.
 - For repeatability, create three portrait pin assets per post and keep the article URL stable.
 - Never mark a post ready for publish until at least one pin is published and recorded.
 

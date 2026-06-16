@@ -86,6 +86,7 @@ The goal is to reduce Codex usage and push the first pass of work to Claude, wit
 > Prefer posts that expose multiple images or a comparison visual for Pinterest scraping.
 > Follow the canonical visual rule: cover images are visual-only, Pinterest pins use text overlays.
 > When publishing live pins, prefer Pinterest create-button URLs with separate `url=` and `media=` parameters so the destination stays on MomBabyPicks while the selected creative can vary.
+> Keep the destination URL canonical and do not append UTM parameters.
 > Do not publish direct image URLs as pin destinations.
 > Return title, description, board, image brief, overlay text, schedule, and hashtags.
 > Do not create the Pinterest pack before the article exists on the site.

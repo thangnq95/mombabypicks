@@ -23,6 +23,10 @@ for f in "$REPO"/content/posts/*.md; do
     ISSUES="$ISSUES no_pin_data"
   else
     if grep -q '"status": "published"' "$PIN_FILE" 2>/dev/null; then
+      if grep -qi '"destination_url": ".*\?.*"' "$PIN_FILE" 2>/dev/null || grep -qi 'utm_' "$PIN_FILE" 2>/dev/null; then
+        PASS=false
+        ISSUES="$ISSUES noncanonical_destination"
+      fi
       if grep -q 'pin/create/button' "$PIN_FILE" 2>/dev/null; then
         PASS=false
         ISSUES="$ISSUES fake_pin_url"

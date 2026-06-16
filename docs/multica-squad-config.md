@@ -37,6 +37,7 @@ Split affiliate work so no single agent does everything:
 - Do not claim a file was saved unless it really exists.
 - Do not publish Amazon links without `tag=mombabypick00-20`.
 - Do not generate Pinterest packs before the article URL exists.
+- Do not add UTM parameters to Pinterest destination URLs; use the canonical article URL only.
 - Do not mark a sprint complete unless at least one Pinterest pin is published and recorded.
 - Every article should include at least one visual asset block.
 - For live Pinterest publishing, prefer create-button URLs with separate article `url=` and image `media=` parameters.

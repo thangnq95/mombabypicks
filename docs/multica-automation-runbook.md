@@ -76,5 +76,6 @@ NEXT: Affiliate_Pinterest_Growth
 - If Hugo build fails, the ticket stays in `AI QA Review`.
 - If the article URL is not live, do not create the Pinterest pack.
 - If a pin destination becomes a raw image URL, cancel and retry with the create-button flow.
+- If a pin destination contains tracking params, strip them back to the canonical article URL before recording the pack.
 - If an agent claims completion without an artifact, treat the claim as unverified.
 - If validation passes, no human approval step should block the ticket.
