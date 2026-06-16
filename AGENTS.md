@@ -166,3 +166,18 @@ Every new article MUST follow this exact format structure:
 - Every article must pass all QA gates (15 gates)
 - Every article must score >= 85 from Reviewer
 - Topic queue priority system: 1 = hottest, 4 = evergreen filler
+
+## Mandatory Pre-Commit Verification
+
+🚫 **Codex: TRƯỚC KHI COMMIT, chạy lệnh này:**
+
+```bash
+cd /Users/thangnguyen/GIT/PP/mombabypicks && bash scripts/verify.sh
+```
+
+- Nếu FAIL → sửa lỗi, chạy lại đến khi PASS
+- Nếu thiếu CSS → `git checkout HEAD -- assets/css/extended/mombabypicks.css`
+- Nếu fake ASINs → thay B0DFLT* bằng ASIN thật
+- 🚫 KHÔNG commit khi verify.sh báo lỗi
+- 🚫 KHÔNG sửa layouts/, assets/css/extended/, hugo.toml
+- ✅ Chỉ sửa: content/posts/, static/images/, data/pinterest/
