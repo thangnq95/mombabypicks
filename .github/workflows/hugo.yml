@@ -41,6 +41,7 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+          HUGO_PARAMS_ASSETVERSION: ${{ github.sha }}
         run: |
           hugo \
             --gc \

@@ -1,0 +1,11 @@
+{{- $url := .url -}}
+{{- $version := .version | default "" -}}
+{{- if $version -}}
+  {{- if strings.Contains $url "?" -}}
+    {{- printf "%s&v=%s" $url $version -}}
+  {{- else -}}
+    {{- printf "%s?v=%s" $url $version -}}
+  {{- end -}}
+{{- else -}}
+  {{- $url -}}
+{{- end -}}
