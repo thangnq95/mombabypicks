@@ -19,16 +19,21 @@ If another document disagrees with this one, follow this file.
 
 - Every article must ship with 3 Pinterest pin images.
 - Pin path format: `static/images/pins/{slug}-pin-{N}.png`
-- Pin size: `800x1200`
-- Pin style: photo background plus a text overlay card.
+- Pin size: `1000x1500`
+- Pin style: HTML/CSS-rendered editorial pin with strong typography and one primary message.
 - Pin layout:
-  - top badge
+  - brand chip
   - large headline
-  - short subtitle
-  - CTA button
+  - optional short subtitle
   - site URL footer
+- Pin variant rule:
+  - `pin-1`: headline-led primary Pinterest pin
+  - `pin-2`: headline-led alternate layout
+  - `pin-3`: visual-heavy layout with minimal text
 - Each pin should be a different crop or variant of the same base scene.
 - Use the same base visual language as the cover image.
+- Never stretch or squash the base image. Always use cover-cropping only.
+- Avoid bullet lists and fake CTA buttons inside pins.
 - First share image in front matter must be `/images/pins/{slug}-pin-1.png`.
 - Generate with `python3 scripts/generate-pins-v2.py`.
 
