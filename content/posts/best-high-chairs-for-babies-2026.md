@@ -78,7 +78,7 @@ The seat pad is machine-washable. The tray has a removable dishwasher-safe inser
 
 **Who it's for:** Most families — it's the best balance of features, price, cleanability, and space efficiency.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0001" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B00PTL13LA" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -106,7 +106,7 @@ A removable seat cushion (sold separately) adds comfort for extended sitting.
 
 **Who it's for:** Parents who prioritize easy cleaning above all else, minimalists, small apartment dwellers, or families who want a no-fuss second high chair for grandparents' homes.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0002" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B09LCK5969" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -131,7 +131,7 @@ The seat pad is machine-washable. It doesn't recline and doesn't convert to a bo
 
 **Who it's for:** Families in smaller apartments or homes with tight dining areas who need a full-size high chair that doesn't dominate the room.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0003" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B01KQ16MP4" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -159,7 +159,7 @@ The price is significantly higher than all other chairs on this list. But amorti
 
 **Who it's for:** Parents willing to invest in a piece of furniture that will serve from infancy through adulthood — especially good if you plan to have more than one child.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0004" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B0D5KLGSYS" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -184,7 +184,7 @@ It's a full-featured full-size chair with a traditional design. The reclining po
 
 **Who it's for:** Parents who want maximum adjustability and plan to use the chair from early solid foods (when recline matters) through toddlerhood.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0005" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B08VRXBC2D" text="Check Price on Amazon →" >}}
 
 ---
 

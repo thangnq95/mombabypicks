@@ -48,9 +48,9 @@ Pace feeding recreates the baby-controlled dynamic of breastfeeding.
 
 Use a slow-flow nipple (Level 1 or labeled "0" or "S") regardless of baby's age. The goal is active sucking effort. Wide-base nipples that require a broader latch (like the Comotomo or Philips Avent Natural Response) work particularly well.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0001" text="Comotomo Natural Feel Bottle — Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B0G6N65XVL" text="Comotomo Natural Feel Bottle — Check Price on Amazon →" >}}
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0002" text="Philips Avent Natural Response Bottle — Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B01845QH7M" text="Philips Avent Natural Response Bottle — Check Price on Amazon →" >}}
 
 ### Step 2: Position Baby Upright
 
@@ -85,9 +85,9 @@ Stop feeding when baby shows: slowing or stopping sucking, turning head away, re
 | Dr. Brown's Options+ | Traditional with vent | Consistent slow flow, easy to hold horizontal |
 | Nanobébé Flexy | Soft silicone curve | Upright design suits pace feeding posture |
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0003" text="Dr. Brown's Options+ — Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B09649R98Q" text="Dr. Brown's Options+ — Check Price on Amazon →" >}}
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0004" text="Nanobébé Flexy Bottle — Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B0BDCRLLH2" text="Nanobébé Flexy Bottle — Check Price on Amazon →" >}}
 
 ## Teaching Pace Feeding to Caregivers
 
@@ -118,7 +118,7 @@ Many parents continue pace feeding throughout the bottle-feeding period. As baby
 **Should I also use a pacifier between feedings?**
 Non-nutritive sucking (pacifier use) is compatible with pace feeding and can help babies satisfy sucking needs between feedings without taking excess milk. Introduce after breastfeeding is established (typically 4–6 weeks).
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0005" text="Philips Avent Soothie Pacifier — Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B00005C0EN" text="Philips Avent Soothie Pacifier — Check Price on Amazon →" >}}
 
 ---
 

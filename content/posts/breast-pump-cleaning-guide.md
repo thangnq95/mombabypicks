@@ -128,7 +128,7 @@ Cleaning is not the fun part, but a predictable routine makes pumping feel much 
 
 **Who it's for:** Moms who pump at work or on the go and need a quick, no-fuss way to clean parts when a sink is not available.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0011" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B00DXXVJRO" text="Check Price on Amazon →" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 

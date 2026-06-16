@@ -76,7 +76,7 @@ The Omni 360 holds babies from 7 lbs to 45 lbs and is certified hip-healthy by t
 
 **Who it's for:** Parents who want one carrier that works from newborn through toddler and covers multiple carry positions, especially those planning to wear regularly and want all-day comfort.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0001" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B07B41952V" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -100,7 +100,7 @@ It holds babies from 7 lbs to 45 lbs without a separate insert. The wide padded 
 
 **Who it's for:** Parents who plan to wear frequently through all seasons, want maximum position variety, and prioritize long-term comfort over simplicity.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0002" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B00KC4VPNU" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -125,7 +125,7 @@ Weight range is 8 lbs to 25 lbs, which means you'll outgrow it before baby hits 
 
 **Who it's for:** Newborn parents who want maximum skin-to-skin closeness in the first few months and don't mind a short learning curve for the wrap technique.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0003" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B0DBN1CQ76" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -149,7 +149,7 @@ It holds babies from 7 lbs to 45 lbs across three carry positions (front inward,
 
 **Who it's for:** Parents who want a quality structured carrier with minimal setup complexity — especially good for one parent households where every step of the process needs to be manageable solo.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0004" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B06XK45QHW" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -172,7 +172,7 @@ The carrier is machine-washable.
 
 **Who it's for:** Budget-conscious parents, grandparents who want a carrier for occasional use, or parents testing whether babywearing works for them before committing to a premium carrier.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0005" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B00M0DWQYI" text="Check Price on Amazon →" >}}
 
 ---
 

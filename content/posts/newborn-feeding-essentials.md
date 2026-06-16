@@ -30,7 +30,7 @@ A nursing pillow is the single item that most breastfeeding parents say they cou
 
 The Boppy cover is machine-washable. The pillow is also useful for supported tummy time later. JPMA certified.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0001" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B0DJRQRGSK" text="Check Price on Amazon →" >}}
 
 ### 2. Nursing Bras (2–4)
 
@@ -44,7 +44,7 @@ Leaking is universal in early breastfeeding. Breast pads sit inside your bra and
 
 Nipple pain in the first 2–4 weeks is nearly universal as breastfeeding establishes. HPA lanolin is safe for baby (doesn't need to be wiped off before feeding), non-toxic, and highly effective for sore, cracked nipples. Apply after every feeding.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0002" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B005MI648C" text="Check Price on Amazon →" >}}
 
 ## What You Need for Bottle Feeding
 
@@ -56,7 +56,7 @@ Start with 3–4 bottles; don't buy a full set of one brand until you know your 
 
 You need a dedicated bottle brush — regular dish brushes don't reach the bottom of narrow-neck bottles. The OXO Tot Bottle Brush is the standard recommendation: long handle, firm bristles, nipple-cleaning brush on the cap.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0003" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B006XISCNA" text="Check Price on Amazon →" >}}
 
 ### 7. Bottle Warmer (Optional)
 
@@ -68,13 +68,13 @@ Not essential, but useful. Refrigerated breast milk or formula from the fridge i
 
 You will go through more burp cloths than you think. Minimum 8; better to have 12. Look for burp cloths large enough to drape over your shoulder with enough coverage to actually protect your clothing. Muslin or thick cloth diapers used as burp cloths outperform thin "decorative" burp cloths.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0004" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B001IXYOD2" text="Check Price on Amazon →" >}}
 
 ### 9. Haakaa or Silicone Manual Pump (for breastfeeding)
 
 The Haakaa catches letdown from the breast you're not feeding from while baby nurses. This passively collects milk that would otherwise be absorbed by a breast pad. Over 2–3 weeks, a meaningful freezer supply builds up without any pumping effort. Inexpensive and used by most breastfeeding parents.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0005" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B082PNG759" text="Check Price on Amazon →" >}}
 
 ## Comparison Table
 

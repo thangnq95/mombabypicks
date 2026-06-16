@@ -156,7 +156,7 @@ The goal is not perfection. The goal is making the next feed easier.
 
 **Who it's for:** Parents who want a tidy, compact drying solution that keeps feeding station gear organized without taking up the whole counter.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0020" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B0771FFWPX" text="Check Price on Amazon →" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 

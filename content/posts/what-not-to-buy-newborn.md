@@ -100,7 +100,7 @@ Baby shoes look adorable but serve no functional purpose for a non-walking newbo
 
 **Why it works:** Soft, stretchy footie construction keeps toes warm without the fuss of socks that fall off. Machine washable and durable enough for multiple washes per week.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0021" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B0DNJG5CY6" text="Check Price on Amazon →" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -128,7 +128,7 @@ Crib bumpers are not recommended by pediatric safety guidelines and can pose a s
 
 **Why it works:** A snug fitted sheet on a firm mattress is the safe sleep standard. No loose fabric, no risk. Durable cotton construction holds up to frequent washing.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0022" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B01N6S5YSI" text="Check Price on Amazon →" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -142,7 +142,7 @@ Newborns can outgrow their size in weeks. Stocking up on complicated outfits ear
 
 **Why it works:** Zip closures mean no fumbling with snaps at 3 AM. Footie design keeps socks optional. Carter's sizing runs true, and the fabric washes well.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0023" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B0DVGJTFT8" text="Check Price on Amazon →" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 

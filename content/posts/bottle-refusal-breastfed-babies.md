@@ -42,19 +42,19 @@ Bottle refusal almost always comes down to one or more of these factors:
 
 The Comotomo is frequently the bottle that works when others fail. Its wide, soft silicone base mimics the feel of the breast more closely than traditional bottles. The nipple has a wide base that requires a broad latch similar to breastfeeding. Dual vents reduce air ingestion. It comes in 5 oz and 8 oz sizes.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0001" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B0G6N65XVL" text="Check Price on Amazon →" >}}
 
 ### 2. Philips Avent Natural Response
 
 The Avent Natural Response nipple uses a valve that only releases milk when baby actively sucks — mimicking the breast's behavior and encouraging babies to control flow. The wide nipple base supports a broader latch. It's easy to clean, with fewer parts than anti-colic designs.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0002" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B09649R98Q" text="Check Price on Amazon →" >}}
 
 ### 3. Nanobébé Flexy Silicone Bottle
 
 The Nanobébé Flexy is made from a single piece of soft silicone and has a breast-shaped curve designed to encourage a natural latch. The wide nipple base is firm enough to hold a latch but soft enough to feel familiar. Good option for babies who reject hard plastic bottles.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0003" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B0944B4549" text="Check Price on Amazon →" >}}
 
 ## Comparison Table
 

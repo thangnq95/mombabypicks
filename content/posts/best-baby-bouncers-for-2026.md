@@ -75,7 +75,7 @@ Three recline positions take it from nearly flat (safe for newborns under 4 mont
 
 **Who it's for:** Parents who want a durable, low-maintenance bouncer that avoids battery drain and grows with baby longer than most.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0001" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B06XPBB1TH" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -96,7 +96,7 @@ The Fisher-Price Snugapuppy is among the most consistently purchased budget boun
 
 **Who it's for:** Budget-conscious parents or gift-givers who want a proven bouncer for the newborn stage.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0002" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B09NZLZ8DD" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -118,7 +118,7 @@ The 4moms mamaRoo 4 offers five distinct motion types — car ride, kangaroo, tr
 
 **Who it's for:** Tech-comfortable parents with hard-to-soothe or colicky babies who need maximum soothing options.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0003" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B0DSVPFKB5" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -140,7 +140,7 @@ The Graco DuetSoothe is two products in one: a full-size motorized swing and a d
 
 **Who it's for:** Parents who want swing and bouncer capability without buying two separate items.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0004" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B00AO084CW" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -162,7 +162,7 @@ The Ingenuity Lulla-Vibe weighs under 3 lbs and folds flat. It includes two vibr
 
 **Who it's for:** Parents in small apartments, frequent travelers, or anyone needing a lightweight secondary bouncer.
 
-{{< amazon url="https://www.amazon.com/dp/B0DFLT0005" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B0GQGQ7DTQ" text="Check Price on Amazon →" >}}
 
 ---
 
