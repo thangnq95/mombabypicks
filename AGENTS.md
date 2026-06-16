@@ -174,9 +174,24 @@ Every new article MUST follow this exact format structure:
 ```bash
 cd /Users/thangnguyen/GIT/PP/mombabypicks && bash scripts/verify.sh
 ```
-
 - Nếu FAIL → sửa lỗi, chạy lại đến khi PASS
-- Nếu thiếu CSS → `git checkout HEAD -- assets/css/extended/mombabypicks.css`
+- Nếu FAIL do thiếu file → `git checkout HEAD -- <file>` để restore
+- Nếu FAIL do sai ASIN → sửa ASIN trong content/
+
+### 🚫 CẤM XÓA các file sau (nếu thiếu → UI vỡ ngay):
+```
+assets/css/extended/mombabypicks.css    ← 1017 dòng custom CSS
+layouts/_partials/home_info.html        ← Hero section + mobile menu "Start with guides"
+layouts/index.html                      ← Homepage template
+hugo.toml                               ← Site config (nav, params)
+static/images/posts/*.webp              ← Cover images (24 files)
+```
+Codex chỉ được sửa: `content/posts/*.md`, `static/images/pins/*.png`, `data/pinterest/*.json`
+
+### Cách deploy an toàn (không vỡ UI):
+```bash
+bash scripts/deploy.sh     # 1 lệnh duy nhất
+```
 - Nếu fake ASINs → thay B0DFLT* bằng ASIN thật
 - 🚫 KHÔNG commit khi verify.sh báo lỗi
 - 🚫 KHÔNG sửa layouts/, assets/css/extended/, hugo.toml
