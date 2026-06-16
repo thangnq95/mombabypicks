@@ -80,7 +80,7 @@ The Chicco KeyFit line has been the benchmark for infant car seat installation e
 
 **Who it's for:** Parents who want the best combination of installation simplicity and crash safety without stepping up to the ultra-premium tier. The gold standard recommendation from most certified passenger safety technicians (CPSTs).
 
-{{< amazon url="https://www.amazon.com/dp/B0DFSG69W5" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B089HG2QTT?tag=mombabypick00-20" text="Check Price on Amazon →" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -109,37 +109,37 @@ The Graco SnugRide SnugLock 35 LX is what we recommend when budget is a real con
 
 **Who it's for:** Budget-conscious families, parents having a second child who need a seat without duplicating premium-tier spend, or grandparents who want a safe, reliable seat for occasional use.
 
-{{< amazon url="https://www.amazon.com/dp/B0BNSB6GXW" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B07CVCHKTT?tag=mombabypick00-20" text="Check Price on Amazon →" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
 ---
 
-## 3. Nuna Pipa Lite — Best for Portability
+## 3. Maxi-Cosi Mico Luxe Infant Car Seat — Best Lightweight Pick
 
-The Nuna Pipa Lite is the lightest carrier shell on this list at 5.8 lbs — a full 4 pounds lighter than the UPPAbaby Mesa V2. For parents who carry the seat in and out of cars multiple times daily, into daycare, in and out of strollers, that weight difference is real and cumulative. The seat is made with a flame-retardant-free canopy and fabrics (no chemical flame retardants), which is a selling point for parents concerned about chemical exposure.
+The Maxi-Cosi Mico Luxe is one of the lightest infant carriers on the market at just 7.5 lbs, while still offering a full 4–30 lb weight range. Its main advantage is ease of use — the one-click LATCH system makes installation straightforward, and the seat clicks into Maxi-Cosi and select Baby Jogger strollers without adapters. The SeatSaver anti-rebound bar reduces rotation in a crash, and the DreamDrape magnetic canopy cover shields your baby during naps on the go.
 
-**Specs:** 4–32 lbs, 17–32 inches; shell weight 5.8 lbs; five-point harness; anti-rebound bar on base; compatible with Nuna and select other stroller systems
+**Specs:** 4–30 lbs, up to 32 inches; shell weight 7.5 lbs; five-point harness; anti-rebound bar; one-click LATCH; DreamDrape magnetic canopy cover; compatible with Maxi-Cosi and Baby Jogger strollers
 
-**Price:** ~$350–$400
+**Price:** ~$230–$280
 
 **Pros:**
-- Lightest carrier shell on this list — 5.8 lbs
-- Flame-retardant-free canopy and seat materials
-- Anti-rebound bar on base reduces rotation in rear-end collisions
-- True Lock LATCH connection with audible click indicator
-- Pairs with Nuna MIXX and TAVO stroller systems
-- Premium fabrics and finishes
+- Lightweight for frequent in-and-out carry
+- One-click LATCH for quick installation
+- Magnetic canopy cover is great for naps
+- Compatible with Maxi-Cosi and Baby Jogger strollers
+- SeatSaver anti-rebound bar included
+- Easy-to-read belt path indicators
 
 **Cons:**
-- Lower weight limit (32 lbs) means a slightly shorter usable window
-- Premium price point
-- Base is on the larger side, can be a tighter fit in smaller vehicles
-- Fewer stroller compatibility options than Chicco or Graco
+- Lower weight limit (30 lbs) means a shorter usable window than Chicco or Graco
+- Premium price for a mid-weight seat
+- Fewer stroller ecosystem options than Chicco or Graco
+- Canopy can feel snug for taller babies
 
-**Who it's for:** Parents who prioritize lightweight carry for frequent transfers, those concerned about flame-retardant chemicals, or families already invested in the Nuna stroller ecosystem.
+**Who it's for:** Parents who want a lightweight premium seat that's easy to install and carry between cars, or families already using Maxi-Cosi or Baby Jogger strollers.
 
-{{< amazon url="https://www.amazon.com/dp/B07PN93X6R" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B0BTQ4FZC1?tag=mombabypick00-20" text="Check Price on Amazon →" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -169,7 +169,7 @@ The UPPAbaby Mesa V2 is the technological high-water mark on this list. The Smar
 
 **Who it's for:** UPPAbaby stroller owners getting full ecosystem value, or parents who want the simplest possible LATCH installation and appreciate smart safety features.
 
-{{< amazon url="https://www.amazon.com/dp/B0BMWS6SPL" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B0DMTLT7RD?tag=mombabypick00-20" text="Check Price on Amazon →" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -199,7 +199,7 @@ The Evenflo LiteMax Sport is the entry-level option for families on the tightest
 
 **Who it's for:** Families where budget is the primary constraint, parents needing a safe second seat for grandparents' vehicles, or anyone who needs a compliant seat without premium features.
 
-{{< amazon url="https://www.amazon.com/dp/B0DSN4XTYG" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B07Q33BN6B?tag=mombabypick00-20" text="Check Price on Amazon →" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
