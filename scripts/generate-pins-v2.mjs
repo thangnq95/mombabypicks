@@ -165,6 +165,11 @@ const articles = [
     headline: "Best Baby Play Mats 2026",
     subtitle: "Safe & soft for tummy time & play",
   },
+  {
+    slug: "best-baby-swings-2026",
+    headline: "Best Baby Swings 2026",
+    subtitle: "Soothe your baby with the right swing",
+  },
 ];
 
 function escapeHtml(value) {
