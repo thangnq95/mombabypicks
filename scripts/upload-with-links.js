@@ -10,11 +10,14 @@ const w = m => fs.appendFileSync(OUT, new Date().toISOString().slice(11,19)+' '+
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 const DATA = [
+  ['best-baby-bath-tubs-2026','Best Baby Bath Tubs 2026'],
   ['best-baby-bottles-for-newborns-2026','Best Baby Bottles for Newborns 2026'],
   ['best-baby-bouncers-for-2026','Best Baby Bouncers for 2026'],
   ['best-baby-carriers-for-2026','Best Baby Carriers for 2026'],
   ['best-baby-monitors-long-battery-life','Best Baby Monitors with Long Battery Life'],
+  ['best-baby-play-mats-2026','Best Baby Play Mats 2026'],
   ['best-baby-sleep-sacks-for-2026','Best Baby Sleep Sacks for 2026'],
+  ['best-baby-swings-2026','Best Baby Swings 2026'],
   ['best-bottle-warmers','5 Best Bottle Warmers for Newborns'],
   ['best-breast-pumps','5 Best Breast Pumps of 2026'],
   ['best-diapers-for-newborns-2026','Best Diapers for Newborns 2026'],
