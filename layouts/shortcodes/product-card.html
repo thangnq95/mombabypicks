@@ -4,7 +4,7 @@
 {{- $price := .Get "price" | default "" -}}
 {{- $badge := .Get "badge" | default "" -}}
 <div class="product-card">
-  <a href="{{ $url }}" target="_blank" rel="noopener noreferrer" class="product-card-inner">
+  <a href="{{ $url }}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="product-card-inner" data-affiliate-click="amazon" data-affiliate-slot="product-card" data-affiliate-url="{{ $url }}" data-affiliate-title="{{ $title }}">
     {{ if $img }}
     <div class="product-card-image">
       <img src="{{ $img }}" alt="{{ $title }}" loading="lazy" />

@@ -12,7 +12,7 @@ cover:
   alt: "Baby sitting happily in a modern high chair during mealtime"
 ---
 
-*Affiliate Disclosure: MomBabyPicks participates in the Amazon Associates program. If you purchase through our links, we may earn a small commission at no extra cost to you. We only recommend products we'd genuinely consider for our own babies.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 {{< top-pick url="https://www.amazon.com/dp/B00PTL13LA?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00PTL13LA.01.L.jpg" title="Graco Slim Snacker" price="" >}}
 
@@ -230,4 +230,4 @@ The **Graco Slim Snacker** is the best all-around choice for most families — g
 
 For more on feeding your baby, see our guides on [newborn feeding essentials](/posts/newborn-feeding-essentials/) and [choosing the right breast pump](/posts/best-breast-pumps/).
 
-*As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*

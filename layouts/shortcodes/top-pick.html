@@ -12,7 +12,7 @@
     <div class="top-pick-info">
       <h3 class="top-pick-title">{{ $title }}</h3>
       {{ if $price }}<div class="top-pick-price">{{ $price }}</div>{{ end }}
-      <a href="{{ $url }}" target="_blank" rel="noopener noreferrer" class="top-pick-btn">Check Price on Amazon →</a>
+      <a href="{{ $url }}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="top-pick-btn" data-affiliate-click="amazon" data-affiliate-slot="top-pick" data-affiliate-url="{{ $url }}" data-affiliate-title="{{ $title }}">Check Price on Amazon →</a>
     </div>
   </div>
 </div>

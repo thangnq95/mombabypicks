@@ -12,7 +12,7 @@ cover:
   alt: "Parent wearing baby in a soft structured carrier outdoors"
 ---
 
-*Affiliate Disclosure: MomBabyPicks participates in the Amazon Associates program. If you purchase through our links, we may earn a small commission at no extra cost to you. We only recommend products we'd genuinely consider for our own babies.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 {{< top-pick url="https://www.amazon.com/dp/B07B41952V?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07B41952V.01.L.jpg" title="Ergobaby Omni 360" price="" >}}
 
@@ -219,4 +219,4 @@ The **Ergobaby Omni 360** is the best all-around investment for parents who want
 
 For more on building out your baby's first months, see our [newborn essentials checklist](/posts/newborn-essentials-checklist/) and our guide to [what NOT to buy for a newborn](/posts/what-not-to-buy-newborn/).
 
-*As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*

@@ -1,7 +1,7 @@
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
     <div class="home-hero-copy">
-        <p class="home-eyebrow">Mobile-first baby gear picks</p>
+        <p class="home-eyebrow">Amazon affiliate picks for new parents</p>
         <header class="entry-header">
             <h1>{{ .Title | markdownify }}</h1>
         </header>
@@ -10,8 +10,8 @@
             {{ .Content | $.Page.RenderString $opts }}
         </div>
         <div class="home-hero-actions" aria-label="Primary homepage actions">
-            <a class="home-primary-btn" href="/posts/">Explore guides</a>
-            <a class="home-secondary-btn" href="/how-we-review/">How we review</a>
+            <a class="home-primary-btn" href="/posts/">Start with top picks</a>
+            <a class="home-secondary-btn" href="/how-we-review/">See how we test</a>
         </div>
         <div class="home-quick-links" aria-label="Popular guide categories">
             <a href="/tags/breast-pump/">Breast Pumps</a>
@@ -21,21 +21,22 @@
         </div>
     </div>
     <div class="home-trust-card">
-        <p class="home-trust-label">Why readers trust us</p>
+        <p class="home-trust-label">Why readers click through</p>
         <div class="home-trust-grid">
             <div>
                 <strong>Practical picks</strong>
                 <span>Focused on daily feeding, sleep, and newborn care.</span>
             </div>
             <div>
-                <strong>Clear tradeoffs</strong>
-                <span>We explain who each product is best for and when to skip it.</span>
+                <strong>High-intent pages</strong>
+                <span>Built around searches like best, review, and worth it.</span>
             </div>
             <div>
-                <strong>Mobile-friendly reading</strong>
-                <span>Short sections, fast CTAs, and easier scanning on phones.</span>
+                <strong>Fast decisions</strong>
+                <span>Short sections, clear comparisons, and obvious Amazon CTAs.</span>
             </div>
         </div>
+        <p class="home-trust-note">Start with the shortlist, then jump straight to Amazon when you want to compare price and availability.</p>
         <footer class="entry-footer">
             {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
         </footer>

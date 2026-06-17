@@ -12,7 +12,7 @@ cover:
   alt: "Parent pace bottle feeding a breastfed baby in an upright position"
 ---
 
-*Affiliate Disclosure: MomBabyPicks participates in the Amazon Associates program. If you purchase through our links, we may earn a small commission at no extra cost to you.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ## Introduction
 
@@ -124,7 +124,7 @@ Non-nutritive sucking (pacifier use) is compatible with pace feeding and can hel
 
 For more on building your feeding setup, see our [newborn feeding essentials guide](/posts/newborn-feeding-essentials/) and our full [best baby bottles for newborns comparison](/posts/best-baby-bottles-for-newborns-2026/).
 
-*As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 
 {{< cross-sell slugs="bottle-refusal-breastfed-babies, newborn-feeding-essentials, best-baby-bottles-for-newborns-2026" >}}

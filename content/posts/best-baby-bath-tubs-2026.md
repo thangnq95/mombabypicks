@@ -12,7 +12,7 @@ cover:
   alt: "Baby bath tub on a clean white background with soft towels"
 ---
 
-*Affiliate Disclosure: MomBabyPicks participates in the Amazon Associates program. If you purchase through our links, we may earn a small commission at no extra cost to you. We only recommend products we'd genuinely consider for our own babies.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 Bath time is one of those rituals that can go from stressful to one of the sweetest parts of your day — once you have the right tub. The challenge is that baby bath tubs range from $20 mesh inserts to $50 multi-stage systems, and it's genuinely hard to tell from a photo whether a tub will actually hold your slippery newborn safely.
 

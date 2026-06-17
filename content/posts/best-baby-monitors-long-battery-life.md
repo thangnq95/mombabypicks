@@ -90,7 +90,7 @@ The Infant Optics DXR-8 Pro is one of the most widely recommended non-WiFi baby 
 
 {{< product-card url="https://www.amazon.com/dp/B08FF4GV5C?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B08FF4GV5C.01.L.jpg" title="Infant Optics DXR-8 Pro" >}}
 
-*As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ### Eufy SpaceView Pro (E210)
 

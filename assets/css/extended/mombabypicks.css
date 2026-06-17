@@ -286,9 +286,9 @@ body {
 }
 
 .home-primary-btn {
-  background: linear-gradient(135deg, #f16c58 0%, #ee8f65 100%);
+  background: linear-gradient(135deg, #ea6251 0%, #f08f68 100%);
   color: #fff !important;
-  box-shadow: 0 16px 34px rgba(241, 108, 88, 0.28);
+  box-shadow: 0 18px 38px rgba(234, 98, 81, 0.32);
 }
 
 .home-secondary-btn {
@@ -383,6 +383,13 @@ body {
   color: #756159;
   font-size: 0.84rem;
   line-height: 1.55;
+}
+
+.home-trust-note {
+  margin: 0.95rem 0 0;
+  color: #6f564d;
+  font-size: 0.88rem;
+  line-height: 1.6;
 }
 
 .home-info .entry-footer {
@@ -492,6 +499,13 @@ body {
   margin: 0.45rem 0 0;
   color: #7a6258;
   font-size: 0.78rem;
+}
+
+.amazon-subtext {
+  margin: 0.45rem 0 0;
+  color: #7d655c;
+  font-size: 0.84rem;
+  line-height: 1.45;
 }
 
 .amazon-cta {
@@ -1009,6 +1023,7 @@ body {
   .amazon-cta {
     width: 100%;
   }
+}
 
 /* Product Cards */
 .product-card {
@@ -1019,14 +1034,16 @@ body {
   gap: 1em;
   align-items: flex-start;
   text-decoration: none;
-  background: var(--entry);
-  border: 1px solid var(--border);
-  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 248, 244, 0.98) 100%);
+  border: 1px solid #e8cdc2;
+  border-radius: 16px;
   padding: 1em;
-  transition: box-shadow 0.2s, transform 0.2s;
+  box-shadow: 0 10px 26px rgba(116, 74, 64, 0.08);
+  transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
 }
 .product-card-inner:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  border-color: #e4ae9a;
+  box-shadow: 0 18px 34px rgba(116, 74, 64, 0.12);
   transform: translateY(-2px);
 }
 .product-card-image {
@@ -1041,9 +1058,11 @@ body {
   overflow: hidden;
 }
 .product-card-image img {
-  max-width: 100%;
-  max-height: 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
+  object-position: center;
 }
 .product-card-info {
   flex: 1;
@@ -1055,10 +1074,10 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  background: var(--tertiary);
-  color: var(--primary);
+  background: #ffe6dc;
+  color: #8d4b43;
   padding: 0.15em 0.6em;
-  border-radius: 4px;
+  border-radius: 999px;
   margin-bottom: 0.4em;
 }
 .product-card-title {
@@ -1076,30 +1095,34 @@ body {
   margin-top: 0.2em;
 }
 .product-card-btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   margin-top: 0.6em;
   font-size: 0.82rem;
-  font-weight: 500;
-  color: var(--primary);
-  background: var(--tertiary);
-  padding: 0.4em 1em;
-  border-radius: 6px;
+  font-weight: 800;
+  color: #7a3d34;
+  background: linear-gradient(135deg, #fff0e8 0%, #ffe0d5 100%);
+  padding: 0.5em 1em;
+  border-radius: 999px;
+  box-shadow: inset 0 0 0 1px rgba(204, 122, 100, 0.16);
 }
 
 /* Top Pick Box */
 .top-pick-box {
-  background: linear-gradient(135deg, #fff8f0 0%, #fff 100%);
+  background:
+    linear-gradient(135deg, rgba(255, 247, 240, 0.98) 0%, rgba(255, 255, 255, 0.98) 100%);
   border: 2px solid #e8860c;
-  border-radius: 12px;
+  border-radius: 16px;
   padding: 1.2em;
   margin: 1.5em 0;
+  box-shadow: 0 18px 42px rgba(232, 134, 12, 0.12);
 }
 .top-pick-badge {
   font-size: 0.85rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #e8860c;
+  color: #9a5608;
   margin-bottom: 0.8em;
 }
 .top-pick-content {
@@ -1109,19 +1132,21 @@ body {
 }
 .top-pick-image {
   flex-shrink: 0;
-  width: 90px;
-  height: 90px;
+  width: 96px;
+  height: 96px;
   background: #fff;
-  border-radius: 8px;
+  border-radius: 10px;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .top-pick-image img {
-  max-width: 100%;
-  max-height: 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
+  object-position: center;
 }
 .top-pick-info {
   flex: 1;
@@ -1143,19 +1168,22 @@ body {
   color: var(--primary);
 }
 .top-pick-btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   margin-top: 0.5em;
-  background: #ff9900;
+  background: linear-gradient(135deg, #ff9d1f 0%, #ff8c00 100%);
   color: #fff !important;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 0.85rem;
-  padding: 0.5em 1.2em;
-  border-radius: 8px;
+  padding: 0.6em 1.25em;
+  border-radius: 999px;
   text-decoration: none;
-  transition: background 0.2s;
+  box-shadow: 0 10px 22px rgba(255, 140, 0, 0.24);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 .top-pick-btn:hover {
-  background: #e8860c;
+  transform: translateY(-1px);
+  box-shadow: 0 14px 26px rgba(255, 140, 0, 0.28);
 }
 
 /* Cross Sell Box */

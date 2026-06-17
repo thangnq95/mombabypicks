@@ -12,7 +12,7 @@ cover:
   alt: "Parent offering a bottle to a breastfed baby"
 ---
 
-*Affiliate Disclosure: MomBabyPicks participates in the Amazon Associates program. If you purchase through our links, we may earn a small commission at no extra cost to you.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 {{< top-pick url="https://www.amazon.com/dp/B0G6N65XVL?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0G6N65XVL.01.L.jpg" title="Comotomo Natural Feel Baby Bottle" price="" >}}
 
@@ -101,4 +101,4 @@ Yes. Mixing breast milk and formula in the same bottle is safe. Some parents use
 **Will bottle feeding affect my milk supply?**
 Introducing one bottle feeding per day typically doesn't affect supply if you're replacing missed feedings with pumping sessions. Always pump when baby takes a bottle to maintain supply signals.
 
-*As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*

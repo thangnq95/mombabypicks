@@ -239,12 +239,6 @@ ARTICLES = [
          query="",
          palette=0,
          ai_prompt="Landscape product photo of a baby bath tub on a clean white background with soft towels, minimal, no people, no faces, no hands."),
-    dict(slug="best-baby-outdoor-gear-summer",
-         headline="Best Baby Outdoor Gear for Summer 2026",
-         subtitle="Keep your baby cool and safe outside all summer long",
-         query="",
-         palette=3,
-         ai_prompt="Landscape product photo of baby outdoor summer gear on a sunny patio, stroller, sun hat, no people."),
 ]
 
 

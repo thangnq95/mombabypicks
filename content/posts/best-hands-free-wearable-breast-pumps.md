@@ -87,7 +87,7 @@ The Momcozy S12 Pro is a strong value pick for moms who want a fully wearable pu
 
 {{< product-card url="https://www.amazon.com/dp/B0CWTYWM5M?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0CWTYWM5M.01.L.jpg" title="Momcozy S12 Pro Wearable Breast Pump" >}}
 
-*As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ### Elvie Pump Double Silent Wearable
 

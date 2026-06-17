@@ -12,7 +12,7 @@ cover:
   alt: "Newborn feeding essentials laid out including bottles and nursing pillow"
 ---
 
-*Affiliate Disclosure: MomBabyPicks participates in the Amazon Associates program. If you purchase through our links, we may earn a small commission at no extra cost to you.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 {{< top-pick url="https://www.amazon.com/dp/B0DJRQRGSK?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DJRQRGSK.01.L.jpg" title="Nursing Pillow" price="" >}}
 
@@ -71,7 +71,7 @@ Not essential, but useful. Refrigerated breast milk or formula from the fridge i
 
 You will go through more burp cloths than you think. Minimum 8; better to have 12. Look for burp cloths large enough to drape over your shoulder with enough coverage to actually protect your clothing. Muslin or thick cloth diapers used as burp cloths outperform thin "decorative" burp cloths.
 
-{{< product-card url="https://www.amazon.com/dp/B001IXYOD2?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B001IXYOD2.01.L.jpg" title="Burp Cloths (8" badge="12)" >}}
+{{< product-card url="https://www.amazon.com/dp/B001IXYOD2?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B001IXYOD2.01.L.jpg" title="Burp Cloths (8-12 Pack)" >}}
 
 ### 9. Haakaa or Silicone Manual Pump (for breastfeeding)
 
@@ -114,4 +114,4 @@ Slow-flow nipples (labeled S, 0, or Level 1 depending on brand) have smaller ope
 **Can I use a nursing pillow from day one?**
 Yes. Most nursing pillows are suitable from birth. They're designed to work from the earliest days of breastfeeding. Some parents also use them as a supported surface during skin-to-skin time.
 
-*As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*

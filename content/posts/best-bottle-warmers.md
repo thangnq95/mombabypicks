@@ -145,7 +145,4 @@ Always follow the manufacturer's instructions for your specific bottle warmer. N
 ---
 
 *Our recommendations are based on product research and hands-on testing. Prices and availability are accurate as of the date of publication. As an Amazon Associate, we earn from qualifying purchases.*
-*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you.
-
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
-

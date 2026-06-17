@@ -90,7 +90,7 @@ Bottle warmers are convenient tools, but they do not replace common sense checks
 
 {{< product-card url="https://www.amazon.com/dp/B0876T9DQZ?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0876T9DQZ.01.L.jpg" title="Philips Avent Fast Bottle Warmer" badge="Best for Fast, Safe Warming" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -111,7 +111,7 @@ Bottle warmers are convenient tools, but they do not replace common sense checks
 
 {{< product-card url="https://www.amazon.com/dp/B087QRPMFK?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B087QRPMFK.01.L.jpg" title="Kiinde Kozii" badge="Best for Breast Milk Safety" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -132,7 +132,7 @@ Bottle warmers are convenient tools, but they do not replace common sense checks
 
 {{< product-card url="https://www.amazon.com/dp/B08HFVF7SN?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B08HFVF7SN.01.L.jpg" title="Dr. Brown's Deluxe Bottle Warmer" badge="Best for Night Feeds" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 

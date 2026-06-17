@@ -15,6 +15,12 @@ paginate = 10
   defaultTheme = "light"
   disableThemeToggle = true
 
+  [params.analytics]
+    [params.analytics.ga4]
+      measurementId = ""
+    [params.analytics.gtm]
+      containerId = ""
+
 [params.assets]
   favicon = "favicon-9477610.ico"
   favicon16x16 = "favicon-16x16-9477610.png"

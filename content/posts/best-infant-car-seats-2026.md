@@ -85,7 +85,7 @@ The Chicco KeyFit line has been the benchmark for infant car seat installation e
 
 {{< product-card url="https://www.amazon.com/dp/B089HG2QTT?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B089HG2QTT.01.L.jpg" title="Chicco KeyFit 35" badge="Best All-Around Infant Car Seat" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -114,7 +114,7 @@ The Graco SnugRide SnugLock 35 LX is what we recommend when budget is a real con
 
 {{< product-card url="https://www.amazon.com/dp/B07CVCHKTT?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07CVCHKTT.01.L.jpg" title="Graco SnugRide SnugLock 35 LX" badge="Best Budget Infant Car Seat" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -144,7 +144,7 @@ The Maxi-Cosi Mico Luxe is one of the lightest infant carriers on the market at 
 
 {{< product-card url="https://www.amazon.com/dp/B0BTQ4FZC1?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0BTQ4FZC1.01.L.jpg" title="Maxi-Cosi Mico Luxe Infant Car Seat" badge="Best Lightweight Pick" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -174,7 +174,7 @@ The UPPAbaby Mesa V2 is the technological high-water mark on this list. The Smar
 
 {{< product-card url="https://www.amazon.com/dp/B0DMTLT7RD?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DMTLT7RD.01.L.jpg" title="UPPAbaby Mesa V2" badge="Best Premium Infant Car Seat" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -204,7 +204,7 @@ The Evenflo LiteMax Sport is the entry-level option for families on the tightest
 
 {{< product-card url="https://www.amazon.com/dp/B07Q33BN6B?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07Q33BN6B.01.L.jpg" title="Evenflo LiteMax Sport" badge="Best Ultra-Budget Pick" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -247,4 +247,4 @@ Before baby's due date, if possible. Certified Child Passenger Safety Technician
 
 ---
 
-*As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*

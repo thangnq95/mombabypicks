@@ -91,7 +91,7 @@ Cleaning is not the fun part, but a predictable routine makes pumping feel much 
 
 {{< product-card url="https://www.amazon.com/dp/B000058CNT?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B000058CNT.01.L.jpg" title="Medela Quick Clean Micro-Steam Bags" badge="Sterilize in 3 Minutes" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -112,7 +112,7 @@ Cleaning is not the fun part, but a predictable routine makes pumping feel much 
 
 {{< product-card url="https://www.amazon.com/dp/B000058D7G?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B000058D7G.01.L.jpg" title="Dr. Brown's Bottle & Nipple Brush" badge="Reaches All Pump Parts" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -133,7 +133,7 @@ Cleaning is not the fun part, but a predictable routine makes pumping feel much 
 
 {{< product-card url="https://www.amazon.com/dp/B00DXXVJRO?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00DXXVJRO.01.L.jpg" title="Bravado Pump & Clean Wipes" badge="Quick Clean On the Go" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -154,7 +154,7 @@ Cleaning is not the fun part, but a predictable routine makes pumping feel much 
 
 {{< product-card url="https://www.amazon.com/dp/B01N9NDTGV?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B01N9NDTGV.01.L.jpg" title="Philips Avent Combined Sterilizer & Dryer" badge="All-in-One Solution" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 

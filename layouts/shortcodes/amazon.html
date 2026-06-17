@@ -1,10 +1,12 @@
-{{- $url := .Get "url" -}}
-{{- $text := .Get "text" | default "Check Price on Amazon →" -}}
-{{- $tag := site.Params.amazonTag -}}
+{{- $url := .Get "url" | default "" | strings.TrimSpace -}}
+{{- $text := .Get "text" | default "Check price on Amazon →" -}}
+{{- $tag := site.Params.amazonTag | default "" | strings.TrimSpace -}}
+{{- $isAmazon := or (in $url "amazon.com") (in $url "amazon.") (in $url "amzn.to") -}}
 {{- $hasRealTag := and $tag (ne $tag "PLACEHOLDER-20") -}}
 {{- $separator := cond (in $url "?") "&" "?" -}}
-{{- $finalUrl := cond (and $hasRealTag (not (in $url "tag="))) (printf "%s%stag=%s" $url $separator $tag) $url -}}
+{{- $finalUrl := cond (and $isAmazon $hasRealTag (not (in $url "tag="))) (printf "%s%stag=%s" $url $separator $tag) $url -}}
 <div class="amazon-box">
-  <a class="amazon-cta" href="{{ $finalUrl }}" target="_blank" rel="nofollow sponsored noopener">{{ $text }}</a>
+  <a class="amazon-cta" href="{{ $finalUrl }}" target="_blank" rel="nofollow sponsored noopener noreferrer" data-affiliate-click="amazon" data-affiliate-slot="amazon-shortcode" data-affiliate-url="{{ $finalUrl }}" data-affiliate-title="{{ $text }}">{{ $text }}</a>
+  <p class="amazon-subtext">Opens Amazon in a new tab so readers can compare price, ratings, and delivery speed fast.</p>
   <p class="amazon-disclosure">(paid link) As an Amazon Associate I earn from qualifying purchases.</p>
 </div>

@@ -1,0 +1,64 @@
+<script>
+(() => {
+  const toStringSafe = (value) => (value || '').toString().trim();
+
+  const pushEvent = (payload) => {
+    const event = {
+      event: 'affiliate_click',
+      affiliate_network: 'amazon',
+      affiliate_slot: toStringSafe(payload.slot) || 'amazon',
+      affiliate_title: toStringSafe(payload.title),
+      affiliate_url: toStringSafe(payload.url),
+      page_path: window.location.pathname,
+      page_title: document.title,
+    };
+
+    if (Array.isArray(window.dataLayer)) {
+      window.dataLayer.push(event);
+    }
+
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'affiliate_click', {
+        affiliate_network: event.affiliate_network,
+        affiliate_slot: event.affiliate_slot,
+        affiliate_title: event.affiliate_title,
+        affiliate_url: event.affiliate_url,
+      });
+    }
+
+    try {
+      window.localStorage.setItem('mombabypicks_last_affiliate_click', JSON.stringify({
+        ...event,
+        ts: Date.now(),
+      }));
+    } catch (error) {
+      // Ignore storage failures in private mode or hardened browsers.
+    }
+  };
+
+  document.addEventListener('click', (event) => {
+    const target = event.target;
+    if (!(target instanceof Element)) {
+      return;
+    }
+
+    const link = target.closest('a[data-affiliate-click="amazon"]');
+    if (!link) {
+      return;
+    }
+
+    pushEvent({
+      slot: link.getAttribute('data-affiliate-slot'),
+      title: link.getAttribute('data-affiliate-title') || link.textContent,
+      url: link.getAttribute('data-affiliate-url') || link.href,
+    });
+  }, true);
+})();
+</script>
+
+{{- $gtm := site.Params.analytics.gtm.containerId | default "" | strings.TrimSpace -}}
+{{- if $gtm }}
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id={{ $gtm }}" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+{{- end }}

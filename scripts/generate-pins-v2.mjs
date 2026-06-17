@@ -175,11 +175,6 @@ const articles = [
     headline: "Best Baby Bath Tubs 2026",
     subtitle: "Safe & easy options for newborns to toddlers",
   },
-  {
-    slug: "best-baby-outdoor-gear-summer",
-    headline: "Best Baby Outdoor Gear for Summer 2026",
-    subtitle: "Keep baby cool & safe outside",
-  },
 ];
 
 function escapeHtml(value) {

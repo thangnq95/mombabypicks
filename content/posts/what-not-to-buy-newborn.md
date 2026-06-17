@@ -105,7 +105,7 @@ Baby shoes look adorable but serve no functional purpose for a non-walking newbo
 
 {{< product-card url="https://www.amazon.com/dp/B0DNJG5CY6?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DNJG5CY6.01.L.jpg" title="Instead of Baby Shoes" badge="Gerber Baby Footed Pajamas" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -119,7 +119,7 @@ For most babies, warming wipes in your hands for a few seconds works just fine. 
 
 {{< product-card url="https://www.amazon.com/dp/B00MIM0BSO?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00MIM0BSO.01.L.jpg" title="Instead of a Wipe Warmer (or if You Really Want One)" badge="Munchkin Warm Glow Wipe Warmer" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -133,7 +133,7 @@ Crib bumpers are not recommended by pediatric safety guidelines and can pose a s
 
 {{< product-card url="https://www.amazon.com/dp/B01N6S5YSI?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B01N6S5YSI.01.L.jpg" title="Instead of Crib Bumpers" badge="American Baby Co Fitted Sheet" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -147,7 +147,7 @@ Newborns can outgrow their size in weeks. Stocking up on complicated outfits ear
 
 {{< product-card url="https://www.amazon.com/dp/B0DVGJTFT8?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DVGJTFT8.01.L.jpg" title="Instead of Lots of Newborn Clothes" badge="Carter's Zip-Up Pajamas" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 

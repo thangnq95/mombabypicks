@@ -12,7 +12,7 @@ cover:
   alt: "Silicone baby feeding products including bibs, bottles, and spoons on white background"
 ---
 
-*Affiliate Disclosure: MomBabyPicks participates in the Amazon Associates program. If you purchase through our links, we may earn a small commission at no extra cost to you.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 {{< top-pick url="https://www.amazon.com/dp/B0G6N65XVL?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0G6N65XVL.01.L.jpg" title="Silicone Baby Bottles" price="" >}}
 
@@ -106,4 +106,4 @@ Food-grade silicone is highly durable. Bottles and spoons typically last as long
 **At what age can babies use silicone products?**
 Depends on the product. Silicone bottles can be used from birth. Silicone teethers from about 3 months. Silicone bibs and plate systems from about 4–6 months when solids begin. Silicone straw cups from around 6 months.
 
-*As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*

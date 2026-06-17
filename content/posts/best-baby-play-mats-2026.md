@@ -12,7 +12,7 @@ cover:
   alt: "Colorful baby play mat with hanging toys on a soft nursery floor"
 ---
 
-*Affiliate Disclosure: MomBabyPicks participates in the Amazon Associates program. If you purchase through our links, we may earn a small commission at no extra cost to you. We only recommend products we'd genuinely consider for our own babies.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 A play mat does more work than most parents expect. It's where tummy time happens, where first reaches and rolls unfold, and where babies build the core strength and sensory awareness they need before crawling. Getting the wrong one — too thin, too small, or impossible to clean — means it collects dust in a corner. Getting the right one means your baby actually uses it every day.
 
@@ -80,7 +80,7 @@ The Lovevery Play Gym is the standard that other developmental gyms are measured
 
 {{< product-card url="https://www.amazon.com/dp/B075R8BXXC?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B075R8BXXC.01.L.jpg" title="Lovevery Play Gym" badge="Best Developmental" price="$105" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -106,7 +106,7 @@ The Fisher-Price Kick & Play is what the budget segment looks like when it's don
 
 {{< product-card url="https://www.amazon.com/dp/B0793D9WBY?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0793D9WBY.01.L.jpg" title="Fisher-Price Deluxe Kick & Play Piano Gym" badge="Best Budget" price="$45" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -132,7 +132,7 @@ The MioTetto tiles give you 50×50" of interlocking foam coverage at $35 — mor
 
 {{< product-card url="https://www.amazon.com/dp/B091YKYFPX?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B091YKYFPX.01.L.jpg" title="MioTetto Baby Play Mat Foam Tiles" badge="Best Foam Tiles" price="$35" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -158,7 +158,7 @@ The Infantino mat's defining advantage is its fold: the full 57×57" surface fol
 
 {{< product-card url="https://www.amazon.com/dp/B0BNQSQXSC?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0BNQSQXSC.01.L.jpg" title="Infantino Foldable Soft Foam Play Mat" badge="Best Portable" price="$30" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -184,7 +184,7 @@ The Nuby mat wins the value category by delivering 77×58" — the largest footp
 
 {{< product-card url="https://www.amazon.com/dp/B0FNDWG4G5?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0FNDWG4G5.01.L.jpg" title="Nuby Reversible Baby Floor Mat" badge="Best Value" price="$50" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 

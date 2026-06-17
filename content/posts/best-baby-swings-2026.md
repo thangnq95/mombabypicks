@@ -12,7 +12,7 @@ cover:
   alt: "Baby sleeping peacefully in a modern baby swing in a bright nursery"
 ---
 
-*Affiliate Disclosure: MomBabyPicks participates in the Amazon Associates program. If you purchase through our links, we may earn a small commission at no extra cost to you. We only recommend products we'd genuinely consider for our own babies.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 A good baby swing can turn a screaming, overtired infant into a sleeping one in under ten minutes. That's not an exaggeration — for many parents of newborns, the swing is the piece of gear that makes the first three months survivable. But not every swing works for every baby. Some infants respond to a steady side-to-side rock; others need a car-ride-style front-to-back motion. Get the motions wrong and the swing sits unused.
 
@@ -63,7 +63,7 @@ The SmartSense's headline feature is its cry-detection sensor: the swing detects
 
 {{< product-card url="https://www.amazon.com/dp/B0BDRJHRDV?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0BDRJHRDV.01.L.jpg" title="Graco SmartSense Swing" badge="Best Smart Swing" price="$200" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -90,7 +90,7 @@ The MamaRoo is the only swing on this list that mimics the movements parents act
 
 {{< product-card url="https://www.amazon.com/dp/B0CZL3Z97Q?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0CZL3Z97Q.01.L.jpg" title="4moms MamaRoo Multi-Motion Swing" badge="Best Premium" price="$330" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -117,7 +117,7 @@ The Nova proves that the basics done right beat a feature list done poorly. Two 
 
 {{< product-card url="https://www.amazon.com/dp/B08G59WRYD?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B08G59WRYD.01.L.jpg" title="Jool Baby Nova Swing" badge="Best Value" price="$120" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -144,7 +144,7 @@ The Bright Starts takes the smallest footprint on this list without feeling flim
 
 {{< product-card url="https://www.amazon.com/dp/B0BTDRL37K?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0BTDRL37K.01.L.jpg" title="Bright Starts Playful Paradise Swing" badge="Best Portable" price="$90" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
@@ -171,7 +171,7 @@ Fisher-Price's Snugapuppy has been the reliable middle-ground swing for a decade
 
 {{< product-card url="https://www.amazon.com/dp/B07TQCR5CJ?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07TQCR5CJ.01.L.jpg" title="Fisher-Price Sweet Snugapuppy Swing" badge="Best Classic" price="$130" >}}
 
-*(paid link) As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 

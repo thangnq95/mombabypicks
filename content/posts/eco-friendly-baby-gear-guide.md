@@ -12,7 +12,7 @@ cover:
   alt: "Eco-friendly baby products arranged on natural wood surface"
 ---
 
-*Affiliate Disclosure: MomBabyPicks participates in the Amazon Associates program. If you purchase through our links, we may earn a small commission at no extra cost to you.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 {{< top-pick url="https://www.amazon.com/dp/B00WR958TA?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00WR958TA.01.L.jpg" title="Newton Baby Crib Mattress" price="" >}}
 
@@ -115,4 +115,4 @@ No. "Natural" and "plant-based" are unregulated marketing terms. A product can c
 **Are cloth diapers actually more eco-friendly than disposables?**
 The research is mixed. Cloth diapers have lower landfill impact but higher water and energy use over their lifetime. The environmental comparison depends heavily on local water scarcity, electricity source, and how many children use the same diapers. It's not a clear-cut win either way.
 
-*As an Amazon Associate I earn from qualifying purchases.*
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
