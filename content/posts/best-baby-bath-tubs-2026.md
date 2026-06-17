@@ -20,6 +20,10 @@ We looked at the top-rated options across all budget levels, evaluating them for
 
 If you're still building out your first-week essentials, also check our guide on [newborn essentials for the first three months](/posts/newborn-essentials-checklist/) and [the best baby bouncers for 2026](/posts/best-baby-bouncers-for-2026/).
 
+{{< top-pick url="https://www.amazon.com/dp/B0DW3RM88Q?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DW3RM88Q.01.L.jpg" title="Fisher-Price 4-in-1 Sling 'n Seat Tub" price="$44" rating="9.2" >}}
+
+{{< author-bio >}}
+
 {{< pick-cards
 title="Quick Picks At A Glance"
 intro="Match your baby's age and your bathroom setup to the right tub before reading the full reviews."
@@ -55,7 +59,7 @@ We evaluated each tub on five criteria: **newborn safety** (sling or mesh suppor
 
 ---
 
-## 1. Fisher-Price 4-in-1 Sling 'n Seat Tub — Best Overall
+## 1. Fisher-Price 4-in-1 Sling 'n Seat Tub — Best Overall {#product-1}
 
 The Fisher-Price 4-in-1 earns the top spot because it genuinely grows with your baby without feeling like a compromise at any stage. The soft sling cradles newborns at a safe reclined angle, then converts to a sit-up infant seat, then an open tub for babies who can sit independently, then a step stool for toddlers.
 
@@ -209,7 +213,7 @@ A bath thermometer isn't strictly necessary if you use your elbow (more sensitiv
 
 ---
 
-## Related Articles
+{{< cross-sell slugs="best-diapers-for-newborns-2026, best-baby-bouncers-for-2026, newborn-essentials-checklist" >}}
 
 - [Newborn Essentials Checklist: What You Actually Need](/posts/newborn-essentials-checklist/)
 - [Best Baby Bouncers for 2026](/posts/best-baby-bouncers-for-2026/)

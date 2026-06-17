@@ -1,0 +1,17 @@
+{{- $slugs := .Get "slugs" | default "" -}}
+{{- $title := .Get "title" | default "📦 You Might Also Need" -}}
+<div class="cross-sell-box">
+  <h3 class="cross-sell-title">{{ $title }}</h3>
+  <div class="cross-sell-items">
+    {{- range (split $slugs ",") -}}
+      {{- $s := trim . " " -}}
+      {{- if $s -}}
+      <a href="/posts/{{ $s }}/" class="cross-sell-item">
+        <img src="/images/pins/{{ $s }}-pin-1.png" alt="" loading="lazy" class="cross-sell-img" />
+        <span class="cross-sell-name">{{ $s | replaceRE "-" " " | title }}</span>
+        <span class="cross-sell-arrow">→</span>
+      </a>
+      {{- end -}}
+    {{- end -}}
+  </div>
+</div>

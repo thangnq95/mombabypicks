@@ -1085,3 +1085,147 @@ body {
   padding: 0.4em 1em;
   border-radius: 6px;
 }
+
+/* Top Pick Box */
+.top-pick-box {
+  background: linear-gradient(135deg, #fff8f0 0%, #fff 100%);
+  border: 2px solid #e8860c;
+  border-radius: 12px;
+  padding: 1.2em;
+  margin: 1.5em 0;
+}
+.top-pick-badge {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #e8860c;
+  margin-bottom: 0.8em;
+}
+.top-pick-content {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+.top-pick-image {
+  flex-shrink: 0;
+  width: 90px;
+  height: 90px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-pick-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.top-pick-info {
+  flex: 1;
+}
+.top-pick-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--primary);
+}
+.top-pick-rating {
+  font-size: 0.85rem;
+  color: #e8860c;
+  margin: 0.2em 0;
+}
+.top-pick-price {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+.top-pick-btn {
+  display: inline-block;
+  margin-top: 0.5em;
+  background: #ff9900;
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 0.5em 1.2em;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.top-pick-btn:hover {
+  background: #e8860c;
+}
+
+/* Cross Sell Box */
+.cross-sell-box {
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.2em;
+  margin: 1.5em 0;
+}
+.cross-sell-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0 0 0.8em 0;
+  color: var(--primary);
+}
+.cross-sell-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.cross-sell-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  text-decoration: none;
+  color: var(--primary);
+  padding: 0.5em;
+  border-radius: 8px;
+  transition: background 0.15s;
+}
+.cross-sell-item:hover {
+  background: var(--tertiary);
+}
+.cross-sell-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.cross-sell-name {
+  flex: 1;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.cross-sell-arrow {
+  color: var(--secondary);
+  font-size: 0.9rem;
+}
+
+/* Author Bio */
+.author-bio {
+  display: flex;
+  gap: 1em;
+  align-items: flex-start;
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1em;
+  margin: 1.5em 0;
+}
+.author-bio-avatar {
+  flex-shrink: 0;
+}
+.author-bio-text {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--secondary);
+}
+.author-bio-text strong {
+  color: var(--primary);
+}
