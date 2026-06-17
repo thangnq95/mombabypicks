@@ -33,7 +33,7 @@ card4title="Burt's Bees Baby Beekeeper"
 card4text="GOTS-certified organic cotton at a price where you can comfortably buy two or three for rotation."
 >}}
 
-{{< top-pick url="https://www.amazon.com/dp/B0CCBHGBJR?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0CCBHGBJR.01.L.jpg" title="HALO SleepSack Wearable Blanket" price="" rating="9.0" >}}
+{{< top-pick url="https://www.amazon.com/dp/B0CCBHGBJR?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0CCBHGBJR.01.L.jpg" title="HALO SleepSack Wearable Blanket" price="" >}}
 
 {{< author-bio >}}
 

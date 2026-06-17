@@ -12,7 +12,7 @@ cover:
   alt: "Selection of the best baby bottles for newborns arranged on a white surface"
 ---
 
-{{< top-pick url="https://www.amazon.com/dp/B07NLW25L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07NLW25L9.01.L.jpg" title="Dr. Brown's Options+ Wide-Neck Baby Bottle" price="" rating="9.0" >}}
+{{< top-pick url="https://www.amazon.com/dp/B07NLW25L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07NLW25L9.01.L.jpg" title="Dr. Brown's Options+ Wide-Neck Baby Bottle" price="" >}}
 
 {{< author-bio >}}
 

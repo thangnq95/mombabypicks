@@ -14,7 +14,7 @@ cover:
   alt: "Infant car seat safely installed in the back seat of a car"
 ---
 
-{{< top-pick url="https://www.amazon.com/dp/B089HG2QTT?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B089HG2QTT.01.L.jpg" title="Chicco KeyFit 35" price="" rating="9.0" >}}
+{{< top-pick url="https://www.amazon.com/dp/B089HG2QTT?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B089HG2QTT.01.L.jpg" title="Chicco KeyFit 35" price="" >}}
 
 {{< author-bio >}}
 

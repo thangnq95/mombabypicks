@@ -32,7 +32,7 @@ card4title="Lansinoh Smartpump 3.0"
 card4text="Bluetooth app tracking and flexible settings at a more accessible price point than most wearable pumps."
 >}}
 
-{{< top-pick url="https://www.amazon.com/dp/B0DNR1Z4L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DNR1Z4L9.01.L.jpg" title="Momcozy M5" price="" rating="9.0" >}}
+{{< top-pick url="https://www.amazon.com/dp/B0DNR1Z4L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DNR1Z4L9.01.L.jpg" title="Momcozy M5" price="" >}}
 
 {{< author-bio >}}
 

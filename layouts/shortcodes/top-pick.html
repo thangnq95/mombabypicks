@@ -2,7 +2,6 @@
 {{- $img := .Get "img" -}}
 {{- $title := .Get "title" -}}
 {{- $price := .Get "price" | default "" -}}
-{{- $rating := .Get "rating" | default "9.0" -}}
 {{- $badge := .Get "badge" | default "🏆 OUR TOP PICK" -}}
 <div class="top-pick-box">
   <div class="top-pick-badge">{{ $badge }}</div>
@@ -12,7 +11,6 @@
     </div>
     <div class="top-pick-info">
       <h3 class="top-pick-title">{{ $title }}</h3>
-      <div class="top-pick-rating">⭐ {{ $rating }}/10</div>
       {{ if $price }}<div class="top-pick-price">{{ $price }}</div>{{ end }}
       <a href="{{ $url }}" target="_blank" rel="noopener noreferrer" class="top-pick-btn">Check Price on Amazon →</a>
     </div>

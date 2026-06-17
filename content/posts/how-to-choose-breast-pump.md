@@ -16,7 +16,7 @@ The right choice depends on how often you plan to pump, whether you need portabi
 
 {{< trust-badge >}}
 
-{{< top-pick url="https://www.amazon.com/dp/B00DBKFFJM?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00DBKFFJM.01.L.jpg" title="Spectra S1 Plus" price="" rating="9.0" >}}
+{{< top-pick url="https://www.amazon.com/dp/B00DBKFFJM?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00DBKFFJM.01.L.jpg" title="Spectra S1 Plus" price="" >}}
 
 {{< author-bio >}}
 

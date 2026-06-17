@@ -14,7 +14,7 @@ cover:
 
 *Affiliate Disclosure: MomBabyPicks participates in the Amazon Associates program. If you purchase through our links, we may earn a small commission at no extra cost to you. We only recommend products we'd genuinely consider for our own babies.*
 
-{{< top-pick url="https://www.amazon.com/dp/B07B41952V?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07B41952V.01.L.jpg" title="Ergobaby Omni 360" price="" rating="9.0" >}}
+{{< top-pick url="https://www.amazon.com/dp/B07B41952V?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07B41952V.01.L.jpg" title="Ergobaby Omni 360" price="" >}}
 
 {{< author-bio >}}
 

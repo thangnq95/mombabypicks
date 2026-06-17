@@ -20,7 +20,7 @@ We looked at the top-rated options across all budget levels, evaluating them for
 
 If you're still building out your first-week essentials, also check our guide on [newborn essentials for the first three months](/posts/newborn-essentials-checklist/) and [the best baby bouncers for 2026](/posts/best-baby-bouncers-for-2026/).
 
-{{< top-pick url="https://www.amazon.com/dp/B0DW3RM88Q?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DW3RM88Q.01.L.jpg" title="Fisher-Price 4-in-1 Sling 'n Seat Tub" price="$44" rating="9.2" >}}
+{{< top-pick url="https://www.amazon.com/dp/B0DW3RM88Q?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DW3RM88Q.01.L.jpg" title="Fisher-Price 4-in-1 Sling 'n Seat Tub" price="$44" >}}
 
 {{< author-bio >}}
 
