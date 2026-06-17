@@ -160,6 +160,11 @@ const articles = [
     headline: "Best Infant Car Seats 2026",
     subtitle: "Safety ratings & installation guide",
   },
+  {
+    slug: "best-baby-play-mats-2026",
+    headline: "Best Baby Play Mats 2026",
+    subtitle: "Safe & soft for tummy time & play",
+  },
 ];
 
 function escapeHtml(value) {
