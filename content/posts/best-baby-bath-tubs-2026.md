@@ -75,7 +75,7 @@ The Fisher-Price 4-in-1 earns the top spot because it genuinely grows with your 
 
 **Who it's for:** Parents who want one tub that works from the hospital through age two without buying a second one.
 
-{{< amazon url="https://www.amazon.com/dp/B0DW3RM88Q" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B0DW3RM88Q?tag=mombabypick00-20" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -99,7 +99,7 @@ The Boon SOAK is the bath tub that looks good in a modern nursery bathroom. Its 
 
 **Who it's for:** Parents who prioritize warm water retention and a clean aesthetic alongside practical newborn support.
 
-{{< amazon url="https://www.amazon.com/dp/B01MG20ATL" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B01MG20ATL?tag=mombabypick00-20" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -123,7 +123,7 @@ The Skip Hop Moby punches well above its $36 price point. The smart sling is ang
 
 **Who it's for:** Budget-conscious parents who still want genuine newborn safety features and don't want to compromise on the sling angle.
 
-{{< amazon url="https://www.amazon.com/dp/B07FK7BG98" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B07FK7BG98?tag=mombabypick00-20" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -148,7 +148,7 @@ The Angelcare is not a full tub — it's a bath support designed to sit inside y
 
 **Who it's for:** Parents with a newborn who wants the most gentle, wraparound support possible and already has a tub or sink to use it in.
 
-{{< amazon url="https://www.amazon.com/dp/B01M6YVW7B" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B01M6YVW7B?tag=mombabypick00-20" text="Check Price on Amazon →" >}}
 
 ---
 
@@ -173,7 +173,7 @@ The First Years 4-in-1 delivers four stages at a $38 price point, making it one 
 
 **Who it's for:** Parents who want a four-stage tub that covers the full range without spending close to $50.
 
-{{< amazon url="https://www.amazon.com/dp/B0D9WM7R2D" text="Check Price on Amazon →" >}}
+{{< amazon url="https://www.amazon.com/dp/B0D9WM7R2D?tag=mombabypick00-20" text="Check Price on Amazon →" >}}
 
 ---
 

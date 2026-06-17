@@ -1,0 +1,20 @@
+{{- $url := .Get "url" -}}
+{{- $img := .Get "img" -}}
+{{- $title := .Get "title" -}}
+{{- $price := .Get "price" | default "" -}}
+{{- $badge := .Get "badge" | default "" -}}
+<div class="product-card">
+  <a href="{{ $url }}" target="_blank" rel="noopener noreferrer" class="product-card-inner">
+    {{ if $img }}
+    <div class="product-card-image">
+      <img src="{{ $img }}" alt="{{ $title }}" loading="lazy" />
+    </div>
+    {{ end }}
+    <div class="product-card-info">
+      {{ if $badge }}<span class="product-card-badge">{{ $badge }}</span>{{ end }}
+      <h4 class="product-card-title">{{ $title }}</h4>
+      {{ if $price }}<span class="product-card-price">{{ $price }}</span>{{ end }}
+      <span class="product-card-btn">Check Price on Amazon →</span>
+    </div>
+  </a>
+</div>
