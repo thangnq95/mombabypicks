@@ -170,6 +170,45 @@ else
   FAILED=1
 fi
 
+# === 14. Cover image file exists ===
+SLUG=$(basename "$FILE" .md)
+COVER_IMAGE=$(grep -A2 '^cover:' "$FILE" | grep 'image:' | sed 's/.*image:[[:space:]]*//' | sed 's/"//g')
+if [ -n "$COVER_IMAGE" ]; then
+  FULL_PATH="static${COVER_IMAGE}"
+  if [ -f "$FULL_PATH" ]; then
+    REPORT+="  ✅ Cover image exists ($(echo "$COVER_IMAGE" | sed 's|.*/||'))\n"
+  else
+    REPORT+="  ❌ Cover image MISSING: $COVER_IMAGE\n"
+    FAILED=1
+  fi
+else
+  REPORT+="  ⚠️  No cover.image in frontmatter\n"
+fi
+
+# === 15. Pin images exist (>= 1) ===
+PIN_COUNT=$(ls static/images/pins/${SLUG}-pin-*.png 2>/dev/null | wc -l | tr -d ' ')
+if [ "$PIN_COUNT" -ge 1 ]; then
+  REPORT+="  ✅ Pin images ($PIN_COUNT found)\n"
+else
+  REPORT+="  ❌ No pin images found (need >= 1)\n"
+  FAILED=1
+fi
+
+# === 16. Internal links valid ===
+ALL_SLUGS=$(basename -s .md content/posts/*.md)
+BROKEN=0
+for link in $(grep -oP '/posts/[a-zA-Z0-9_-]+' "$FILE" 2>/dev/null); do
+  LINK_SLUG=$(echo "$link" | sed 's|/posts/||')
+  if ! echo "$ALL_SLUGS" | grep -qx "$LINK_SLUG"; then
+    REPORT+="  ❌ Broken internal link: $link (no such article)\n"
+    BROKEN=$((BROKEN + 1))
+    FAILED=1
+  fi
+done
+if [ "$BROKEN" -eq 0 ]; then
+  REPORT+="  ✅ Internal links valid\n"
+fi
+
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 if [ "$FAILED" -eq 0 ]; then
   echo -e "$REPORT"

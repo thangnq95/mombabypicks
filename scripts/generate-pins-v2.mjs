@@ -170,6 +170,11 @@ const articles = [
     headline: "Best Baby Swings 2026",
     subtitle: "Soothe your baby with the right swing",
   },
+  {
+    slug: "best-baby-bath-tubs-2026",
+    headline: "Best Baby Bath Tubs 2026",
+    subtitle: "Safe & easy options for newborns to toddlers",
+  },
 ];
 
 function escapeHtml(value) {
