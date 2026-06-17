@@ -2,12 +2,12 @@ const { chromium } = require('playwright');
 const http = require('http');
 const path = require('path');
 const fs = require('fs');
-
-const PINS_DIR = path.join(process.env.HOME, 'GIT/PP/mombabypicks/static/images/pins');
-const BASE = 'https://mombabypicks.com/posts/';
-const OUT = '/tmp/pin-bulk-ok.txt';
-const w = m => fs.appendFileSync(OUT, new Date().toISOString().slice(11,19)+' '+m+'\n');
 const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+const PINS = path.join(process.env.HOME, 'GIT/PP/mombabypicks/static/images/pins');
+const BASE = 'https://mombabypicks.com/posts/';
+const OUT = '/tmp/pin-ok.txt';
+const w = m => fs.appendFileSync(OUT, new Date().toISOString().slice(11,19)+' '+m+'\n');
 
 const DATA = [
   ['best-baby-bottles-for-newborns-2026','Best Baby Bottles for Newborns 2026'],
@@ -52,40 +52,54 @@ function getWS() {
   
   for (const [slug, title] of DATA) {
     for (let n = 1; n <= 3; n++) {
-      const fp = path.join(PINS_DIR, `${slug}-pin-${n}.png`);
-      if (!fs.existsSync(fp)) continue;
+      const fp = path.join(PINS, `${slug}-pin-${n}.png`);
+      if (!fs.existsSync(fp)) { fail++; continue; }
       
       let success = false;
       for (let attempt = 0; attempt < 3; attempt++) {
         try {
-          // Fresh page for each pin
           await page.goto('about:blank').catch(() => {});
           await sleep(500);
-          await page.goto('https://www.pinterest.com/pin-builder/', { waitUntil: 'domcontentloaded', timeout: 30000 }).catch(() => {});
+          await page.goto('https://www.pinterest.com/pin-creation-tool/', { waitUntil: 'domcontentloaded', timeout: 30000 }).catch(() => {});
           await sleep(6000);
           
+          // File upload
           const fi = page.locator('input[type="file"]');
           if (await fi.isVisible({timeout:10000}).catch(() => false)) {
             await fi.setInputFiles(fp);
-            await sleep(5000);
-            await page.locator('textarea[placeholder*="Add your title"]').fill(title);
-            await page.locator('textarea[placeholder*="destination link"]').fill(BASE + slug + '/');
+            await sleep(6000);
+            
+            // Title (input[type=text] placeholder="Tell everyone...")
+            const titleField = page.locator('input[placeholder*="Tell everyone"]');
+            await titleField.fill(title);
+            
+            // Link (input[type=url] placeholder="Add a link")
+            const linkField = page.locator('input[placeholder="Add a link"]');
+            await linkField.fill(BASE + slug + '/');
+            
+            // Description (contenteditable div)
             await page.evaluate((t) => {
               const ce = document.querySelector('[contenteditable="true"]');
               if(ce) ce.textContent = t + ' — Full guide at MomBabyPicks.com';
             }, title);
+            
             await sleep(2000);
             
+            // Find and click Publish/Save button
             const pub = await page.evaluate(() => {
               const all = document.querySelectorAll('*');
-              for(const el of all) {
-                if(el.textContent?.trim()==='Publish' && !el.children.length) { el.click(); return true; }
+              for (const el of all) {
+                const txt = el.textContent?.trim() || '';
+                if ((txt === 'Publish' || txt === 'Save' || txt === 'Submit') && !el.children.length && el.offsetParent !== null) {
+                  el.click(); return 'clicked: ' + txt;
+                }
               }
-              return false;
+              return 'not found';
             });
+            
             await sleep(8000);
             
-            if (pub) { ok++; success = true; break; }
+            if (pub.startsWith('clicked')) { ok++; success = true; break; }
           }
         } catch(e) {}
         await sleep(2000);
@@ -94,10 +108,9 @@ function getWS() {
       if (success) { process.stdout.write('✅'); w(`${slug}-pin-${n} OK`); }
       else { fail++; process.stdout.write('❌'); w(`${slug}-pin-${n} FAIL`); }
     }
-    w(`${slug} done`);
   }
   
   w(`DONE ok=${ok} fail=${fail}`);
-  console.log(`\n✅ ${ok} pins uploaded, ${fail} failed`);
+  console.log(`\n✅ ${ok} uploaded, ${fail} failed`);
   await browser.close();
 })().catch(e => w('FATAL: '+e.message));
