@@ -85,7 +85,7 @@ Bottle warmers are convenient tools, but they do not replace common sense checks
 
 **Who it's for:** Parents who need fast, reliable warming without paying a premium.
 
-{{< amazon url="https://www.amazon.com/dp/B0876T9DQZ" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0876T9DQZ?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0876T9DQZ.01.L.jpg" title="Philips Avent Fast Bottle Warmer" badge="Best for Fast, Safe Warming" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -106,7 +106,7 @@ Bottle warmers are convenient tools, but they do not replace common sense checks
 
 **Who it's for:** Breastfeeding parents who store milk and want the gentlest possible warming method.
 
-{{< amazon url="https://www.amazon.com/dp/B087QRPMFK" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B087QRPMFK?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B087QRPMFK.01.L.jpg" title="Kiinde Kozii" badge="Best for Breast Milk Safety" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -127,7 +127,7 @@ Bottle warmers are convenient tools, but they do not replace common sense checks
 
 **Who it's for:** Parents who do repeated night feeds and want a warmer that practically runs itself.
 
-{{< amazon url="https://www.amazon.com/dp/B08HFVF7SN" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B08HFVF7SN?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B08HFVF7SN.01.L.jpg" title="Dr. Brown's Deluxe Bottle Warmer" badge="Best for Night Feeds" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 

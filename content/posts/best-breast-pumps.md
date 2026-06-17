@@ -51,7 +51,7 @@ The Momcozy M5 is the most popular wearable breast pump on Amazon right now, and
 
 **Who it's for:** Moms who need to pump while working, commuting, or multitasking at home.
 
-{{< amazon url="https://www.amazon.com/Momcozy-Hands-Free-Wearable-Double-Sealed-Baby-Like/dp/B0DNR1Z4L9" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0DNR1Z4L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DNR1Z4L9.01.L.jpg" title="Momcozy M5" badge="Best Overall" >}}
 
 ---
 
@@ -74,7 +74,7 @@ The Spectra S1 is a closed-system electric pump trusted by lactation consultants
 
 **Who it's for:** Moms who plan to pump frequently or exclusively and want maximum output reliability.
 
-{{< amazon url="https://www.amazon.com/Spectra-Baby-USA-Rechargeable-Electric/dp/B00DBKFFJM" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B00DBKFFJM?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00DBKFFJM.01.L.jpg" title="Spectra S1 Plus" badge="Best Hospital-Grade" >}}
 
 ---
 
@@ -97,7 +97,7 @@ If you want a more affordable pump with app connectivity and reliable performanc
 
 **Who it's for:** Budget-conscious moms who want app-tracked pumping sessions and reliable performance without a premium price tag.
 
-{{< amazon url="https://www.amazon.com/Lansinoh-Smartpump-Electric-Rechargeable-Breastfeeding/dp/B0C5FGDYR4" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0C5FGDYR4?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0C5FGDYR4.01.L.jpg" title="Lansinoh Smartpump 3.0" badge="Best Budget Hands-Free" >}}
 
 ---
 
@@ -121,7 +121,7 @@ The Elvie Stride is a premium wearable pump with strong suction and app support.
 
 **Who it's for:** Moms who want the most capable wearable pump available and are willing to pay for the premium experience.
 
-{{< amazon url="https://www.amazon.com/Elvie-Hospital-Grade-App-Controlled-Ultra-Quiet-20-Settings/dp/B09Z37X2MP" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B09Z37X2MP?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B09Z37X2MP.01.L.jpg" title="Elvie Stride" badge="Best Premium Wearable" >}}
 
 ---
 
@@ -144,7 +144,7 @@ Medela is one of the most trusted breast pump brands in the world. The Pump In S
 
 **Who it's for:** Moms who pump multiple times a day and want a reliable workhorse from a well-established brand.
 
-{{< amazon url="https://www.amazon.com/Medela-Style-Maxflow-Breast-Starter/dp/B086T9P41B" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B086T9P41B?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B086T9P41B.01.L.jpg" title="Medela Pump In Style" badge="Best for Frequent Pumpers" >}}
 
 ---
 

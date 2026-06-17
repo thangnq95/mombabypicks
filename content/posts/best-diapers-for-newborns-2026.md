@@ -85,7 +85,7 @@ The diaper contains fragrance and is bleached with a conventional chlorine-free 
 
 **Price:** ~$0.28/diaper
 
-{{< amazon url="https://www.amazon.com/dp/B00JX4IJIY" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B00JX4IJIY?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00JX4IJIY.01.L.jpg" title="Pampers Swaddlers" >}}
 
 **Pros:**
 - Wetness indicator makes it easy to check without undressing the baby
@@ -110,7 +110,7 @@ The fit tends to run slightly narrower in the thigh than Swaddlers, which some p
 
 **Price:** ~$0.29/diaper
 
-{{< amazon url="https://www.amazon.com/dp/B00RHQXKJ6" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B00RHQXKJ6?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00RHQXKJ6.01.L.jpg" title="Huggies Little Snugglers" >}}
 
 **Pros:**
 - Pocketed back waistband provides a physical blowout barrier
@@ -137,7 +137,7 @@ For more context on building a low-irritant newborn setup, see our [newborn esse
 
 **Price:** ~$0.28/diaper
 
-{{< amazon url="https://www.amazon.com/dp/B01LXEEYXO" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B01LXEEYXO?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B01LXEEYXO.01.L.jpg" title="Seventh Generation Free & Clear" >}}
 
 **Pros:**
 - Fragrance-free, lotion-free, latex-free
@@ -164,7 +164,7 @@ Cost is slightly higher than Seventh Generation, and the newborn size skews towa
 
 **Price:** ~$0.44/diaper
 
-{{< amazon url="https://www.amazon.com/dp/B00J9TKFBO" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B00J9TKFBO?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00J9TKFBO.01.L.jpg" title="The Honest Company Diapers" >}}
 
 **Pros:**
 - Plant-based outer cover materials
@@ -195,7 +195,7 @@ For a broader look at sustainable baby product choices, our [guide to eco-friend
 
 **Price:** ~$0.44/diaper
 
-{{< amazon url="https://www.amazon.com/dp/B08GK3TVMS" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B08GK3TVMS?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B08GK3TVMS.01.L.jpg" title="Dyper Bamboo Diapers" >}}
 
 **Pros:**
 - Bamboo viscose inner and outer layers — noticeably soft

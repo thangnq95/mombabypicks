@@ -78,7 +78,7 @@ Dr. Brown's has been a staple in the bottle aisle for years, and the Options+ Wi
 
 **Who it's for:** Newborns who are gassy, showing signs of colic, or who swallow a lot of air during feeds. Also a solid choice if you have a history of reflux in the family.
 
-{{< amazon url="https://www.amazon.com/dp/B07NLW25L9" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B07NLW25L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07NLW25L9.01.L.jpg" title="Dr. Brown's Options+ Wide-Neck Baby Bottle" >}}
 
 ---
 
@@ -107,7 +107,7 @@ The bottle body is wide and squat, which makes it easier to hold for tired paren
 
 **Who it's for:** Combination-feeders or anyone moving between breast and bottle who wants to reduce nipple confusion. Also works well for premature newborns who are still building suction strength.
 
-{{< amazon url="https://www.amazon.com/dp/B09NQLK3MH" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B09NQLK3MH?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B09NQLK3MH.01.L.jpg" title="Philips Avent Natural Response Baby Bottle" >}}
 
 ---
 
@@ -136,7 +136,7 @@ Dual anti-colic vents are built into the nipple base, and with only three parts 
 
 **Who it's for:** Breastfed babies who resist standard plastic nipples, or parents who prefer to minimize plastic contact with milk. If you're interested in reducing plastic in your baby's feeding routine overall, see our overview of [silicone feeding products for babies](/posts/silicone-baby-feeding-products/).
 
-{{< amazon url="https://www.amazon.com/dp/B004C053BA" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B004C053BA?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B004C053BA.01.L.jpg" title="Comotomo Natural Feel Baby Bottle" >}}
 
 ---
 
@@ -165,7 +165,7 @@ This is a bottle that doesn't try to solve every problem — it just works relia
 
 **Who it's for:** Parents who want a no-fuss, reliable bottle that's easy to find replacements for locally. Good first choice if you're not yet sure how your baby will respond to bottle feeding.
 
-{{< amazon url="https://www.amazon.com/dp/B01G2FQZUE" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B01G2FQZUE?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B01G2FQZUE.01.L.jpg" title="Tommee Tippee Closer to Nature Baby Bottle" >}}
 
 ---
 
@@ -194,7 +194,7 @@ Unlike the Comotomo, the Nanobébé Flexy doesn't have a dedicated anti-colic ve
 
 **Who it's for:** On-the-go feeds, parents supplementing at daycare, or as a secondary bottle for a baby who feeds well without gas issues. Not ideal as a primary bottle for colicky newborns.
 
-{{< amazon url="https://www.amazon.com/dp/B089YJRDWL" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B089YJRDWL?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B089YJRDWL.01.L.jpg" title="Nanobébé Flexy Silicone Baby Bottle" >}}
 
 ---
 

@@ -100,7 +100,7 @@ Baby shoes look adorable but serve no functional purpose for a non-walking newbo
 
 **Why it works:** Soft, stretchy footie construction keeps toes warm without the fuss of socks that fall off. Machine washable and durable enough for multiple washes per week.
 
-{{< amazon url="https://www.amazon.com/dp/B0DNJG5CY6" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0DNJG5CY6?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DNJG5CY6.01.L.jpg" title="Instead of Baby Shoes" badge="Gerber Baby Footed Pajamas" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -114,7 +114,7 @@ For most babies, warming wipes in your hands for a few seconds works just fine. 
 
 **Why it works:** Consistent warmth and a built-in night light make nighttime diaper changes less jarring for both parent and baby. If you decide to buy a wipe warmer, this is the one worth getting.
 
-{{< amazon url="https://www.amazon.com/dp/B00MIM0BSO" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B00MIM0BSO?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00MIM0BSO.01.L.jpg" title="Instead of a Wipe Warmer (or if You Really Want One)" badge="Munchkin Warm Glow Wipe Warmer" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -128,7 +128,7 @@ Crib bumpers are not recommended by pediatric safety guidelines and can pose a s
 
 **Why it works:** A snug fitted sheet on a firm mattress is the safe sleep standard. No loose fabric, no risk. Durable cotton construction holds up to frequent washing.
 
-{{< amazon url="https://www.amazon.com/dp/B01N6S5YSI" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B01N6S5YSI?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B01N6S5YSI.01.L.jpg" title="Instead of Crib Bumpers" badge="American Baby Co Fitted Sheet" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -142,7 +142,7 @@ Newborns can outgrow their size in weeks. Stocking up on complicated outfits ear
 
 **Why it works:** Zip closures mean no fumbling with snaps at 3 AM. Footie design keeps socks optional. Carter's sizing runs true, and the fabric washes well.
 
-{{< amazon url="https://www.amazon.com/dp/B0DVGJTFT8" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0DVGJTFT8?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DVGJTFT8.01.L.jpg" title="Instead of Lots of Newborn Clothes" badge="Carter's Zip-Up Pajamas" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 

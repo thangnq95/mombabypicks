@@ -41,31 +41,31 @@ Food-grade silicone is:
 
 The Comotomo is one of the few bottles made entirely from food-grade silicone — not a silicone nipple on a plastic bottle body. The soft, wide body feels closer to breast tissue than any hard-sided bottle, which is why breastfed babies are more likely to accept it. Available in 5 oz and 8 oz.
 
-{{< amazon url="https://www.amazon.com/dp/B0G6N65XVL" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0G6N65XVL?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0G6N65XVL.01.L.jpg" title="Silicone Baby Bottles" badge="Comotomo Natural Feel" >}}
 
 ### 2. Silicone Bibs — EZPZ Mini Mat
 
 The EZPZ Mini Mat is a combined silicone plate and bib. It suctions to the table surface — strong enough that most babies can't easily pull it off — and the plate portion is food-grade silicone safe for temperatures from fridge to microwave. The bib wraps around the front catch pocket. Dishwasher safe. Suitable from about 4 months through toddlerhood.
 
-{{< amazon url="https://www.amazon.com/dp/B0728BH8KT" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0728BH8KT?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0728BH8KT.01.L.jpg" title="Silicone Bibs" badge="EZPZ Mini Mat" >}}
 
 ### 3. Silicone Spoons — NumNum Pre-Spoon GOOtensils
 
 The NumNum Pre-Spoon is designed for the early stages of solid foods when babies can't yet load a spoon themselves. The flat silicone dipper lets babies self-feed goopy purees by dipping rather than scooping. Food-grade silicone, dishwasher safe, no choking-risk handle length.
 
-{{< amazon url="https://www.amazon.com/dp/B07L6L1KCN" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B07L6L1KCN?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07L6L1KCN.01.L.jpg" title="Silicone Spoons" badge="NumNum Pre-Spoon GOOtensils" >}}
 
 ### 4. Silicone Teethers — Oli & Carol Natursutten Teether
 
 Natursutten teethers are made from 100% natural rubber (a similar but distinct material to silicone — also non-toxic and plant-based). For babies who prefer the softer feel of natural rubber over firmer silicone, this is the alternative. For full silicone teethers, Green Sprouts makes widely reviewed options at accessible prices.
 
-{{< amazon url="https://www.amazon.com/dp/B088WD3XHF" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B088WD3XHF?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B088WD3XHF.01.L.jpg" title="Silicone Teethers" badge="Oli & Carol Natursutten Teether" >}}
 
 ### 5. Silicone Straw Cups — Munchkin Miracle 360 Trainer Cup
 
 The Munchkin 360 cup uses a silicone drinking edge that lets babies drink from any point around the rim, similar to drinking from an open cup without the spill risk. The silicone valve provides the spill-proof seal. BPA-free, dishwasher safe, suitable from 6+ months.
 
-{{< amazon url="https://www.amazon.com/dp/B00MRZIFD0" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B00MRZIFD0?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00MRZIFD0.01.L.jpg" title="Silicone Straw Cups" badge="Munchkin Miracle 360 Trainer Cup" >}}
 
 ## Comparison Table
 

@@ -85,7 +85,7 @@ The Momcozy S12 Pro is a strong value pick for moms who want a fully wearable pu
 
 **The downside is:** The S12 Pro is slightly bulkier than some competitors, so it may show more under snug clothing.
 
-[Check price on Amazon →](https://www.amazon.com/dp/B0CWTYWM5M?tag=mombabypick00-20)
+{{< product-card url="https://www.amazon.com/dp/B0CWTYWM5M?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0CWTYWM5M.01.L.jpg" title="Momcozy S12 Pro Wearable Breast Pump" >}}
 
 *As an Amazon Associate I earn from qualifying purchases.*
 
@@ -110,7 +110,7 @@ The Elvie Pump is known for being one of the quietest wearable pumps available. 
 
 **The downside is:** Capacity is on the smaller side, so heavier pumpers may need to empty more often.
 
-[Check price on Amazon →](https://www.amazon.com/dp/B07G375DHR?tag=mombabypick00-20)
+{{< product-card url="https://www.amazon.com/dp/B07G375DHR?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07G375DHR.01.L.jpg" title="Elvie Pump Double Silent Wearable" >}}
 
 ### Willow 3.0 Wearable Double Electric Breast Pump
 
@@ -133,7 +133,7 @@ The Willow 3.0 is designed for maximum freedom inside the bra. Its fully wearabl
 
 **The downside is:** The ongoing cost and higher upfront price make it less approachable than the budget-friendly models.
 
-[Check price on Amazon →](https://www.amazon.com/dp/B08637XY8V?tag=mombabypick00-20)
+{{< product-card url="https://www.amazon.com/dp/B08637XY8V?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B08637XY8V.01.L.jpg" title="Willow 3.0 Wearable Double Electric Breast Pump" >}}
 
 ### Medela Freestyle Hands-Free Breast Pump
 
@@ -156,7 +156,7 @@ Medela's Freestyle Hands-Free brings a familiar brand name into the wearable cat
 
 **The downside is:** Because the motor is external, it is not as minimal as fully contained wearable pumps.
 
-[Check price on Amazon →](https://www.amazon.com/dp/B0BNW6Q1CY?tag=mombabypick00-20)
+{{< product-card url="https://www.amazon.com/dp/B0BNW6Q1CY?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0BNW6Q1CY.01.L.jpg" title="Medela Freestyle Hands-Free Breast Pump" >}}
 
 ### Momcozy S9 Pro Wearable Breast Pump
 
@@ -179,7 +179,7 @@ The Momcozy S9 Pro is a lighter, slimmer sibling to the S12 Pro. It is a solid c
 
 **The downside is:** It may not match the stronger output of premium wearables for moms who need extra stimulation.
 
-[Check price on Amazon →](https://www.amazon.com/dp/B0DLFKN6LL?tag=mombabypick00-20)
+{{< product-card url="https://www.amazon.com/dp/B0DLFKN6LL?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DLFKN6LL.01.L.jpg" title="Momcozy S9 Pro Wearable Breast Pump" >}}
 
 ---
 

@@ -80,7 +80,7 @@ The Chicco KeyFit line has been the benchmark for infant car seat installation e
 
 **Who it's for:** Parents who want the best combination of installation simplicity and crash safety without stepping up to the ultra-premium tier. The gold standard recommendation from most certified passenger safety technicians (CPSTs).
 
-{{< amazon url="https://www.amazon.com/dp/B089HG2QTT?tag=mombabypick00-20" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B089HG2QTT?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B089HG2QTT.01.L.jpg" title="Chicco KeyFit 35" badge="Best All-Around Infant Car Seat" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -109,7 +109,7 @@ The Graco SnugRide SnugLock 35 LX is what we recommend when budget is a real con
 
 **Who it's for:** Budget-conscious families, parents having a second child who need a seat without duplicating premium-tier spend, or grandparents who want a safe, reliable seat for occasional use.
 
-{{< amazon url="https://www.amazon.com/dp/B07CVCHKTT?tag=mombabypick00-20" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B07CVCHKTT?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07CVCHKTT.01.L.jpg" title="Graco SnugRide SnugLock 35 LX" badge="Best Budget Infant Car Seat" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -139,7 +139,7 @@ The Maxi-Cosi Mico Luxe is one of the lightest infant carriers on the market at 
 
 **Who it's for:** Parents who want a lightweight premium seat that's easy to install and carry between cars, or families already using Maxi-Cosi or Baby Jogger strollers.
 
-{{< amazon url="https://www.amazon.com/dp/B0BTQ4FZC1?tag=mombabypick00-20" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0BTQ4FZC1?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0BTQ4FZC1.01.L.jpg" title="Maxi-Cosi Mico Luxe Infant Car Seat" badge="Best Lightweight Pick" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -169,7 +169,7 @@ The UPPAbaby Mesa V2 is the technological high-water mark on this list. The Smar
 
 **Who it's for:** UPPAbaby stroller owners getting full ecosystem value, or parents who want the simplest possible LATCH installation and appreciate smart safety features.
 
-{{< amazon url="https://www.amazon.com/dp/B0DMTLT7RD?tag=mombabypick00-20" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0DMTLT7RD?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DMTLT7RD.01.L.jpg" title="UPPAbaby Mesa V2" badge="Best Premium Infant Car Seat" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -199,7 +199,7 @@ The Evenflo LiteMax Sport is the entry-level option for families on the tightest
 
 **Who it's for:** Families where budget is the primary constraint, parents needing a safe second seat for grandparents' vehicles, or anyone who needs a compliant seat without premium features.
 
-{{< amazon url="https://www.amazon.com/dp/B07Q33BN6B?tag=mombabypick00-20" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B07Q33BN6B?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07Q33BN6B.01.L.jpg" title="Evenflo LiteMax Sport" badge="Best Ultra-Budget Pick" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 

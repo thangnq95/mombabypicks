@@ -29,7 +29,7 @@ Even if you plan to breastfeed exclusively, a pump lets you build a freezer stas
 **Cons:**
 - Lower max suction than hospital-grade pumps
 
-{{< amazon url="https://www.amazon.com/Momcozy-Hands-Free-Wearable-Double-Sealed-Baby-Like/dp/B0DNR1Z4L9" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0DNR1Z4L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DNR1Z4L9.01.L.jpg" title="Breast Pump" >}}
 
 **Spectra S1** — **Price:** ~$160
 **Pros:**
@@ -39,7 +39,7 @@ Even if you plan to breastfeed exclusively, a pump lets you build a freezer stas
 **Cons:**
 - Not hands-free without a pumping bra
 
-{{< amazon url="https://www.amazon.com/Spectra-Baby-USA-Rechargeable-Electric/dp/B00DBKFFJM" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B00DBKFFJM?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00DBKFFJM.01.L.jpg" title="Breast Pump" >}}
 
 [See our full breast pump guide →](/posts/best-breast-pumps/)
 
@@ -62,7 +62,7 @@ A nursing pillow brings baby to breast height so you're not hunching over for ev
 
 **Who it's for:** Any nursing or bottle-feeding parent who wants to reduce strain during long feeding sessions.
 
-{{< amazon url="https://www.amazon.com/Boppy-Nursing-Supportive-Breastfeeding-Original/dp/B0DJRQRGSK" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0DJRQRGSK?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DJRQRGSK.01.L.jpg" title="Nursing Pillow" >}}
 
 ---
 
@@ -83,7 +83,7 @@ Sore nipples are common in the first few weeks. A good lanolin cream helps heal 
 
 **Who it's for:** Any nursing mom experiencing soreness in the first weeks of breastfeeding.
 
-{{< amazon url="https://www.amazon.com/Lansinoh-Lanolin-Breastfeeding-Soothing-Essentials/dp/B005MI648C" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B005MI648C?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B005MI648C.01.L.jpg" title="Nipple Cream" >}}
 
 ---
 
@@ -118,7 +118,7 @@ If you're pumping, you need a safe way to store breast milk. Look for bags that 
 
 **Who it's for:** Any pumping parent who needs reliable, widely available milk storage bags.
 
-{{< amazon url="https://www.amazon.com/Lansinoh-Breastmilk-Essentials-Superior-Strength/dp/B006XISCNA" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B006XISCNA?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B006XISCNA.01.L.jpg" title="Milk Storage Bags" >}}
 
 ---
 

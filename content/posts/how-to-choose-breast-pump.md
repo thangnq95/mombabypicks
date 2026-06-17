@@ -100,7 +100,7 @@ This guide is for general education only. For feeding concerns, supply issues, p
 
 **Who it's for:** Moms returning to work or exclusively pumping who need reliable, powerful output at home.
 
-{{< amazon url="https://www.amazon.com/dp/B00DBKFFJM" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B00DBKFFJM?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00DBKFFJM.01.L.jpg" title="Spectra S1 Plus" badge="Best Hospital-Grade Electric Pump" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -121,7 +121,7 @@ This guide is for general education only. For feeding concerns, supply issues, p
 
 **Who it's for:** Moms who need a hands-free pump for commuting or working but do not want to spend $200+ on a wearable.
 
-{{< amazon url="https://www.amazon.com/dp/B0DNR1Z4L9" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0DNR1Z4L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DNR1Z4L9.01.L.jpg" title="Momcozy M5 Wearable" badge="Best Wearable Value" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -142,7 +142,7 @@ This guide is for general education only. For feeding concerns, supply issues, p
 
 **Who it's for:** Moms who pump frequently and want the most customizable, comfortable electric pump available.
 
-{{< amazon url="https://www.amazon.com/dp/B086T9P41B" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B086T9P41B?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B086T9P41B.01.L.jpg" title="Medela Pump In Style" badge="Best Dual-Motor Electric Pump" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -163,7 +163,7 @@ This guide is for general education only. For feeding concerns, supply issues, p
 
 **Who it's for:** Parents who pump occasionally, want a low-cost backup, or are exploring pumping before committing to a premium model.
 
-{{< amazon url="https://www.amazon.com/dp/B0C5FGDYR4" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0C5FGDYR4?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0C5FGDYR4.01.L.jpg" title="Lansinoh Smartpump 2.0" badge="Best Budget Electric Pump" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 

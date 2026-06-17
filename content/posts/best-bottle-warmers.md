@@ -51,7 +51,7 @@ The Philips Avent heats a bottle in as little as 3 minutes and fits most bottle 
 
 **Who it's for:** Parents who want fast, reliable warming with a trusted brand.
 
-{{< amazon url="https://www.amazon.com/Philips-Temperature-Control-Automatic-Shut-Off/dp/B0876T9DQZ" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0876T9DQZ?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0876T9DQZ.01.L.jpg" title="Philips Avent Fast Baby Bottle Warmer" badge="Best Overall" >}}
 
 ---
 
@@ -74,7 +74,7 @@ Dr. Brown's Deluxe Bottle Warmer heats bottles and baby food jars evenly and is 
 
 **Who it's for:** Middle-of-the-night feeds when you need simplicity and don't want to think.
 
-{{< amazon url="https://www.amazon.com/Dr-Browns-Deluxe-Bottle-Warmer/dp/B08HFVF7SN" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B08HFVF7SN?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B08HFVF7SN.01.L.jpg" title="Dr. Brown's Deluxe Bottle Warmer" badge="Best for Night Feeds" >}}
 
 ---
 
@@ -97,7 +97,7 @@ The Kiinde Kozii uses a gentle warm-water bath instead of steam, which helps pre
 
 **Who it's for:** Pumping parents who want the gentlest, most nutrient-safe method for warming stored breast milk.
 
-{{< amazon url="https://www.amazon.com/Kiinde-KK-R200-NA-Kozii-SafeHeat-Pro/dp/B087QRPMFK" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B087QRPMFK?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B087QRPMFK.01.L.jpg" title="Kiinde Kozii" badge="Best Premium Pick" >}}
 
 ---
 
@@ -120,7 +120,7 @@ The Tommee Tippee Easi-Warm is a simple warmer that gets the job done without co
 
 **Who it's for:** Budget-conscious parents who want reliable warming without extra features.
 
-{{< amazon url="https://www.amazon.com/Modern-Design-Tommee-Tippee-Easi-Warm/dp/B07Q8NQ29G" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B07Q8NQ29G?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07Q8NQ29G.01.L.jpg" title="Tommee Tippee Easi-Warm" badge="Best Budget" >}}
 
 ---
 

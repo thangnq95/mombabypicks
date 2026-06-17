@@ -62,31 +62,31 @@ For more on building a safe baby setup, see our [newborn essentials checklist](/
 
 The Newton Baby Crib Mattress is GREENGUARD Gold certified and uses a proprietary Wovenaire core (food-grade polymer) that is 90% air. It's machine-washable (the entire mattress), completely free of memory foam and latex, and designed to be breathable for infant safety. No fiberglass, no harmful flame retardants.
 
-{{< amazon url="https://www.amazon.com/dp/B00WR958TA" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B00WR958TA?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00WR958TA.01.L.jpg" title="Newton Baby Crib Mattress" badge="Best Organic Sleep Surface" >}}
 
 ### 2. Comotomo Silicone Baby Bottle — Best for Non-Toxic Feeding
 
 The Comotomo is made from 100% food-grade silicone — no plastic body, no BPA, no BPS. The wide soft body is also the closest thing to breast feel available in a bottle. See our [baby bottles guide](/posts/best-baby-bottles-for-newborns-2026/) for more context.
 
-{{< amazon url="https://www.amazon.com/dp/B0GCDZYJJG" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0GCDZYJJG?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0GCDZYJJG.01.L.jpg" title="Comotomo Silicone Baby Bottle" badge="Best for Non-Toxic Feeding" >}}
 
 ### 3. Burt's Bees Baby GOTS-Certified Swaddle Blankets
 
 Burt's Bees Baby is one of the more accessible brands offering GOTS-certified organic cotton products. Their muslin swaddle blankets are soft, widely available, and carry the full GOTS certification — not just "made with organic cotton." Good for parents who want certified textiles without paying premium boutique prices.
 
-{{< amazon url="https://www.amazon.com/dp/B0BNSMJ98X" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0BNSMJ98X?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0BNSMJ98X.01.L.jpg" title="Burt's Bees Baby GOTS-Certified Swaddle Blankets" >}}
 
 ### 4. Green Sprouts Silicone Teether Set
 
 Green Sprouts makes food-grade silicone teethers that are BPA-free, phthalate-free, and PVC-free. Their products are widely reviewed, have consistent safety records, and are available at accessible price points. A good starting teether set for parents prioritizing non-toxic materials.
 
-{{< amazon url="https://www.amazon.com/dp/B00KSW970Y" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B00KSW970Y?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00KSW970Y.01.L.jpg" title="Green Sprouts Silicone Teether Set" >}}
 
 ### 5. Naturepedic Organic Cotton Changing Pad Cover
 
 The Naturepedic changing pad cover uses GOTS-certified organic cotton. Changing pads are in close contact with baby skin during multiple diaper changes per day — upgrading the cover to organic cotton is a simple, affordable swap. Naturepedic is a well-established name in the organic baby bedding space.
 
-{{< amazon url="https://www.amazon.com/dp/B0043ZM178" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0043ZM178?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0043ZM178.01.L.jpg" title="Naturepedic Organic Cotton Changing Pad Cover" >}}
 
 ## Comparison Table
 

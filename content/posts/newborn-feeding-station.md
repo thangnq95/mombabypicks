@@ -93,7 +93,7 @@ The goal is not perfection. The goal is making the next feed easier.
 
 **Who it's for:** Any parent who has fumbled with a wipe pack lid at 3 AM while holding a squirmy baby.
 
-{{< amazon url="https://www.amazon.com/dp/B00EOUE8H4" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B00EOUE8H4?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00EOUE8H4.01.L.jpg" title="OXO Tot Perfect Pull Wipes Dispenser" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -114,7 +114,7 @@ The goal is not perfection. The goal is making the next feed easier.
 
 **Who it's for:** Breastfeeding and bottle-feeding parents who want to reduce strain during long feeding sessions.
 
-{{< amazon url="https://www.amazon.com/dp/B0DJRQRGSK" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0DJRQRGSK?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DJRQRGSK.01.L.jpg" title="Boppy Original Nursing Pillow" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -135,7 +135,7 @@ The goal is not perfection. The goal is making the next feed easier.
 
 **Who it's for:** Parents whose baby reacts badly to cold wipes during nighttime diaper changes.
 
-{{< amazon url="https://www.amazon.com/dp/B00MIM0BSO" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B00MIM0BSO?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00MIM0BSO.01.L.jpg" title="Munchkin Warm Glow Wipe Warmer" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 
@@ -156,7 +156,7 @@ The goal is not perfection. The goal is making the next feed easier.
 
 **Who it's for:** Parents who want a tidy, compact drying solution that keeps feeding station gear organized without taking up the whole counter.
 
-{{< amazon url="https://www.amazon.com/dp/B0771FFWPX" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0771FFWPX?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0771FFWPX.01.L.jpg" title="Simple Modern Baby Bottle Drying Rack" >}}
 
 *(paid link) As an Amazon Associate I earn from qualifying purchases.*
 

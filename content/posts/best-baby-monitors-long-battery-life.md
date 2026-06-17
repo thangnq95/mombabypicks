@@ -88,7 +88,7 @@ The Infant Optics DXR-8 Pro is one of the most widely recommended non-WiFi baby 
 
 **The downside is:** At around $200, it's the priciest option here. And while the swappable battery is a fantastic long-term feature, replacement packs are sold separately and cost about $30.
 
-[Check price on Amazon →](https://amazon.com/dp/B08FF4GV5C?tag=mombabypick00-20)
+{{< product-card url="https://www.amazon.com/dp/B08FF4GV5C?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B08FF4GV5C.01.L.jpg" title="Infant Optics DXR-8 Pro" >}}
 
 *As an Amazon Associate I earn from qualifying purchases.*
 
@@ -115,7 +115,7 @@ The Eufy SpaceView Pro proves you don't need to spend $200 to get excellent batt
 
 **The downside is:** The parent unit only supports one camera out of the box. If you have twins or want to monitor a second child's room, you'll need to buy an additional camera kit separately.
 
-[Check price on Amazon →](https://amazon.com/dp/B08G8MBWZ8?tag=mombabypick00-20)
+{{< product-card url="https://www.amazon.com/dp/B08G8MBWZ8?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B08G8MBWZ8.01.L.jpg" title="Eufy SpaceView Pro (E210)" >}}
 
 ### HelloBaby HB6550
 
@@ -140,7 +140,7 @@ The HelloBaby HB6550 is the budget champion of this group, especially in the bat
 
 **The downside is:** The build quality reflects the price — the plastic casing feels lighter and less premium than the Eufy or Infant Optics, and the audio range is shorter, so you'll want to keep the parent unit relatively close to the nursery.
 
-[Check price on Amazon →](https://amazon.com/dp/B09GM8JZM9?tag=mombabypick00-20)
+{{< product-card url="https://www.amazon.com/dp/B09GM8JZM9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B09GM8JZM9.01.L.jpg" title="HelloBaby HB6550" >}}
 
 ### VTech DM221 Audio Monitor
 

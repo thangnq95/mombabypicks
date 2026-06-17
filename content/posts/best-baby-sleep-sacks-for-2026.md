@@ -82,7 +82,7 @@ It comes in three TOG weights — 0.5 for warm summer nights, 1.5 for mild temps
 
 **Who it's for:** Parents who want a proven, no-fuss wearable blanket from birth through toddlerhood. It's a solid default choice if you're not sure where to start.
 
-{{< amazon url="https://www.amazon.com/dp/B0CCBHGBJR" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0CCBHGBJR?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0CCBHGBJR.01.L.jpg" title="HALO SleepSack Wearable Blanket" >}}
 
 ---
 
@@ -108,7 +108,7 @@ The shell is 100% cotton, the fill is polyester, and the weighted section is cle
 
 **Who it's for:** Parents of babies who seem to wake the moment they're set down, especially in the 0–6 month range. Worth trying before spending money on other sleep interventions.
 
-{{< amazon url="https://www.amazon.com/dp/B09YL6CVQK" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B09YL6CVQK?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B09YL6CVQK.01.L.jpg" title="Nested Bean Zen Sack Classic" >}}
 
 ---
 
@@ -135,7 +135,7 @@ The bag comes in three TOG ratings (0.5, 1.0, and 2.5), and the 1.0 is probably 
 
 **Who it's for:** Parents with sensitive or eczema-prone babies, or anyone who runs a warm household and wants a breathable option. Also great as a gift — the prints are genuinely beautiful.
 
-{{< amazon url="https://www.amazon.com/dp/B09QK2STSD" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B09QK2STSD?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B09QK2STSD.01.L.jpg" title="Kyte Baby Sleep Bag" >}}
 
 ---
 
@@ -164,7 +164,7 @@ For more on building a safe sleep environment, see our guide on [safe sleep prac
 
 **Who it's for:** Parents who want to buy once and use it for multiple years (or across multiple kids), or anyone in a climate where room temperature varies significantly night to night.
 
-{{< amazon url="https://www.amazon.com/dp/B09FFXVKWT" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B09FFXVKWT?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B09FFXVKWT.01.L.jpg" title="Woolino 4 Season Ultimate Baby Sleep Bag" >}}
 
 ---
 
@@ -191,7 +191,7 @@ The design is simple: one-way zipper, roomy sack, no frills. It comes in a 1.0 T
 
 **Who it's for:** Budget-conscious parents who still want certified organic fabric, or anyone who needs multiple sacks in rotation for a heavy spitter-upper.
 
-{{< amazon url="https://www.amazon.com/dp/B0CH157SBJ" text="Check Price on Amazon →" >}}
+{{< product-card url="https://www.amazon.com/dp/B0CH157SBJ?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0CH157SBJ.01.L.jpg" title="Burt's Bees Baby Beekeeper Wearable Blanket" >}}
 
 ---
 
