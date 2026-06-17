@@ -32,6 +32,10 @@ card4title="Tommee Tippee Easi-Warm"
 card4text="Single-dial operation at around $20. Gets the job done without the fuss."
 >}}
 
+{{< top-pick url="https://www.amazon.com/dp/B0876T9DQZ?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0876T9DQZ.01.L.jpg" title="Philips Avent Fast Baby Bottle Warmer" price="" rating="9.0" >}}
+
+{{< author-bio >}}
+
 ## 1. Philips Avent Fast Baby Bottle Warmer — Best Overall
 
 The Philips Avent heats a bottle in as little as 3 minutes and fits most bottle sizes. It has a defrost setting and an auto-shutoff feature for safety.

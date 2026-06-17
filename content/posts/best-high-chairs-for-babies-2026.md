@@ -14,6 +14,10 @@ cover:
 
 *Affiliate Disclosure: MomBabyPicks participates in the Amazon Associates program. If you purchase through our links, we may earn a small commission at no extra cost to you. We only recommend products we'd genuinely consider for our own babies.*
 
+{{< top-pick url="https://www.amazon.com/dp/B00PTL13LA?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00PTL13LA.01.L.jpg" title="Graco Slim Snacker" price="" rating="9.0" >}}
+
+{{< author-bio >}}
+
 ## Introduction
 
 Choosing a high chair sounds simple until you start looking. Full-size or compact? Foldable or fixed? Cushioned or wipeable? Does it convert to a booster? Will it fit at your table? Can you clean it after a bowl of pureed sweet potato explodes across it at 6 months?

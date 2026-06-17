@@ -16,6 +16,10 @@ You do not need a fancy cart or a perfectly styled nursery. You just need the it
 
 {{< trust-badge >}}
 
+{{< top-pick url="https://www.amazon.com/dp/B00EOUE8H4?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00EOUE8H4.01.L.jpg" title="OXO Tot Perfect Pull Wipes Dispenser" price="" rating="9.0" >}}
+
+{{< author-bio >}}
+
 ## Choose the Right Location
 
 Pick a spot where you actually feed the baby. This might be next to your bed, beside a nursery chair, or near the couch.

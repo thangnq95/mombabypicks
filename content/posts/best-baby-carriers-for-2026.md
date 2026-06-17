@@ -14,6 +14,10 @@ cover:
 
 *Affiliate Disclosure: MomBabyPicks participates in the Amazon Associates program. If you purchase through our links, we may earn a small commission at no extra cost to you. We only recommend products we'd genuinely consider for our own babies.*
 
+{{< top-pick url="https://www.amazon.com/dp/B07B41952V?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07B41952V.01.L.jpg" title="Ergobaby Omni 360" price="" rating="9.0" >}}
+
+{{< author-bio >}}
+
 ## Introduction
 
 Baby carriers are one of the most polarizing categories in baby gear. Some parents swear by them; others buy one, struggle with it for a week, and shove it in a closet. The difference is almost always fit and type. The right carrier for a petite parent doing weekend errands is entirely different from what works for a large-framed parent commuting by transit with a 4-month-old.

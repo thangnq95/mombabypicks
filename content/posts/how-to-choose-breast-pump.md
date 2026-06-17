@@ -16,6 +16,10 @@ The right choice depends on how often you plan to pump, whether you need portabi
 
 {{< trust-badge >}}
 
+{{< top-pick url="https://www.amazon.com/dp/B00DBKFFJM?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00DBKFFJM.01.L.jpg" title="Spectra S1 Plus" price="" rating="9.0" >}}
+
+{{< author-bio >}}
+
 ## Start With Your Pumping Goal
 
 If you only need an occasional bottle, you probably do not need the most expensive pump. If you are returning to work, building a freezer stash, or exclusively pumping, reliability and comfort become much more important.

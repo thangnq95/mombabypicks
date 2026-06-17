@@ -125,3 +125,9 @@ Non-nutritive sucking (pacifier use) is compatible with pace feeding and can hel
 For more on building your feeding setup, see our [newborn feeding essentials guide](/posts/newborn-feeding-essentials/) and our full [best baby bottles for newborns comparison](/posts/best-baby-bottles-for-newborns-2026/).
 
 *As an Amazon Associate I earn from qualifying purchases.*
+
+{{< author-bio >}}
+
+{{< cross-sell slugs="bottle-refusal-breastfed-babies, newborn-feeding-essentials, best-baby-bottles-for-newborns-2026" >}}
+
+## Related Articles

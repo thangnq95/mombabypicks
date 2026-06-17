@@ -126,3 +126,9 @@ The biggest budget variable is always the stroller and car seat. Everything else
 - [Newborn Feeding Essentials](/posts/newborn-feeding-essentials/)
 - [Newborn Feeding Station Setup](/posts/newborn-feeding-station/)
 - [What Not to Buy for a Newborn](/posts/what-not-to-buy-newborn/)
+
+{{< author-bio >}}
+
+{{< cross-sell slugs="what-not-to-buy-newborn, newborn-feeding-essentials, best-diapers-for-newborns-2026" >}}
+
+## Related Articles

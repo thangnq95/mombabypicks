@@ -14,6 +14,10 @@ cover:
 
 *Affiliate Disclosure: MomBabyPicks participates in the Amazon Associates program. If you purchase through our links, we may earn a small commission at no extra cost to you.*
 
+{{< top-pick url="https://www.amazon.com/dp/B0DJRQRGSK?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DJRQRGSK.01.L.jpg" title="Nursing Pillow" price="" rating="9.0" >}}
+
+{{< author-bio >}}
+
 ## Introduction
 
 Feeding a newborn takes up roughly 8–12 sessions per day in the first weeks. That's a significant portion of your waking life. Having the right gear doesn't make feeding easy — nothing does — but having the wrong gear at 2 a.m. when you're both exhausted makes a hard thing harder.

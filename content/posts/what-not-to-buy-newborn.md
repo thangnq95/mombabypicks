@@ -17,6 +17,10 @@ Skipping a few non-essential items can free up your budget for diapers, feeding 
 
 {{< trust-badge >}}
 
+{{< top-pick url="https://www.amazon.com/dp/B0DNJG5CY6?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DNJG5CY6.01.L.jpg" title="Baby Shoes" price="" rating="9.0" >}}
+
+{{< author-bio >}}
+
 ## 1. Baby Shoes
 
 Newborns do not walk. Soft socks or footed pajamas are usually enough for warmth.

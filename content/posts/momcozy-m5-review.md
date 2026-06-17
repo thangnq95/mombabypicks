@@ -127,3 +127,9 @@ That said, many moms find that using the M5 for daytime pumps and a stronger pum
 - [Breast Pump Cleaning Guide](/posts/breast-pump-cleaning-guide/)
 - [Momcozy M5 Review](/posts/momcozy-m5-review/)
 - [Newborn Feeding Essentials](/posts/newborn-feeding-essentials/)
+
+{{< author-bio >}}
+
+{{< cross-sell slugs="best-breast-pumps, best-hands-free-wearable-breast-pumps, breast-pump-cleaning-guide" >}}
+
+## Related Articles

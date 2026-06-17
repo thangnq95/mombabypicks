@@ -32,6 +32,10 @@ card4title="Lansinoh Smartpump 3.0"
 card4text="Bluetooth app tracking and flexible settings at a more accessible price point than most wearable pumps."
 >}}
 
+{{< top-pick url="https://www.amazon.com/dp/B0DNR1Z4L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DNR1Z4L9.01.L.jpg" title="Momcozy M5" price="" rating="9.0" >}}
+
+{{< author-bio >}}
+
 ## 1. Momcozy M5 — Best Overall
 
 The Momcozy M5 is the most popular wearable breast pump on Amazon right now, and for good reason. It's completely hands-free, whisper-quiet, and fits discreetly inside your nursing bra.
@@ -168,6 +172,8 @@ Medela is one of the most trusted breast pump brands in the world. The Pump In S
 
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
+
+{{< cross-sell slugs="best-hands-free-wearable-breast-pumps, how-to-choose-breast-pump, breast-pump-cleaning-guide" >}}
 
 ## Related Articles
 - [How to Choose a Breast Pump](/posts/how-to-choose-breast-pump/)

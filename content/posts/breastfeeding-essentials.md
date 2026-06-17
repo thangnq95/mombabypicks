@@ -15,6 +15,10 @@ Breastfeeding comes with a learning curve. The right products won't make it effo
 
 {{< trust-badge >}}
 
+{{< top-pick url="https://www.amazon.com/dp/B0DNR1Z4L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DNR1Z4L9.01.L.jpg" title="Breast Pump" price="" rating="9.0" >}}
+
+{{< author-bio >}}
+
 ## 1. Breast Pump
 
 Even if you plan to breastfeed exclusively, a pump lets you build a freezer stash, relieve engorgement, and share feeding duties with your partner.

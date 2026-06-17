@@ -14,6 +14,10 @@ cover:
 
 *Affiliate Disclosure: MomBabyPicks participates in the Amazon Associates program. If you purchase through our links, we may earn a small commission at no extra cost to you.*
 
+{{< top-pick url="https://www.amazon.com/dp/B00WR958TA?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00WR958TA.01.L.jpg" title="Newton Baby Crib Mattress" price="" rating="9.0" >}}
+
+{{< author-bio >}}
+
 ## Introduction
 
 The baby product market is full of "eco-friendly" claims. Organic, natural, green, sustainable, non-toxic — these terms appear on everything from diapers to high chairs, but they're not regulated consistently, and some claims mean more than others.

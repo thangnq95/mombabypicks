@@ -14,6 +14,10 @@ cover:
 
 *Affiliate Disclosure: MomBabyPicks participates in the Amazon Associates program. If you purchase through our links, we may earn a small commission at no extra cost to you.*
 
+{{< top-pick url="https://www.amazon.com/dp/B0G6N65XVL?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0G6N65XVL.01.L.jpg" title="Comotomo Natural Feel Baby Bottle" price="" rating="9.0" >}}
+
+{{< author-bio >}}
+
 ## Introduction
 
 Bottle refusal is one of the most stressful things that can happen to a breastfeeding parent. You need to return to work, or you need your partner to be able to feed the baby, or you simply need a break — and your baby will not take a bottle. Full stop.
