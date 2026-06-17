@@ -16,7 +16,6 @@ cover:
 
 {{< top-pick url="https://www.amazon.com/dp/B06XPBB1TH?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B06XPBB1TH.01.L.jpg" title="BabyBjörn Bouncer Bliss" price="" >}}
 
-{{< author-bio >}}
 
 ## Introduction
 

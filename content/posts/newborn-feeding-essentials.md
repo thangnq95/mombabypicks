@@ -16,7 +16,6 @@ cover:
 
 {{< top-pick url="https://www.amazon.com/dp/B0DJRQRGSK?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DJRQRGSK.01.L.jpg" title="Nursing Pillow" price="" >}}
 
-{{< author-bio >}}
 
 ## Introduction
 

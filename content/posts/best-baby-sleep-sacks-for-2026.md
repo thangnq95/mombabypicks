@@ -35,7 +35,6 @@ card4text="GOTS-certified organic cotton at a price where you can comfortably bu
 
 {{< top-pick url="https://www.amazon.com/dp/B0CCBHGBJR?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0CCBHGBJR.01.L.jpg" title="HALO SleepSack Wearable Blanket" price="" >}}
 
-{{< author-bio >}}
 
 ## How We Selected These Sleep Sacks
 

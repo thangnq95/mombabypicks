@@ -18,7 +18,6 @@ You do not need a fancy cart or a perfectly styled nursery. You just need the it
 
 {{< top-pick url="https://www.amazon.com/dp/B00EOUE8H4?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00EOUE8H4.01.L.jpg" title="OXO Tot Perfect Pull Wipes Dispenser" price="" >}}
 
-{{< author-bio >}}
 
 ## Choose the Right Location
 

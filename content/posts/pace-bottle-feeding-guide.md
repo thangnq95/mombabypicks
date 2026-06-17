@@ -126,7 +126,6 @@ For more on building your feeding setup, see our [newborn feeding essentials gui
 
 *As an Amazon Associate I earn from qualifying purchases.*
 
-{{< author-bio >}}
 
 {{< cross-sell slugs="bottle-refusal-breastfed-babies, newborn-feeding-essentials, best-baby-bottles-for-newborns-2026" >}}
 

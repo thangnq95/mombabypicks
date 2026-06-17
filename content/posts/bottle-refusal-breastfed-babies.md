@@ -16,7 +16,6 @@ cover:
 
 {{< top-pick url="https://www.amazon.com/dp/B0G6N65XVL?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0G6N65XVL.01.L.jpg" title="Comotomo Natural Feel Baby Bottle" price="" >}}
 
-{{< author-bio >}}
 
 ## Introduction
 

@@ -22,7 +22,6 @@ If you're building out your full setup, see our [newborn essentials checklist](/
 
 {{< top-pick url="https://www.amazon.com/dp/B0BDRJHRDV?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0BDRJHRDV.01.L.jpg" title="Graco SmartSense Swing" price="$200" >}}
 
-{{< author-bio >}}
 
 ## How We Selected These Products
 

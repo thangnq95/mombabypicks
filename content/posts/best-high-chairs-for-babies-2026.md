@@ -16,7 +16,6 @@ cover:
 
 {{< top-pick url="https://www.amazon.com/dp/B00PTL13LA?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00PTL13LA.01.L.jpg" title="Graco Slim Snacker" price="" >}}
 
-{{< author-bio >}}
 
 ## Introduction
 

@@ -34,7 +34,6 @@ card4text="Single-dial operation at around $20. Gets the job done without the fu
 
 {{< top-pick url="https://www.amazon.com/dp/B0876T9DQZ?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0876T9DQZ.01.L.jpg" title="Philips Avent Fast Baby Bottle Warmer" price="" >}}
 
-{{< author-bio >}}
 
 ## 1. Philips Avent Fast Baby Bottle Warmer — Best Overall
 

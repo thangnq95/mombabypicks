@@ -22,7 +22,6 @@ If you're still putting together your baby's first setup, check our [newborn ess
 
 {{< top-pick url="https://www.amazon.com/dp/B075R8BXXC?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B075R8BXXC.01.L.jpg" title="Lovevery Play Gym" price="$105" >}}
 
-{{< author-bio >}}
 
 {{< pick-cards
 title="Quick Picks At A Glance"

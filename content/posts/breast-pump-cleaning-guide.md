@@ -18,7 +18,6 @@ Always follow the instructions that came with your specific pump. Different bran
 
 {{< top-pick url="https://www.amazon.com/dp/B000058CNT?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B000058CNT.01.L.jpg" title="Medela Quick Clean Micro-Steam Bags" price="" >}}
 
-{{< author-bio >}}
 
 ## Know Which Parts Touch Milk
 

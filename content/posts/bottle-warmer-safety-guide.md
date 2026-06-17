@@ -18,7 +18,6 @@ The main goal is simple: warm the milk evenly without overheating it.
 
 {{< top-pick url="https://www.amazon.com/dp/B0876T9DQZ?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0876T9DQZ.01.L.jpg" title="Philips Avent Fast Bottle Warmer" price="" >}}
 
-{{< author-bio >}}
 
 ## Do Not Microwave Bottles
 

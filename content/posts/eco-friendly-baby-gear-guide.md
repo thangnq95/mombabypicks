@@ -16,7 +16,6 @@ cover:
 
 {{< top-pick url="https://www.amazon.com/dp/B00WR958TA?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00WR958TA.01.L.jpg" title="Newton Baby Crib Mattress" price="" >}}
 
-{{< author-bio >}}
 
 ## Introduction
 

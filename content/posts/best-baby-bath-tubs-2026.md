@@ -22,7 +22,6 @@ If you're still building out your first-week essentials, also check our guide on
 
 {{< top-pick url="https://www.amazon.com/dp/B0DW3RM88Q?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DW3RM88Q.01.L.jpg" title="Fisher-Price 4-in-1 Sling 'n Seat Tub" price="$44" >}}
 
-{{< author-bio >}}
 
 {{< pick-cards
 title="Quick Picks At A Glance"

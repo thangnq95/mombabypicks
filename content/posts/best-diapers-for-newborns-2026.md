@@ -264,7 +264,6 @@ There's no single right answer here. Your baby's skin, size, and your own practi
 
 *Affiliate Disclosure: MomBabyPicks.com is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. When you click an Amazon link on this page and make a purchase, we may earn a small commission at no additional cost to you. This does not influence our product recommendations — we only recommend products based on the criteria described in our selection process.*
 
-{{< author-bio >}}
 
 {{< cross-sell slugs="newborn-essentials-checklist, what-not-to-buy-newborn, best-baby-bath-tubs-2026" >}}
 
