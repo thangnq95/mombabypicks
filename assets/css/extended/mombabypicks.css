@@ -1267,3 +1267,64 @@ div[id*="sp-tab"],
 .consent-banner {
   display: none !important;
 }
+
+/* Urgency badge */
+.product-card-urgency {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #e8860c;
+  margin-top: 0.3em;
+}
+
+/* Stronger CTA button */
+.product-card-btn {
+  background: linear-gradient(135deg, #ff9900 0%, #ff7700 100%) !important;
+  color: #fff !important;
+  font-weight: 800;
+  padding: 0.55em 1.1em;
+  border-radius: 999px;
+  box-shadow: 0 8px 18px rgba(255, 153, 0, 0.22);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.product-card-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 22px rgba(255, 153, 0, 0.3);
+}
+
+/* /best-of/ hub page styles */
+.best-of-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.2em;
+  margin: 1.5em 0;
+}
+.best-of-card {
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.2em;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.best-of-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(116,74,64,0.1);
+}
+.best-of-card h3 {
+  margin: 0 0 0.6em 0;
+  font-size: 1rem;
+}
+.best-of-card table {
+  width: 100%;
+  border: none;
+  margin: 0;
+  box-shadow: none;
+}
+.best-of-card td {
+  padding: 0.3em 0;
+  border: none;
+  font-size: 0.88rem;
+}
+.best-of-card a {
+  color: var(--primary);
+  font-weight: 600;
+}
