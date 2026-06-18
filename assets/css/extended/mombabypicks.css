@@ -1257,3 +1257,13 @@ body {
 .author-bio-text strong {
   color: var(--primary);
 }
+
+/* Hide SecurePrivacy floating widget */
+#sp-preference-center,
+.sp-preference-center,
+div[class*="sp-widget"],
+div[id*="sp-tab"],
+#consent-banner,
+.consent-banner {
+  display: none !important;
+}
