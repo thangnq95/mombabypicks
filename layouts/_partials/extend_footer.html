@@ -56,6 +56,189 @@
 })();
 </script>
 
+{{- $ga4 := site.Params.analytics.ga4.measurementId | default "" | strings.TrimSpace -}}
+{{- if $ga4 }}
+<style>
+  .consent-banner {
+    position: fixed;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    z-index: 9999;
+    display: none;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 16px 18px;
+    border: 1px solid rgba(47, 38, 36, 0.12);
+    border-radius: 18px;
+    background: rgba(255, 250, 246, 0.98);
+    box-shadow: 0 18px 50px rgba(47, 38, 36, 0.16);
+    color: #2f2624;
+    backdrop-filter: blur(8px);
+  }
+  .consent-banner__title {
+    margin: 0 0 6px;
+    font-size: 1rem;
+    line-height: 1.35;
+    font-weight: 700;
+  }
+  .consent-banner__text {
+    margin: 0 0 12px;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: #6f5f58;
+  }
+  .consent-banner__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .consent-banner__btn {
+    appearance: none;
+    border: 0;
+    border-radius: 999px;
+    padding: 10px 14px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .consent-banner__btn--accept {
+    background: #2f2624;
+    color: #fff;
+  }
+  .consent-banner__btn--reject {
+    background: #efe5dc;
+    color: #2f2624;
+  }
+  .consent-banner__btn:focus-visible {
+    outline: 2px solid #bc7462;
+    outline-offset: 2px;
+  }
+  @media (max-width: 640px) {
+    .consent-banner {
+      left: 12px;
+      right: 12px;
+      bottom: 12px;
+      padding: 14px 14px;
+      border-radius: 16px;
+    }
+    .consent-banner__actions {
+      flex-direction: column;
+    }
+    .consent-banner__btn {
+      width: 100%;
+    }
+  }
+</style>
+<div class="consent-banner" id="consent-banner" role="dialog" aria-live="polite" aria-label="Cookie consent">
+  <p class="consent-banner__title">We use cookies to measure traffic and improve the site.</p>
+  <p class="consent-banner__text">
+    Accept analytics cookies to help us understand which guides are useful. You can reject non-essential cookies and still read the site normally.
+  </p>
+  <div class="consent-banner__actions">
+    <button class="consent-banner__btn consent-banner__btn--accept" type="button" data-consent-action="accept">Accept all</button>
+    <button class="consent-banner__btn consent-banner__btn--reject" type="button" data-consent-action="reject">Reject non-essential</button>
+  </div>
+</div>
+<script>
+(() => {
+  const STORAGE_KEY = 'mombabypicks_cookie_consent';
+  const banner = document.getElementById('consent-banner');
+  if (!banner || typeof window.gtag !== 'function') {
+    return;
+  }
+
+  const grantedState = {
+    ad_storage: 'granted',
+    ad_user_data: 'granted',
+    ad_personalization: 'granted',
+    analytics_storage: 'granted',
+  };
+
+  const deniedState = {
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: 'denied',
+  };
+
+  const safeStorage = (() => {
+    try {
+      return window.localStorage;
+    } catch (error) {
+      return null;
+    }
+  })();
+
+  const readConsent = () => {
+    if (!safeStorage) {
+      return '';
+    }
+
+    return (safeStorage.getItem(STORAGE_KEY) || '').trim();
+  };
+
+  const writeConsent = (value) => {
+    if (!safeStorage) {
+      return;
+    }
+
+    safeStorage.setItem(STORAGE_KEY, value);
+  };
+
+  const setConsent = (state) => {
+    window.gtag('consent', 'update', state);
+  };
+
+  const hideBanner = () => {
+    banner.style.display = 'none';
+  };
+
+  const showBanner = () => {
+    banner.style.display = 'block';
+  };
+
+  const currentConsent = readConsent();
+  if (currentConsent === 'granted') {
+    setConsent(grantedState);
+    hideBanner();
+    return;
+  }
+
+  if (currentConsent === 'denied') {
+    setConsent(deniedState);
+    hideBanner();
+    return;
+  }
+
+  showBanner();
+
+  banner.addEventListener('click', (event) => {
+    const target = event.target;
+    if (!(target instanceof HTMLElement)) {
+      return;
+    }
+
+    const button = target.closest('[data-consent-action]');
+    if (!button) {
+      return;
+    }
+
+    const action = button.getAttribute('data-consent-action');
+    if (action === 'accept') {
+      setConsent(grantedState);
+      writeConsent('granted');
+    } else {
+      setConsent(deniedState);
+      writeConsent('denied');
+    }
+
+    hideBanner();
+  });
+})();
+</script>
+{{- end }}
+
 {{- $gtm := site.Params.analytics.gtm.containerId | default "" | strings.TrimSpace -}}
 {{- if $gtm }}
 <noscript>

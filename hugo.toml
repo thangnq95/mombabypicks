@@ -17,7 +17,7 @@ paginate = 10
 
   [params.analytics]
     [params.analytics.ga4]
-      measurementId = ""
+      measurementId = "G-96RPQE0K42"
     [params.analytics.gtm]
       containerId = ""
 
