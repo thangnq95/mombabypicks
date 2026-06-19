@@ -16,7 +16,7 @@ Always follow the instructions that came with your specific pump. Different bran
 
 {{< trust-badge >}}
 
-{{< top-pick url="https://www.amazon.com/dp/B000058CNT?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B000058CNT.01.L.jpg" title="Medela Quick Clean Micro-Steam Bags" price="" >}}
+{{< top-pick url="https://www.amazon.com/dp/B000096QQ5?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B000096QQ5.01.L.jpg" title="Medela Quick Clean Micro-Steam Bags" price="" >}}
 
 
 ## Know Which Parts Touch Milk
@@ -71,8 +71,8 @@ Cleaning is not the fun part, but a predictable routine makes pumping feel much 
 |---|---|---|
 | Medela Quick Clean Micro-Steam Bags | Fast microwave sterilizing | ~$8 |
 | Dr. Brown's Bottle & Nipple Brush | Reaching all pump parts | ~$7 |
-| Bravado Pump & Clean Wipes | On-the-go quick clean | ~$12 |
-| Philips Avent Combined Sterilizer & Dryer | All-in-one sterilizing | ~$80 |
+| Medela Quick Clean Breast Pump Wipes | On-the-go quick clean | ~$12 |
+| Baby Brezza Bottle Sterilizer and Dryer Advanced | All-in-one sterilizing | ~$110 |
 
 ### 1. Medela Quick Clean Micro-Steam Bags — Sterilize in 3 Minutes
 
@@ -89,7 +89,7 @@ Cleaning is not the fun part, but a predictable routine makes pumping feel much 
 
 **Who it's for:** Working moms who pump multiple times a day and need a fast, reliable sterilizing method between sessions.
 
-{{< product-card url="https://www.amazon.com/dp/B000058CNT?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B000058CNT.01.L.jpg" title="Medela Quick Clean Micro-Steam Bags" badge="Sterilize in 3 Minutes" >}}
+{{< product-card url="https://www.amazon.com/dp/B000096QQ5?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B000096QQ5.01.L.jpg" title="Medela Quick Clean Micro-Steam Bags" badge="Sterilize in 3 Minutes" >}}
 
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
@@ -110,13 +110,13 @@ Cleaning is not the fun part, but a predictable routine makes pumping feel much 
 
 **Who it's for:** Parents who hand-wash pump parts daily and want a brush that handles every piece, not just bottles.
 
-{{< product-card url="https://www.amazon.com/dp/B000058D7G?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B000058D7G.01.L.jpg" title="Dr. Brown's Bottle & Nipple Brush" badge="Reaches All Pump Parts" >}}
+{{< product-card url="https://www.amazon.com/dp/B00HBTK0ZI?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00HBTK0ZI.01.L.jpg" title="Dr. Brown's Bottle & Nipple Brush" badge="Reaches All Pump Parts" >}}
 
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
-### 3. Bravado Pump & Clean Wipes — Quick Clean On the Go
+### 3. Medela Quick Clean Breast Pump and Accessory Wipes — Quick Clean On the Go
 
 **Specs:** Pre-moistened; individually wrapped; safe for pump parts, flanges, and bottles; no rinsing required.
 
@@ -131,17 +131,17 @@ Cleaning is not the fun part, but a predictable routine makes pumping feel much 
 
 **Who it's for:** Moms who pump at work or on the go and need a quick, no-fuss way to clean parts when a sink is not available.
 
-{{< product-card url="https://www.amazon.com/dp/B00DXXVJRO?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00DXXVJRO.01.L.jpg" title="Bravado Pump & Clean Wipes" badge="Quick Clean On the Go" >}}
+{{< product-card url="https://www.amazon.com/dp/B08KRQ7N5T?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B08KRQ7N5T.01.L.jpg" title="Medela Quick Clean Breast Pump and Accessory Wipes" badge="Quick Clean On the Go" >}}
 
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 ---
 
-### 4. Philips Avent Combined Sterilizer & Dryer — All-in-One Solution
+### 4. Baby Brezza Bottle Sterilizer and Dryer Advanced — All-in-One Solution
 
-**Specs:** Sterilizes up to 6 bottles in 6 minutes; integrated drying function; fits Avent and other standard bottles; auto-shutoff.
+**Specs:** Sterilizes and dries automatically; large capacity; fits bottles and pump parts; digital timer.
 
-**Price:** ~$80
+**Price:** ~$110
 
 **Pros:**
 - Sterilizes and dries in one unit — no separate drying rack needed
@@ -152,7 +152,7 @@ Cleaning is not the fun part, but a predictable routine makes pumping feel much 
 
 **Who it's for:** Families who want a complete, hands-off cleaning and drying solution and pump multiple times per day.
 
-{{< product-card url="https://www.amazon.com/dp/B01N9NDTGV?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B01N9NDTGV.01.L.jpg" title="Philips Avent Combined Sterilizer & Dryer" badge="All-in-One Solution" >}}
+{{< product-card url="https://www.amazon.com/dp/B09HJDX5S6?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B09HJDX5S6.01.L.jpg" title="Baby Brezza Bottle Sterilizer and Dryer Advanced" badge="All-in-One Solution" >}}
 
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 

@@ -58,11 +58,11 @@ The NumNum Pre-Spoon is designed for the early stages of solid foods when babies
 
 {{< product-card url="https://www.amazon.com/dp/B07L6L1KCN?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07L6L1KCN.01.L.jpg" title="Silicone Spoons" badge="NumNum Pre-Spoon GOOtensils" >}}
 
-### 4. Silicone Teethers — Oli & Carol Natursutten Teether
+### 4. Silicone Teethers — Frida Baby Get-A-Grip Teether
 
-Natursutten teethers are made from 100% natural rubber (a similar but distinct material to silicone — also non-toxic and plant-based). For babies who prefer the softer feel of natural rubber over firmer silicone, this is the alternative. For full silicone teethers, Green Sprouts makes widely reviewed options at accessible prices.
+For a true silicone option, the Frida Baby Get-A-Grip Teether is a better fit than the old natural-rubber pick we had here. It is made for small hands, easy to hold, and gives babies a soft silicone surface to chew on without introducing harder plastic parts into the mouth area.
 
-{{< product-card url="https://www.amazon.com/dp/B088WD3XHF?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B088WD3XHF.01.L.jpg" title="Silicone Teethers" badge="Oli & Carol Natursutten Teether" >}}
+{{< product-card url="https://www.amazon.com/dp/B0CDNNTP89?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0CDNNTP89.01.L.jpg" title="Silicone Teethers" badge="Frida Baby Get-A-Grip Teether" >}}
 
 ### 5. Silicone Straw Cups — Munchkin Miracle 360 Trainer Cup
 
@@ -77,7 +77,7 @@ The Munchkin 360 cup uses a silicone drinking edge that lets babies drink from a
 | Comotomo Bottle | Food-grade silicone | Breast-like feel, no plastic | Newborn (0+) |
 | EZPZ Mini Mat | Food-grade silicone | Suctions to table, combined bib/plate | 4 months+ |
 | NumNum Pre-Spoon | Food-grade silicone | Self-feeding for early solids | 4 months+ |
-| Natursutten Teether | Natural rubber | Softer than silicone | 3 months+ |
+| Frida Baby Get-A-Grip Teether | Silicone | Easy to grip, soft to chew | 3 months+ |
 | Munchkin 360 Cup | BPA-free plastic + silicone valve | 360-degree drinking edge | 6 months+ |
 
 ## How to Spot Inferior Silicone Products

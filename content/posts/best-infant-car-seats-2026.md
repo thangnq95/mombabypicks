@@ -172,7 +172,7 @@ The UPPAbaby Mesa V2 is the technological high-water mark on this list. The Smar
 
 **Who it's for:** UPPAbaby stroller owners getting full ecosystem value, or parents who want the simplest possible LATCH installation and appreciate smart safety features.
 
-{{< product-card url="https://www.amazon.com/dp/B0DMTLT7RD?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DMTLT7RD.01.L.jpg" title="UPPAbaby Mesa V2" badge="Best Premium Infant Car Seat" >}}
+{{< product-card url="https://www.amazon.com/dp/B0FFHN5R2X?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0FFHN5R2X.01.L.jpg" title="UPPAbaby Mesa V2" badge="Best Premium Infant Car Seat" >}}
 
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 

@@ -42,6 +42,12 @@ card4title="Tommee Tippee Closer to Nature"
 card4text="Breast-like nipple shape, Easi-Vent system, and only 3 parts — the lowest-maintenance bottle on the list."
 >}}
 
+## If You Only Want One Bottle
+
+If your baby is already gassy or struggles with spit-up, start with **Dr. Brown's Options+**. If you're combo-feeding and want the easiest breast-to-bottle transition, **Philips Avent Natural Response** is the safer first try. If you're trying to reduce plastic and your baby prefers a softer nipple feel, **Comotomo** is the most convincing silicone pick. If you want something simple that won't become a second job to wash, **Tommee Tippee** is the low-friction choice. And if you need a compact backup bottle for diaper bag feeds, **Nanobébé Flexy** is the most portable option here.
+
+For most families, the fastest path to a purchase is to pick **one bottle based on the problem you're trying to solve**, not the one with the most features. That usually saves money and avoids ending up with five bottles nobody wants to use.
+
 ## How We Selected These Bottles
 
 We evaluated bottles against five criteria: **nipple shape and flow rate** (slow-flow only for newborns), **venting or anti-colic design** (reduces ingested air), **ease of cleaning** (fewer parts = fewer headaches), **material safety** (BPA-free, phthalate-free, food-grade components), and **compatibility with breast pumps** if a parent is pumping. We also prioritized bottles with widely available replacement parts, since nipples wear out and you'll need to reorder.
@@ -110,7 +116,7 @@ The bottle body is wide and squat, which makes it easier to hold for tired paren
 
 **Who it's for:** Combination-feeders or anyone moving between breast and bottle who wants to reduce nipple confusion. Also works well for premature newborns who are still building suction strength.
 
-{{< product-card url="https://www.amazon.com/dp/B09NQLK3MH?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B09NQLK3MH.01.L.jpg" title="Philips Avent Natural Response Baby Bottle" >}}
+{{< product-card url="https://www.amazon.com/dp/B09649R98Q?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B09649R98Q.01.L.jpg" title="Philips Avent Natural Response Baby Bottle" >}}
 
 ---
 
@@ -197,7 +203,7 @@ Unlike the Comotomo, the Nanobébé Flexy doesn't have a dedicated anti-colic ve
 
 **Who it's for:** On-the-go feeds, parents supplementing at daycare, or as a secondary bottle for a baby who feeds well without gas issues. Not ideal as a primary bottle for colicky newborns.
 
-{{< product-card url="https://www.amazon.com/dp/B089YJRDWL?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B089YJRDWL.01.L.jpg" title="Nanobébé Flexy Silicone Baby Bottle" >}}
+{{< product-card url="https://www.amazon.com/dp/B0944B4549?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0944B4549.01.L.jpg" title="Nanobébé Flexy Silicone Baby Bottle" >}}
 
 ---
 
@@ -230,6 +236,9 @@ Try warming the nipple slightly under running warm water before feeding, have so
 **Q: How many bottles do I need to start?**
 For newborns feeding 8–12 times per day, having 6–8 bottles covers a full day's rotation without needing to wash between every feed. If you're combination-feeding and only using bottles occasionally, 3–4 is enough to start.
 
+**Q: Which bottle is the safest first buy if I'm not sure what my baby will like?**
+Start with a two-bottle test: one anti-colic option like Dr. Brown's and one breast-like option like Philips Avent or Comotomo. That gives you the best chance of matching your baby's latch style without overbuying.
+
 **Q: Do I need to sterilize baby bottles?**
 The CDC recommends sterilizing before first use and for infants under 3 months, those born prematurely, or those with a compromised immune system. After that, thorough washing with hot soapy water (or a dishwasher cycle) is sufficient for healthy, full-term babies. Always check with your pediatrician if you have questions specific to your baby's health history.
 
@@ -240,6 +249,8 @@ The CDC recommends sterilizing before first use and for infants under 3 months, 
 For a newborn showing signs of gas or colic, start with **Dr. Brown's Options+** — the vent system is the most thorough of any bottle here, and the removable vent gives you an exit strategy once things settle down. For combination-feeders prioritizing breast-bottle transitions, the **Philips Avent Natural Response** earns its place as the most thoughtfully designed nipple-flow system in this group. If you're committed to minimizing plastic or your baby has repeatedly rejected plastic nipples, the **Comotomo** is the silicone choice with the most complete anti-colic features. The **Tommee Tippee Closer to Nature** is the right pick if you want something simple, widely available, and proven — no learning curve required. And the **Nanobébé Flexy** fills a specific gap: a two-piece silicone bottle that fits in your jacket pocket and goes wherever you go.
 
 Most parents end up trialing two or three bottles in the early weeks — that's normal. The good news is that the slow-flow nipples included with all five of these are genuinely appropriate for newborns, so you're not starting from a compromised position with any of them.
+
+If you want the shortest answer: **buy Dr. Brown's first if gas is the issue, Avent first if feeding transitions are the issue, and Comotomo first if nipple acceptance is the issue.**
 
 ---
 

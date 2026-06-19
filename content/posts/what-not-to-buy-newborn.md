@@ -117,7 +117,7 @@ For most babies, warming wipes in your hands for a few seconds works just fine. 
 
 **Why it works:** Consistent warmth and a built-in night light make nighttime diaper changes less jarring for both parent and baby. If you decide to buy a wipe warmer, this is the one worth getting.
 
-{{< product-card url="https://www.amazon.com/dp/B00MIM0BSO?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00MIM0BSO.01.L.jpg" title="Instead of a Wipe Warmer (or if You Really Want One)" badge="Munchkin Warm Glow Wipe Warmer" >}}
+{{< product-card url="https://www.amazon.com/dp/B000CNOIQ2?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B000CNOIQ2.01.L.jpg" title="Instead of a Wipe Warmer (or if You Really Want One)" badge="Munchkin Warm Glow Baby Wipe Warmer" >}}
 
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 

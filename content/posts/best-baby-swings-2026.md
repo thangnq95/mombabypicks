@@ -23,6 +23,12 @@ If you're building out your full setup, see our [newborn essentials checklist](/
 {{< top-pick url="https://www.amazon.com/dp/B0BDRJHRDV?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0BDRJHRDV.01.L.jpg" title="Graco SmartSense Swing" price="$200" >}}
 
 
+## If You Only Want One Swing
+
+If your baby is very fussy and you want the most hands-off option, start with **Graco SmartSense**. If you want the best balance of price and usefulness, **Jool Baby Nova** is the one most parents can buy without overthinking it. If you need the most motion variety and don't mind paying more, **4moms MamaRoo** is the premium pick. If your main problem is space, **Bright Starts Playful Paradise** is the easiest to move around. And if you want a simpler classic swing with newborn support, **DUOMILEE** is the budget fallback.
+
+For most families, the smartest first buy is the swing that solves your biggest problem today, not the one with the most features on the box.
+
 ## How We Selected These Products
 
 We scored swings on five criteria: **motion variety** (more motion types means a higher chance of finding the one that clicks for your baby), **weight capacity and longevity** (swings that max out at 20 lbs age out fast), **noise level** (motor noise at 3 a.m. matters more than most reviews mention), **assembly complexity** (anything requiring two people or a YouTube tutorial is a red flag), and **safety certification** (JPMA-certified or ASTM-compliant only). We excluded any swing with consistent reports of motor failure under 90 days or straps that loosen during use.
@@ -148,28 +154,28 @@ The Bright Starts takes the smallest footprint on this list without feeling flim
 
 ---
 
-## 5. Fisher-Price Sweet Snugapuppy Swing — Best Classic
+## 5. DUOMILEE Baby Electric Swing — Best Classic
 
-Fisher-Price's Snugapuppy has been the reliable middle-ground swing for a decade, and the 2024 update keeps what worked while adding a plug-in power option. The head and body support is specifically designed for the floppy-neck newborn stage, which is a real differentiator at this price. Six speeds across a smooth swing motion, sixteen songs and sounds, and a calming white noise option make it a complete package for parents who don't want to overthink the decision.
+DUOMILEE's compact baby swing gives you a budget-friendly middle-ground option with a plug-in power option and a portable footprint. The head and body support is built for the newborn stage, which matters when you want something easy to move from room to room. Multiple speeds, sounds, and a calming motion mode make it a practical pick for parents who want a straightforward swing without paying premium prices.
 
-**Specs:** Weight limit 25 lbs · swing motion · 6 speeds · 16 songs/sounds · white noise mode · head and body support included · plug-in or battery power · JPMA certified
+**Specs:** Weight limit 25 lbs · swing motion · multiple speeds · music and vibration modes · head and body support included · plug-in or battery power
 
-**Price:** $130
+**Price:** $90
 
 **Pros:**
 - Newborn head and body support included — no separate insert needed
 - Plug-in power option eliminates battery cost
-- 16 sounds including white noise gives real variety for fussy nights
-- Trusted brand with proven reliability track record
+- Compact footprint is easier for small spaces
+- Straightforward controls make it easy to use at night
 
 **Cons:**
-- Single motion direction — front-to-back only
-- Slightly louder motor than the Jool Baby Nova on high speeds
-- Design is dated compared to premium competitors
+- Fewer premium features than app-connected swings
+- Less brand recognition than Fisher-Price or Graco
+- Not the most stylish option
 
-**Who it's for:** Parents who want a proven, no-surprises swing from a brand they trust at a mid-range price.
+**Who it's for:** Parents who want a practical, budget-friendly swing that does the basics well.
 
-{{< product-card url="https://www.amazon.com/dp/B07TQCR5CJ?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07TQCR5CJ.01.L.jpg" title="Fisher-Price Sweet Snugapuppy Swing" badge="Best Classic" price="$130" >}}
+{{< product-card url="https://www.amazon.com/dp/B099F2DNDX?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B099F2DNDX.01.L.jpg" title="DUOMILEE Baby Electric Swing" badge="Best Classic" price="$90" >}}
 
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
@@ -180,6 +186,8 @@ Fisher-Price's Snugapuppy has been the reliable middle-ground swing for a decade
 If budget isn't a constraint and you want technology doing the work, the **Graco SmartSense** is the pick — the cry-detection feature alone justifies the $200 price for many parents. If you want the widest variety of motions and a baby who reliably needs something different, the **4moms MamaRoo** wins on variety even at $330.
 
 For most families, the **Jool Baby Nova** at $120 hits the sweet spot: quiet, simple, two solid motion types, and a newborn insert that gets you started from day one. If you're in a small apartment or need to move the swing between rooms constantly, the **Bright Starts** is the practical pick. And if you want a proven, no-research-required classic with good newborn support built in, the **Fisher-Price Snugapuppy** has been doing the job reliably for years.
+
+If you're choosing today and want the shortest answer, **Jool Baby Nova is the best first swing for most homes** because it balances price, quiet operation, and ease of use without pushing you into a premium price tier.
 
 ---
 
