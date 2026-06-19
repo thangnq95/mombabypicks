@@ -17,7 +17,7 @@ The Momcozy M5 is the #1 best-selling wearable breast pump on Amazon. But is it 
 
 The M5 is a hands-free, wearable breast pump that fits inside your nursing bra. No tubes, no cords — you pump while doing other things. It uses a double-sealed design to prevent leaks, with soft silicone cups that conform to your body.
 
-## How the M5 Compares to Other Wearable Pumps
+## Comparison Table: Momcozy M5 vs Other Wearable Pumps
 
 The wearable pump market includes several strong competitors, each with different trade-offs:
 
@@ -93,7 +93,7 @@ The Momcozy M5 earns its #1 bestseller status. For a working mom or a mom who ne
 
 {{< product-card url="https://www.amazon.com/dp/B0DNR1Z4L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DNR1Z4L9.01.L.jpg" title="Verdict" >}}
 
-## Frequently Asked Questions
+## FAQ
 
 **How long does the Momcozy M5 battery last?**
 About 2-3 pumping sessions on a full charge. Each session is typically 20-30 minutes. USB-C charging takes about 2 hours.

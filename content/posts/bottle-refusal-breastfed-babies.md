@@ -87,7 +87,7 @@ If your baby is refusing all feeding for more than 24 hours, losing weight, or s
 
 A lactation consultant (IBCLC) can also help with bottle introduction strategies and assess whether there's an underlying latch or oral function issue contributing to the refusal.
 
-## Frequently Asked Questions
+## FAQ
 
 **At what age should I introduce a bottle to a breastfed baby?**
 Most lactation consultants recommend waiting until breastfeeding is well-established — typically around 4–6 weeks. Introducing too early can interfere with establishing supply and latch. Waiting much beyond 8–10 weeks increases the risk of bottle refusal as nipple preference solidifies.

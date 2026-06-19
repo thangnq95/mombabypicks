@@ -43,10 +43,11 @@ jobs:
           HUGO_ENV: production
           HUGO_PARAMS_ASSETVERSION: ${{ github.sha }}
         run: |
+          rm -rf public
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "https://mombabypicks.com/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

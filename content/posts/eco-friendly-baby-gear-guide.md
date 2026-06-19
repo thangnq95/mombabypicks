@@ -101,7 +101,7 @@ The Naturepedic changing pad cover uses GOTS-certified organic cotton. Changing 
 | Green Sprouts Teethers | Food-grade silicone | BPA/phthalate-free | Teething |
 | Naturepedic Changing Pad Cover | Organic cotton | GOTS | Diapering |
 
-## Frequently Asked Questions
+## FAQ
 
 **Does "BPA-free" mean a product is safe?**
 BPA-free means the product doesn't contain bisphenol-A specifically, but BPS and other bisphenol variants may still be present and have similar concerns. Food-grade silicone, glass, and stainless steel avoid this entire category of concern. For feeding products, look beyond just "BPA-free."

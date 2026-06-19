@@ -230,55 +230,6 @@ No diaper on this list contains BPA or latex in its standard formulation. All fi
 
 ## FAQ
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How many newborn diapers do I actually need before birth?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "One to two packs (roughly 80–120 diapers) is a reasonable amount to have on hand before delivery. Avoid buying more than that in newborn size — babies can outgrow it within two to three weeks, and some larger babies skip newborn entirely."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When should I move up to size 1?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When the newborn diaper consistently leaks at the leg openings or the waistband tabs no longer overlap comfortably at the front. Weight ranges on the packaging are a starting point, but the actual fit is more reliable than the number on the scale."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What causes diaper rash in newborns, and do diapers matter?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most newborn diaper rash is caused by prolonged skin contact with urine or stool — frequency of changes matters more than the brand. That said, fragrance sensitivity is a real secondary cause. If rash appears without an obvious change in change frequency, try switching to a fragrancefree option."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are plant-based or bamboo diapers meaningfully better for sensitive skin?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "There's no broad clinical evidence that plantbased materials perform better for diaper rash prevention in the general newborn population. For babies with documented skin sensitivities, fragrancefree and dyefree options — whether plantbased or conventional — tend to show the most consistent improvement."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What does the umbilical cord notch actually do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It prevents the waistband from pressing against or rubbing the umbilical cord stump, which speeds up drying and reduces irritation. Most newborn diapers include one, but the depth and shape of the notch varies — some clear the stump better than others."
-      }
-    }
-  ]
-}
-</script>
-
 **How many newborn diapers do I actually need before birth?**
 One to two packs (roughly 80–120 diapers) is a reasonable amount to have on hand before delivery. Avoid buying more than that in newborn size — babies can outgrow it within two to three weeks, and some larger babies skip newborn entirely.
 

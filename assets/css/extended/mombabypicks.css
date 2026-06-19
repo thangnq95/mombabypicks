@@ -460,6 +460,20 @@ body {
   color: #5d463f;
 }
 
+.entry-cover {
+  overflow: hidden;
+  border-radius: var(--radius);
+}
+
+.entry-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 1200 / 630;
+}
+
 .post-content table {
   display: block;
   width: 100%;
@@ -988,6 +1002,22 @@ body {
     box-shadow: 0 4px 14px rgba(116, 74, 64, 0.06);
   }
 
+  .entry-cover {
+    margin-bottom: 0.85rem;
+    aspect-ratio: 4 / 3;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #efd7cf;
+  }
+
+  .entry-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    aspect-ratio: auto;
+  }
+
   .post-content {
     font-size: 0.98rem;
     line-height: 1.72;
@@ -1186,6 +1216,48 @@ body {
   box-shadow: 0 14px 26px rgba(255, 140, 0, 0.28);
 }
 
+@media (max-width: 640px) {
+  .product-card-inner,
+  .top-pick-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+    align-items: stretch;
+  }
+
+  .product-card-inner {
+    padding: 0.9rem;
+  }
+
+  .product-card-image,
+  .top-pick-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    padding: 0.75rem;
+    box-sizing: border-box;
+  }
+
+  .product-card-image img,
+  .top-pick-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .product-card-info,
+  .top-pick-info {
+    width: 100%;
+  }
+
+  .product-card-btn,
+  .top-pick-btn {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 /* Cross Sell Box */
 .cross-sell-box {
   background: var(--entry);
@@ -1328,3 +1400,36 @@ div[id*="sp-tab"],
   color: var(--primary);
   font-weight: 600;
 }
+
+/* Share buttons bar */
+.share-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  margin: 1.5em 0;
+  padding: 0.8em 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+.share-bar__label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--secondary);
+  margin-right: 0.4em;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.4em 0.8em;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: transform 0.15s;
+}
+.share-btn:hover { transform: translateY(-1px); }
+.share-pinterest { background: #e60023; color: #fff !important; }
+.share-facebook { background: #1877f2; color: #fff !important; }
+.share-twitter { background: #1da1f2; color: #fff !important; }

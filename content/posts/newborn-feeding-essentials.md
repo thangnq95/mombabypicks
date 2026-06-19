@@ -100,7 +100,7 @@ The Haakaa catches letdown from the breast you're not feeding from while baby nu
 - **Baby food makers, blenders:** Not relevant until 4–6 months.
 - **Nursing covers:** Useful for some parents; unnecessary for others. Don't buy before you know your preference.
 
-## Frequently Asked Questions
+## FAQ
 
 **How many bottles do I need for a newborn?**
 Start with 3–4 bottles of one brand. Don't buy a full set until you know your baby accepts the bottle and nipple. If you're combining breast and bottle, you may never need more than 4–6 at a time.

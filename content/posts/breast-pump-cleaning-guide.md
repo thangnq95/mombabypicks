@@ -65,7 +65,7 @@ Cleaning is not the fun part, but a predictable routine makes pumping feel much 
 
 ---
 
-## Our Top Picks for Pump Cleaning Tools
+## Comparison Table: Pump Cleaning Tools
 
 | Product | Best For | Price |
 |---|---|---|
@@ -158,7 +158,7 @@ Cleaning is not the fun part, but a predictable routine makes pumping feel much 
 
 ---
 
-## Frequently Asked Questions
+## FAQ
 
 **Q: How often should I sterilize breast pump parts?**
 The CDC recommends sterilizing pump parts at least once a day, especially for babies under 3 months, premature babies, or babies with a weakened immune system. Otherwise, thorough washing after each use is sufficient.

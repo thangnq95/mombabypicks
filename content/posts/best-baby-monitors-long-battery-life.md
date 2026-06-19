@@ -192,6 +192,24 @@ Every family's routine is different, so here's the short version:
 
 Whichever you pick, you'll be buying one less thing to worry about at 2 AM — and that peace of mind is worth every penny.
 
+## FAQ
+
+### How long should a baby monitor battery last overnight?
+
+For video monitors, look for at least 8-10 hours in power-saving mode. Audio-only monitors often last longer, but screen brightness and always-on video can drain batteries quickly.
+
+### Are non-WiFi baby monitors safer for privacy?
+
+Non-WiFi monitors avoid app accounts and cloud video, which many parents prefer for privacy. They still need a secure local signal and should be kept updated if the model supports firmware updates.
+
+### Do I need a video monitor or is audio enough?
+
+Audio is enough for many families, especially in small homes. Video is helpful if you want to check sleep position, room movement, or whether baby is settling without opening the nursery door.
+
+### What features matter more than battery life?
+
+Signal reliability, night vision, clear audio, and easy controls matter just as much. A long battery is only useful if the monitor stays connected and gives you a clear picture or sound.
+
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 

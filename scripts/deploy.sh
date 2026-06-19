@@ -8,6 +8,7 @@ set -e
 cd "$(dirname "$0")/.."
 
 echo "🚀 Building site..."
+rm -rf public
 hugo --gc --minify --baseURL "https://mombabypicks.com/" 2>&1
 
 echo "📦 Committing to GitHub..."

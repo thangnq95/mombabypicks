@@ -6,6 +6,7 @@ theme = "PaperMod"
 paginate = 10
 
 [params]
+    ShowShareButtons = true
   description = "Honest baby gear picks and reviews for new moms"
   author = "Mom Baby Picks"
   amazonTag = "mombabypick00-20"

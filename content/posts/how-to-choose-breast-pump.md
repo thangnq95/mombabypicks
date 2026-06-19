@@ -79,7 +79,7 @@ This guide is for general education only. For feeding concerns, supply issues, p
 
 ---
 
-## Our Top Picks for Breast Pumps
+## Comparison Table: Breast Pump Picks
 
 | Product | Best For | Price |
 |---|---|---|
@@ -172,7 +172,7 @@ This guide is for general education only. For feeding concerns, supply issues, p
 
 ---
 
-## Frequently Asked Questions
+## FAQ
 
 **Q: Does insurance cover breast pumps?**
 Many US insurance plans cover a breast pump under the ACA. Contact your insurer before buying — you may be able to get a pump at no cost. Lansinoh and Spectra are commonly covered brands.

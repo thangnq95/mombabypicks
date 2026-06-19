@@ -179,7 +179,7 @@ Look for bouncers that meet **ASTM F2167** standards and carry the **JPMA certif
 
 ---
 
-## Frequently Asked Questions
+## FAQ
 
 **Can a newborn use a baby bouncer?**
 Yes. Most models accept babies from 5–8 lbs, covering full-term newborns. Use the most reclined position and stay nearby. Never use a bouncer as a sleep surface.

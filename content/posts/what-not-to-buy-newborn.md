@@ -84,7 +84,7 @@ The best newborn setup is not the most expensive one. It is the one that keeps b
 
 ---
 
-## What to Buy Instead
+## Comparison Table: What to Buy Instead
 
 Every item on the skip list has a genuinely useful alternative. Here is what experienced parents actually reach for.
 
@@ -151,7 +151,7 @@ Newborns can outgrow their size in weeks. Stocking up on complicated outfits ear
 
 ---
 
-## Frequently Asked Questions
+## FAQ
 
 **Q: Is it really okay to skip the baby shoe phase entirely?**
 Yes, for the first several months. Newborns and young infants do not need shoes. Footed pajamas or soft socks are safer and more comfortable.

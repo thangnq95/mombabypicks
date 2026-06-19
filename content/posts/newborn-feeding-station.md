@@ -72,7 +72,7 @@ The goal is not perfection. The goal is making the next feed easier.
 
 ---
 
-## Recommended Products for Your Feeding Station
+## Comparison Table: Feeding Station Products
 
 | Product | Best For | Price |
 |---|---|---|
@@ -165,7 +165,7 @@ The goal is not perfection. The goal is making the next feed easier.
 
 ---
 
-## Frequently Asked Questions
+## FAQ
 
 **Q: Where is the best place to set up a feeding station?**
 Put it wherever you actually feed most often. Many newborn parents set one up bedside and one in the living area so supplies are always within reach.

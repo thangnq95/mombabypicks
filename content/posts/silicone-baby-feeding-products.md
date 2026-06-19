@@ -92,7 +92,7 @@ Watch for these red flags:
 
 **Strong smell:** Food-grade silicone has very little odor. A strong plastic or chemical smell from a product labeled silicone suggests fillers.
 
-## Frequently Asked Questions
+## FAQ
 
 **Is silicone better than glass for baby bottles?**
 Both are good choices. Glass is heavier and breakable; silicone is lighter and flexible. Glass is easier to verify as truly inert. Silicone is generally safer to drop. For most parents, food-grade silicone bottles offer the best balance of safety and practicality.

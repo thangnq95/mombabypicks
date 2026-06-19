@@ -65,7 +65,7 @@ Bottle warmers are convenient tools, but they do not replace common sense checks
 
 ---
 
-## Our Top Picks for Bottle Warmers
+## Comparison Table: Bottle Warmer Safety Picks
 
 | Product | Best For | Price |
 |---|---|---|
@@ -136,7 +136,7 @@ Bottle warmers are convenient tools, but they do not replace common sense checks
 
 ---
 
-## Frequently Asked Questions
+## FAQ
 
 **Q: Is it safe to warm breast milk in a bottle warmer every day?**
 Yes. A quality bottle warmer set to the correct setting is safe for daily use. Always swirl and test the milk temperature before feeding.

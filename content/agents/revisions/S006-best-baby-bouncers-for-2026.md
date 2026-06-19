@@ -1,7 +1,8 @@
 ---
 title: "Best Baby Bouncers for 2026"
 date: 2026-06-15
-draft: false
+draft: true
+robotsNoIndex: true
 description: "Best baby bouncers for 2026 — comprehensive guide for parents"
 tags: [baby gear, baby, bouncers, for]
 author: "MomBabyPicks Team"

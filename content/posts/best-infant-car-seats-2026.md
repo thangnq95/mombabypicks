@@ -218,7 +218,7 @@ For more on what you actually need for baby's first months, see our complete [ne
 
 ---
 
-## Frequently Asked Questions
+## FAQ
 
 **How long can my baby use an infant car seat?**
 Most infants outgrow their infant seat between 9 and 18 months, depending on how quickly they gain height and weight. Seats are outgrown by height (typically when baby's head is within 1 inch of the top of the seat) or by weight limit, whichever comes first. Most seats on this list support 4–35 lbs, giving most babies 12–18 months of use.

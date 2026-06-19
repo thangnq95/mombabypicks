@@ -177,7 +177,7 @@ A large insulated bottle is useful even if you choose a different brand.
 
 ---
 
-## Quick Reference List
+## Comparison Table: Quick Reference List
 
 | Product | Why You Need It | Priority |
 |---------|----------------|----------|
@@ -192,5 +192,22 @@ A large insulated bottle is useful even if you choose a different brand.
 | Nursing cover | Public nursing | Optional |
 | Water bottle | Hydration | Must-have |
 
-*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
+## FAQ
 
+### What breastfeeding essentials should I buy before baby arrives?
+
+Start with a nursing pillow, nipple cream, nursing pads, burp cloths, and a few milk storage bags if you plan to pump. You can wait on extras like a nursing cover or silicone pump until you know your routine.
+
+### Do I need a breast pump if I plan to exclusively breastfeed?
+
+Not always, but many parents still want one for flexibility, building a small freezer stash, or sharing feeds with a partner. Check insurance first because many plans cover a pump.
+
+### How many nursing bras do I need?
+
+Two to three comfortable nursing bras is enough to start. Fit can change after milk comes in, so avoid buying a full set before you know your size.
+
+### Are reusable nursing pads better than disposable pads?
+
+Reusable pads cost less over time and feel softer for many parents, while disposable pads are convenient for travel and heavy leaking. A small pack of each is a practical starting point.
+
+*Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*

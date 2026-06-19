@@ -107,7 +107,7 @@ The key is to buy in stages. Here's what to have ready before the baby arrives a
 
 ---
 
-## Total Budget Estimate
+## Comparison Table: Total Budget Estimate
 
 | Category | Budget | Mid-Range | Premium |
 |----------|--------|-----------|---------|
@@ -118,6 +118,24 @@ The key is to buy in stages. Here's what to have ready before the baby arrives a
 | On-the-go | $200 | $500 | $1500+ |
 
 The biggest budget variable is always the stroller and car seat. Everything else is manageable.
+
+## FAQ
+
+### What newborn essentials should be ready before the due date?
+
+Have the car seat installed, a safe sleep space set up, diapers and wipes ready, and basic feeding supplies on hand. Most other items can wait until you know what your baby actually prefers.
+
+### How many newborn diapers should I buy?
+
+Buy one small box of newborn diapers and one box of size 1. Many babies outgrow newborn size quickly, so it is safer to avoid stocking up too heavily.
+
+### Do I need both a bassinet and a crib?
+
+No. You need one safe, flat sleep space that follows current safe sleep guidance. A bassinet is convenient near your bed, but a crib can work from day one.
+
+### What should I skip for the first three months?
+
+Skip baby shoes, crib bumpers, loose blankets, baby food makers, and large toy hauls. Focus on feeding, diapering, safe sleep, and a few comfort basics.
 
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 

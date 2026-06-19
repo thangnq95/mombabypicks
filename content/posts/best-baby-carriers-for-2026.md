@@ -194,7 +194,7 @@ The IHDI (International Hip Dysplasia Institute) recommends carriers that keep b
 
 ---
 
-## Frequently Asked Questions
+## FAQ
 
 **At what age can I start using a baby carrier?**
 Most structured carriers and stretchy wraps support babies from 7–8 lbs, which is typically newborn weight for full-term babies. Always check the minimum weight for your specific carrier. For premature babies, consult your pediatrician.

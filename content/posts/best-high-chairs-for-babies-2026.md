@@ -205,7 +205,7 @@ Look for high chairs that meet **ASTM F404** (the standard for children's high c
 
 ---
 
-## Frequently Asked Questions
+## FAQ
 
 **When can a baby start using a high chair?**
 Most babies are ready for a high chair around 6 months, when they can sit upright with minimal support and show interest in food. Some chairs with a recline feature can be used slightly earlier, but always follow the manufacturer's minimum weight and age guidelines.

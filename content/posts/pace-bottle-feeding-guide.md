@@ -76,7 +76,7 @@ This pause-and-check is the most important part of pace feeding. It gives fullne
 
 Stop feeding when baby shows: slowing or stopping sucking, turning head away, releasing the nipple, falling asleep, or relaxed hands and body. Don't try to finish the bottle if baby stops — this is the key difference from traditional bottle feeding where "finishing the bottle" becomes a goal.
 
-## Which Bottles Work Best for Pace Feeding
+## Comparison Table: Bottles for Pace Feeding
 
 | Bottle | Nipple Type | Why It Works for Pace Feeding |
 |---|---|---|
@@ -101,7 +101,7 @@ Give any caregiver who will bottle-feed your baby a simple brief:
 
 A one-page written note is useful for daycare providers. Most caregivers adapt quickly once they understand the purpose.
 
-## Frequently Asked Questions
+## FAQ
 
 **How long does a pace-fed feeding session take?**
 Typically 15–20 minutes, compared to 5–10 minutes for traditional bottle feeding. This is intentional — it brings the timing in line with breastfeeding sessions and allows fullness signals to register.
