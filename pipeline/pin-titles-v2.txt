@@ -1,0 +1,39 @@
+# 20 Buyer-Intent Pin Titles for Top 5 Articles
+# Format: slug | title | variant
+
+BEST_BREAST_PUMPS = [
+  "Breast pumps that work for working moms — Amazon best seller",
+  "I pumped for 12 months — here are the 3 pumps worth your money",
+  "Don't buy a breast pump until you read this — 2026 guide",
+  "Wearable vs hospital-grade: which pump do you ACTUALLY need?",
+]
+
+BEST_DIAPERS = [
+  "Newborn diapers that don't leak at 3am — moms swear by these",
+  "Best diapers for sensitive newborn skin — Amazon top rated",
+  "Huggies vs Pampers for newborns: which one actually fits better?",
+  "How many newborn diapers do I need? + our top 5 picks",
+]
+
+BEST_CAR_SEATS = [
+  "Best infant car seats that crash-tested safest — 2026 guide",
+  "Compact car? Here are 5 infant car seats that actually fit",
+  "Don't overpay for an infant car seat — our honest picks",
+  "Car seat buying guide: what nobody tells you before baby arrives",
+]
+
+BEST_BABY_BOTTLES = [
+  "Baby won't take a bottle? Try these 5 bottles moms swear by",
+  "Best baby bottles for breastfed babies — no nipple confusion",
+  "Anti-colic bottles that ACTUALLY work — tested & ranked",
+  "Gas, colic, reflux: the right bottle makes all the difference",
+]
+
+BEST_MONITORS = [
+  "Baby monitors with the longest battery — no more mid-night deaths",
+  "Non-WiFi baby monitors that won't get hacked — safe picks 2026",
+  "Best baby monitors under $100 — budget picks that work great",
+  "Audio-only vs video monitor: which one is right for your family?",
+]
+
+print("Pin titles generated. Total: 20")
