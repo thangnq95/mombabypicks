@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-18T13:47:31.095805Z",
+  "timestamp": "2026-06-19T06:00:00.000000Z",
   "total": 27,
   "pass": 23,
   "fail": 4,
@@ -31,27 +31,27 @@
   "fail_list": [
     {
       "slug": "best-baby-bath-tubs-2026",
-      "reason": "No pins with status='published' \u2014 pins never uploaded to Pinterest (status=NEED_PUBLISH)",
+      "reason": "No pins with status='published' — pins never uploaded to Pinterest (status=NEED_PUBLISH). Pin images exist in static/images/pins/",
       "rule": 2
     },
     {
       "slug": "best-baby-play-mats-2026",
-      "reason": "No pins with status='published' \u2014 pins never uploaded to Pinterest (status=NEED_PUBLISH)",
+      "reason": "No pins with status='published' — pins never uploaded to Pinterest (status=NEED_PUBLISH). Pin images exist in static/images/pins/",
       "rule": 2
     },
     {
       "slug": "best-baby-swings-2026",
-      "reason": "No pins with status='published' \u2014 pins never uploaded to Pinterest (status=NEED_PUBLISH)",
+      "reason": "No pins with status='published' — pins never uploaded to Pinterest (status=NEED_PUBLISH). Pin images exist in static/images/pins/",
       "rule": 2
     },
     {
       "slug": "best-infant-car-seats-2026",
-      "reason": "No pins with status='published' \u2014 pins never uploaded to Pinterest (status=NEED_PUBLISH)",
+      "reason": "No pins with status='published' — pins never uploaded to Pinterest (status=NEED_PUBLISH). Pin images exist in static/images/pins/",
       "rule": 2
     }
   ],
   "fix_available": true,
   "fix_script": "scripts/fix-4-pins.mjs",
   "fix_prerequisites": "Chrome running with CDP at localhost:9222 + Pinterest logged in",
-  "note": "Automated fix blocked in cron context. Run 'node scripts/fix-4-pins.mjs' after starting Chrome with remote debugging."
+  "note": "Automated fix blocked in cron context. Requires Chrome CDP session. Run 'node scripts/fix-4-pins.mjs' after starting Chrome with remote debugging."
 }

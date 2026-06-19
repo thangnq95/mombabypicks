@@ -185,6 +185,57 @@ For most families, the **Jool Baby Nova** at $120 hits the sweet spot: quiet, si
 
 ## FAQ
 
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What age can babies use a swing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most baby swings are rated from birth (or 8 lbs) up to the weight limit, typically 20–30 lbs depending on the model. For newborns, look for a swing with a nearflat recline and a head/body support insert — babies under 4 months don't have the core strength to sit upright. The AAP recommends limiting swing time to 30minute sessions and always keeping the harness fastened."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are baby swings safe for sleeping?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Baby swings are not approved as a safe sleep environment. Babies should always be moved to a flat, firm surface (crib or bassinet) once they fall asleep in a swing. Sleeping in a semireclined position for extended periods can cause positional asphyxiation in young infants — this is a real safety risk, not a theoretical one."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much should I spend on a baby swing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The $120–$200 range covers the best value territory. Under $100, you're trading off either weight capacity or motion variety. Over $200, you're paying for app connectivity and additional motion programs that some babies never respond to. Spend more only if the specific feature (SmartSense, MamaRoo's motion variety) solves a problem you've actually run into."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long do babies use swings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most babies use swings most intensively between 0–4 months, when soothing is hardest. Many continue to enjoy them through 6 months. By 6–8 months, when babies are sitting independently and more interested in exploring, swing use typically drops off. A 25–30 lb weight limit means the swing won't age out before interest does."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between a swing and a bouncer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Swings use a motor to create continuous automatic motion — the baby is fully passive. Bouncers rely on the baby's own movement to create gentle bounce feedback, or on a parent manually rocking. Swings are generally more effective for soothing newborns who aren't yet moving purposefully. Bouncers become more useful around 2–3 months when babies start kicking and discover causeandeffect. Many famili"
+      }
+    }
+  ]
+}
+</script>
+
 ### What age can babies use a swing?
 
 Most baby swings are rated from birth (or 8 lbs) up to the weight limit, typically 20–30 lbs depending on the model. For newborns, look for a swing with a near-flat recline and a head/body support insert — babies under 4 months don't have the core strength to sit upright. The AAP recommends limiting swing time to 30-minute sessions and always keeping the harness fastened.

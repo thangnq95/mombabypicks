@@ -214,6 +214,55 @@ What to avoid: sleep sacks with unspecified "proprietary blends," unclear countr
 
 ## FAQ
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What TOG rating do I need for my baby's room?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "TOG is a measure of thermal resistance — the higher the number, the warmer the sack. A 0.5 TOG works for rooms above 75°F (24°C), 1.0 for 69–74°F, 2.5 for 61–68°F, and 3.5 for rooms below 61°F. When in doubt, dress baby in lighter clothing underneath and go with a midrange TOG."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When can babies use a sleep sack?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most sleep sacks are designed for newborns and up, though check the minimum weight listed on the specific product — typically 7–8 lbs. There's no firm upper age limit; many toddlers continue using sleep sacks past age 2 as an alternative to a blanket."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are weighted sleep sacks safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The American Academy of Pediatrics (AAP) advises against weighted sleep products for infants. The Nested Bean Zen Sack uses a very light panel (0.4 lbs) positioned on the chest, not over the face, which is different from a fully weighted blanket — but if you have specific concerns, discuss with your pediatrician before using any weighted product."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many sleep sacks do I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Two to three is the practical minimum. Spitup, diaper blowouts, and washing cycles mean you'll almost certainly need a backup on hand. If you're using a single TOG weight, three gives you comfortable rotation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use a sleep sack in a bassinet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — sleep sacks are appropriate for bassinets, cribs, and packnplays. The key is that the sleep sack replaces loose blankets, not that it's specific to one sleep surface."
+      }
+    }
+  ]
+}
+</script>
+
 **What TOG rating do I need for my baby's room?**
 TOG is a measure of thermal resistance — the higher the number, the warmer the sack. A 0.5 TOG works for rooms above 75°F (24°C), 1.0 for 69–74°F, 2.5 for 61–68°F, and 3.5 for rooms below 61°F. When in doubt, dress baby in lighter clothing underneath and go with a mid-range TOG.
 
