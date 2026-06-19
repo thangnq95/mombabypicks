@@ -29,16 +29,16 @@ title="Quick Picks At A Glance"
 intro="Newborn diaper choice matters more than most people expect — here's where to start based on your priorities."
 card1label="Best Overall"
 card1title="Pampers Swaddlers"
-card1text="The most-used diaper in U.S. hospitals. Soft, highly absorbent, and includes the umbilical cord notch."
+card1text="Soft, highly absorbent, and includes the umbilical cord notch."
 card2label="Best Fit"
 card2title="Huggies Little Snugglers"
 card2text="Stretchy sides and a pocketed back waistband catch blowouts better than most competitors."
 card3label="Best Eco Pick"
 card3title="Seventh Generation Free & Clear"
-card3text="Fragrance-free, chlorine-free process, and no dyes. A reliable plant-based option at a reasonable price."
+card3text="Fragrance-free, chlorine-free processing, and no dyes. A reliable mainstream option at a reasonable price."
 card4label="Best Organic"
 card4title="The Honest Company"
-card4text="Certified plant-based materials, genuinely fun prints, and a subscription model that keeps you stocked."
+card4text="Plant-based materials, playful prints, and a subscription model that keeps you stocked."
 >}}
 
 ---
@@ -71,7 +71,7 @@ We did not include any diaper on the basis of marketing claims that couldn't be 
 | The Honest Company | Up to 10 lbs (N) | Yes | Yes | Yes (PCF) | ~$0.32 |
 | Dyper Bamboo | 5–9 lbs (N), 8–14 lbs (S) | Yes | Yes | Yes (ECF) | ~$0.38 |
 
-*TCF = Totally Chlorine Free. PCF = Processed Chlorine Free. ECF = Elemental Chlorine Free. Prices based on subscription/bulk pricing as of June 2026.*
+*TCF = Totally Chlorine Free. PCF = Processed Chlorine Free. ECF = Elemental Chlorine Free. Prices are approximate and can vary by retailer, pack size, and subscription discount as of June 2026.*
 
 ---
 
@@ -79,13 +79,13 @@ We did not include any diaper on the basis of marketing claims that couldn't be 
 
 Pampers Swaddlers have a large parent following, and the reasons are practical: the inner layer uses a quilted texture that helps pull moisture away from skin, and the waistband notch for the umbilical cord stump is one of the more reliably cut ones in the conventional diaper category. The yellow-to-blue wetness indicator stripe is visible through the outer cover, which is genuinely useful at 3 a.m.
 
-The diaper contains fragrance and is bleached with a conventional chlorine-free but not totally chlorine-free process. For most babies this isn't a problem, but if your newborn has shown skin sensitivity to fragrances, it's worth keeping in mind.
+The diaper contains fragrance and is not positioned as a chlorine-free option. For most babies this isn't a problem, but if your newborn has shown skin sensitivity to fragrances, it's worth keeping in mind.
 
 **Specs:** PP absorbent core with SAP · wetness indicator · umbilical cord notch · contains fragrance · NB fits up to 10 lbs
 
-**Price:** ~$0.28/diaper
+**Price:** ~$0.22/diaper
 
-{{< product-card url="https://www.amazon.com/dp/B00JX4IJIY?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00JX4IJIY.01.L.jpg" title="Pampers Swaddlers" >}}
+{{< product-card url="https://www.amazon.com/dp/B07SVHLGV8?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07SVHLGV8.01.L.jpg" title="Pampers Swaddlers" >}}
 
 **Pros:**
 - Wetness indicator makes it easy to check without undressing the baby
@@ -104,13 +104,13 @@ The diaper contains fragrance and is bleached with a conventional chlorine-free 
 
 Huggies Little Snugglers compete directly with Swaddlers and do a few things differently. The pocketed waistband is Huggies' standout feature — it creates a physical barrier at the back waistband that catches blowouts before they escape. For breastfed newborns whose stools can be extremely liquid, this is a meaningful design difference.
 
-The fit tends to run slightly narrower in the thigh than Swaddlers, which some parents find better on lean babies and others find too snug. Like Swaddlers, Little Snugglers contain fragrance and use a conventional bleaching process.
+The fit tends to run slightly narrower in the thigh than Swaddlers, which some parents find better on lean babies and others find too snug. Like Swaddlers, Little Snugglers contain fragrance and are not marketed as a chlorine-free option.
 
 **Specs:** GentleAbsorb liner · pocketed back waistband · umbilical cord notch · contains fragrance · NB fits up to 10 lbs
 
-**Price:** ~$0.29/diaper
+**Price:** ~$0.22/diaper
 
-{{< product-card url="https://www.amazon.com/dp/B00RHQXKJ6?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00RHQXKJ6.01.L.jpg" title="Huggies Little Snugglers" >}}
+{{< product-card url="https://www.amazon.com/dp/B0CM4H9CSB?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0CM4H9CSB.01.L.jpg" title="Huggies Little Snugglers" >}}
 
 **Pros:**
 - Pocketed back waistband provides a physical blowout barrier
@@ -135,9 +135,9 @@ For more context on building a low-irritant newborn setup, see our [newborn esse
 
 **Specs:** Totally Chlorine Free (TCF) · fragrance-free · lotion-free · latex-free · umbilical cord notch · NB fits 6–10 lbs
 
-**Price:** ~$0.28/diaper
+**Price:** ~$0.30/diaper
 
-{{< product-card url="https://www.amazon.com/dp/B01LXEEYXO?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B01LXEEYXO.01.L.jpg" title="Seventh Generation Free & Clear" >}}
+{{< product-card url="https://www.amazon.com/dp/B00X3DBBC2?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00X3DBBC2.01.L.jpg" title="Seventh Generation Free & Clear" >}}
 
 **Pros:**
 - Fragrance-free, lotion-free, latex-free
@@ -162,9 +162,9 @@ Cost is slightly higher than Seventh Generation, and the newborn size skews towa
 
 **Specs:** Plant-based outer cover · Processed Chlorine Free (PCF) · fragrance-free · lotion-free · soft elastic leg cuffs · umbilical cord notch · NB fits up to 10 lbs
 
-**Price:** ~$0.44/diaper
+**Price:** ~$0.32/diaper
 
-{{< product-card url="https://www.amazon.com/dp/B00J9TKFBO?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00J9TKFBO.01.L.jpg" title="The Honest Company Diapers" >}}
+{{< product-card url="https://www.amazon.com/dp/B0CKV2VGX1?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0CKV2VGX1.01.L.jpg" title="The Honest Company Diapers" >}}
 
 **Pros:**
 - Plant-based outer cover materials
@@ -193,9 +193,9 @@ For a broader look at sustainable baby product choices, our [guide to eco-friend
 
 **Specs:** Bamboo viscose inner and outer layers · Elemental Chlorine Free (ECF) · fragrance-free · phthalate-free · paraben-free · NB fits 5–9 lbs
 
-**Price:** ~$0.44/diaper
+**Price:** ~$0.38/diaper
 
-{{< product-card url="https://www.amazon.com/dp/B08GK3TVMS?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B08GK3TVMS.01.L.jpg" title="Dyper Bamboo Diapers" >}}
+{{< product-card url="https://www.amazon.com/dp/B0CJX345YK?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0CJX345YK.01.L.jpg" title="Dyper Bamboo Diapers" >}}
 
 **Pros:**
 - Bamboo viscose inner and outer layers — noticeably soft
@@ -224,7 +224,7 @@ Newborn skin absorbs more per surface area than adult skin, which is why the mat
 
 **OEKO-TEX and similar certifications:** Some premium diapers carry third-party certifications for restricted substances. If this is a priority, look for published certification documentation — not just a logo on the packaging — and verify it applies to the current product formulation.
 
-No diaper on this list contains BPA or latex in its standard formulation. All five include SAP (sodium polyacrylate) as the primary absorbent material, which has a long safety record in consumer products.
+Most of these diapers are marketed as latex-free, but packaging and formulations can change, so check the current box if latex sensitivity is a concern. All five rely on SAP (sodium polyacrylate) as the primary absorbent material.
 
 ---
 
