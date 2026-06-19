@@ -91,7 +91,7 @@ The Momcozy M5 earns its #1 bestseller status. For a working mom or a mom who ne
 
 **Rating: 4.2 / 5**
 
-{{< product-card url="https://www.amazon.com/dp/B0DNR1Z4L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DNR1Z4L9.01.L.jpg" title="Verdict" >}}
+{{< product-card url="https://www.amazon.com/dp/B0DNR1Z4L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DNR1Z4L9.01.L.jpg" title="Momcozy M5 Wearable Breast Pump" >}}
 
 ## FAQ
 

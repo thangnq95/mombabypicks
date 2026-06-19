@@ -1,0 +1,25 @@
+{
+  "playwright_session": "~/.hermes/playwright-session/pinterest/",
+  "pins_dir": "~/GIT/PP/mombabypicks/static/images/pins",
+  "pinterest_url": "https://www.pinterest.com/pin-creation-tool/",
+  "articles": [
+    {
+      "slug": "best-baby-bottles-for-newborns-2026",
+      "url": "https://mombabypicks.com/posts/best-baby-bottles-for-newborns-2026/",
+      "pins": [
+        {"image": "best-baby-bottles-for-newborns-2026-pin-1.png", "title": "Baby won't take a bottle? Try these 5 bottles moms swear by"},
+        {"image": "best-baby-bottles-for-newborns-2026-pin-2.png", "title": "Best baby bottles for breastfed babies — no nipple confusion"},
+        {"image": "best-baby-bottles-for-newborns-2026-pin-3.png", "title": "Anti-colic bottles that ACTUALLY work — tested and ranked"}
+      ]
+    },
+    {
+      "slug": "best-baby-monitors-long-battery-life",
+      "url": "https://mombabypicks.com/posts/best-baby-monitors-long-battery-life/",
+      "pins": [
+        {"image": "best-baby-monitors-long-battery-life-pin-1.png", "title": "Baby monitors with longest battery — no more midnight deaths"},
+        {"image": "best-baby-monitors-long-battery-life-pin-2.png", "title": "Non-WiFi baby monitors that wont get hacked — safe picks 2026"},
+        {"image": "best-baby-monitors-long-battery-life-pin-3.png", "title": "Best baby monitors under $100 — budget picks that work great"}
+      ]
+    }
+  ]
+}

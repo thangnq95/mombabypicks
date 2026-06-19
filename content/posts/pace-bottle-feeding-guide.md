@@ -48,9 +48,9 @@ Pace feeding recreates the baby-controlled dynamic of breastfeeding.
 
 Use a slow-flow nipple (Level 1 or labeled "0" or "S") regardless of baby's age. The goal is active sucking effort. Wide-base nipples that require a broader latch (like the Comotomo or Philips Avent Natural Response) work particularly well.
 
-{{< product-card url="https://www.amazon.com/dp/B0G6N65XVL?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0G6N65XVL.01.L.jpg" title="Step 1: Choose the Right Bottle and Nipple" >}}
+{{< product-card url="https://www.amazon.com/dp/B0G6N65XVL?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0G6N65XVL.01.L.jpg" title="Comotomo Natural Feel Baby Bottle" >}}
 
-{{< product-card url="https://www.amazon.com/dp/B01845QH7M?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B01845QH7M.01.L.jpg" title="Step 1: Choose the Right Bottle and Nipple" >}}
+{{< product-card url="https://www.amazon.com/dp/B01845QGKK?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B01845QGKK.01.L.jpg" title="Dr. Brown's Natural Flow Anti-Colic Options+ Narrow Baby Bottle" >}}
 
 ### Step 2: Position Baby Upright
 
@@ -85,9 +85,9 @@ Stop feeding when baby shows: slowing or stopping sucking, turning head away, re
 | Dr. Brown's Options+ | Traditional with vent | Consistent slow flow, easy to hold horizontal |
 | Nanobébé Flexy | Soft silicone curve | Upright design suits pace feeding posture |
 
-{{< product-card url="https://www.amazon.com/dp/B09649R98Q?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B09649R98Q.01.L.jpg" title="Which Bottles Work Best for Pace Feeding" >}}
+{{< product-card url="https://www.amazon.com/dp/B09649R98Q?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B09649R98Q.01.L.jpg" title="Philips Avent Natural Response Baby Bottle" >}}
 
-{{< product-card url="https://www.amazon.com/dp/B0BDCRLLH2?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0BDCRLLH2.01.L.jpg" title="Which Bottles Work Best for Pace Feeding" >}}
+{{< product-card url="https://www.amazon.com/dp/B0BDCRLLH2?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0BDCRLLH2.01.L.jpg" title="Nanobébé Flexy Silicone Baby Bottle" >}}
 
 ## Teaching Pace Feeding to Caregivers
 
@@ -118,7 +118,7 @@ Many parents continue pace feeding throughout the bottle-feeding period. As baby
 **Should I also use a pacifier between feedings?**
 Non-nutritive sucking (pacifier use) is compatible with pace feeding and can help babies satisfy sucking needs between feedings without taking excess milk. Introduce after breastfeeding is established (typically 4–6 weeks).
 
-{{< product-card url="https://www.amazon.com/dp/B00005C0EN?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00005C0EN.01.L.jpg" title="Frequently Asked Questions" >}}
+{{< product-card url="https://www.amazon.com/dp/B00005C0EN?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00005C0EN.01.L.jpg" title="Pacifier" >}}
 
 ---
 

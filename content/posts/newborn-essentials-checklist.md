@@ -28,11 +28,11 @@ The key is to buy in stages. Here's what to have ready before the baby arrives a
 
 **If breastfeeding:**
 - ✅ Breast pump (wearable or electric)
-  {{< product-card url="https://www.amazon.com/dp/B0DNR1Z4L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DNR1Z4L9.01.L.jpg" title="Feeding Essentials" >}}
+  {{< product-card url="https://www.amazon.com/dp/B0DNR1Z4L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DNR1Z4L9.01.L.jpg" title="Momcozy M5 Wearable Breast Pump" >}}
 - ✅ Nursing pillow (Boppy or Momcozy)
-  {{< product-card url="https://www.amazon.com/dp/B0DJRQRGSK?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DJRQRGSK.01.L.jpg" title="Feeding Essentials" >}}
+  {{< product-card url="https://www.amazon.com/dp/B0DJRQRGSK?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DJRQRGSK.01.L.jpg" title="Boppy Original Nursing Pillow" >}}
 - ✅ Nipple cream (Lansinoh is a top pick)
-  {{< product-card url="https://www.amazon.com/dp/B005MI648C?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B005MI648C.01.L.jpg" title="Feeding Essentials" >}}
+  {{< product-card url="https://www.amazon.com/dp/B005MI648C?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B005MI648C.01.L.jpg" title="Lansinoh HPA Lanolin Nipple Cream" >}}
 - ✅ Nursing pads (reusable or disposable)
 - ✅ Milk storage bags (Lansinoh or Medela)
 
@@ -51,7 +51,7 @@ The key is to buy in stages. Here's what to have ready before the baby arrives a
 ## Sleep Essentials
 
 - ✅ Safe sleep space (bassinet or crib with firm flat mattress)
-  {{< product-card url="https://www.amazon.com/dp/B09WF3CNGS?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B09WF3CNGS.01.L.jpg" title="Sleep Essentials" >}}
+  {{< product-card url="https://www.amazon.com/dp/B09WF3CNGS?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B09WF3CNGS.01.L.jpg" title="Safe Sleep Space" >}}
 - ✅ Fitted sheets x3
 - ✅ Swaddle blankets x4 (Aden + Anais are popular)
 - ✅ White noise machine (Hatch Rest is a favorite)

@@ -14,7 +14,7 @@ cover:
 
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
-{{< top-pick url="https://www.amazon.com/dp/B0DJRQRGSK?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DJRQRGSK.01.L.jpg" title="Nursing Pillow" price="" >}}
+{{< top-pick url="https://www.amazon.com/dp/B0DJRQRGSK?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DJRQRGSK.01.L.jpg" title="Boppy Original Nursing Pillow" price="" >}}
 
 
 ## Introduction
@@ -33,7 +33,7 @@ A nursing pillow is the single item that most breastfeeding parents say they cou
 
 The Boppy cover is machine-washable. The pillow is also useful for supported tummy time later. JPMA certified.
 
-{{< product-card url="https://www.amazon.com/dp/B0DJRQRGSK?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DJRQRGSK.01.L.jpg" title="Nursing Pillow" badge="Boppy Original" >}}
+{{< product-card url="https://www.amazon.com/dp/B0DJRQRGSK?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DJRQRGSK.01.L.jpg" title="Boppy Original Nursing Pillow" badge="Boppy Original" >}}
 
 ### 2. Nursing Bras (2–4)
 
@@ -47,7 +47,7 @@ Leaking is universal in early breastfeeding. Breast pads sit inside your bra and
 
 Nipple pain in the first 2–4 weeks is nearly universal as breastfeeding establishes. HPA lanolin is safe for baby (doesn't need to be wiped off before feeding), non-toxic, and highly effective for sore, cracked nipples. Apply after every feeding.
 
-{{< product-card url="https://www.amazon.com/dp/B005MI648C?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B005MI648C.01.L.jpg" title="Nipple Cream" badge="Lansinoh HPA Lanolin" >}}
+{{< product-card url="https://www.amazon.com/dp/B005MI648C?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B005MI648C.01.L.jpg" title="Lansinoh HPA Lanolin Nipple Cream" badge="Lansinoh HPA Lanolin" >}}
 
 ## What You Need for Bottle Feeding
 
@@ -59,7 +59,7 @@ Start with 3–4 bottles; don't buy a full set of one brand until you know your 
 
 You need a dedicated bottle brush — regular dish brushes don't reach the bottom of narrow-neck bottles. The OXO Tot Bottle Brush is the standard recommendation: long handle, firm bristles, nipple-cleaning brush on the cap.
 
-{{< product-card url="https://www.amazon.com/dp/B006XISCNA?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B006XISCNA.01.L.jpg" title="Bottle Brush" >}}
+{{< product-card url="https://www.amazon.com/dp/B006XISCNA?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B006XISCNA.01.L.jpg" title="OXO Tot Bottle Brush" >}}
 
 ### 7. Bottle Warmer (Optional)
 
@@ -77,7 +77,7 @@ You will go through more burp cloths than you think. Minimum 8; better to have 1
 
 The Haakaa catches letdown from the breast you're not feeding from while baby nurses. This passively collects milk that would otherwise be absorbed by a breast pad. Over 2–3 weeks, a meaningful freezer supply builds up without any pumping effort. Inexpensive and used by most breastfeeding parents.
 
-{{< product-card url="https://www.amazon.com/dp/B082PNG759?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B082PNG759.01.L.jpg" title="Haakaa or Silicone Manual Pump (for breastfeeding)" >}}
+{{< product-card url="https://www.amazon.com/dp/B082PNG759?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B082PNG759.01.L.jpg" title="Haakaa Silicone Pump" >}}
 
 ## Comparison Table
 
