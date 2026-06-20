@@ -22,6 +22,12 @@ If you're still putting together your baby's first setup, check our [newborn ess
 
 {{< top-pick url="https://www.amazon.com/dp/B075R8BXXC?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B075R8BXXC.01.L.jpg" title="Lovevery Play Gym" price="$105" >}}
 
+## If You Only Want One Play Mat
+
+If you want the most thoughtful developmental setup, start with **Lovevery Play Gym**. If you want the best value under $50, **Fisher-Price Kick & Play Piano Gym** is the easiest budget win. If your baby is rolling or crawling and you want more padded floor space, **MioTetto Foam Tiles** are the strongest cushion-first choice. If portability matters most, **Infantino Foldable Foam Play Mat** is the one that packs and moves the easiest. And if you just want the largest usable surface for crawling and free play, **Nuby Reversible Baby Floor Mat** is the broadest floor-covering buy.
+
+For most families, the first purchase should match your baby's current stage: developmental gym for newborns, padded floor space once rolling starts.
+
 
 {{< pick-cards
 title="Quick Picks At A Glance"
@@ -193,6 +199,8 @@ The Nuby mat wins the value category by delivering 77×58" — the largest footp
 For newborn parents who want maximum developmental value from day one, the **Lovevery Play Gym** is worth the price premium. The stage-mapped accessories are genuinely useful through the first six months, and the mat itself is comfortable enough for extended tummy time. For a budget gym that stays interactive longer, the **Fisher-Price Kick & Play** delivers the most features under $50.
 
 Once babies start rolling and crawling, floor coverage matters more than overhead toys. The **Nuby** gives you the most square footage at a fair price, while the **Infantino** covers nearly as much ground at $30 and folds up when you need it to. The **MioTetto** tiles sit in the middle — more coverage than a gym mat, easy to clean, and genuinely thick enough to cushion early falls.
+
+If you're buying today and want the shortest answer: **Lovevery for newborn developmental value, Fisher-Price for budget, and Nuby for the most floor space.**
 
 ---
 

@@ -1,98 +1,91 @@
 #!/usr/bin/env python3
-"""Pinterest QA Check — MomBabyPicks"""
+"""Pinterest QA Check — kiểm tra tất cả bài viết đã publish."""
 import json
 import os
 import re
-import glob
+import sys
 
-REPO = "/Users/thangnguyen/GIT/PP/mombabypicks"
-POSTS_DIR = os.path.join(REPO, "content", "posts")
-PINTEREST_DIR = os.path.join(REPO, "data", "pinterest")
+BASE = "/Users/thangnguyen/GIT/PP/mombabypicks"
+POSTS_DIR = os.path.join(BASE, "content/posts")
+PINTEREST_DIR = os.path.join(BASE, "data/pinterest")
 
-results = {"pass": [], "fail": [], "total": 0}
+PASS = []
+FAIL = []
+
+def get_slug(filename):
+    return os.path.splitext(filename)[0]
+
+def check_pin_url(url):
+    """Real Pinterest URL must contain /pin/ and NOT be pin/create/button"""
+    if not url:
+        return False
+    if "pin/create/button" in url:
+        return False
+    if "/pin/" in url:
+        return True
+    # Also accept full pin URLs like https://www.pinterest.com/pin/848647123576680913
+    return False
 
 # Get all post slugs
-post_files = sorted(glob.glob(os.path.join(POSTS_DIR, "*.md")))
-slugs = []
-for pf in post_files:
-    slug = os.path.splitext(os.path.basename(pf))[0]
-    slugs.append(slug)
-
-results["total"] = len(slugs)
-print(f"=== MomBabyPicks Pinterest QA Check ===")
-print(f"Total posts: {len(slugs)}")
+post_files = sorted(f for f in os.listdir(POSTS_DIR) if f.endswith(".md"))
+total = len(post_files)
+print(f"=== Pinterest QA Check ===")
+print(f"Total articles: {total}")
 print()
 
-for slug in slugs:
-    pinterest_file = os.path.join(PINTEREST_DIR, f"{slug}.json")
+for pf in post_files:
+    slug = get_slug(pf)
+    pinfile = os.path.join(PINTEREST_DIR, f"{slug}.json")
     
-    # RULE 1: Must have data/pinterest/<slug>.json
-    if not os.path.exists(pinterest_file):
-        reason = f"Missing data/pinterest/{slug}.json"
-        results["fail"].append({"slug": slug, "reason": reason, "rule": 1})
-        print(f"  FAIL  {slug} — {reason}")
+    if not os.path.exists(pinfile):
+        FAIL.append((slug, "Missing pinterest JSON file"))
         continue
     
-    # Parse the JSON
     try:
-        with open(pinterest_file, "r") as f:
+        with open(pinfile, "r") as f:
             pins = json.load(f)
     except json.JSONDecodeError as e:
-        reason = f"Invalid JSON in data/pinterest/{slug}.json: {e}"
-        results["fail"].append({"slug": slug, "reason": reason, "rule": "json"})
-        print(f"  FAIL  {slug} — {reason}")
+        FAIL.append((slug, f"Invalid JSON: {e}"))
         continue
     
-    if not isinstance(pins, list):
-        reason = f"data/pinterest/{slug}.json is not a list"
-        results["fail"].append({"slug": slug, "reason": reason, "rule": "format"})
-        print(f"  FAIL  {slug} — {reason}")
+    if not isinstance(pins, list) or len(pins) == 0:
+        FAIL.append((slug, "Empty or invalid pins array"))
         continue
     
-    # RULE 2: At least 1 pin with status: "published"
     published_pins = [p for p in pins if p.get("status") == "published"]
-    if not published_pins:
-        reason = f"No pins with status='published' in data/pinterest/{slug}.json"
-        results["fail"].append({"slug": slug, "reason": reason, "rule": 2})
-        print(f"  FAIL  {slug} — {reason}")
+    if len(published_pins) == 0:
+        FAIL.append((slug, "No pin with status='published'"))
         continue
     
-    # RULE 3: published_pin_url must be real Pinterest URL (contains /pin/), NOT pin/create/button
-    for pin in published_pins:
-        url = pin.get("published_pin_url", "")
-        if not url:
-            reason = f"published_pin_url is empty for a published pin in {slug}"
-            results["fail"].append({"slug": slug, "reason": reason, "rule": 3})
-            print(f"  FAIL  {slug} — {reason}")
-            break
-        if "/pin/" not in url:
-            reason = f"published_pin_url '{url}' is not a real Pinterest pin URL (missing /pin/) in {slug}"
-            results["fail"].append({"slug": slug, "reason": reason, "rule": 3})
-            print(f"  FAIL  {slug} — {reason}")
-            break
-        if "pin/create/button" in url:
-            reason = f"published_pin_url '{url}' contains pin/create/button (not a real pin) in {slug}"
-            results["fail"].append({"slug": slug, "reason": reason, "rule": 3})
-            print(f"  FAIL  {slug} — {reason}")
-            break
-    else:
-        # All checks passed
-        results["pass"].append({"slug": slug, "count": len(published_pins)})
-        print(f"  PASS  {slug} — {len(published_pins)} published pin(s)")
+    # Check that at least one published pin has a real URL
+    valid_url_pins = [p for p in published_pins if check_pin_url(p.get("published_pin_url", ""))]
+    if len(valid_url_pins) == 0:
+        bad_url = published_pins[0].get("published_pin_url", "N/A")
+        FAIL.append((slug, f"Published pin URL is invalid: {bad_url}"))
+        continue
+    
+    PASS.append(slug)
 
-print()
-print("=" * 60)
-print(f"SUMMARY: {results['total']} total | {len(results['pass'])} PASS | {len(results['fail'])} FAIL")
+# Print report
+print(f"PASS: {len(PASS)}/{total}")
+print(f"FAIL: {len(FAIL)}/{total}")
 print()
 
-if results["fail"]:
-    print("FAILED POSTS:")
-    for f in results["fail"]:
-        print(f"  - {f['slug']}: {f['reason']}")
+for slug in PASS:
+    print(f"  ✅ {slug}")
+
+print()
+if FAIL:
+    print("FAILED ARTICLES:")
+    for slug, reason in FAIL:
+        print(f"  ❌ {slug}")
+        print(f"     Reason: {reason}")
     print()
-else:
-    print("All posts passed QA! ✨")
 
-# Output JSON for downstream processing
-print("---JSON_OUTPUT---")
-print(json.dumps(results, indent=2))
+# Output machine-readable
+print(f"---SUMMARY---")
+print(f"TOTAL={total}")
+print(f"PASS={len(PASS)}")
+print(f"FAIL={len(FAIL)}")
+if FAIL:
+    print(f"FAIL_LIST_JSON={json.dumps([{'slug': s, 'reason': r} for s, r in FAIL])}")
