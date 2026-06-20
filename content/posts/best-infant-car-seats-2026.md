@@ -16,6 +16,12 @@ cover:
 
 {{< top-pick url="https://www.amazon.com/dp/B089HG2QTT?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B089HG2QTT.01.L.jpg" title="Chicco KeyFit 35" price="" >}}
 
+## If You Only Want One Infant Car Seat
+
+If you want the safest all-around default, start with **Chicco KeyFit 35**. If budget matters most, **Graco SnugRide SnugLock 35 LX** is the smartest value pick. If you want the lightest carrier to lift in and out all day, **Maxi-Cosi Mico Luxe** is the easiest to carry. If you already own UPPAbaby strollers and want the cleanest ecosystem match, **Mesa V2** is the premium choice. And if the budget is very tight, **Evenflo LiteMax Sport** gives you a compliant seat without the premium price tag.
+
+For most families, the right first buy is the seat that makes installation feel easiest in your actual car.
+
 
 ## Introduction
 
@@ -215,6 +221,8 @@ The **Chicco KeyFit 35** is our top recommendation for most families — the Sup
 For parents doing heavy daily carry — in and out of daycare, multiple vehicles, airport travel — the **Maxi-Cosi Mico Lite**'s 5.8 lb shell weight makes it worth the premium. If you're already in the UPPAbaby ecosystem, the **Mesa V2** integrates perfectly and the SmartSecure LATCH is genuinely impressive. And for families where budget is the hard constraint, the **Evenflo LiteMax Sport** keeps a baby safe without financial stress.
 
 For more on what you actually need for baby's first months, see our complete [newborn essentials checklist](/posts/newborn-essentials-checklist/).
+
+If you're buying today and want the shortest answer: **Chicco KeyFit 35 for the best all-around seat, Graco SnugRide for budget, and Maxi-Cosi if you want a lighter carrier.**
 
 ---
 

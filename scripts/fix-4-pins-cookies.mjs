@@ -79,8 +79,8 @@ async function main() {
     value: c.value,
     domain: c.domain,
     path: c.path || '/',
-    secure: c.secure !== undefined ? c.secure : true,
-    httpOnly: c.httpOnly || false,
+    secure: c.secure === true || c.secure === 1 || c.secure === 'true',
+    httpOnly: c.httpOnly === true || c.httpOnly === 'true',
     sameSite: 'Lax',
   })));
   log('Cookies injected into browser context');
