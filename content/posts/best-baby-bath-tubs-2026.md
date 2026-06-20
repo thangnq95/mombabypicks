@@ -23,6 +23,12 @@ If you're still building out your first-week essentials, also check our guide on
 {{< top-pick url="https://www.amazon.com/dp/B0DW3RM88Q?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DW3RM88Q.01.L.jpg" title="Fisher-Price 4-in-1 Sling 'n Seat Tub" price="$44" >}}
 
 
+## If You Only Want One Tub
+
+If you want one tub that can carry you from newborn to toddler, start with **Fisher-Price 4-in-1 Sling 'n Seat**. If you care most about a clean look and better water retention, **Boon SOAK** is the nicer premium option. If price matters more than anything and you still want a real newborn-safe sling angle, **Skip Hop Moby Smart Sling** is the best value. If your baby is still tiny and you already have a sink or tub, **Angelcare Baby Bath Support** is the gentlest first-weeks option. And if you want a lower-cost full tub that still covers all the stages, **The First Years 4-in-1** is the budget fallback.
+
+For most families, the smartest first buy is the tub that solves your newborn stage right now, not the one that sounds most impressive on the box.
+
 {{< pick-cards
 title="Quick Picks At A Glance"
 intro="Match your baby's age and your bathroom setup to the right tub before reading the full reviews."
@@ -185,6 +191,8 @@ The First Years 4-in-1 delivers four stages at a $38 price point, making it one 
 If you want one tub that covers everything, the **Fisher-Price 4-in-1** is the safest long-term buy — four stages, reliable sling, and available everywhere. If you have a tight budget but won't compromise on newborn safety, the **Skip Hop Moby** delivers the most important feature (a correctly-angled sling) at the lowest cost on this list for a multi-stage tub.
 
 For parents with a newborn and an existing bathtub, the **Angelcare Support** is worth considering as a first-weeks-only solution — it's the gentlest option for tiny babies who dislike the cold plastic of a full tub. Upgrade to a standalone tub around the 3-month mark when baby can handle more movement.
+
+If you're buying today and want the short answer: **Fisher-Price 4-in-1 is the best first buy for most homes, while Angelcare is the best simple newborn-only choice.**
 
 ---
 
