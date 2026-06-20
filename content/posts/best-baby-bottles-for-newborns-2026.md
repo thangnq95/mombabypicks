@@ -174,7 +174,7 @@ This is a bottle that doesn't try to solve every problem — it just works relia
 
 **Who it's for:** Parents who want a no-fuss, reliable bottle that's easy to find replacements for locally. Good first choice if you're not yet sure how your baby will respond to bottle feeding.
 
-{{< product-card url="https://www.amazon.com/dp/B01G2FQZUE?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B01G2FQZUE.01.L.jpg" title="Tommee Tippee Closer to Nature Baby Bottle" >}}
+{{< product-card url="https://www.amazon.com/dp/B004I42GQK?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B004I42GQK.01.L.jpg" title="Tommee Tippee Closer to Nature Baby Bottle" >}}
 
 ---
 

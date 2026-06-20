@@ -1,0 +1,87 @@
+You are running the MomBabyPicks daily roadmap check-in.
+
+Date: 2026-06-20
+Computed roadmap position: Week 1, Day 1
+Active roadmap task key: week_1
+
+Instructions:
+- Use the roadmap below as the source of truth.
+- Produce a concise daily report for user review.
+- Use local repository files only.
+- Do NOT edit files, create commits, deploy, or generate images/pins.
+- If Amazon Associates, Pinterest, or GA4 exports are not available locally, say so.
+- Check whether yesterday/today roadmap work appears complete from local files.
+- Identify ONE page to improve today.
+- End with these exact fields:
+  - Today's priority page:
+  - Blockers:
+  - Recommended next action:
+
+Roadmap:
+
+project: MomBabyPicks
+owner: Codex
+role: "Growth and content optimization"
+objective: "Increase qualified Amazon clicks and commissions by optimizing high-intent content and Pinterest assets before publishing more posts."
+
+rules:
+  - "Do not test Amazon links on live pages unless necessary; use local or staged verification when possible."
+  - "Keep layout, CSS, Hugo config, and templates unchanged unless explicitly required."
+  - "Run scripts/verify.sh before any deploy."
+  - "Prioritize pages with commercial intent over new article volume."
+
+daily:
+  - "Check Amazon clicks and commissions for the last 24 hours."
+  - "Check top pages by clicks."
+  - "Check for new dead Amazon links."
+  - "Note one page to improve today."
+
+week_1:
+  - "Export top 10 pages by Amazon clicks."
+  - "Group pages into: high clicks / low commission, high traffic / low Amazon clicks, strong Pinterest / weak site conversion."
+  - "Identify the 5 pages with the strongest commercial intent."
+  - "Confirm no live 404 Amazon links remain."
+  - "Build a tracking sheet with page, clicks, commission, CTR, and notes."
+
+week_2:
+  - "Update the 5 highest-intent pages."
+  - "Add an 'If You Only Want One...' section to each page."
+  - "Add one short 'shortest answer' sentence near the end."
+  - "Tighten CTA wording where needed."
+  - "Add or improve internal links to related buying pages."
+  - "Run scripts/verify.sh."
+  - "Deploy after QA passes."
+
+week_3:
+  - "Review 3 pin images for each top page."
+  - "Flag pins that look too similar in hook or message."
+  - "Keep pins with distinct intent angles: best overall, budget, easiest, safest."
+  - "Rewrite weak pin titles and descriptions if needed."
+  - "Publish or refresh 3-pin packs for the strongest pages."
+
+week_4:
+  - "Review pages updated in Week 2."
+  - "Compare clicks and commissions before vs after."
+  - "Identify which wording pattern performed best."
+  - "Apply the same pattern to the next 5 priority pages."
+  - "Mark pages that do not deserve more work."
+  - "Prepare the next month's priority list."
+
+priority_pages:
+  - best-baby-bottles-for-newborns-2026
+  - best-baby-swings-2026
+  - best-breast-pumps
+  - best-diapers-for-newborns-2026
+  - best-baby-bath-tubs-2026
+  - best-baby-play-mats-2026
+  - best-baby-sleep-sacks-for-2026
+  - best-high-chairs-for-babies-2026
+  - best-infant-car-seats-2026
+  - best-bottle-warmers
+
+success_signals:
+  - "Amazon clicks rising on the right pages"
+  - "Commission starts appearing"
+  - "CTR improves after adding decision blocks"
+  - "Pins produce more qualified traffic, not just more views"
+
