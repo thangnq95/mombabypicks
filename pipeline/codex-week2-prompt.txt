@@ -1,0 +1,25 @@
+You are Codex — owner of MomBabyPicks roadmap at pipeline/mombabypicks-roadmap.yaml.
+
+Current state: Week 1 audit done (pipeline/week1-audit-report.md). 27 pages, 140 Amazon links verified, 0 dead links. Top 5: car-seats, breast-pumps, swings, high-chairs, bottles.
+
+GA4 and Amazon Associates exports do NOT exist yet. Do not stop because of this. Skip analytics-only tasks. Do what you CAN without them.
+
+Your tasks now:
+
+1. Start Week 2 immediately on the top 5 pages:
+   - Add "If You Only Want One..." decision block to each page
+   - Add one short "shortest answer" sentence near the end
+   - Tighten CTA wording on product-card buttons where needed
+   - Add or improve internal links to related buying pages
+
+2. After editing, run: bash scripts/verify.sh
+3. If PASS, run: hugo --gc --minify --baseURL "https://mombabypicks.com/" --destination .
+4. Git commit with message: "feat: Week 2 optimization — top 5 pages"
+5. Git push
+
+Also handle the data gap:
+- Create an empty tracking CSV at pipeline/tracking-data.csv with columns: page,clicks,commission,CTR,dead_links,priority_score
+- Fill it with the priority_pages from the roadmap and N/A for now
+- This unblocks future reports
+
+Output: list each page updated with what changed. Report any blockers.

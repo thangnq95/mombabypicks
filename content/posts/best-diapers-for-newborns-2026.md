@@ -24,6 +24,10 @@ If you're also sorting out feeding gear, our guide to the [best baby bottles for
 
 {{< trust-badge >}}
 
+{{< top-pick url="https://www.amazon.com/dp/B07SVHLGV8?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07SVHLGV8.01.L.jpg" title="Pampers Swaddlers" price="$0.22/diaper" >}}
+
+If you want the safest default for most newborns, start with **Pampers Swaddlers**. It is the easiest first buy when you want one diaper brand to test before comparing specialty options.
+
 {{< pick-cards
 title="Quick Picks At A Glance"
 intro="Newborn diaper choice matters more than most people expect — here's where to start based on your priorities."

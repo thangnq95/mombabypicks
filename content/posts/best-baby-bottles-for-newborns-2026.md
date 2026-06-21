@@ -12,7 +12,9 @@ cover:
   alt: "Selection of the best baby bottles for newborns arranged on a white surface"
 ---
 
-{{< top-pick url="https://www.amazon.com/dp/B07NLW25L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07NLW25L9.01.L.jpg" title="Dr. Brown's Options+ Wide-Neck Baby Bottle" price="" >}}
+{{< top-pick url="https://www.amazon.com/dp/B07NLW25L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07NLW25L9.01.L.jpg" title="Dr. Brown's Options+ Wide-Neck Baby Bottle" price="$25" >}}
+
+If you only want one bottle to test first, start with **Dr. Brown's Options+**. It's the most dependable first try for gassy or fussy newborns, and it gives you the clearest answer quickly: either the venting helps, or you move on to a simpler bottle.
 
 
 ## Introduction
