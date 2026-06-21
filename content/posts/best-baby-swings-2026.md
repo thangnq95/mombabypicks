@@ -20,14 +20,15 @@ We evaluated swings across budget, motion variety, safety ratings, and real-worl
 
 If you're building out your full setup, see our [newborn essentials checklist](/posts/newborn-essentials-checklist/) and compare the best options alongside our [best baby bouncers for 2026](/posts/best-baby-bouncers-for-2026/).
 
-{{< top-pick url="https://www.amazon.com/dp/B0BDRJHRDV?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0BDRJHRDV.01.L.jpg" title="Graco SmartSense Swing" price="$200" >}}
+{{< top-pick url="https://www.amazon.com/dp/B08G59WRYD?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B08G59WRYD.01.L.jpg" title="Jool Baby Nova Swing" price="$120" >}}
 
+If you only want one swing to start with, make it **Jool Baby Nova**. It hits the best balance of price, quiet operation, and day-to-day usefulness for most homes — without forcing you into a premium price tier before you know what your baby actually likes.
 
 ## If You Only Want One Swing
 
 If your baby is very fussy and you want the most hands-off option, start with **Graco SmartSense**. If you want the best balance of price and usefulness, **Jool Baby Nova** is the one most parents can buy without overthinking it. If you need the most motion variety and don't mind paying more, **4moms MamaRoo** is the premium pick. If your main problem is space, **Bright Starts Playful Paradise** is the easiest to move around. And if you want a simpler classic swing with newborn support, **DUOMILEE** is the budget fallback.
 
-For most families, the smartest first buy is the swing that solves your biggest problem today, not the one with the most features on the box.
+For most families, the smartest first buy is the swing that solves your biggest problem today, not the one with the most features on the box. In this category, that usually means starting with **Jool Baby Nova** first and only moving up to Graco or 4moms if you need more motion variety or automation.
 
 ## How We Selected These Products
 
@@ -188,6 +189,8 @@ If budget isn't a constraint and you want technology doing the work, the **Graco
 For most families, the **Jool Baby Nova** at $120 hits the sweet spot: quiet, simple, two solid motion types, and a newborn insert that gets you started from day one. If you're in a small apartment or need to move the swing between rooms constantly, the **Bright Starts** is the practical pick. And if you want a budget-friendly classic with built-in support and a plug-in option, the **DUOMILEE** is the fallback to compare next.
 
 If you're choosing today and want the shortest answer, **Jool Baby Nova is the best first swing for most homes** because it balances price, quiet operation, and ease of use without pushing you into a premium price tier.
+
+{{< product-card url="https://www.amazon.com/dp/B08G59WRYD?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B08G59WRYD.01.L.jpg" title="Jool Baby Nova Swing" badge="Best Value" price="$120" >}}
 
 ---
 
