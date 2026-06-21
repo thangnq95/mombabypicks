@@ -13,6 +13,7 @@ daily:
   - "Check Amazon clicks and commissions for the last 24 hours."
   - "Check top pages by clicks."
   - "Check for new dead Amazon links."
+  - "Generate a GA4 affiliate-click snapshot and note the top page."
   - "Note one page to improve today."
 
 week_1:
@@ -63,4 +64,3 @@ success_signals:
   - "Commission starts appearing"
   - "CTR improves after adding decision blocks"
   - "Pins produce more qualified traffic, not just more views"
-

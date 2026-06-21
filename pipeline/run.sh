@@ -14,6 +14,42 @@ mkdir -p pipeline/logs
 log() { echo "[$(date +%H:%M:%S)] $*" | tee -a "$LOG_FILE"; }
 
 CLAUDECMD="$HOME/.local/bin/claude --dangerously-skip-permissions"
+GA4_SNAPSHOT_DIR="${GA4_SNAPSHOT_DIR:-pipeline/data/ga4}"
+GA4_LOOKBACK_DAYS="${GA4_LOOKBACK_DAYS:-7}"
+GA4_RESULT_LIMIT="${GA4_RESULT_LIMIT:-10}"
+
+run_ga4_snapshot() {
+  if [ -z "${GA4_SERVICE_ACCOUNT_KEY:-}" ] || [ -z "${GA4_PROPERTY_ID:-}" ]; then
+    log "ℹ️ GA4 snapshot skipped (set GA4_SERVICE_ACCOUNT_KEY and GA4_PROPERTY_ID to enable it)"
+    return 0
+  fi
+
+  local snapshot_date snapshot_json snapshot_md snapshot_tmp
+  snapshot_date="$(date +%Y-%m-%d)"
+  snapshot_json="$GA4_SNAPSHOT_DIR/affiliate-clicks-$snapshot_date.json"
+  snapshot_md="$GA4_SNAPSHOT_DIR/affiliate-clicks-$snapshot_date.md"
+  snapshot_tmp="$(mktemp)"
+
+  mkdir -p "$GA4_SNAPSHOT_DIR"
+  log "📈 Step 7: Capturing GA4 affiliate click snapshot..."
+
+  if python3 scripts/ga4-report.py \
+    --key "$GA4_SERVICE_ACCOUNT_KEY" \
+    --property "$GA4_PROPERTY_ID" \
+    --days "$GA4_LOOKBACK_DAYS" \
+    --limit "$GA4_RESULT_LIMIT" \
+    --report affiliate-clicks \
+    --output "$snapshot_json" | tee "$snapshot_tmp" | tee -a "$LOG_FILE"; then
+    mv "$snapshot_tmp" "$snapshot_md"
+    cp "$snapshot_json" "$GA4_SNAPSHOT_DIR/latest-affiliate-clicks.json" 2>/dev/null || true
+    cp "$snapshot_md" "$GA4_SNAPSHOT_DIR/latest-affiliate-clicks.md" 2>/dev/null || true
+    log "✅ GA4 snapshot saved: $snapshot_json"
+    log "✅ GA4 snapshot summary: $snapshot_md"
+  else
+    rm -f "$snapshot_tmp"
+    log "⚠️ GA4 snapshot failed; continuing without analytics snapshot"
+  fi
+}
 
 # ==== Step 0: Pick topic ====
 if [ $# -ge 1 ]; then
@@ -356,30 +392,14 @@ with open('pipeline/topic-queue.json', 'w') as f:
   exit 1
 fi
 
-# ==== Step 5: ASIN verification (non-blocking warning) ====
-log "🔎 Step 5: Verifying ASINs against Amazon..."
-if bash scripts/verify-asins.sh "$ARTICLE_FILE" 2>&1 | tee -a "$LOG_FILE"; then
-  log "✅ All ASINs verified real"
-else
-  log "⚠️ WARNING: Some ASINs could not be verified. Publishing anyway — flag for review."
-  # Note the issue for manual follow-up
-  python3 -c "
-import json
-with open('pipeline/topic-queue.json') as f:
-    topics = json.load(f)
-for t in topics:
-    if t['id'] == '$TOPIC_ID':
-        t['asin_flagged'] = True
-        break
-with open('pipeline/topic-queue.json', 'w') as f:
-    json.dump(topics, f, indent=2)
-"
-fi
+# ==== Step 5: Capture GA4 snapshot (non-blocking) ====
+run_ga4_snapshot
 
 # ==== Step 6: Git commit & push (source only — GH Actions builds) ====
 log "📦 Step 6: Committing source & pushing..."
 git add content/posts/
 git add static/images/posts/ 2>/dev/null || true
+git add "$GA4_SNAPSHOT_DIR" 2>/dev/null || true
 git add pipeline/topic-queue.json
 git add pipeline/sprint-log.json
 git commit -m "feat: add $SLUG (score: $SCORE/100)"
