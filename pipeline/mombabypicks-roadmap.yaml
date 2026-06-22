@@ -99,9 +99,9 @@ current_week:
     - task: "Review actual GA4 and Amazon exports, then pick the next 3 pages to improve"
       status: "in_progress"
       next_pages:
-        - "best-baby-bottles-for-newborns-2026"
         - "newborn-feeding-station"
         - "best-breast-pumps"
+        - "best-baby-sleep-sacks-for-2026"
     - task: "Refresh Pinterest pins for the next highest-intent page"
       status: "done"
       pages:
@@ -114,7 +114,7 @@ current_week:
         - "best-baby-swings-2026"
         - "best-infant-car-seats-2026"
         - "best-bottle-warmers"
-      note: "Diapers, bath tubs, swings, infant car seats, and bottle warmers now have real published pin URLs and clean JSON records."
+      note: "Diapers, bottles, bath tubs, swings, infant car seats, and bottle warmers now have real published pin URLs and clean JSON records."
     - task: "Tighten shortest-answer copy on the two highest-click pages"
       status: "done"
       pages:
