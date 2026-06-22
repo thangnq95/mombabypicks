@@ -71,7 +71,7 @@ async function main() {
 
   // Launch persistent context with user profile so Pinterest cookies are available
   const browser = await chromium.launchPersistentContext(userDataDir, {
-    headless: false,  // Need non-headless for Pinterest upload UI
+    headless: true,
     args: ['--no-sandbox', '--disable-gpu'],
   });
 

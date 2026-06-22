@@ -56,7 +56,7 @@ const ARTICLES = [
 (async () => {
   const ctx = await chromium.launchPersistentContext(
     path.join(process.env.HOME, '.hermes', 'playwright-session', 'pinterest'),
-    { headless: false, args: ['--no-sandbox'], viewport: { width: 1280, height: 800 } }
+    { headless: true, args: ['--no-sandbox'], viewport: { width: 1280, height: 800 } }
   );
   const page = ctx.pages()[0] || await ctx.newPage();
   

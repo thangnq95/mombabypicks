@@ -3,7 +3,7 @@ const path = require('path');
 (async () => {
   const ctx = await chromium.launchPersistentContext(
     path.join(process.env.HOME, '.hermes', 'playwright-session', 'pinterest'),
-    { headless: false, args: ['--no-sandbox'] }
+    { headless: true, args: ['--no-sandbox'] }
   );
   const page = ctx.pages()[0] || await ctx.newPage();
   await page.goto('https://www.pinterest.com/pin-creation-tool/?view=drafts', { waitUntil: 'domcontentloaded', timeout: 30000 });

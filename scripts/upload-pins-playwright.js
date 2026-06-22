@@ -26,7 +26,7 @@ async function uploadPins() {
   // Use persistent context - saves cookies between runs
   const userDataDir = path.join(SESSION_DIR, 'pinterest-profile');
   const context = await chromium.launchPersistentContext(userDataDir, {
-    headless: false,
+    headless: true,
     args: ['--no-sandbox'],
     viewport: { width: 1280, height: 800 },
   });

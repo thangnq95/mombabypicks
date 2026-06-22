@@ -1,0 +1,46 @@
+# Dead ASINs — Generated 2026-06-21
+
+Replace each fake ASIN below with a real one. Search Amazon for the product name first.
+
+- [best-baby-bath-tubs-2026] /dp/B01MG20ATL
+- [best-baby-bottles-for-newborns-2026] /dp/B0944B4549
+- [best-baby-bouncers-for-2026] /dp/B0DSVPFKB5
+- [best-baby-bouncers-for-2026] /dp/B0GQGQ7DTQ
+- [best-baby-carriers-for-2026] /dp/B0DBN1CQ76
+- [best-baby-carriers-for-2026] /dp/B06XK45QHW
+- [best-baby-monitors-long-battery-life] /dp/B08FF4GV5C
+- [best-baby-monitors-long-battery-life] /dp/B08G8MBWZ8
+- [best-baby-play-mats-2026] /dp/B091YKYFPX
+- [best-baby-sleep-sacks-for-2026] /dp/B09YL6CVQK
+- [best-baby-sleep-sacks-for-2026] /dp/B09FFXVKWT
+- [best-baby-sleep-sacks-for-2026] /dp/B0CCBHGBJR
+- [best-baby-sleep-sacks-for-2026] /dp/B09QK2STSD
+- [best-baby-sleep-sacks-for-2026] /dp/B0CH157SBJ
+- [best-baby-swings-2026] /dp/B099F2DNDX
+- [best-baby-swings-2026] /dp/B08G59WRYD
+- [best-bottle-warmers] /dp/B087QRPMFK
+- [best-breast-pumps] /dp/B09Z37X2MP
+- [best-breast-pumps] /dp/B0DNR1Z4L9
+- [best-diapers-for-newborns-2026] /dp/B09LN7FC4J
+- [best-hands-free-wearable-breast-pumps] /dp/B0CWTYWM5M
+- [best-hands-free-wearable-breast-pumps] /dp/B08637XY8V
+- [best-hands-free-wearable-breast-pumps] /dp/B0DLFKN6LL
+- [best-high-chairs-for-babies-2026] /dp/B09LCK5969
+- [bottle-refusal-breastfed-babies] /dp/B0G6N65XVL
+- [bottle-refusal-breastfed-babies] /dp/B0944B4549
+- [bottle-warmer-safety-guide] /dp/B087QRPMFK
+- [breastfeeding-essentials] /dp/B0DNR1Z4L9
+- [breastfeeding-essentials] /dp/B005MI648C
+- [eco-friendly-baby-gear-guide] /dp/B00WR958TA
+- [eco-friendly-baby-gear-guide] /dp/B0GCDZYJJG
+- [how-to-choose-breast-pump] /dp/B0DNR1Z4L9
+- [momcozy-m5-review] /dp/B0DNR1Z4L9
+- [newborn-essentials-checklist] /dp/B005MI648C
+- [newborn-essentials-checklist] /dp/B09WF3CNGS
+- [newborn-essentials-checklist] /dp/B0DNR1Z4L9
+- [newborn-feeding-essentials] /dp/B005MI648C
+- [pace-bottle-feeding-guide] /dp/B0G6N65XVL
+- [silicone-baby-feeding-products] /dp/B0G6N65XVL
+- [silicone-baby-feeding-products] /dp/B0728BH8KT
+- [what-not-to-buy-newborn] /dp/B0DNJG5CY6
+- [what-not-to-buy-newborn] /dp/B0DVGJTFT8

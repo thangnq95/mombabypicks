@@ -15,7 +15,7 @@ const MONITORS = [
   'Audio-only vs video monitor: which is right for your family?',
 ];
 async function upload(slug, link, titles) {
-  const ctx = await chromium.launchPersistentContext(path.join(process.env.HOME, '.hermes', 'playwright-session', 'pinterest'), { headless: false, args: ['--no-sandbox'] });
+  const ctx = await chromium.launchPersistentContext(path.join(process.env.HOME, '.hermes', 'playwright-session', 'pinterest'), { headless: true, args: ['--no-sandbox'] });
   const page = ctx.pages()[0] || await ctx.newPage();
   for (let i = 0; i < titles.length; i++) {
     const fp = path.join(PINS_DIR, slug + '-pin-' + (i % 3 + 1) + '.png');

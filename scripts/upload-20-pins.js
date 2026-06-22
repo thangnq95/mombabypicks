@@ -37,7 +37,7 @@ const PINS = [
 (async () => {
   const userDataDir = path.join(process.env.HOME, '.hermes', 'playwright-session', 'pinterest');
   const ctx = await chromium.launchPersistentContext(userDataDir, { 
-    headless: false, args: ['--no-sandbox'], viewport: { width: 1280, height: 800 }
+    headless: true, args: ['--no-sandbox'], viewport: { width: 1280, height: 800 }
   });
   const page = ctx.pages()[0] || await ctx.newPage();
   

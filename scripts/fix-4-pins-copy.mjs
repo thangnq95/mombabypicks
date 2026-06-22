@@ -44,7 +44,7 @@ async function main() {
 
   // Launch with copied profile  
   const browser = await chromium.launchPersistentContext('/tmp/chrome-test-profile', {
-    headless: false,
+    headless: true,
     args: ['--no-sandbox', '--disable-gpu'],
   });
 

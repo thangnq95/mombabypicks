@@ -12,7 +12,7 @@ Purpose: Keep the daily output short, actionable, and easy to scan.
 
 ## Summary
 - Pages checked: X
-- Dead Amazon links: X
+- Dead Amazon links: X (from 3x/day external scan)
 - High-intent pages reviewed: X
 - Pages updated: X
 - Deploy: done / not done
@@ -23,7 +23,7 @@ Purpose: Keep the daily output short, actionable, and easy to scan.
 - Page 3: short note
 
 ## Actions Taken
-- Verified Amazon links
+- Reviewed external dead-link scan summary
 - Updated high-intent content
 - Reviewed or refreshed pins
 - Ran QA
@@ -44,4 +44,3 @@ Purpose: Keep the daily output short, actionable, and easy to scan.
 - Mention only the pages that matter.
 - Mention whether click/commission improved.
 - Hermes should remind Codex each morning, not do the content work itself.
-

@@ -1,0 +1,57 @@
+{
+  "dimensionHeaders": [
+    {
+      "name": "pagePathPlusQueryString"
+    }
+  ],
+  "metricHeaders": [
+    {
+      "name": "eventCount",
+      "type": "TYPE_INTEGER"
+    }
+  ],
+  "rows": [
+    {
+      "dimensionValues": [
+        {
+          "value": "/posts/best-baby-swings-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/posts/newborn-feeding-station/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/posts/best-baby-bottles-for-newborns-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "rowCount": 3,
+  "metadata": {
+    "currencyCode": "USD",
+    "timeZone": "America/Los_Angeles"
+  },
+  "kind": "analyticsData#runReport"
+}

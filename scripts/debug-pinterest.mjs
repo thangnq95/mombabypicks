@@ -10,7 +10,7 @@ const log = m => fs.appendFileSync(LOG, new Date().toISOString().slice(11,19)+' 
   log('START debug check');
   
   const context = await chromium.launchPersistentContext(USER_DATA_DIR, {
-    headless: false,
+    headless: true,
     args: ['--no-first-run', '--no-default-browser-check'],
   });
   

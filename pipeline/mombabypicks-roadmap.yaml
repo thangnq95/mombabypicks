@@ -12,15 +12,15 @@ rules:
 daily:
   - "Check Amazon clicks and commissions for the last 24 hours."
   - "Check top pages by clicks."
-  - "Check for new dead Amazon links."
   - "Generate a GA4 affiliate-click snapshot and note the top page."
+  - "Review the latest dead-link scan summary from the 3x/day service."
   - "Note one page to improve today."
 
 week_1:
   - "Export top 10 pages by Amazon clicks."
   - "Group pages into: high clicks / low commission, high traffic / low Amazon clicks, strong Pinterest / weak site conversion."
   - "Identify the 5 pages with the strongest commercial intent."
-  - "Confirm no live 404 Amazon links remain."
+  - "Confirm no live 404 Amazon links remain using the external link-scan service."
   - "Build a tracking sheet with page, clicks, commission, CTR, and notes."
 
 week_2:
