@@ -28,6 +28,8 @@ If you're also sorting out feeding gear, our guide to the [best baby bottles for
 
 If you want the safest default for most newborns, start with **Pampers Swaddlers**. It is the easiest first buy when you want one diaper brand to test before comparing specialty options.
 
+{{< product-card url="https://www.amazon.com/dp/B07SVHLGV8?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07SVHLGV8.01.L.jpg" title="Pampers Swaddlers" badge="Best First Buy" price="$0.22/diaper" >}}
+
 {{< pick-cards
 title="Quick Picks At A Glance"
 intro="Newborn diaper choice matters more than most people expect — here's where to start based on your priorities."
@@ -271,6 +273,10 @@ Choose **The Honest Company** if you want plant-based materials, a soft leg cuff
 If you're standing in the store and want one answer: **buy Pampers Swaddlers first, then switch only if you see a clear fit or skin issue.**
 
 There's no single right answer here. Your baby's skin, size, and your own practical constraints (store availability, subscription preference, budget) all factor in. Keeping one pack of a backup brand on hand during the first month makes switching easy if your first choice doesn't work out.
+
+---
+
+{{< product-card url="https://www.amazon.com/dp/B07SVHLGV8?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07SVHLGV8.01.L.jpg" title="Pampers Swaddlers" badge="Start Here" price="$0.22/diaper" >}}
 
 ---
 
