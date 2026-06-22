@@ -52,6 +52,8 @@ If your baby is already gassy or struggles with spit-up, start with **Dr. Brown'
 
 For most families, the fastest path to a purchase is to pick **one bottle based on the problem you're trying to solve**, not the one with the most features. That usually saves money and avoids ending up with five bottles nobody wants to use.
 
+If you want the shortest answer: **buy Dr. Brown's first for gas, Avent first for breast-to-bottle transitions, and Comotomo first if your baby refuses standard nipples.**
+
 ## How We Selected These Bottles
 
 We evaluated bottles against five criteria: **nipple shape and flow rate** (slow-flow only for newborns), **venting or anti-colic design** (reduces ingested air), **ease of cleaning** (fewer parts = fewer headaches), **material safety** (BPA-free, phthalate-free, food-grade components), and **compatibility with breast pumps** if a parent is pumping. We also prioritized bottles with widely available replacement parts, since nipples wear out and you'll need to reorder.
@@ -254,7 +256,9 @@ For a newborn showing signs of gas or colic, start with **Dr. Brown's Options+**
 
 Most parents end up trialing two or three bottles in the early weeks — that's normal. The good news is that the slow-flow nipples included with all five of these are genuinely appropriate for newborns, so you're not starting from a compromised position with any of them.
 
-If you want the shortest answer: **buy Dr. Brown's first if gas is the issue, Avent first if feeding transitions are the issue, and Comotomo first if nipple acceptance is the issue.**
+If you want the shortest answer: **buy Dr. Brown's first for gas, Avent first for breast-to-bottle transitions, and Comotomo first if nipple acceptance is the issue.**
+
+If you're setting up your feeding area too, our [newborn feeding station guide](/posts/newborn-feeding-station/) shows the simplest way to keep bottles, brushes, and pump parts in one place.
 
 ---
 

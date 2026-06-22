@@ -52,6 +52,9 @@ checklist:
     pages:
       - "best-baby-swings-2026"
       - "best-diapers-for-newborns-2026"
+  - task: "Tighten shortest-answer copy and internal linking on bottles"
+    status: "done"
+    page: "best-baby-bottles-for-newborns-2026"
 
 notes:
   - "No layout, CSS, or Hugo config changes are required for this checklist."
