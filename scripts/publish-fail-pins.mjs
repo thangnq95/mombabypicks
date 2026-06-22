@@ -13,20 +13,20 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 const LOG_FILE = '/tmp/pinterest-publish-fail-pins.txt';
 const PROFILE_URL = 'https://www.pinterest.com/mombabypicks/_created/';
 const TARGET = {
-  slug: 'best-infant-car-seats-2026',
-  postUrl: 'https://mombabypicks.com/posts/best-infant-car-seats-2026/',
+  slug: 'best-bottle-warmers',
+  postUrl: 'https://mombabypicks.com/posts/best-bottle-warmers/',
   pins: [
     {
-      title: 'Best Infant Car Seats 2026: Safety Ratings, Installation & Budget Picks',
-      desc: 'The best infant car seats of 2026 compared for safety ratings, ease of installation, and value. We cover Chicco, Graco, Maxi-Cosi, UPPAbaby, and Evenflo.',
+      title: '5 Best Bottle Warmers for Newborns (Fast & Safe)',
+      desc: 'The best bottle warmers for newborns in 2026. We compare speed, safety, and compatibility to help you find the right one for your baby.',
     },
     {
-      title: 'Top Infant Car Seats 2026: Safety & Value Compared',
-      desc: 'The best infant car seats of 2026 compared for safety ratings, ease of installation, and value. We cover Chicco, Graco, Maxi-Cosi, UPPAbaby, and Evenflo.',
+      title: 'Top Bottle Warmers 2026: Fast, Safe Picks for Newborns',
+      desc: 'The best bottle warmers for newborns in 2026. We compare speed, safety, and compatibility to help you find the right one for your baby.',
     },
     {
-      title: "Which Infant Car Seat is Safest? 2026 Guide",
-      desc: 'The best infant car seats of 2026 compared for safety ratings, ease of installation, and value. We cover Chicco, Graco, Maxi-Cosi, UPPAbaby, and Evenflo.',
+      title: 'Which Bottle Warmer Is Best? 2026 Shortlist',
+      desc: 'The best bottle warmers for newborns in 2026. We compare speed, safety, and compatibility to help you find the right one for your baby.',
     },
   ],
 };
@@ -132,6 +132,12 @@ async function publishPin(index, title, desc) {
     if (!clicked) throw new Error('publish button not found');
 
     await sleep(12000);
+    const navigatedUrl = page.url().replace(/\/$/, '');
+    if (/\/pin\/\d+/.test(navigatedUrl) && !navigatedUrl.includes('pin-creation-tool')) {
+      log(`pin ${index + 1} navigated url=${navigatedUrl}`);
+      return navigatedUrl;
+    }
+
     log(`pin ${index + 1} fetch created pins`);
     const afterUrls = await getCreatedPins(page);
     const newUrl = afterUrls.find(u => !beforeUrls.has(u)) || afterUrls[0] || '';

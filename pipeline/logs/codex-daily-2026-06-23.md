@@ -15,13 +15,15 @@
 - Bath tubs Pinterest cleanup is complete
 - Swings Pinterest cleanup is complete for all 3 pins
 - Infant car seats Pinterest cleanup is complete for all 3 pins
-- Remaining high-priority queue: bottle warmers, breast pumps
+- Bottle warmers Pinterest cleanup is complete for all 3 pins
+- Remaining high-priority queue: breast pumps
 
 ## Notes
 - Pinterest draft cleanup was necessary because the account hit the 50-draft limit
 - The bath tubs JSON was updated to use real published URLs
 - The swings queue now has all 3 live pin URLs recorded cleanly
 - The infant car seats queue now has all 3 live pin URLs recorded cleanly
+- The bottle warmers queue now has all 3 live pin URLs recorded cleanly
 - Next work should stay focused on the remaining Pinterest queue and then content priorities
 
 ---

@@ -99,8 +99,6 @@ current_week:
     - task: "Review actual GA4 and Amazon exports, then pick the next 3 pages to improve"
       status: "in_progress"
       next_pages:
-        - "best-infant-car-seats-2026"
-        - "best-bottle-warmers"
         - "best-breast-pumps"
     - task: "Refresh Pinterest pins for the next highest-intent page"
       status: "done"
@@ -111,6 +109,8 @@ current_week:
         - "best-baby-play-mats-2026"
         - "best-baby-bath-tubs-2026"
         - "best-baby-swings-2026"
+        - "best-infant-car-seats-2026"
+        - "best-bottle-warmers"
       note: "Bath tubs now have real published pin URLs and a clean JSON record."
     - task: "Tighten shortest-answer copy on the two highest-click pages"
       status: "done"
