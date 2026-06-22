@@ -101,7 +101,7 @@ current_week:
       next_pages:
         - "best-baby-swings-2026"
         - "best-diapers-for-newborns-2026"
-        - "best-baby-bottles-for-newborns-2026"
+        - "best-baby-bath-tubs-2026"
     - task: "Refresh Pinterest pins for the next highest-intent page"
       status: "pending"
     - task: "Tighten shortest-answer copy on the two highest-click pages"
@@ -112,3 +112,6 @@ current_week:
     - task: "Tighten shortest-answer copy and internal linking on bottles"
       status: "done"
       page: "best-baby-bottles-for-newborns-2026"
+    - task: "Tighten shortest-answer copy and internal linking on bath tubs"
+      status: "done"
+      page: "best-baby-bath-tubs-2026"

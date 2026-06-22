@@ -24,6 +24,8 @@ If you're still building out your first-week essentials, also check our guide on
 
 If you want one tub that can carry you from newborn to toddler, start with **Fisher-Price 4-in-1 Sling 'n Seat**. It is the easiest first buy if you want one purchase to cover the whole bath stage.
 
+If you want the shortest answer: **Fisher-Price 4-in-1 is the best all-around buy, Skip Hop Moby is the best value, and Angelcare is the gentlest newborn-only choice.**
+
 {{< product-card url="https://www.amazon.com/dp/B0DW3RM88Q?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DW3RM88Q.01.L.jpg" title="Fisher-Price 4-in-1 Sling 'n Seat Tub" badge="Best First Buy" price="$44" >}}
 
 
@@ -197,6 +199,8 @@ If you want one tub that covers everything, the **Fisher-Price 4-in-1** is the s
 For parents with a newborn and an existing bathtub, the **Angelcare Support** is worth considering as a first-weeks-only solution — it's the gentlest option for tiny babies who dislike the cold plastic of a full tub. Upgrade to a standalone tub around the 3-month mark when baby can handle more movement.
 
 If you're buying today and want the short answer: **Fisher-Price 4-in-1 is the best first buy for most homes, while Angelcare is the best simple newborn-only choice.**
+
+If you're setting up the rest of the nursery too, our [newborn essentials checklist](/posts/newborn-essentials-checklist/) is the simplest place to line up the next buys without overbuying.
 
 ---
 
