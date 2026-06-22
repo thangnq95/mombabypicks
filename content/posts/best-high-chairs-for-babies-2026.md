@@ -22,6 +22,8 @@ If you want the best all-around chair for most families, start with **Graco Slim
 
 For most families, the first buy should match the thing that will bother you most every single day: cleaning, space, or long-term use.
 
+{{< product-card url="https://www.amazon.com/dp/B00PTL13LA?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B00PTL13LA.01.L.jpg" title="Graco Slim Snacker" badge="Best First Buy" >}}
+
 
 ## Introduction
 

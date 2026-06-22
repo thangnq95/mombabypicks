@@ -22,6 +22,10 @@ If you're still building out your first-week essentials, also check our guide on
 
 {{< top-pick url="https://www.amazon.com/dp/B0DW3RM88Q?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DW3RM88Q.01.L.jpg" title="Fisher-Price 4-in-1 Sling 'n Seat Tub" price="$44" >}}
 
+If you want one tub that can carry you from newborn to toddler, start with **Fisher-Price 4-in-1 Sling 'n Seat**. It is the easiest first buy if you want one purchase to cover the whole bath stage.
+
+{{< product-card url="https://www.amazon.com/dp/B0DW3RM88Q?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DW3RM88Q.01.L.jpg" title="Fisher-Price 4-in-1 Sling 'n Seat Tub" badge="Best First Buy" price="$44" >}}
+
 
 ## If You Only Want One Tub
 

@@ -18,6 +18,10 @@ You do not need a fancy cart or a perfectly styled nursery. You just need the it
 
 {{< top-pick url="https://www.amazon.com/dp/B0FN8H5PJT?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0FN8H5PJT.01.L.jpg" title="OXO Tot Perfect Pull Wipes Dispenser" price="" >}}
 
+If you want the easiest one-hand item to start your feeding station, begin with **OXO Tot Perfect Pull Wipes Dispenser**. It is the small buy that makes the biggest difference when you're holding a newborn.
+
+{{< product-card url="https://www.amazon.com/dp/B0FN8H5PJT?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0FN8H5PJT.01.L.jpg" title="OXO Tot Perfect Pull Wipes Dispenser" badge="Best First Buy" >}}
+
 
 ## Choose the Right Location
 
