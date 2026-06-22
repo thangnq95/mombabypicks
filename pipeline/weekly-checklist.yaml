@@ -1,0 +1,54 @@
+week_of: "2026-06-22"
+project: "MomBabyPicks"
+owner: "Codex"
+goal: "Improve qualified Amazon clicks and commissions from existing high-intent content"
+status:
+  content_review: "done"
+  tracking_sheet: "done"
+  dead_link_scan: "delegated"
+  ga4_api: "done"
+
+ga4_snapshot:
+  window: "last 7 days"
+  top_pages:
+    - page: "best-baby-swings-2026"
+      clicks: 12
+    - page: "best-diapers-for-newborns-2026"
+      clicks: 9
+    - page: "newborn-feeding-station"
+      clicks: 5
+    - page: "best-baby-bottles-for-newborns-2026"
+      clicks: 4
+    - page: "best-breast-pumps"
+      clicks: 2
+
+checklist:
+  - task: "Confirm the top 5 money pages already contain decision blocks and short-answer CTAs"
+    status: "done"
+    pages:
+      - "best-baby-bottles-for-newborns-2026"
+      - "best-baby-swings-2026"
+      - "best-breast-pumps"
+      - "best-diapers-for-newborns-2026"
+      - "best-baby-bath-tubs-2026"
+  - task: "Create a simple working sheet for GA4/Amazon review"
+    status: "done"
+    file: "pipeline/tracking-data.csv"
+  - task: "Keep dead-link checks outside Codex daily execution"
+    status: "done"
+    note: "External 3x/day service owns ASIN verification."
+  - task: "Connect GA4 API snapshot into the daily report"
+    status: "done"
+  - task: "Review the next GA4 + Amazon export batch and pick the next 3 pages to optimize"
+    status: "pending"
+    next_targets:
+      - "newborn-feeding-station"
+      - "best-baby-swings-2026"
+      - "best-diapers-for-newborns-2026"
+  - task: "Refresh Pinterest pins for the next highest-intent page"
+    status: "pending"
+
+notes:
+  - "No layout, CSS, or Hugo config changes are required for this checklist."
+  - "The current top 5 pages already satisfy the core on-page decision-block requirement."
+  - "Next meaningful gain comes from data-driven page selection once GA4 export access is wired."

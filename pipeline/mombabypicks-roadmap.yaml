@@ -13,7 +13,7 @@ daily:
   - "Check Amazon clicks and commissions for the last 24 hours."
   - "Check top pages by clicks."
   - "Generate a GA4 affiliate-click snapshot and note the top page."
-  - "Review the latest dead-link scan summary from the 3x/day service."
+  - "Review the latest dead-link scan summary from the external 3x/day service."
   - "Note one page to improve today."
 
 week_1:
@@ -64,3 +64,43 @@ success_signals:
   - "Commission starts appearing"
   - "CTR improves after adding decision blocks"
   - "Pins produce more qualified traffic, not just more views"
+
+current_week:
+  name: "conversion-optimization"
+  started: "2026-06-22"
+  owner: "Codex"
+  status: "active"
+  ga4_snapshot:
+    window: "last 7 days"
+    top_pages:
+      - "best-baby-swings-2026 (12 clicks)"
+      - "best-diapers-for-newborns-2026 (9 clicks)"
+      - "newborn-feeding-station (5 clicks)"
+      - "best-baby-bottles-for-newborns-2026 (4 clicks)"
+      - "best-breast-pumps (2 clicks)"
+  checklist:
+    - task: "Confirm the top 5 money pages already have decision blocks, shortest-answer CTAs, and internal links"
+      status: "done"
+      pages:
+        - "best-baby-bottles-for-newborns-2026"
+        - "best-baby-swings-2026"
+        - "best-breast-pumps"
+        - "best-diapers-for-newborns-2026"
+        - "best-baby-bath-tubs-2026"
+    - task: "Create a working tracking sheet for GA4 and Amazon review"
+      status: "done"
+      artifact: "pipeline/tracking-data.csv"
+    - task: "Keep dead-link scanning delegated to the external 3x/day service"
+      status: "done"
+      note: "Daily job no longer owns ASIN verification."
+    - task: "Wire GA4 API snapshot into the daily report"
+      status: "done"
+      note: "Snapshot fetched successfully with the local service account key."
+    - task: "Review actual GA4 and Amazon exports, then pick the next 3 pages to improve"
+      status: "in_progress"
+      next_pages:
+        - "newborn-feeding-station"
+        - "best-baby-swings-2026"
+        - "best-diapers-for-newborns-2026"
+    - task: "Refresh Pinterest pins for the next highest-intent page"
+      status: "pending"
