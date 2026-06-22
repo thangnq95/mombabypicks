@@ -13,12 +13,20 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 const LOG_FILE = '/tmp/pinterest-publish-fail-pins.txt';
 const PROFILE_URL = 'https://www.pinterest.com/mombabypicks/_created/';
 const TARGET = {
-  slug: 'best-baby-swings-2026',
-  postUrl: 'https://mombabypicks.com/posts/best-baby-swings-2026/',
+  slug: 'best-infant-car-seats-2026',
+  postUrl: 'https://mombabypicks.com/posts/best-infant-car-seats-2026/',
   pins: [
     {
-      title: 'Top Baby Swings 2026: Our Picks for Every Budget',
-      desc: 'The best baby swings of 2026 compared for motion, safety, and value. We tested Graco, 4moms, Jool Baby, Bright Starts, and Fisher-Price.',
+      title: 'Best Infant Car Seats 2026: Safety Ratings, Installation & Budget Picks',
+      desc: 'The best infant car seats of 2026 compared for safety ratings, ease of installation, and value. We cover Chicco, Graco, Maxi-Cosi, UPPAbaby, and Evenflo.',
+    },
+    {
+      title: 'Top Infant Car Seats 2026: Safety & Value Compared',
+      desc: 'The best infant car seats of 2026 compared for safety ratings, ease of installation, and value. We cover Chicco, Graco, Maxi-Cosi, UPPAbaby, and Evenflo.',
+    },
+    {
+      title: "Which Infant Car Seat is Safest? 2026 Guide",
+      desc: 'The best infant car seats of 2026 compared for safety ratings, ease of installation, and value. We cover Chicco, Graco, Maxi-Cosi, UPPAbaby, and Evenflo.',
     },
   ],
 };
@@ -67,7 +75,6 @@ async function publishPin(index, title, desc) {
   const img = path.join(PINS_DIR, `${TARGET.slug}-pin-${index + 1}.png`);
   if (!fs.existsSync(img)) throw new Error(`missing image ${img}`);
 
-  const before = new Set();
   const { browser, context } = await launch();
   const page = await context.newPage();
   try {
@@ -75,6 +82,7 @@ async function publishPin(index, title, desc) {
     await page.goto('https://www.pinterest.com/', { waitUntil: 'networkidle', timeout: 30000 }).catch(() => {});
     await sleep(3000);
     log(`pin ${index + 1} login url=${page.url()}`);
+    const beforeUrls = new Set(await getCreatedPins(page));
 
     log(`pin ${index + 1} goto create tool`);
     await page.goto('https://www.pinterest.com/pin-creation-tool/', { waitUntil: 'domcontentloaded', timeout: 30000 }).catch(() => {});
@@ -126,7 +134,7 @@ async function publishPin(index, title, desc) {
     await sleep(12000);
     log(`pin ${index + 1} fetch created pins`);
     const afterUrls = await getCreatedPins(page);
-    const newUrl = afterUrls.find(u => !before.has(u)) || afterUrls[0] || '';
+    const newUrl = afterUrls.find(u => !beforeUrls.has(u)) || afterUrls[0] || '';
     if (!newUrl) throw new Error('no pin url found after publish');
     log(`pin ${index + 1} new url=${newUrl}`);
     return newUrl;
@@ -138,7 +146,7 @@ async function publishPin(index, title, desc) {
 
 async function main() {
   if (!fs.existsSync(COOKIE_FILE)) throw new Error(`missing cookie file: ${COOKIE_FILE}`);
-  log('START publish-fail-pins swings');
+  log(`START publish-fail-pins ${TARGET.slug}`);
 
   const results = [];
   for (let i = 0; i < TARGET.pins.length; i++) {
