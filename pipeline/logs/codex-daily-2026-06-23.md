@@ -13,11 +13,13 @@
 ## Current State
 - No Codex job is running right now
 - Bath tubs Pinterest cleanup is complete
-- Remaining high-priority queue: swings, infant car seats, bottle warmers
+- Swings Pinterest cleanup is complete for all 3 pins
+- Remaining high-priority queue: infant car seats, bottle warmers, breast pumps
 
 ## Notes
 - Pinterest draft cleanup was necessary because the account hit the 50-draft limit
 - The bath tubs JSON was updated to use real published URLs
+- The swings queue now has all 3 live pin URLs recorded cleanly
 - Next work should stay focused on the remaining Pinterest queue and then content priorities
 
 ---
