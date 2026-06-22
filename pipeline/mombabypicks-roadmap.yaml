@@ -103,7 +103,12 @@ current_week:
         - "best-high-chairs-for-babies-2026"
         - "newborn-feeding-station"
     - task: "Refresh Pinterest pins for the next highest-intent page"
-      status: "pending"
+      status: "done"
+      pages:
+        - "best-baby-carriers-for-2026"
+        - "best-high-chairs-for-babies-2026"
+        - "newborn-feeding-station"
+        - "best-baby-play-mats-2026"
     - task: "Tighten shortest-answer copy on the two highest-click pages"
       status: "done"
       pages:
