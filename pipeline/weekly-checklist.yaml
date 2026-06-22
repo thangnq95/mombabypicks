@@ -47,6 +47,9 @@ checklist:
       - "newborn-feeding-station"
   - task: "Refresh Pinterest pins for the next highest-intent page"
     status: "pending"
+  - task: "Tighten shortest-answer copy and internal linking on feeding station"
+    status: "done"
+    page: "newborn-feeding-station"
   - task: "Tighten shortest-answer copy on the two highest-click pages"
     status: "done"
     pages:

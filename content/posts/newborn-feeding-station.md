@@ -66,6 +66,8 @@ Formula-feeding parents may want pre-measured formula, clean bottles, a bottle w
 
 Follow formula preparation instructions carefully. If your pediatrician gives different guidance for your baby, follow that advice.
 
+If you're still deciding on bottles, our [best baby bottles for newborns guide](/posts/best-baby-bottles-for-newborns-2026/) can help you pick the right ones before you build the station.
+
 ## Keep Safety in Mind
 
 Avoid placing hot drinks, cords, or small choking hazards near the baby. Keep chargers and warmer cords tucked away from grabby hands as your baby grows.
@@ -193,6 +195,8 @@ A water bottle for the parent. Nursing and pumping increase thirst significantly
 ---
 
 Related reading: [Newborn Feeding Essentials](/posts/newborn-feeding-essentials/) | [Best Bottle Warmers for 2026](/posts/best-bottle-warmers/)
+
+If you only buy one add-on for the station after the wipes dispenser, the [best bottle warmers guide](/posts/best-bottle-warmers/) is the next most useful companion read.
 
 If you're buying today and want the shortest answer: **start with the wipes dispenser, then add the nursing pillow, then the drying rack if bottles or pump parts are piling up.** That order covers the biggest daily pain points without buying more than you need.
 

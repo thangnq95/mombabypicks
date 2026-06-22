@@ -124,3 +124,6 @@ current_week:
     - task: "Tighten shortest-answer copy and internal linking on high chairs"
       status: "done"
       page: "best-high-chairs-for-babies-2026"
+    - task: "Tighten shortest-answer copy and internal linking on feeding station"
+      status: "done"
+      page: "newborn-feeding-station"
