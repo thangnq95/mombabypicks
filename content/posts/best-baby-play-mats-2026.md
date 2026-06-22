@@ -28,6 +28,8 @@ If you want the most thoughtful developmental setup, start with **Lovevery Play 
 
 For most families, the first purchase should match your baby's current stage: developmental gym for newborns, padded floor space once rolling starts.
 
+If you want the shortest answer: **Lovevery for newborn developmental value, Fisher-Price for budget, and Nuby for the most floor space.**
+
 
 {{< pick-cards
 title="Quick Picks At A Glance"
@@ -201,6 +203,8 @@ For newborn parents who want maximum developmental value from day one, the **Lov
 Once babies start rolling and crawling, floor coverage matters more than overhead toys. The **Nuby** gives you the most square footage at a fair price, while the **Infantino** covers nearly as much ground at $30 and folds up when you need it to. The **MioTetto** tiles sit in the middle — more coverage than a gym mat, easy to clean, and genuinely thick enough to cushion early falls.
 
 If you're buying today and want the shortest answer: **Lovevery for newborn developmental value, Fisher-Price for budget, and Nuby for the most floor space.**
+
+If you're still building the whole setup, our [newborn essentials checklist](/posts/newborn-essentials-checklist/) is the easiest place to decide what matters first and what can wait.
 
 ---
 
