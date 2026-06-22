@@ -42,9 +42,9 @@ checklist:
   - task: "Review the next GA4 + Amazon export batch and pick the next 3 pages to optimize"
     status: "in_progress"
     next_targets:
-      - "best-baby-swings-2026"
-      - "best-diapers-for-newborns-2026"
-      - "best-baby-bath-tubs-2026"
+      - "best-baby-carriers-for-2026"
+      - "best-high-chairs-for-babies-2026"
+      - "newborn-feeding-station"
   - task: "Refresh Pinterest pins for the next highest-intent page"
     status: "pending"
   - task: "Tighten shortest-answer copy on the two highest-click pages"

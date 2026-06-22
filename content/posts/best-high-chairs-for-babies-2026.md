@@ -238,6 +238,8 @@ The **Graco Slim Snacker** is the best all-around choice for most families — g
 
 For more on feeding your baby, see our guides on [newborn feeding essentials](/posts/newborn-feeding-essentials/) and [choosing the right breast pump](/posts/best-breast-pumps/).
 
+If you're setting up a mealtime corner too, our [newborn feeding station guide](/posts/newborn-feeding-station/) is a simple way to keep wipes, bibs, and cleaning supplies in one place.
+
 If you're buying today and want the shortest answer: **Graco Slim Snacker for the best all-around value, IKEA Antilop for easy cleaning, and Stokke Tripp Trapp if you want one chair for years.**
 
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*

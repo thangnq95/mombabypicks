@@ -35,6 +35,8 @@ If you want one carrier that can do almost everything, start with **Ergobaby Omn
 
 For most families, the right first buy depends on whether you need comfort, simplicity, or the closest newborn fit.
 
+If you want the shortest answer: **Ergobaby Omni 360 for the safest all-around buy, Lillebaby for maximum flexibility, and Solly for newborn closeness.**
+
 {{< pick-cards
 title="Quick Picks At A Glance"
 intro="The best carrier depends on your body, your lifestyle, and your baby's age. Start here."
@@ -230,5 +232,7 @@ The **Ergobaby Omni 360** is the best all-around investment for parents who want
 For more on building out your baby's first months, see our [newborn essentials checklist](/posts/newborn-essentials-checklist/) and our guide to [what NOT to buy for a newborn](/posts/what-not-to-buy-newborn/).
 
 If you're buying today and want the shortest answer: **Ergobaby for the safest all-around buy, Lillebaby for maximum flexibility, and Solly for newborn closeness.**
+
+If you're still building the rest of the nursery, our [newborn essentials checklist](/posts/newborn-essentials-checklist/) is the easiest place to decide what to buy first and what can wait.
 
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
