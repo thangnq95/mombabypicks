@@ -16,6 +16,10 @@ cover:
 
 {{< top-pick url="https://www.amazon.com/dp/B07B41952V?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07B41952V.01.L.jpg" title="Ergobaby Omni 360" price="" >}}
 
+If you want the safest all-around first buy, start with **Ergobaby Omni 360**. It gives you the broadest mix of carry positions and the least regret if you only want to buy one carrier.
+
+{{< product-card url="https://www.amazon.com/dp/B07B41952V?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B07B41952V.01.L.jpg" title="Ergobaby Omni 360" badge="Best First Buy" >}}
+
 
 ## Introduction
 
