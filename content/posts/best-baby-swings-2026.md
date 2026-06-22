@@ -30,6 +30,8 @@ If your baby is very fussy and you want the most hands-off option, start with **
 
 For most families, the smartest first buy is the swing that solves your biggest problem today, not the one with the most features on the box. In this category, that usually means starting with **Jool Baby Nova** first and only moving up to Graco or 4moms if you need more motion variety or automation.
 
+If you want the shortest answer: **buy Jool Baby Nova first, Graco SmartSense if you want automation, and 4moms MamaRoo only if you know your baby responds to motion variety.**
+
 ## How We Selected These Products
 
 We scored swings on five criteria: **motion variety** (more motion types means a higher chance of finding the one that clicks for your baby), **weight capacity and longevity** (swings that max out at 20 lbs age out fast), **noise level** (motor noise at 3 a.m. matters more than most reviews mention), **assembly complexity** (anything requiring two people or a YouTube tutorial is a red flag), and **safety certification** (JPMA-certified or ASTM-compliant only). We excluded any swing with consistent reports of motor failure under 90 days or straps that loosen during use.

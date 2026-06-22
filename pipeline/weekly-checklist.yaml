@@ -40,13 +40,18 @@ checklist:
   - task: "Connect GA4 API snapshot into the daily report"
     status: "done"
   - task: "Review the next GA4 + Amazon export batch and pick the next 3 pages to optimize"
-    status: "pending"
+    status: "in_progress"
     next_targets:
-      - "newborn-feeding-station"
       - "best-baby-swings-2026"
       - "best-diapers-for-newborns-2026"
+      - "best-baby-bottles-for-newborns-2026"
   - task: "Refresh Pinterest pins for the next highest-intent page"
     status: "pending"
+  - task: "Tighten shortest-answer copy on the two highest-click pages"
+    status: "done"
+    pages:
+      - "best-baby-swings-2026"
+      - "best-diapers-for-newborns-2026"
 
 notes:
   - "No layout, CSS, or Hugo config changes are required for this checklist."

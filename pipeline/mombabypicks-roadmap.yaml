@@ -99,8 +99,13 @@ current_week:
     - task: "Review actual GA4 and Amazon exports, then pick the next 3 pages to improve"
       status: "in_progress"
       next_pages:
-        - "newborn-feeding-station"
         - "best-baby-swings-2026"
         - "best-diapers-for-newborns-2026"
+        - "best-baby-bottles-for-newborns-2026"
     - task: "Refresh Pinterest pins for the next highest-intent page"
       status: "pending"
+    - task: "Tighten shortest-answer copy on the two highest-click pages"
+      status: "done"
+      pages:
+        - "best-baby-swings-2026"
+        - "best-diapers-for-newborns-2026"
