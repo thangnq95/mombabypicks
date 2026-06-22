@@ -35,6 +35,10 @@ card4text="GOTS-certified organic cotton at a price where you can comfortably bu
 
 {{< top-pick url="https://www.amazon.com/dp/B0CCBHGBJR?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0CCBHGBJR.01.L.jpg" title="HALO SleepSack Wearable Blanket" price="" >}}
 
+If you want the safest default pick with the broadest size and TOG range, start with **HALO SleepSack**. It is the easiest first buy if you only want one sleep sack to test.
+
+{{< product-card url="https://www.amazon.com/dp/B0CCBHGBJR?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0CCBHGBJR.01.L.jpg" title="HALO SleepSack Wearable Blanket" badge="Best First Buy" >}}
+
 ## If You Only Want One Sleep Sack
 
 If you want the safest default pick with the broadest size and TOG range, start with **HALO SleepSack**. If your baby is a light sleeper and you want to try something soothing, **Nested Bean Zen Sack** is the one to test first. If you care most about fabric feel and breathable softness, **Kyte Baby Sleep Bag** is the premium soft option. If you want a sleep sack that can last across seasons and multiple kids, **Woolino 4 Season Sleep Bag** is the buy-once choice. And if budget is the main constraint, **Burt's Bees Baby Beekeeper** is the most affordable certified-organic option.

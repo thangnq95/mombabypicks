@@ -34,6 +34,10 @@ card4text="Bluetooth app tracking and flexible settings at a more accessible pri
 
 {{< top-pick url="https://www.amazon.com/dp/B0DNR1Z4L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DNR1Z4L9.01.L.jpg" title="Momcozy M5" price="" >}}
 
+If you need to pump while doing everything else, start with **Momcozy M5**. It is the easiest first buy if hands-free mobility matters most.
+
+{{< product-card url="https://www.amazon.com/dp/B0DNR1Z4L9?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DNR1Z4L9.01.L.jpg" title="Momcozy M5" badge="Best First Buy" >}}
+
 
 ## If You Only Want One Pump
 

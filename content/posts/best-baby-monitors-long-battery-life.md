@@ -23,6 +23,8 @@ If you want the most complete overall monitor, start with **Infant Optics DXR-8 
 
 For most families, the first buy should match whether you care most about battery life, clarity, or the simplest possible setup.
 
+{{< product-card url="https://www.amazon.com/dp/B08FF4GV5C?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B08FF4GV5C.01.L.jpg" title="Infant Optics DXR-8 Pro" badge="Best First Buy" >}}
+
 {{< trust-badge >}}
 
 {{< pick-cards

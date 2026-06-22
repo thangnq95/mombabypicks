@@ -16,6 +16,10 @@ cover:
 
 {{< top-pick url="https://www.amazon.com/dp/B06XPBB1TH?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B06XPBB1TH.01.L.jpg" title="BabyBjörn Bouncer Bliss" price="" >}}
 
+If you want the safest all-around first buy, start with **BabyBjörn Bouncer Bliss**. It is the simplest pick if you want one bouncer that feels premium and lasts.
+
+{{< product-card url="https://www.amazon.com/dp/B06XPBB1TH?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B06XPBB1TH.01.L.jpg" title="BabyBjörn Bouncer Bliss" badge="Best First Buy" >}}
+
 
 ## Introduction
 
