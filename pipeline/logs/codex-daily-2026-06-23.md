@@ -1,30 +1,25 @@
 # MomBabyPicks Daily Report — 2026-06-23
 
 - Job: mombabypicks-codex-daily
-- Time: Tue Jun 23 00:00:00 +07 2026
+- Time: Tue Jun 23 15:58:13 +07 2026
 
-## Checklist
-1. Confirm current live job status
-2. Record the next 3 priority pages in the roadmap
-3. Clean up Pinterest state for the remaining high-priority pages
-4. Keep dead-link scanning delegated to the external service
-5. Verify repo health before deploy
+## 1. GA4 Snapshot
+- GA4 property: 542288344
+- Top page: /posts/best-bottle-warmers/ (1 clicks)
+- Snapshot: /Users/thangnguyen/GIT/PP/mombabypicks/pipeline/logs/ga4-2026-06-23.json
 
-## Current State
-- No Codex job is running right now
-- Bath tubs Pinterest cleanup is complete
-- Swings Pinterest cleanup is complete for all 3 pins
-- Infant car seats Pinterest cleanup is complete for all 3 pins
-- Bottle warmers Pinterest cleanup is complete for all 3 pins
-- Remaining high-priority queue: breast pumps
+## 2. Site Health
+- Homepage: 200 (0.499273s)
+- Articles: 27
+- Pin sets: 27
 
-## Notes
-- Pinterest draft cleanup was necessary because the account hit the 50-draft limit
-- The bath tubs JSON was updated to use real published URLs
-- The swings queue now has all 3 live pin URLs recorded cleanly
-- The infant car seats queue now has all 3 live pin URLs recorded cleanly
-- The bottle warmers queue now has all 3 live pin URLs recorded cleanly
-- Next work should stay focused on the remaining Pinterest queue and then content priorities
+## 3. Priority Pages
+- newborn-feeding-station: 1 published, 2 draft, 0 missing
+- best-breast-pumps: 3 published, 0 draft, 0 missing
+- best-baby-sleep-sacks-for-2026: 1 published, 2 draft, 0 missing
+
+## 4. Repo Status
+- ⚠️ Uncommitted changes
 
 ---
-*Report created on Tue Jun 23 00:00:00 +07 2026*
+*Report auto-generated at Tue Jun 23 15:58:14 +07 2026*

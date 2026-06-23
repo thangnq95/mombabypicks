@@ -72,8 +72,60 @@ echo "- Articles: $ARTICLES"
 echo "- Pin sets: $PINS"
 echo ""
 
-# ---- 3. Git status ----
-echo "## 3. Repo Status"
+# ---- 3. Priority pages ----
+echo "## 3. Priority Pages"
+python3 - <<'PY'
+import json
+import re
+from pathlib import Path
+
+roadmap = Path("pipeline/weekly-checklist.yaml")
+if not roadmap.exists():
+    print("- No weekly checklist found")
+    raise SystemExit(0)
+
+lines = roadmap.read_text().splitlines()
+targets = []
+capture = False
+for line in lines:
+    if re.match(r'^\s*next_targets:\s*$', line):
+        capture = True
+        continue
+    if capture:
+        m = re.match(r'^\s*-\s*"([^"]+)"\s*$', line)
+        if m:
+            targets.append(m.group(1))
+            continue
+        if line and not line.startswith(" "):
+            break
+
+if not targets:
+    print("- No next targets listed")
+    raise SystemExit(0)
+
+for slug in targets[:3]:
+    pin_path = Path("data/pinterest") / f"{slug}.json"
+    image_count = len(list(Path("static/images/pins").glob(f"{slug}-pin-*.png")))
+    if not pin_path.exists():
+        print(f"- {slug}: no pin JSON")
+        continue
+    try:
+        data = json.loads(pin_path.read_text())
+    except Exception:
+        print(f"- {slug}: unreadable pin JSON")
+        continue
+    if not isinstance(data, list):
+        print(f"- {slug}: unexpected pin JSON shape")
+        continue
+    published = sum(1 for item in data if isinstance(item, dict) and item.get("status") in {"published", "backfilled"} and item.get("published_pin_url"))
+    drafts = sum(1 for item in data if isinstance(item, dict) and item.get("status") == "draft")
+    missing = max(image_count - len(data), 0)
+    print(f"- {slug}: {published} published, {drafts} draft, {missing} missing")
+PY
+echo ""
+
+# ---- 4. Git status ----
+echo "## 4. Repo Status"
 if git diff --quiet && git diff --cached --quiet; then
   echo "- ✅ Clean"
 else
