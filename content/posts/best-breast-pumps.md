@@ -6,6 +6,8 @@ tags: ["breast-pump", "newborn", "breastfeeding"]
 description: "Looking for the best breast pump? We compared the top 5 models for suction, comfort, and portability to help you choose the right one."
 images:
   - /images/pins/best-breast-pumps-pin-1.png
+  - /images/pins/best-breast-pumps-pin-2.png
+  - /images/pins/best-breast-pumps-pin-3.png
 cover:
   image: "/images/posts/best-breast-pumps.webp"
   alt: "Unbranded breast pump setup in a nursery"

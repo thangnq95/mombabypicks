@@ -7,6 +7,8 @@ description: "The best baby swings of 2026 compared for motion, safety, and valu
 author: "MomBabyPicks Team"
 images:
   - /images/pins/best-baby-swings-2026-pin-1.png
+  - /images/pins/best-baby-swings-2026-pin-2.png
+  - /images/pins/best-baby-swings-2026-pin-3.png
 cover:
   image: "/images/posts/best-baby-swings-2026.webp"
   alt: "Baby sleeping peacefully in a modern baby swing in a bright nursery"

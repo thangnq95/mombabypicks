@@ -6,6 +6,8 @@ tags: ["newborn", "feeding", "breastfeeding", "checklist", "baby bottles"]
 description: "How to organize a simple newborn feeding station for breastfeeding, pumping, or formula feeding."
 images:
   - /images/pins/newborn-feeding-station-pin-1.png
+  - /images/pins/newborn-feeding-station-pin-2.png
+  - /images/pins/newborn-feeding-station-pin-3.png
 cover:
   image: /images/posts/newborn-feeding-station.webp
 ---
