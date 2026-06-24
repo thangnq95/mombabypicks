@@ -2,6 +2,14 @@ project: MomBabyPicks
 owner: Codex
 role: "Growth and content optimization"
 objective: "Increase qualified Amazon clicks and commissions by optimizing high-intent content and Pinterest assets before publishing more posts."
+kpi_7_days:
+  target: "Increase qualified traffic and Amazon clicks on the current top 5 pages"
+  baseline:
+    top_5_pageviews: 83
+    top_5_affiliate_clicks: 35
+  goals:
+    - "Top-5 pageviews: 100+"
+    - "Top-5 affiliate clicks: 45+"
 
 rules:
   - "Do not test Amazon links on live pages unless necessary; use local or staged verification when possible."

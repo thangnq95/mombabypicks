@@ -1,8 +1,8 @@
 ---
-title: "Newborn Feeding Essentials: What You Actually Need"
+title: "Newborn Feeding Essentials: Baby Registry Must-Haves for Feeding"
 date: 2026-06-15
 draft: false
-description: "The essential feeding gear for newborns — bottles, burp cloths, nursing pillows, and more. What to buy, what to skip, and why."
+description: "The essential baby registry must-haves for newborn feeding — bottles, burp cloths, nursing pillows, and more. What to buy, what to skip, and why."
 tags: [newborn feeding, baby feeding essentials, breastfeeding, bottle feeding, nursing]
 author: "MomBabyPicks Team"
 images:

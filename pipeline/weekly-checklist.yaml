@@ -2,6 +2,12 @@ week_of: "2026-06-22"
 project: "MomBabyPicks"
 owner: "Codex"
 goal: "Improve qualified Amazon clicks and commissions from existing high-intent content"
+kpi_7_days:
+  target: "Increase qualified traffic and affiliate clicks from the current top pages"
+  baseline_note: "Current 7-day top pages are swings, diapers, bottles, feeding station, and breast pumps."
+  focus_metrics:
+    - "Top-5 pageviews: 83 baseline, target 100+"
+    - "Top-5 affiliate clicks: 35 baseline, target 45+"
 status:
   content_review: "done"
   tracking_sheet: "done"

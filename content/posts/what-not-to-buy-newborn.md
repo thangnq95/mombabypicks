@@ -1,9 +1,9 @@
 ---
-title: "What Not to Buy for a Newborn: 10 Items You Can Skip"
+title: "What Not to Buy for a Newborn: Baby Registry Mistakes to Skip"
 date: 2026-06-07
 draft: false
 tags: ["newborn", "checklist", "baby-gear"]
-description: "A practical list of newborn products many parents can skip, at least during the first few months."
+description: "A practical list of baby registry mistakes and newborn products many parents can skip during the first few months."
 summary: "Newborn shopping gets expensive quickly. These are the baby items many families can delay, borrow, or skip."
 images:
   - /images/pins/what-not-to-buy-newborn-pin-1.png
