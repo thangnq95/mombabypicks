@@ -35,6 +35,8 @@ This guide covers five high chairs worth buying in 2026, from full-featured flag
 
 If you're prepping for solids, also check our guides on [newborn feeding essentials](/posts/newborn-feeding-essentials/) and the [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/).
 
+If you're planning the full transition from bottles to solids, the best companion reads are [newborn essentials checklist](/posts/newborn-essentials-checklist/) and [newborn feeding station](/posts/newborn-feeding-station/). That keeps the early feeding setup and the later feeding setup connected.
+
 {{< pick-cards
 title="Quick Picks At A Glance"
 intro="High chairs are used for years — match yours to your kitchen space, budget, and longevity goals."
@@ -237,6 +239,8 @@ For fabric/padding: remove covers and machine-wash weekly. For plastic trays: di
 The **Graco Slim Snacker** is the best all-around choice for most families — good features, folds slim, and converts to a booster. The **IKEA Antilop** wins on ease of cleaning and value, with no compromise if cleaning simplicity is your top priority. For long-term value, the **Stokke Tripp Trapp** is genuinely worth the investment if you'll use it for multiple children or years. The **Chicco Polly Progress** is for parents who want maximum adjustability from the earliest possible age.
 
 For more on feeding your baby, see our guides on [newborn feeding essentials](/posts/newborn-feeding-essentials/) and [choosing the right breast pump](/posts/best-breast-pumps/).
+
+If you're still filling out the first-month gear list, [newborn essentials checklist](/posts/newborn-essentials-checklist/) is the fastest way to see what matters before solids ever start.
 
 If you're setting up a mealtime corner too, our [newborn feeding station guide](/posts/newborn-feeding-station/) is a simple way to keep wipes, bibs, and cleaning supplies in one place.
 

@@ -29,6 +29,8 @@ This guide covers five carriers worth your money in 2026 â€” from structured car
 
 If you're still building out your baby gear list, check our [newborn essentials checklist](/posts/newborn-essentials-checklist/) and the [best baby bouncers for 2026](/posts/best-baby-bouncers-for-2026/) for when you need hands-free time at home.
 
+If you're pairing babywearing with a feeding routine, the most useful companion reads are [newborn feeding station](/posts/newborn-feeding-station/) and [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/). That covers the two places most parents want their hands free.
+
 ## If You Only Want One Carrier
 
 If you want one carrier that can do almost everything, start with **Ergobaby Omni 360**. If you know you'll wear a lot and want the most position variety, **Lillebaby Complete** gives you the broadest flexibility. If your baby is still in the newborn phase and you want the softest, most cozy option, **Solly Baby Wrap** is the easiest one to bond with. If you want a structured carrier with almost no setup hassle, **Tula Free-to-Grow** is the simplest premium pick. And if you just need a low-risk budget carrier to test whether babywearing works for your family, **Infantino Flip 4-in-1** is the cheapest useful entry point.
@@ -230,6 +232,8 @@ It varies by carrier. Most structured carriers on this list hold babies from 7â€
 The **Ergobaby Omni 360** is the best all-around investment for parents who want one carrier to cover the full range from newborn through toddler. The **Lillebaby Complete** is the top pick if you expect to wear frequently across all seasons and want maximum flexibility. For the pure newborn stage, nothing beats the closeness of the **Solly Baby Wrap**. The **Tula Free-to-Grow** is the best pick for parents who want simplicity above all else. And the **Infantino Flip 4-in-1** is the sensible choice if you need a carrier on a tight budget or aren't sure babywearing is for you yet.
 
 For more on building out your baby's first months, see our [newborn essentials checklist](/posts/newborn-essentials-checklist/) and our guide to [what NOT to buy for a newborn](/posts/what-not-to-buy-newborn/).
+
+If you want the shortest setup path, open [newborn essentials checklist](/posts/newborn-essentials-checklist/), then [newborn feeding station](/posts/newborn-feeding-station/), then [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/).
 
 If you're buying today and want the shortest answer: **Ergobaby for the safest all-around buy, Lillebaby for maximum flexibility, and Solly for newborn closeness.**
 

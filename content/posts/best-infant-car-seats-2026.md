@@ -29,6 +29,8 @@ An infant car seat is the one piece of baby gear where there is absolutely no ro
 
 This guide breaks down five of the best infant car seats available in 2026 — across the full price spectrum, from solid budget picks to premium options — based on safety ratings, ease of installation, and real-world usability. If you're also building out the rest of your newborn setup, our [newborn essentials checklist](/posts/newborn-essentials-checklist/) is a good companion read. And once baby is out of the bucket seat phase, check our guide to [best diapers for newborns 2026](/posts/best-diapers-for-newborns-2026/) for another early-months staple.
 
+If you're finishing the whole newborn setup in one pass, [newborn feeding station](/posts/newborn-feeding-station/) and [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/) are the two other high-urgency pages worth opening next.
+
 {{< trust-badge >}}
 
 {{< pick-cards
@@ -252,6 +254,8 @@ Before baby's due date, if possible. Certified Child Passenger Safety Technician
 - [Newborn Essentials Checklist: What You Actually Need](/posts/newborn-essentials-checklist/)
 - [Best Diapers for Newborns 2026](/posts/best-diapers-for-newborns-2026/)
 - [What NOT to Buy for a Newborn](/posts/what-not-to-buy-newborn/)
+- [Newborn Feeding Station Setup](/posts/newborn-feeding-station/)
+- [Best Baby Bottles for Newborns 2026](/posts/best-baby-bottles-for-newborns-2026/)
 
 ---
 

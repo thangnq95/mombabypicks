@@ -49,6 +49,8 @@ For first-time pump buyers, the easiest mistake is buying too much pump too soon
 
 If you want the shortest answer: **Momcozy M5 if you need hands-free convenience, Spectra S1 if you want the best workhorse, and Lansinoh Smartpump if budget matters most.**
 
+If you're pairing a pump with a bottle-feeding setup, the next two helpful reads are [newborn feeding station](/posts/newborn-feeding-station/) and [breast pump cleaning guide](/posts/breast-pump-cleaning-guide/). That keeps your pumping workflow and cleanup gear in the same buying path.
+
 ## 1. Momcozy M5 — Best Overall
 
 The Momcozy M5 is the most popular wearable breast pump on Amazon right now, and for good reason. It's completely hands-free, whisper-quiet, and fits discreetly inside your nursing bra.
@@ -211,7 +213,7 @@ Valves and membranes often need replacement every few weeks with daily use. Flan
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*
 
 
-{{< cross-sell slugs="best-hands-free-wearable-breast-pumps, how-to-choose-breast-pump, breast-pump-cleaning-guide" >}}
+{{< cross-sell slugs="best-hands-free-wearable-breast-pumps,how-to-choose-breast-pump,breast-pump-cleaning-guide,newborn-feeding-station" >}}
 
 ## Related Articles
 - [How to Choose a Breast Pump](/posts/how-to-choose-breast-pump/)

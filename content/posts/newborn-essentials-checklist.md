@@ -15,6 +15,8 @@ New parents are bombarded with lists of "must-have" baby products — most of wh
 
 The key is to buy in stages. Here's what to have ready before the baby arrives and what you can buy after you figure out your baby's preferences.
 
+If you want the fastest way to fill the feeding and diapering part of this list, start with [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/), [best diapers for newborns](/posts/best-diapers-for-newborns-2026/), and [newborn feeding station](/posts/newborn-feeding-station/). Those are the pages most likely to save you from overbuying the wrong things.
+
 ## When to Buy What
 
 | Stage | Items | Why |
@@ -144,6 +146,8 @@ Skip baby shoes, crib bumpers, loose blankets, baby food makers, and large toy h
 - [Newborn Feeding Essentials](/posts/newborn-feeding-essentials/)
 - [Newborn Feeding Station Setup](/posts/newborn-feeding-station/)
 - [What Not to Buy for a Newborn](/posts/what-not-to-buy-newborn/)
+- [Best Baby Bottles for Newborns 2026](/posts/best-baby-bottles-for-newborns-2026/)
+- [Best Diapers for Newborns 2026](/posts/best-diapers-for-newborns-2026/)
 
 
 {{< cross-sell slugs="what-not-to-buy-newborn, newborn-feeding-essentials, best-diapers-for-newborns-2026" >}}

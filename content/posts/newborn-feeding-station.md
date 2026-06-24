@@ -70,6 +70,8 @@ Follow formula preparation instructions carefully. If your pediatrician gives di
 
 If you're still deciding on bottles, our [best baby bottles for newborns guide](/posts/best-baby-bottles-for-newborns-2026/) can help you pick the right ones before you build the station.
 
+If you're building the station around bottle feeds, the two most useful companion reads are [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/) and [best bottle warmers](/posts/best-bottle-warmers/). If you want the starter list first, [newborn feeding essentials](/posts/newborn-feeding-essentials/) covers the basic buys in one place.
+
 ## Keep Safety in Mind
 
 Avoid placing hot drinks, cords, or small choking hazards near the baby. Keep chargers and warmer cords tucked away from grabby hands as your baby grows.

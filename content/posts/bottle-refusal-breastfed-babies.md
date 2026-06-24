@@ -27,6 +27,8 @@ This guide covers why bottle refusal happens, which bottles are most likely to s
 
 For more on the feeding transition, see our guide to [pace bottle feeding](/posts/pace-bottle-feeding-guide/) and the [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/).
 
+If you're setting up the full feeding workflow, [newborn feeding station](/posts/newborn-feeding-station/) and [newborn feeding essentials](/posts/newborn-feeding-essentials/) are the two best companion reads. They keep the bottle problem and the gear problem in the same path.
+
 ## Why Breastfed Babies Refuse Bottles
 
 Bottle refusal almost always comes down to one or more of these factors:
@@ -46,6 +48,8 @@ Bottle refusal almost always comes down to one or more of these factors:
 The Comotomo is frequently the bottle that works when others fail. Its wide, soft silicone base mimics the feel of the breast more closely than traditional bottles. The nipple has a wide base that requires a broad latch similar to breastfeeding. Dual vents reduce air ingestion. It comes in 5 oz and 8 oz sizes.
 
 {{< product-card url="https://www.amazon.com/dp/B0G6N65XVL?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0G6N65XVL.01.L.jpg" title="Comotomo Natural Feel Baby Bottle" >}}
+
+If you want to compare the full bottle set before buying, the best next read is [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/).
 
 ### 2. Philips Avent Natural Response
 

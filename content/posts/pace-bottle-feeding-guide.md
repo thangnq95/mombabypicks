@@ -24,6 +24,8 @@ This guide explains the technique in full, which bottles work best for pace feed
 
 For context on bottle introduction, see our [bottle refusal guide for breastfed babies](/posts/bottle-refusal-breastfed-babies/) and the [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/).
 
+If you're also assembling the feeding corner itself, [newborn feeding station](/posts/newborn-feeding-station/) and [newborn feeding essentials](/posts/newborn-feeding-essentials/) are the two pages that make this technique easier to keep using.
+
 ## What Is Pace Bottle Feeding?
 
 Pace bottle feeding is a technique where the caregiver controls the flow of milk from the bottle so that baby actively controls how much and how fast they eat — rather than milk flowing freely into their mouth from gravity.

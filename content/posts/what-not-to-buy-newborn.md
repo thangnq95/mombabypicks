@@ -15,6 +15,8 @@ Baby registries can make everything feel essential. In reality, newborns need le
 
 Skipping a few non-essential items can free up your budget for diapers, feeding supplies, a safe sleep space, and a car seat.
 
+If you want the better-use-of-money version of this list, start with [newborn essentials checklist](/posts/newborn-essentials-checklist/) and [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/). Those two pages cover the purchases that actually matter in the first month.
+
 {{< trust-badge >}}
 
 {{< top-pick url="https://www.amazon.com/dp/B0DNJG5CY6?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DNJG5CY6.01.L.jpg" title="Baby Shoes" price="" >}}
@@ -170,6 +172,6 @@ Prioritize in this order: safe sleep space (firm crib or bassinet with fitted sh
 
 ---
 
-Related reading: [Newborn Feeding Essentials](/posts/newborn-feeding-essentials/) | [Best Baby Bottles for Newborns 2026](/posts/best-baby-bottles-for-newborns-2026/)
+Related reading: [Newborn Essentials Checklist](/posts/newborn-essentials-checklist/) | [Best Baby Bottles for Newborns 2026](/posts/best-baby-bottles-for-newborns-2026/)
 
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*

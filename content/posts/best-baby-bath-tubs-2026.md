@@ -20,6 +20,8 @@ We looked at the top-rated options across all budget levels, evaluating them for
 
 If you're still building out your first-week essentials, also check our guide on [newborn essentials for the first three months](/posts/newborn-essentials-checklist/) and [the best baby bouncers for 2026](/posts/best-baby-bouncers-for-2026/).
 
+If bath time is part of your full first-month setup, the most useful companion reads are [newborn essentials checklist](/posts/newborn-essentials-checklist/) and [what not to buy for a newborn](/posts/what-not-to-buy-newborn/). That keeps the practical buys ahead of the nice-to-haves.
+
 {{< top-pick url="https://www.amazon.com/dp/B0DW3RM88Q?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0DW3RM88Q.01.L.jpg" title="Fisher-Price 4-in-1 Sling 'n Seat Tub" price="$44" >}}
 
 If you want one tub that can carry you from newborn to toddler, start with **Fisher-Price 4-in-1 Sling 'n Seat**. It is the easiest first buy if you want one purchase to cover the whole bath stage.
@@ -201,6 +203,8 @@ For parents with a newborn and an existing bathtub, the **Angelcare Support** is
 If you're buying today and want the short answer: **Fisher-Price 4-in-1 is the best first buy for most homes, while Angelcare is the best simple newborn-only choice.**
 
 If you're setting up the rest of the nursery too, our [newborn essentials checklist](/posts/newborn-essentials-checklist/) is the simplest place to line up the next buys without overbuying.
+
+For more first-month planning, [what not to buy for a newborn](/posts/what-not-to-buy-newborn/) is the fastest way to trim the list.
 
 ---
 

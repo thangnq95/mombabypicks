@@ -75,8 +75,8 @@ current_week:
     top_pages:
       - "best-baby-swings-2026 (12 clicks)"
       - "best-diapers-for-newborns-2026 (9 clicks)"
+      - "best-baby-bottles-for-newborns-2026 (7 clicks)"
       - "newborn-feeding-station (5 clicks)"
-      - "best-baby-bottles-for-newborns-2026 (4 clicks)"
       - "best-breast-pumps (2 clicks)"
   checklist:
     - task: "Confirm the top 5 money pages already have decision blocks, shortest-answer CTAs, and internal links"
@@ -100,8 +100,8 @@ current_week:
       status: "in_progress"
       next_pages:
         - "newborn-feeding-station"
+        - "best-baby-bottles-for-newborns-2026"
         - "best-breast-pumps"
-        - "best-baby-sleep-sacks-for-2026"
     - task: "Refresh Pinterest pins for the next highest-intent page"
       status: "done"
       pages:

@@ -20,6 +20,8 @@ We looked at the top-rated play mats across all budget levels and narrowed it to
 
 If you're still putting together your baby's first setup, check our [newborn essentials checklist](/posts/newborn-essentials-checklist/) and [what not to buy for a newborn](/posts/what-not-to-buy-newborn/).
 
+If your baby is just starting tummy time, the best companion read is [newborn feeding station](/posts/newborn-feeding-station/) — not because it is the same problem, but because the two setups usually happen in the same room and compete for floor space.
+
 {{< top-pick url="https://www.amazon.com/dp/B075R8BXXC?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B075R8BXXC.01.L.jpg" title="Lovevery Play Gym" price="$105" >}}
 
 ## If You Only Want One Play Mat
@@ -205,6 +207,8 @@ Once babies start rolling and crawling, floor coverage matters more than overhea
 If you're buying today and want the shortest answer: **Lovevery for newborn developmental value, Fisher-Price for budget, and Nuby for the most floor space.**
 
 If you're still building the whole setup, our [newborn essentials checklist](/posts/newborn-essentials-checklist/) is the easiest place to decide what matters first and what can wait.
+
+If you want to keep the room organized, [what not to buy for a newborn](/posts/what-not-to-buy-newborn/) is the fastest way to skip unnecessary gear.
 
 ---
 

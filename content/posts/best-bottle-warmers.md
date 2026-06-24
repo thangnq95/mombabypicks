@@ -40,6 +40,8 @@ card4text="Single-dial operation at around $20. Gets the job done without the fu
 
 If you want the fastest and easiest all-around warmer, start with **Philips Avent Fast Baby Bottle Warmer**. If your hardest feeds happen at night and you want simple controls, **Dr. Brown's Deluxe Bottle Warmer** is the easiest to live with in the dark. If you pump breast milk and want the gentlest heating method, **Kiinde Kozii** is the safest-feeling premium choice. And if cost matters most, **Tommee Tippee Easi-Warm** gets the job done without much fuss.
 
+If you're still building the feeding setup, the two most useful companion reads are [newborn feeding station](/posts/newborn-feeding-station/) and [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/). Those pages help you decide whether a warmer is worth buying at all.
+
 For most families, the right first buy is the one that matches whether you need speed, gentleness, or the lowest price.
 
 {{< product-card url="https://www.amazon.com/dp/B0876T9DQZ?tag=mombabypick00-20" img="https://images-na.ssl-images-amazon.com/images/P/B0876T9DQZ.01.L.jpg" title="Philips Avent Fast Baby Bottle Warmer" badge="Best First Buy" >}}
@@ -184,3 +186,4 @@ Some are, but not all. Check the warmer manual for glass bottle compatibility an
 - [Bottle Warmer Safety Guide](/posts/bottle-warmer-safety-guide/)
 - [How to Set Up a Newborn Feeding Station](/posts/newborn-feeding-station/)
 - [Best Baby Bottles for Newborns 2026](/posts/best-baby-bottles-for-newborns-2026/)
+- [Newborn Feeding Essentials](/posts/newborn-feeding-essentials/)

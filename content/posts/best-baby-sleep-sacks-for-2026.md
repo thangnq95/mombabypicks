@@ -258,6 +258,10 @@ And if budget is the primary constraint: **Burt's Bees Beekeeper** gives you cer
 
 If you're buying today and want the shortest answer: **HALO for the safest all-around buy, Kyte for softness, and Woolino for long-term value.**
 
+If you're building the rest of the nursery around sleep safety, the two most useful companion reads are [newborn essentials checklist](/posts/newborn-essentials-checklist/) and [safe sleep tips for newborns](/posts/safe-sleep-tips-newborns/). If you're checking fabric labels too, [baby product certifications explained](/posts/baby-product-certifications-guide/) is the quick reference.
+
+{{< cross-sell slugs="newborn-essentials-checklist,safe-sleep-tips-newborns,baby-product-certifications-guide" >}}
+
 ## Related Articles
 
 - [Newborn Essentials Checklist](/posts/newborn-essentials-checklist/)
