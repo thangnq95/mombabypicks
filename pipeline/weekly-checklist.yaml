@@ -85,7 +85,8 @@ checklist:
       - "what-not-to-buy-newborn"
       - "newborn-feeding-essentials"
     manual_distribution:
-      - "Submit https://mombabypicks.com/sitemap.xml in Google Search Console."
+      - "Sitemap already submitted in Google Search Console on 2026-06-17; status Success, last read 2026-06-23, discovered pages 103."
+      - "Check sitemap Last read after deploy; do not resubmit unless status changes or pages stop being discovered."
       - "Request indexing for the 5 money pages: bottles, diapers, swings, feeding station, breast pumps."
       - "Request indexing for the 3 hub pages: newborn essentials checklist, what not to buy newborn, newborn feeding essentials."
       - "Pin/share the 3 hub pages again on Pinterest using the canonical article URLs only."

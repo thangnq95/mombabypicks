@@ -171,6 +171,7 @@ current_week:
       status: "open"
       owner: "Hermes/client"
       actions:
-        - "Submit sitemap.xml in Google Search Console."
+        - "Sitemap is already submitted in Google Search Console; current known status: Success, submitted 2026-06-17, last read 2026-06-23, discovered pages 103."
+        - "Check sitemap Last read after deploy instead of submitting it again."
         - "Request indexing for the 5 money pages and 3 hub pages."
         - "Repin/share the 3 hub pages on Pinterest using canonical URLs only."
