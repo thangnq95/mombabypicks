@@ -11,11 +11,11 @@ cover:
   alt: "Newborn essentials arranged in a bright nursery"
 ---
 
-New parents are bombarded with lists of "must-have" baby products — most of which you'll never use. This checklist focuses on what you **actually** need for the first 3 months.
+This baby registry checklist is built for the first 0-3 months, when new parents need fewer products than most stores suggest. Instead of a giant shopping list, it focuses on the newborn essentials you actually use every day: feeding, diapering, safe sleep, bath basics, and a few on-the-go items.
 
-The key is to buy in stages. Here's what to have ready before the baby arrives and what you can buy after you figure out your baby's preferences.
+The key is to buy in stages. Have the true day-one items ready before baby arrives, then wait on preference-based gear until you know your baby's feeding, sleep, and soothing patterns.
 
-If you want the fastest way to fill the feeding and diapering part of this list, start with [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/), [best diapers for newborns](/posts/best-diapers-for-newborns-2026/), and [newborn feeding station](/posts/newborn-feeding-station/). Those are the pages most likely to save you from overbuying the wrong things.
+If you want the fastest way to fill the high-use parts of this list, start with [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/), [best diapers for newborns](/posts/best-diapers-for-newborns-2026/), [best baby swings](/posts/best-baby-swings-2026/), [newborn feeding station](/posts/newborn-feeding-station/), and [best breast pumps](/posts/best-breast-pumps/). Those are the pages most likely to save you from overbuying the wrong things.
 
 ## When to Buy What
 
@@ -151,5 +151,3 @@ Skip baby shoes, crib bumpers, loose blankets, baby food makers, and large toy h
 
 
 {{< cross-sell slugs="what-not-to-buy-newborn, newborn-feeding-essentials, best-diapers-for-newborns-2026" >}}
-
-## Related Articles

@@ -11,11 +11,11 @@ cover:
   image: /images/posts/what-not-to-buy-newborn.webp
 ---
 
-Baby registries can make everything feel essential. In reality, newborns need less than most lists suggest.
+The biggest baby registry mistakes usually come from buying too much before you know your baby. Newborns need less than most lists suggest, and skipping the wrong items can leave more budget for products you will use every day.
 
-Skipping a few non-essential items can free up your budget for diapers, feeding supplies, a safe sleep space, and a car seat.
+This guide focuses on what not to buy for a newborn in the first 0-3 months, especially items that look cute online but do not solve a real day-one problem. Skipping a few non-essential items can free up your budget for diapers, feeding supplies, a safe sleep space, and a car seat.
 
-If you want the better-use-of-money version of this list, start with [newborn essentials checklist](/posts/newborn-essentials-checklist/) and [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/). Those two pages cover the purchases that actually matter in the first month.
+If you want the better-use-of-money version of this list, start with [newborn essentials checklist](/posts/newborn-essentials-checklist/), [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/), [best diapers for newborns](/posts/best-diapers-for-newborns-2026/), [best baby swings](/posts/best-baby-swings-2026/), [newborn feeding station](/posts/newborn-feeding-station/), and [best breast pumps](/posts/best-breast-pumps/). Those pages cover the purchases that actually matter in the first month.
 
 {{< trust-badge >}}
 
@@ -172,6 +172,6 @@ Prioritize in this order: safe sleep space (firm crib or bassinet with fitted sh
 
 ---
 
-Related reading: [Newborn Essentials Checklist](/posts/newborn-essentials-checklist/) | [Best Baby Bottles for Newborns 2026](/posts/best-baby-bottles-for-newborns-2026/)
+Related reading: [Newborn Essentials Checklist](/posts/newborn-essentials-checklist/) | [Best Baby Bottles for Newborns 2026](/posts/best-baby-bottles-for-newborns-2026/) | [Best Diapers for Newborns 2026](/posts/best-diapers-for-newborns-2026/) | [Newborn Feeding Station](/posts/newborn-feeding-station/)
 
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*

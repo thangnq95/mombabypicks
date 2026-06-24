@@ -7,6 +7,7 @@ No third-party Python packages are required. The script uses:
 
 Default report:
 - affiliate_click events grouped by pagePathPlusQueryString
+- traffic-sources grouped by channel/source/page for separating real traffic from dev referrals
 
 Examples:
   python3 scripts/ga4-report.py \
@@ -153,6 +154,21 @@ def _ga4_report(access_token: str, property_id: str, report: str, days: int, lim
             "orderBys": [{"metric": {"metricName": "screenPageViews"}, "desc": True}],
             "limit": str(limit),
         }
+    elif report == "traffic-sources":
+        body = {
+            "dateRanges": [{"startDate": f"{days}daysAgo", "endDate": "today"}],
+            "dimensions": [
+                {"name": "sessionDefaultChannelGroup"},
+                {"name": "sessionSourceMedium"},
+                {"name": "pagePathPlusQueryString"},
+            ],
+            "metrics": [{"name": "sessions"}, {"name": "screenPageViews"}],
+            "orderBys": [
+                {"metric": {"metricName": "sessions"}, "desc": True},
+                {"metric": {"metricName": "screenPageViews"}, "desc": True},
+            ],
+            "limit": str(limit),
+        }
     else:
         raise SystemExit(f"Unsupported report type: {report}")
 
@@ -217,7 +233,7 @@ def main() -> int:
     parser.add_argument("--property", default=os.environ.get("GA4_PROPERTY_ID"), help="GA4 property ID, e.g. 542288344.")
     parser.add_argument("--days", type=int, default=7, help="Lookback window in days.")
     parser.add_argument("--limit", type=int, default=20, help="Max rows to return.")
-    parser.add_argument("--report", choices=["affiliate-clicks", "overview"], default="affiliate-clicks", help="Report type to fetch.")
+    parser.add_argument("--report", choices=["affiliate-clicks", "overview", "traffic-sources"], default="affiliate-clicks", help="Report type to fetch.")
     parser.add_argument("--output", help="Optional JSON output file path.")
     args = parser.parse_args()
 

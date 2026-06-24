@@ -78,9 +78,21 @@ checklist:
   - task: "Tighten shortest-answer copy and internal linking on bath tubs"
     status: "done"
     page: "best-baby-bath-tubs-2026"
+  - task: "Same-day traffic recovery: fix analytics noise and push buyer-intent hub pages"
+    status: "in_progress"
+    pages:
+      - "newborn-essentials-checklist"
+      - "what-not-to-buy-newborn"
+      - "newborn-feeding-essentials"
+    manual_distribution:
+      - "Submit https://mombabypicks.com/sitemap.xml in Google Search Console."
+      - "Request indexing for the 5 money pages: bottles, diapers, swings, feeding station, breast pumps."
+      - "Request indexing for the 3 hub pages: newborn essentials checklist, what not to buy newborn, newborn feeding essentials."
+      - "Pin/share the 3 hub pages again on Pinterest using the canonical article URLs only."
 
 notes:
-  - "No layout, CSS, or Hugo config changes are required for this checklist."
+  - "Layout changes are limited to the explicitly approved analytics cleanup in layouts/_partials/head.html."
   - "The current top 5 pages already satisfy the core on-page decision-block requirement."
   - "Today's GA4 snapshot is not zero traffic; the real 7-day affiliate-click leaders are swings, diapers, bottles, feeding station, and breast pumps."
+  - "Traffic diagnosis: GA4 was not literally zero, but tracking was noisy because live pages included duplicate GA and localhost referral traffic. The daily report now separates organic, direct, dev/referral noise, and affiliate clicks."
   - "best-baby-play-mats-2026 stays draft until a real published Pinterest URL is verified; do not reclassify it as published from placeholder data."

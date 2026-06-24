@@ -21,6 +21,7 @@ daily:
   - "Check Amazon clicks and commissions for the last 24 hours."
   - "Check top pages by clicks."
   - "Generate a GA4 affiliate-click snapshot and note the top page."
+  - "Separate traffic quality into organic search, direct, dev/referral noise, and other sources."
   - "Review the latest dead-link scan summary from the external 3x/day service."
   - "Note one page to improve today."
 
@@ -146,3 +147,30 @@ current_week:
     - task: "Tighten shortest-answer copy and internal linking on feeding station"
       status: "done"
       page: "newborn-feeding-station"
+    - task: "Fix analytics duplication and clean daily traffic-source reporting"
+      status: "in_progress"
+      files:
+        - "layouts/_partials/head.html"
+        - "layouts/_partials/extend_head.html"
+        - "scripts/ga4-report.py"
+        - "scripts/daily-codex.sh"
+      note: "GA4 should load from extend_head only; reports should not treat localhost referral as qualified traffic."
+    - task: "Push 3 buyer-intent hub pages toward the top money pages"
+      status: "in_progress"
+      hub_pages:
+        - "newborn-essentials-checklist"
+        - "what-not-to-buy-newborn"
+        - "newborn-feeding-essentials"
+      money_pages:
+        - "best-baby-bottles-for-newborns-2026"
+        - "best-diapers-for-newborns-2026"
+        - "best-baby-swings-2026"
+        - "newborn-feeding-station"
+        - "best-breast-pumps"
+    - task: "Manual indexing and distribution after deploy"
+      status: "open"
+      owner: "Hermes/client"
+      actions:
+        - "Submit sitemap.xml in Google Search Console."
+        - "Request indexing for the 5 money pages and 3 hub pages."
+        - "Repin/share the 3 hub pages on Pinterest using canonical URLs only."

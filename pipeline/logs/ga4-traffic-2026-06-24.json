@@ -1,0 +1,976 @@
+{
+  "dimensionHeaders": [
+    {
+      "name": "sessionDefaultChannelGroup"
+    },
+    {
+      "name": "sessionSourceMedium"
+    },
+    {
+      "name": "pagePathPlusQueryString"
+    }
+  ],
+  "metricHeaders": [
+    {
+      "name": "sessions",
+      "type": "TYPE_INTEGER"
+    },
+    {
+      "name": "screenPageViews",
+      "type": "TYPE_INTEGER"
+    }
+  ],
+  "rows": [
+    {
+      "dimensionValues": [
+        {
+          "value": "Direct"
+        },
+        {
+          "value": "(direct) / (none)"
+        },
+        {
+          "value": "/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "13"
+        },
+        {
+          "value": "19"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Referral"
+        },
+        {
+          "value": "localhost:8000 / referral"
+        },
+        {
+          "value": "/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "19"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Organic Search"
+        },
+        {
+          "value": "google / organic"
+        },
+        {
+          "value": "/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "14"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Referral"
+        },
+        {
+          "value": "localhost:8000 / referral"
+        },
+        {
+          "value": "/tags/baby-bottles/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Direct"
+        },
+        {
+          "value": "(direct) / (none)"
+        },
+        {
+          "value": "/?gtm_latency=1"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Referral"
+        },
+        {
+          "value": "localhost:8000 / referral"
+        },
+        {
+          "value": "/posts/best-baby-bottles-for-newborns-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Unassigned"
+        },
+        {
+          "value": "(not set)"
+        },
+        {
+          "value": "/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Direct"
+        },
+        {
+          "value": "(direct) / (none)"
+        },
+        {
+          "value": "/posts/best-baby-bottles-for-newborns-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Direct"
+        },
+        {
+          "value": "(direct) / (none)"
+        },
+        {
+          "value": "/posts/best-baby-swings-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Organic Search"
+        },
+        {
+          "value": "google / organic"
+        },
+        {
+          "value": "/posts/best-baby-carriers-for-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Direct"
+        },
+        {
+          "value": "(direct) / (none)"
+        },
+        {
+          "value": "/posts/best-baby-bath-tubs-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Direct"
+        },
+        {
+          "value": "(direct) / (none)"
+        },
+        {
+          "value": "/posts/best-infant-car-seats-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Organic Search"
+        },
+        {
+          "value": "google / organic"
+        },
+        {
+          "value": "/posts/best-baby-play-mats-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Referral"
+        },
+        {
+          "value": "localhost:8000 / referral"
+        },
+        {
+          "value": "/posts/best-bottle-warmers/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Organic Search"
+        },
+        {
+          "value": "google / organic"
+        },
+        {
+          "value": "/how-we-review/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Organic Search"
+        },
+        {
+          "value": "google / organic"
+        },
+        {
+          "value": "/posts/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Referral"
+        },
+        {
+          "value": "localhost:8000 / referral"
+        },
+        {
+          "value": "/posts/best-breast-pumps/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Referral"
+        },
+        {
+          "value": "encurtador.dev / referral"
+        },
+        {
+          "value": "/posts/best-baby-swings-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Direct"
+        },
+        {
+          "value": "(direct) / (none)"
+        },
+        {
+          "value": "/posts/best-diapers-for-newborns-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Direct"
+        },
+        {
+          "value": "(direct) / (none)"
+        },
+        {
+          "value": "/posts/best-hands-free-wearable-breast-pumps/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Referral"
+        },
+        {
+          "value": "encurtador.dev / referral"
+        },
+        {
+          "value": "/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Direct"
+        },
+        {
+          "value": "(direct) / (none)"
+        },
+        {
+          "value": "/posts/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Direct"
+        },
+        {
+          "value": "(direct) / (none)"
+        },
+        {
+          "value": "/posts/best-baby-bouncers-for-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Direct"
+        },
+        {
+          "value": "(direct) / (none)"
+        },
+        {
+          "value": "/best-of/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Direct"
+        },
+        {
+          "value": "(direct) / (none)"
+        },
+        {
+          "value": "/posts/best-baby-carriers-for-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Direct"
+        },
+        {
+          "value": "(direct) / (none)"
+        },
+        {
+          "value": "/posts/best-baby-play-mats-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Direct"
+        },
+        {
+          "value": "(direct) / (none)"
+        },
+        {
+          "value": "/posts/best-breast-pumps/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Organic Search"
+        },
+        {
+          "value": "google / organic"
+        },
+        {
+          "value": "/about/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Organic Search"
+        },
+        {
+          "value": "google / organic"
+        },
+        {
+          "value": "/best-of/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Organic Search"
+        },
+        {
+          "value": "google / organic"
+        },
+        {
+          "value": "/posts/best-baby-bath-tubs-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Referral"
+        },
+        {
+          "value": "encurtador.dev / referral"
+        },
+        {
+          "value": "/posts/best-baby-bottles-for-newborns-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Referral"
+        },
+        {
+          "value": "encurtador.dev / referral"
+        },
+        {
+          "value": "/posts/best-high-chairs-for-babies-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Referral"
+        },
+        {
+          "value": "encurtador.dev / referral"
+        },
+        {
+          "value": "/posts/best-infant-car-seats-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Referral"
+        },
+        {
+          "value": "encurtador.dev / referral"
+        },
+        {
+          "value": "/posts/newborn-feeding-station/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Referral"
+        },
+        {
+          "value": "localhost:8000 / referral"
+        },
+        {
+          "value": "/about/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Referral"
+        },
+        {
+          "value": "localhost:8000 / referral"
+        },
+        {
+          "value": "/posts/best-baby-play-mats-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Referral"
+        },
+        {
+          "value": "localhost:8000 / referral"
+        },
+        {
+          "value": "/tags/breast-pump/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Referral"
+        },
+        {
+          "value": "localhost:8000 / referral"
+        },
+        {
+          "value": "/tags/diapers/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Referral"
+        },
+        {
+          "value": "localhost:8000 / referral"
+        },
+        {
+          "value": "/tags/newborn/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Referral"
+        },
+        {
+          "value": "localhost:8000 / referral"
+        },
+        {
+          "value": "/tags/sleep/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Unassigned"
+        },
+        {
+          "value": "(not set)"
+        },
+        {
+          "value": "/?gtm_debug=1781798378537"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Unassigned"
+        },
+        {
+          "value": "(not set)"
+        },
+        {
+          "value": "/posts/best-baby-bottles-for-newborns-2026/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Unassigned"
+        },
+        {
+          "value": "(not set)"
+        },
+        {
+          "value": "/posts/best-breast-pumps/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Unassigned"
+        },
+        {
+          "value": "(not set)"
+        },
+        {
+          "value": "/tags/baby-bottles/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Unassigned"
+        },
+        {
+          "value": "(not set)"
+        },
+        {
+          "value": "/tags/breast-pump/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "rowCount": 45,
+  "metadata": {
+    "currencyCode": "USD",
+    "timeZone": "America/Los_Angeles"
+  },
+  "kind": "analyticsData#runReport"
+}

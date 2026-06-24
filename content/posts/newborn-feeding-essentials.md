@@ -19,13 +19,13 @@ cover:
 
 ## Introduction
 
-Feeding a newborn takes up roughly 8–12 sessions per day in the first weeks. That's a significant portion of your waking life. Having the right gear doesn't make feeding easy — nothing does — but having the wrong gear at 2 a.m. when you're both exhausted makes a hard thing harder.
+Newborn feeding essentials are the baby registry must-haves that get used over and over in the first weeks: bottles, burp cloths, nursing support, bottle cleaning tools, and a simple place to keep everything within reach. Feeding a newborn takes up roughly 8-12 sessions per day, so the goal is not to buy every gadget. The goal is to avoid missing the items that make 2 a.m. feeds less chaotic.
 
 This guide covers what you actually need for the newborn feeding stage (0–3 months), whether you're breastfeeding, bottle-feeding, or doing both. We've left out the non-essentials; see our guide on [what NOT to buy for a newborn](/posts/what-not-to-buy-newborn/) for things to skip.
 
 For the bottle-feeding side specifically, see our [best baby bottles for newborns guide](/posts/best-baby-bottles-for-newborns-2026/).
 
-If you're setting up the whole feeding workflow, the most useful next reads are [newborn feeding station](/posts/newborn-feeding-station/) and [best bottle warmers](/posts/best-bottle-warmers/). Those two pages turn this checklist into a real buying plan.
+If you're setting up the whole feeding workflow, the most useful next reads are [newborn feeding station](/posts/newborn-feeding-station/), [best bottle warmers](/posts/best-bottle-warmers/), [best breast pumps](/posts/best-breast-pumps/), and [best diapers for newborns](/posts/best-diapers-for-newborns-2026/). Those pages turn this checklist into a real buying plan.
 
 ## What You Need for Breastfeeding
 
@@ -116,6 +116,6 @@ Slow-flow nipples (labeled S, 0, or Level 1 depending on brand) have smaller ope
 **Can I use a nursing pillow from day one?**
 Yes. Most nursing pillows are suitable from birth. They're designed to work from the earliest days of breastfeeding. Some parents also use them as a supported surface during skin-to-skin time.
 
-If you're deciding what to buy first, start with [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/), then [newborn feeding station](/posts/newborn-feeding-station/), then [best bottle warmers](/posts/best-bottle-warmers/). That order covers the most common newborn feeding setup.
+If you're deciding what to buy first, start with [best baby bottles for newborns](/posts/best-baby-bottles-for-newborns-2026/), then [newborn feeding station](/posts/newborn-feeding-station/), then [best breast pumps](/posts/best-breast-pumps/). If soothing after feeds is your next problem, compare [best baby swings](/posts/best-baby-swings-2026/). That order covers the most common newborn feeding setup.
 
 *Affiliate Disclosure: MomBabyPicks.com participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a small commission at no additional cost to you. Our editorial recommendations are based on product research and are not influenced by affiliate relationships.*

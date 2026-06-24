@@ -21,37 +21,112 @@ echo ""
 # ---- 1. GA4 snapshot (if available) ----
 echo "## 1. GA4 Snapshot"
 if [ -n "${GA4_PROPERTY_ID:-}" ] && [ -f "${GA4_SERVICE_ACCOUNT_KEY:-}" ]; then
-  GA4_OUT="$LOGS/ga4-$(date +%Y-%m-%d).json"
+  GA4_CLICKS_OUT="$LOGS/ga4-$(date +%Y-%m-%d).json"
+  GA4_TRAFFIC_OUT="$LOGS/ga4-traffic-$(date +%Y-%m-%d).json"
+  clicks_ok=0
+  traffic_ok=0
   if python3 scripts/ga4-report.py \
     --key "$GA4_SERVICE_ACCOUNT_KEY" \
     --property "$GA4_PROPERTY_ID" \
     --days 1 \
     --limit 10 \
     --report affiliate-clicks \
-    --output "$GA4_OUT" >/dev/null 2>&1; then
-    top_page=$(python3 - <<'PY' "$GA4_OUT"
+    --output "$GA4_CLICKS_OUT" >/dev/null 2>&1; then
+    clicks_ok=1
+  fi
+  if python3 scripts/ga4-report.py \
+    --key "$GA4_SERVICE_ACCOUNT_KEY" \
+    --property "$GA4_PROPERTY_ID" \
+    --days 7 \
+    --limit 50 \
+    --report traffic-sources \
+    --output "$GA4_TRAFFIC_OUT" >/dev/null 2>&1; then
+    traffic_ok=1
+  fi
+
+  if [ "$clicks_ok" -eq 1 ] || [ "$traffic_ok" -eq 1 ]; then
+    python3 - <<'PY' "$GA4_CLICKS_OUT" "$GA4_TRAFFIC_OUT" "$GA4_PROPERTY_ID"
 import json, sys
 from pathlib import Path
-p = Path(sys.argv[1])
-data = json.loads(p.read_text()) if p.exists() else {}
-rows = data.get("rows", [])
-if not rows:
-    print("n/a")
-else:
+
+clicks_path = Path(sys.argv[1])
+traffic_path = Path(sys.argv[2])
+property_id = sys.argv[3]
+
+def rows_to_records(path):
+    data = json.loads(path.read_text()) if path.exists() else {}
     dims = [d["name"] for d in data.get("dimensionHeaders", [])]
     mets = [m["name"] for m in data.get("metricHeaders", [])]
-    row = rows[0]
-    record = {}
-    for i, v in enumerate(row.get("dimensionValues", [])):
-        record[dims[i]] = v.get("value")
-    for i, v in enumerate(row.get("metricValues", [])):
-        record[mets[i]] = v.get("value")
-    print(f"{record.get('pagePathPlusQueryString', 'n/a')} ({record.get('eventCount', '0')} clicks)")
+    records = []
+    for row in data.get("rows", []):
+        record = {}
+        for i, value in enumerate(row.get("dimensionValues", [])):
+            record[dims[i]] = value.get("value", "")
+        for i, value in enumerate(row.get("metricValues", [])):
+            raw = value.get("value", "0")
+            try:
+                record[mets[i]] = int(raw)
+            except ValueError:
+                record[mets[i]] = float(raw)
+        records.append(record)
+    return records
+
+click_rows = rows_to_records(clicks_path)
+traffic_rows = rows_to_records(traffic_path)
+
+print(f"- GA4 property: {property_id}")
+if click_rows:
+    row = click_rows[0]
+    print(f"- Top affiliate-click page (1d): {row.get('pagePathPlusQueryString', 'n/a')} ({row.get('eventCount', 0)} clicks)")
+else:
+    print("- Top affiliate-click page (1d): n/a")
+
+groups = {
+    "organic": {"sessions": 0, "views": 0},
+    "direct": {"sessions": 0, "views": 0},
+    "dev_referral": {"sessions": 0, "views": 0},
+    "other": {"sessions": 0, "views": 0},
+}
+
+for row in traffic_rows:
+    channel = str(row.get("sessionDefaultChannelGroup", "")).lower()
+    source = str(row.get("sessionSourceMedium", "")).lower()
+    sessions = int(row.get("sessions", 0) or 0)
+    views = int(row.get("screenPageViews", 0) or 0)
+    if "localhost" in source or "127.0.0.1" in source:
+        bucket = "dev_referral"
+    elif "organic" in channel or "organic" in source:
+        bucket = "organic"
+    elif channel == "direct" or source == "(direct) / (none)":
+        bucket = "direct"
+    else:
+        bucket = "other"
+    groups[bucket]["sessions"] += sessions
+    groups[bucket]["views"] += views
+
+print("- Traffic quality (7d):")
+for label, key in [
+    ("Organic search", "organic"),
+    ("Direct", "direct"),
+    ("Dev/referral noise", "dev_referral"),
+    ("Other", "other"),
+]:
+    bucket = groups[key]
+    print(f"  - {label}: {bucket['sessions']} sessions, {bucket['views']} views")
+
+if traffic_rows:
+    print("- Top traffic sources (7d):")
+    for row in traffic_rows[:5]:
+        print(
+            f"  - {row.get('sessionDefaultChannelGroup', 'n/a')} | "
+            f"{row.get('sessionSourceMedium', 'n/a')} | "
+            f"{row.get('pagePathPlusQueryString', 'n/a')} "
+            f"({row.get('sessions', 0)} sessions / {row.get('screenPageViews', 0)} views)"
+        )
+
+print(f"- Affiliate snapshot: {clicks_path}")
+print(f"- Traffic-source snapshot: {traffic_path}")
 PY
-)
-    echo "- GA4 property: $GA4_PROPERTY_ID"
-    echo "- Top page: $top_page"
-    echo "- Snapshot: $GA4_OUT"
   else
     echo "- ❌ GA4 fetch failed"
   fi
