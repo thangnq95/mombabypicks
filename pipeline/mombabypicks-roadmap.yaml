@@ -175,3 +175,11 @@ current_week:
         - "Check sitemap Last read after deploy instead of submitting it again."
         - "Request indexing for the 5 money pages and 3 hub pages."
         - "Repin/share the 3 hub pages on Pinterest using canonical URLs only."
+    - task: "One-hour indexing recovery for discovered-but-not-indexed pages"
+      status: "in_progress"
+      owner: "Codex"
+      note: "GSC URL Inspection shows the 5 money pages and 3 hub pages are discovered via sitemap but not crawled yet."
+      implementation:
+        - "Add direct homepage links to all 8 priority URLs."
+        - "Deploy the homepage crawl-path update."
+        - "Request indexing for all 8 priority URLs in GSC."

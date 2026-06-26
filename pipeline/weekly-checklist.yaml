@@ -90,6 +90,18 @@ checklist:
       - "Request indexing for the 5 money pages: bottles, diapers, swings, feeding station, breast pumps."
       - "Request indexing for the 3 hub pages: newborn essentials checklist, what not to buy newborn, newborn feeding essentials."
       - "Pin/share the 3 hub pages again on Pinterest using the canonical article URLs only."
+  - task: "One-hour indexing recovery: add homepage links to the 8 discovered-but-not-indexed URLs"
+    status: "in_progress"
+    reason: "GSC URL Inspection shows all 8 priority URLs are Discovered - currently not indexed with Last crawl N/A."
+    pages:
+      - "best-baby-bottles-for-newborns-2026"
+      - "best-diapers-for-newborns-2026"
+      - "best-baby-swings-2026"
+      - "newborn-feeding-station"
+      - "best-breast-pumps"
+      - "newborn-essentials-checklist"
+      - "what-not-to-buy-newborn"
+      - "newborn-feeding-essentials"
 
 notes:
   - "Layout changes are limited to the explicitly approved analytics cleanup in layouts/_partials/head.html."
