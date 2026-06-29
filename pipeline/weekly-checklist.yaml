@@ -91,7 +91,7 @@ checklist:
       - "Request indexing for the 3 hub pages: newborn essentials checklist, what not to buy newborn, newborn feeding essentials."
       - "Pin/share the 3 hub pages again on Pinterest using the canonical article URLs only."
   - task: "One-hour indexing recovery: add homepage links to the 8 discovered-but-not-indexed URLs"
-    status: "in_progress"
+    status: "done"
     reason: "GSC URL Inspection shows all 8 priority URLs are Discovered - currently not indexed with Last crawl N/A."
     pages:
       - "best-baby-bottles-for-newborns-2026"
@@ -102,6 +102,7 @@ checklist:
       - "newborn-essentials-checklist"
       - "what-not-to-buy-newborn"
       - "newborn-feeding-essentials"
+    result: "Homepage now links directly to all 8 URLs, and GSC request indexing was submitted for all 8."
 
 notes:
   - "Layout changes are limited to the explicitly approved analytics cleanup in layouts/_partials/head.html."
